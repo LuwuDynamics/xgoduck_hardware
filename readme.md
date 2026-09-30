@@ -72,11 +72,12 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 
 | Part | Quantity |
 | --- | ---: |
-| Arduino UNO Q | 1 |
-| Robot expansion board | 1 |
+| Arduino UNO Q (2 GB / 4 GB) | 1 |
+| [Robot expansion board — Luwu Dynamics Store](https://shop.xgorobot.com/products/robot-driver-board?variant=67594424713467) | 1 |
 | Feetech 1910 servo | 15 |
 | AMP 3-pin servo cable | 15 |
 | Battery pack, listed as “18650 battery 8.4V” | 1 |
+| 8.4 V Li-ion battery charger with 5.5 × 2.1 mm DC barrel plug (DC5521) | 1 |
 | M2 × 6 countersunk screw | 200 |
 | M2.5 × 6 screw | 6 |
 | M3 × 16 screw | 4 |

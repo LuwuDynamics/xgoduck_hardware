@@ -2,24 +2,25 @@
 
 [Project](../readme.md) · [Purchasing list](../BOM.md) · [Build guide](BUILD_GUIDE.md) · [Print inventory](PRINTING.md)
 
-Quantities are transcribed from [the robot purchasing list](../BOM.md), items 1–10. They are purchasing quantities, not a verified installed-fastener count. Component specifications below are source-backed; unresolved purchasing details are identified rather than replaced with generic substitutes.
+Quantities are transcribed from [the robot purchasing list](../BOM.md), items 1–11. They are purchasing quantities, not a verified installed-fastener count. Component specifications below are source-backed; unresolved purchasing details are identified rather than replaced with generic substitutes.
 
 ## Robot purchasing list
 
 | Item | Quantity | Specification supported by available sources | Purchasing check |
 | --- | ---: | --- | --- |
-| Arduino Uno Q | 1 | Qualcomm QRB2210 Linux host + STM32U585 MCU; Arduino App environment | 2 GB and 4 GB variants both confirmed by the maintainer; record which variant your build uses |
+| Arduino Uno Q (2 GB / 4 GB) | 1 | Qualcomm QRB2210 Linux host + STM32U585 MCU; Arduino App environment | 2 GB and 4 GB variants both confirmed by the maintainer; record which variant your build uses |
 | XGO-Duck expansion board | 1 | Drawing envelope 68.55 × 53.38 mm; QMI8658A IMU; servo/power interfaces | Use the matching Luwu board revision; thickness and fabrication stackup are not specified |
 | Feetech 1910 serial servo | 15 | Confirmed model: HD-1910-C001 / HD1910M; 34 × 20 × 23 mm; 21 ± 2 g; 4–8.4 V | Maintainer confirms this supplier model; preserve matching firmware/protocol when purchasing replacements |
 | Servo cable | 15 | Supplier reference: AMP2.0-3P, 3 positions, 2.0 mm pitch; PVC; 150 ± 5 mm | Verify mating housing, pin orientation and wiring; wire gauge is not supplied |
 | Battery pack | 1 | Original BOM: “18650 battery 8.4V”; capacity >2,500 mAh; discharge rating >3C; XH2.54 connector | Pack model, chemistry, nominal voltage, cell arrangement, polarity and charger still need confirmation |
+| 8.4 V Li-ion battery charger | 1 | 5.5 × 2.1 mm DC barrel plug (DC5521), as listed in the robot BOM | Confirm charger model, charge current, plug polarity and compatibility with the actual battery pack |
 | M2 × 6 countersunk screws | 200 | 2 mm nominal thread diameter × 6 mm length; countersunk head | Source purchasing quantity; thread form/pitch, drive and material are unspecified |
 | M2.5 × 6 screws | 6 | 2.5 mm nominal thread diameter × 6 mm length; supplier specifies M2.5 × 6 for the servo output-shaft screw | Confirm head/drive and required quantities for the actual assembly |
 | M3 × 16 screws | 4 | 3 mm nominal thread diameter × 16 mm length | Head type, thread pitch, drive and material are unspecified |
 | Bearing, 10 × 15 × 3 mm | 2 | 10 mm bore × 15 mm outside diameter × 3 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 | Bearing, 16 × 22 × 4 mm | 11 | 16 mm bore × 22 mm outside diameter × 4 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 
-The [PCBA BOM](../PCBA/BOM.xlsx) is for manufacturing the expansion board. Do not count its components again when buying a finished board. Charger, USB data cable, assembly tools, filament and adhesive are not separate entries in the original ten-row robot BOM; account for them when planning the build.
+The [PCBA BOM](../PCBA/BOM.xlsx) is for manufacturing the expansion board. Do not count its components again when buying a finished board. USB data cable, assembly tools, filament and adhesive are not separate entries in the robot purchasing list; account for them when planning the build.
 
 ## Controller
 
@@ -120,7 +121,7 @@ The servo sheet specifies an M2.5 × 6 output-shaft screw, while the whole-robot
 
 Confirmed from the original BOM: one pack described as **18650 / 8.4 V**, **capacity >2,500 mAh**, **discharge rating >3C**, with an **XH2.54** connector reference.
 
-The entry does not establish chemistry, nominal versus charge-limit voltage, series/parallel configuration, BMS/protection, dimensions, wire size or connector polarity. A 2-series lithium-ion pack is a possible interpretation, not a verified specification. No charger model, charge current or charging interface is provided. Do not order a charger solely by the “8.4 V” label.
+The entry does not establish chemistry, nominal versus charge-limit voltage, series/parallel configuration, BMS/protection, dimensions, wire size or connector polarity. A 2-series lithium-ion pack is a possible interpretation, not a verified specification. The BOM specifies one **8.4 V Li-ion battery charger with a 5.5 × 2.1 mm DC barrel plug (DC5521)**. The exact charger model, charge current and plug polarity are not supplied. Confirm compatibility with the actual pack before selecting a charger.
 
 The maintainer must identify the actual pack and compatible charger, then verify mechanical fit and the complete power path under load. The approximately one-hour battery-life target remains an estimate.
 
@@ -134,7 +135,7 @@ For assembly, prepare screwdrivers matching the confirmed drives, a multimeter, 
 
 The maintainer estimates **approximately US$400** per build. No itemized quote is validated. Record supplier, exact SKU, quantity, unit price, currency/date, shipping, taxes, filament, tools and spares for a reproducible budget.
 
-- Robot purchasing list: `BOM.md`, items 1–10; transcribed from the review workbook.
+- Robot purchasing list: `BOM.md`, items 1–11; transcribed from the robot BOM in Git commit `80be3e2`.
 - Maintainer confirmation in this documentation session: both Uno Q 2 GB and 4 GB variants are used; the supplied HD-1910-C001 / HD1910M specification identifies the project servo.
 - Supplier servo document: HD-1910-C001 A/0, 2026-09-07; printed pages 2/7 and 3/7 (PDF pages 3 and 4) for the ratings above. Local original SHA-256: `aafd3b6a03f4902f74164bf49091d88c01418b12ddf7d5f8118cbc763f03f9a9`.
 - Expansion-board components: `PCBA/BOM.xlsx`, ArduinoUnoQ sheet; dimensions visually checked in `PCBA/ArduinoUnoQ.pdf`.
