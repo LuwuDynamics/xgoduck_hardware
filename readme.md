@@ -2,15 +2,17 @@
 
 # XGO-Duck
 
+**English** · [简体中文](README_CN.md)
+
 **Build a robot duck. Explore how it moves. Make it your own.**
 
 A 3D-printable biped robot built around Arduino UNO Q and 15 serial servos.
 
 [Assembly guide](Assembly_Guide.pdf) · [Bill of materials](BOM.md) · [Runtime](https://github.com/LuwuDynamics/xgoduck_runtime_arduino) · [Training](https://github.com/LuwuDynamics/xgoduck_rl)
 
-<img src="media/xgo-duck-hero.jpg" alt="XGO-Duck standing on a workbench, with a white printed body, yellow beak and feet, and exposed leg joints" width="960">
+<img src="media/xgo-duck-somersault.webp" alt="A duck-shaped biped robot performing a somersault in a looping animation" width="540">
 
-*XGO-Duck prototype — printed parts, articulated legs, and a movable head and beak.*
+*A clean somersault · CyberBionic Maker*
 
 </div>
 
@@ -26,6 +28,10 @@ This repository is the hardware starting point: **print the parts, prepare the e
 | [Hardware files](#hardware-files) | [Onboard runtime](https://github.com/LuwuDynamics/xgoduck_runtime_arduino) | [RL tools](https://github.com/LuwuDynamics/xgoduck_rl) |
 
 ## A closer look
+
+<img src="media/xgo-duck-hero.jpg" alt="XGO-Duck standing on a workbench, with a white printed body, yellow beak and feet, and exposed leg joints" width="960">
+
+*XGO-Duck prototype — printed parts, articulated legs, and a movable head and beak.*
 
 <table>
   <tr>

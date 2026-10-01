@@ -1,3 +1,6 @@
 ~$*
 .cache/
 .build/
+
+# Local source footage
+/a clean somersault - CyberBionic Maker (1080p, h264).mp4
