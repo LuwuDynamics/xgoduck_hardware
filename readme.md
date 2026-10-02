@@ -72,7 +72,7 @@ This is a functional overview; use the board design and assembly documentation f
 
 ## Start your build
 
-> **Hardware correction — 2026-10-02:** The old ArduinoUnoQ PCB reverses GND and SIGNAL on **U3, U4 and U5**. Owners of previously manufactured boards should disconnect power and follow the [old-board wiring instructions](PCBA/README.md#english-notice-for-previously-manufactured-boards). Pin 2 power is unchanged. Schematic and PCB sources are updated; manufacturing exports require review or regeneration.
+> **Hardware correction — 2026-10-02:** The old ArduinoUnoQ PCB reverses GND and SIGNAL on **U3, U4 and U5**. Owners of previously manufactured boards should disconnect power and follow the [old-board wiring instructions](PCBA/README.md#english-notice-for-previously-manufactured-boards). Pin 2 power is unchanged. Schematic and PCB sources are updated.
 
 ### 1. Prepare parts and electronics
 

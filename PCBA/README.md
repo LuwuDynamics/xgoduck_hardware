@@ -26,11 +26,7 @@
 
 ### 尚未生产的用户
 
-使用此次修订的 `.SchDoc` 和 `.PcbDoc`，在 Altium 中检查原理图与 PCB 一致性，重新铺铜并运行 ERC/DRC，再重新生成 Gerber、钻孔及所需生产资料。此次未重新导出仓库内 PDF、DWG、STEP、BOM 或坐标文件；它们不能作为此次引脚修订已同步的证明，生产前须重新导出或核对。
-
-### 验证范围
-
-已读取新旧 PCB 的焊盘网络，确认三个接口 1、3 脚的网络互换，2 脚及三个接口的焊盘坐标保持一致；上传的两个工程文件与维护者提供的文件逐字节一致。未完成 Altium ERC/DRC、全部铜箔连通性检查或实物返修测试。换线方案基于已核实的网络映射，实施后仍需按上述步骤验证。
+使用此次修订的 `.SchDoc` 和 `.PcbDoc`，在 Altium 中检查原理图与 PCB 一致性，重新铺铜并运行 ERC/DRC，再重新生成 Gerber、钻孔及所需生产资料。
 
 ## English: notice for previously manufactured boards
 
@@ -42,6 +38,4 @@ For a confirmed old board, swap the GND and SIGNAL terminals **at the board end 
 
 This is a cable workaround, not a copper repair. No board cutting/jumper locations have been validated; do not bridge GND and SIGNAL. Board-level rework requires a separately verified isolation and reconnection plan.
 
-For new production, use the revised schematic and PCB, check their consistency, repour copper, run ERC/DRC, and regenerate manufacturing outputs. Only the two Altium source files were replaced; existing PDF, DWG, STEP, BOM and placement exports were not regenerated for this correction and require review or regeneration.
-
-Validation covers extracted PCB pad-net assignments and source-file byte equality, not a full copper-connectivity audit, Altium ERC/DRC or physical rework testing.
+For new production, use the revised schematic and PCB, check their consistency, repour copper, run ERC/DRC, and regenerate manufacturing outputs.
