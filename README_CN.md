@@ -1,5 +1,7 @@
 <div align="center">
 
+[![加入 Discord 社区](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5%20Discord%20%E7%A4%BE%E5%8C%BA-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/pfWrJeJRh6)
+
 # XGO-Duck
 
 [English](readme.md) · **简体中文**
