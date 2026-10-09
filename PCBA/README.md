@@ -1,6 +1,24 @@
-# ArduinoUnoQ connector correction — 2026-10-02
+# ArduinoUnoQ PCBA
 
-## 中文：已生产 PCB 的处理说明
+## 合作 PCB 供应商 / PCB supplier contact
+
+**深圳诚和欣科技有限公司**是陆吾智能的合作 PCB 供应商。开发者如需咨询本项目 PCB 制作相关事宜，可通过以下方式联系。
+
+Developers can contact Luwu Dynamics' partner PCB supplier below about PCB manufacturing for this project.
+
+| 项目 / Item | 信息 / Details |
+| --- | --- |
+| 公司 / Company | 深圳诚和欣科技有限公司 |
+| 联系人 / Contact | 刘晓亚 / Liu Xiaoya |
+| 电话 / Phone | +86 13537846596 |
+| 邮箱 / Email | [liu@chxpcba.com](mailto:liu@chxpcba.com) |
+| 地址 / Address | 深圳市宝安区西乡簕竹角鸿都工业园 3 栋 2 楼 1 区 / Area 1, 2nd Floor, Building 3, Hongdu Industrial Park, Lezhujiao, Xixiang, Bao'an District, Shenzhen, China |
+
+咨询时建议注明 **XGO-Duck / ArduinoUnoQ 扩展板**，并提供所用工程版本、制作数量及需求，便于沟通与报价。
+
+When enquiring, mention **XGO-Duck / ArduinoUnoQ expansion board** and include the design revision, quantity and requirements to help the supplier prepare a quotation.
+
+## 中文：已生产 PCB 的处理说明（2026-10-02）
 
 **U3、U4、U5 舵机接口的 GND 与 SIGNAL 在旧版设计中接反。使用旧文件生产的 PCB，请先断电核对并处理，再连接舵机。U2 是稳压器，不属于此次换线范围。**
 
