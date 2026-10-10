@@ -2,7 +2,7 @@
 
 [Project](../readme.md) · [Purchasing list](../BOM.md) · [Build guide](BUILD_GUIDE.md) · [Print inventory](PRINTING.md)
 
-Quantities are transcribed from [the robot purchasing list](../BOM.md), items 1–11. They are purchasing quantities, not a verified installed-fastener count. Component specifications below are source-backed; unresolved purchasing details are identified rather than replaced with generic substitutes.
+Quantities come from [the robot purchasing list](../BOM.md), items 1–11. They are purchasing quantities, not a verified installed-fastener count. The maintainer corrected the descriptions for fasteners 7–9 on 2026-10-10 without changing their quantities. Other component specifications below are source-backed; unresolved purchasing details are identified rather than replaced with generic substitutes.
 
 ## Robot purchasing list
 
@@ -14,9 +14,9 @@ Quantities are transcribed from [the robot purchasing list](../BOM.md), items 1�
 | Servo cable | 15 | Supplier reference: AMP2.0-3P, 3 positions, 2.0 mm pitch; PVC; 150 ± 5 mm | Verify mating housing, pin orientation and wiring; wire gauge is not supplied |
 | Battery pack | 1 | Original BOM: “18650 battery 8.4V”; capacity >2,500 mAh; discharge rating >3C; XH2.54 connector | Pack model, chemistry, nominal voltage, cell arrangement, polarity and charger still need confirmation |
 | 8.4 V Li-ion battery charger | 1 | 5.5 × 2.1 mm DC barrel plug (DC5521), as listed in the robot BOM | Confirm charger model, charge current, plug polarity and compatibility with the actual battery pack |
-| M2 × 6 countersunk screws | 200 | 2 mm nominal thread diameter × 6 mm length; countersunk head | Source purchasing quantity; thread form/pitch, drive and material are unspecified |
-| M2.5 × 6 screws | 6 | 2.5 mm nominal thread diameter × 6 mm length; supplier specifies M2.5 × 6 for the servo output-shaft screw | Confirm head/drive and required quantities for the actual assembly |
-| M3 × 16 screws | 4 | 3 mm nominal thread diameter × 16 mm length | Head type, thread pitch, drive and material are unspecified |
+| M2 × 6 countersunk, flat-end self-tapping screws | 200 | 2 mm nominal diameter × 6 mm length; countersunk head; flat end; self-tapping thread | Maintainer correction; drive, material and finish remain unspecified. See [shape and photo references](../BOM.md#fastener-identification). |
+| M2.3 × 8 flat-top round-head, flat-end self-tapping screws | 6 | 2.3 mm nominal diameter × 8 mm length; circular head with a flat top; flat end; self-tapping thread | Maintainer correction; do not substitute the servo sheet's M2.5 × 6 output-shaft screw. See [shape and photo references](../BOM.md#fastener-identification). |
+| M3 × 16 round-head machine screws | 4 | 3 mm nominal thread diameter × 16 mm length; round head; machine thread | Maintainer correction; drive, pitch, material and finish remain unspecified. See [shape and photo references](../BOM.md#fastener-identification). |
 | Bearing, 10 × 15 × 3 mm | 2 | 10 mm bore × 15 mm outside diameter × 3 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 | Bearing, 16 × 22 × 4 mm | 11 | 16 mm bore × 22 mm outside diameter × 4 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 
@@ -113,9 +113,9 @@ The original PCBA workbook retains garbled description fields and incomplete sou
 
 ## Fasteners and bearings
 
-Use the dimensions in the purchasing table; no bearing series code is assigned from dimensions alone. Shields, seals and flanges affect fit and friction. Screw thread type, head profile and drive must match the actual part; do not silently replace a self-tapping fastener with a machine screw or vice versa.
+Use the dimensions in the purchasing table; no bearing series code is assigned from dimensions alone. Shields, seals and flanges affect fit and friction. The [fastener shape guide, supplied item-9 head photo and product references](../BOM.md#fastener-identification) help distinguish the three screw entries. Items 8 and 9 have the same rounded side profile; item 8 has a flat top, while the supplied photo establishes the gently domed top of item 9 only. The photo does not establish size or thread. Screw thread type, head profile and drive must match the actual part; do not replace a self-tapping fastener with a machine screw or vice versa.
 
-The servo sheet specifies an M2.5 × 6 output-shaft screw, while the whole-robot BOM lists only six screws of that size. The available documents do not reconcile shaft retention, included accessories and total installed counts. Keep the original quantity and request the assembly-specific fastener map rather than multiplying by fifteen.
+The servo supplier sheet specifies an **M2.5 × 6 output-shaft screw**. That specification is separate from whole-robot BOM item 8, which the maintainer has corrected to **M2.3 × 8 flat-top round-head, flat-end self-tapping**, quantity six. The available documents do not establish whether the output-shaft screws are included with the servos or how many are installed. Check the actual servo kit and assembly before buying separate output-shaft screws.
 
 ## Battery and charger: specification still to be finalized
 
@@ -135,7 +135,8 @@ For assembly, prepare screwdrivers matching the confirmed drives, a multimeter, 
 
 The maintainer estimates **approximately US$400** per build. No itemized quote is validated. Record supplier, exact SKU, quantity, unit price, currency/date, shipping, taxes, filament, tools and spares for a reproducible budget.
 
-- Robot purchasing list: `BOM.md`, items 1–11; transcribed from the robot BOM in Git commit `80be3e2`.
+- Robot purchasing list: `BOM.md`, items 1–11; initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected fastener descriptions 7–9 on 2026-10-10; quantities are unchanged.
+- Fastener photo references: linked from `BOM.md`; seller images illustrate matching-size product options but do not establish the project supplier, drive, material or finish.
 - Maintainer confirmation in this documentation session: both Uno Q 2 GB and 4 GB variants are used; the supplied HD-1910-C001 / HD1910M specification identifies the project servo.
 - Supplier servo document: HD-1910-C001 A/0, 2026-09-07; printed pages 2/7 and 3/7 (PDF pages 3 and 4) for the ratings above. Local original SHA-256: `aafd3b6a03f4902f74164bf49091d88c01418b12ddf7d5f8118cbc763f03f9a9`.
 - Expansion-board components: `PCBA/BOM.xlsx`, ArduinoUnoQ sheet; dimensions visually checked in `PCBA/ArduinoUnoQ.pdf`.

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" role="img" aria-labelledby="title desc">
+  <title id="title">XGO-Duck fastener shape guide for BOM items 7, 8 and 9</title>
+  <desc id="desc">Side-view illustrations: M2 by 6 countersunk flat-end self-tapping screw; M2.3 by 8 flat-top round-head flat-end self-tapping screw; M3 by 16 domed round-head machine screw. Shapes are illustrative, not dimensioned drawings.</desc>
+  <rect width="900" height="270" rx="18" fill="#f8fafc"/>
+  <g fill="#ffffff" stroke="#dbe3ee" stroke-width="2">
+    <rect x="12" y="12" width="280" height="246" rx="14"/>
+    <rect x="310" y="12" width="280" height="246" rx="14"/>
+    <rect x="608" y="12" width="280" height="246" rx="14"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#15324d" text-anchor="middle">
+    <text x="152" y="43" font-size="19" font-weight="700">7 · M2 × 6</text>
+    <text x="450" y="43" font-size="19" font-weight="700">8 · M2.3 × 8</text>
+    <text x="748" y="43" font-size="19" font-weight="700">9 · M3 × 16</text>
+    <text x="152" y="235" font-size="12">countersunk · flat end · self-tapping</text>
+    <text x="450" y="235" font-size="12">flat-top round head · flat end · self-tapping</text>
+    <text x="748" y="235" font-size="12">domed round head · machine thread</text>
+  </g>
+  <g fill="#b8c7d7" stroke="#47617a" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M111 74 H193 L165 106 H139 Z"/>
+    <rect x="141" y="106" width="22" height="91" rx="1"/>
+    <path d="M406 100 V96 C406 87 416 84 429 81 H471 C484 84 494 87 494 96 V100 Q494 106 486 106 H414 Q406 106 406 100 Z"/>
+    <rect x="439" y="106" width="22" height="91" rx="1"/>
+    <path d="M704 100 V96 C704 87 714 84 727 81 Q748 74 769 81 C782 84 792 87 792 96 V100 Q792 106 784 106 H712 Q704 106 704 100 Z"/>
+    <rect x="737" y="106" width="22" height="91" rx="1"/>
+  </g>
+  <g stroke="#47617a" stroke-width="2.5" stroke-linecap="round">
+    <path d="M142 115 L162 125 M142 129 L162 139 M142 143 L162 153 M142 157 L162 167 M142 171 L162 181 M142 185 L162 195"/>
+    <path d="M440 111 L460 121 M440 125 L460 135 M440 139 L460 149 M440 153 L460 163 M440 167 L460 177 M440 181 L460 191"/>
+    <path d="M738 109 L758 118 M738 119 L758 128 M738 129 L758 138 M738 139 L758 148 M738 149 L758 158 M738 159 L758 168 M738 169 L758 178 M738 179 L758 188 M738 189 L754 196"/>
+  </g>
+  <g stroke="#d2993f" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M211 74 V197 M207 74 H215 M207 197 H215"/>
+    <path d="M509 106 V197 M505 106 H513 M505 197 H513"/>
+    <path d="M807 106 V197 M803 106 H811 M803 197 H811"/>
+  </g>
+  <g fill="#926414" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">
+    <text x="220" y="157">6 mm</text>
+    <text x="518" y="157">8 mm</text>
+    <text x="816" y="157">16 mm</text>
+  </g>
+</svg>

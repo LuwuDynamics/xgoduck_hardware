@@ -88,13 +88,21 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 | AMP 3-pin servo cable | 15 |
 | Battery pack, listed as “18650 battery 8.4V” | 1 |
 | 8.4 V Li-ion battery charger with 5.5 × 2.1 mm DC barrel plug (DC5521) | 1 |
-| M2 × 6 countersunk screw | 200 |
-| M2.5 × 6 screw | 6 |
-| M3 × 16 screw | 4 |
+| M2 × 6 countersunk, flat-end self-tapping screw | 200 |
+| M2.3 × 8 flat-top round-head, flat-end self-tapping screw | 6 |
+| M3 × 16 round-head machine screw | 4 |
 | 10 × 15 × 3 mm bearing | 2 |
 | 16 × 22 × 4 mm bearing | 11 |
 
 Quantities reproduce the purchasing list, including screw quantities. Confirm the pack, charger, connector polarity and power requirements using the [component notes](docs/BOM.md) before sourcing or powering the build.
+
+**Identify the three fasteners before ordering.** Items 7 and 8 are self-tapping screws with flat ends. Items 8 and 9 share the same rounded side profile; item 8 has a flat top, while item 9 has the gently domed top shown in the photo below and a machine thread. The following shape guide is illustrative. See the [product photo and size references](BOM.md#fastener-identification) in the BOM.
+
+<img src="media/bom/fastener-shapes.svg" alt="Shape guide for the M2 by 6 countersunk flat-end self-tapping screw, M2.3 by 8 flat-top round-head flat-end self-tapping screw, and M3 by 16 domed round-head machine screw" width="900">
+
+<img src="media/bom/round-head-reference.jpg" alt="Reference photo of the intended shallow, gently domed round screw head for item 9 only" width="260">
+
+*Item 9 has the domed top shown here. Item 8 has the same rounded sides but a flat top. The photo is a head-style reference, not a size or thread specification.*
 
 ### 2. Print the structure
 
