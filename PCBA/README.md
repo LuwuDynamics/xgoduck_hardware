@@ -1,5 +1,10 @@
 # ArduinoUnoQ PCBA
 
+> [!WARNING]
+> **此版硬件仅限学习与测试，不建议打板量产。测试时严禁带电插拔舵机，插拔前必须断开电源；请避免舵机堵转。**
+>
+> **This hardware revision is for learning and testing only. PCB fabrication for mass production is not recommended. Never connect or disconnect servos while powered. Disconnect power before plugging or unplugging servos, and avoid stalling them.**
+
 ## 合作 PCB 供应商 / PCB supplier contact
 
 **深圳诚和欣科技有限公司**是陆吾智能的合作 PCB 供应商。开发者如需咨询本项目 PCB 制作相关事宜，可通过以下方式联系。

@@ -1,3 +1,8 @@
+> [!WARNING]
+> **This hardware revision is for learning and testing only. PCB fabrication for mass production is not recommended.**
+>
+> **Never connect or disconnect servos while powered. Disconnect power before plugging or unplugging servos, and avoid stalling them.**
+
 <div align="center">
 
 [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/pfWrJeJRh6)

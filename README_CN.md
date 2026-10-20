@@ -1,3 +1,8 @@
+> [!WARNING]
+> **此版硬件仅限学习与测试，不建议打板量产。**
+>
+> **测试时严禁带电插拔舵机，插拔前必须断开电源；请避免舵机堵转。**
+
 <div align="center">
 
 [![加入 Discord 社区](https://img.shields.io/badge/%E5%8A%A0%E5%85%A5%20Discord%20%E7%A4%BE%E5%8C%BA-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/pfWrJeJRh6)
