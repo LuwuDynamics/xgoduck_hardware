@@ -121,6 +121,10 @@ Download the models from [structure/](structure/). The filenames carry useful as
 
 Use the [print inventory](docs/PRINTING.md) to track parts. Test a servo mount and bearing fit before printing the full set; a complete validated print profile is still to be documented.
 
+![Print orientation reference: slicing preview on the left, recommended placement in the center, and incorrect placement marked with a red cross on the right](media/print-orientation-reference.png)
+
+**Print orientation matters:** place the part as shown before slicing — lay it flat with the open channel facing up and the two end tabs resting firmly on the build plate. Use **4 walls and 13% Gyroid infill**. Do not stand it upright, lay it on its side, or flip it over, and do not rely on the slicer's auto-arrange. Otherwise the holes may deform and the ends may break. After slicing, check the preview against the reference image before printing.
+
 ### 3. Configure servos and assemble
 
 Prepare each servo's ID and center position using the [runtime setup instructions](https://github.com/LuwuDynamics/xgoduck_runtime_arduino#first-time-servo-setup), then follow [Assembly_Guide.pdf](Assembly_Guide.pdf).
