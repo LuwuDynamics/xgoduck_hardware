@@ -1,7 +1,5 @@
 > [!WARNING]
-> **This hardware revision is for learning and testing only. PCB fabrication for mass production is not recommended.**
->
-> **Never connect or disconnect servos while powered. Disconnect power before plugging or unplugging servos, and avoid stalling them.**
+> **When testing and tuning servos, avoid stalling them as much as possible.**
 
 <div align="center">
 
