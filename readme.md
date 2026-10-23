@@ -85,8 +85,8 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 
 | Part | Quantity |
 | --- | ---: |
-| Arduino UNO Q (2 GB / 4 GB) | 1 |
-| [Robot expansion board — Luwu Dynamics Store](https://shop.xgorobot.com/products/robot-driver-board?variant=67594424713467) | 1 |
+| Arduino UNO Q ([2 GB](https://store.arduino.cc/products/uno-q) / [4 GB](https://store.arduino.cc/products/uno-q-4gb)) | 1 |
+| [Robot expansion board — Luwu Dynamics Store](https://shop.xgorobot.com/products/robot-driver-board) | 1 |
 | Feetech 1910 servo | 15 |
 | AMP 3-pin servo cable | 15 |
 | Battery pack, listed as “18650 battery 8.4V” | 1 |
@@ -98,6 +98,8 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 | 16 × 22 × 4 mm bearing | 11 |
 
 Quantities include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Confirm the pack, charger, connector polarity and power requirements using the [component notes](docs/BOM.md) before sourcing or powering the build.
+
+The expansion-board store page also offers a separate battery-and-charger option. Select **Only Robot Driver Board for Arduino UNO Q** for the board above; the bundle has not been verified against the battery and charger specifications in this list. See the [link checks and purchasing notes](BOM.md).
 
 **Identify the three fasteners before ordering.** Items 7 and 8 are self-tapping screws with flat ends. Items 8 and 9 share the same rounded side profile; item 8 has a flat top, while item 9 has the gently domed top shown in the photo below and a machine thread. The following shape guide is illustrative. See the [product photo and size references](BOM.md#fastener-identification) in the BOM.
 
