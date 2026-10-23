@@ -101,6 +101,8 @@ Quantities include the optional roller skates: 4 additional M2 × 6 screws and 8
 
 The expansion-board store page also offers a separate battery-and-charger option. Select **Only Robot Driver Board for Arduino UNO Q** for the board above; the bundle has not been verified against the battery and charger specifications in this list. See the [link checks and purchasing notes](BOM.md).
 
+You can also buy the [complete XGO-Duck electronics kit](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235) directly instead of sourcing the electronic parts one by one. Check the included components and quantities against the [BOM](BOM.md) before ordering.
+
 **Identify the three fasteners before ordering.** Items 7 and 8 are self-tapping screws with flat ends. Items 8 and 9 share the same rounded side profile; item 8 has a flat top, while item 9 has the gently domed top shown in the photo below and a machine thread. The following shape guide is illustrative. See the [product photo and size references](BOM.md#fastener-identification) in the BOM.
 
 <img src="media/bom/fastener-shapes.svg" alt="Shape guide for the M2 by 6 countersunk flat-end self-tapping screw, M2.3 by 8 flat-top round-head flat-end self-tapping screw, and M3 by 16 domed round-head machine screw" width="900">
