@@ -99,9 +99,9 @@ flowchart TD
 
 数量包含可选轮滑鞋所需的额外 4 个 M2 × 6 螺丝和 8 个 10 × 15 × 3 mm 轴承。采购或上电前，请根据[器件说明](docs/BOM.md)核对电池组、充电器、接头极性和供电要求。
 
-扩展板商品页还提供单独的“电池＋充电器”选项。购买上表扩展板时请选择 **Only Robot Driver Board for Arduino UNO Q**；该套装尚未核实是否符合清单中的电池和充电器规格。各链接的核对情况见[物料清单](BOM.md)。
+扩展板商品页还提供单独的“电池＋充电器”选项。购买上表扩展板时请选择 **Only Robot Driver Board for Arduino UNO Q**；该套装尚未核实是否符合清单中的电池和充电器规格。采购说明见[物料清单](BOM.md)。
 
-也可以直接购买 [XGO-Duck 整机电子套件](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235)，省去逐一采购电子零件。下单前请对照[物料清单](BOM.md)核对套件内的零件和数量。
+为方便采购，陆吾官方推出了 [XGO-Duck 整机电子套件](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235)，包含[物料清单](BOM.md)中除 Arduino UNO Q 之外的所有器件。
 
 **采购前先认清三种螺丝。** 第 7、8 项是平尾自攻螺丝。第 8、9 项的头部侧边轮廓相同：第 8 项的顶面是平的，第 9 项的顶面带下方照片所示的弧度，且采用机丝螺纹。下图仅用于辨认外形；[BOM 中的实物图与规格参考](BOM.md#fastener-identification)可供采购时核对。
 

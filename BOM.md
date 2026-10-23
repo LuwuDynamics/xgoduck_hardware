@@ -2,7 +2,7 @@
 
 [Project overview](readme.md) · [Assembly guide](Assembly_Guide.pdf) · [Component specifications](docs/BOM.md)
 
-Parts and purchasing quantities for one XGO-Duck build, initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected the fastener descriptions for items 7–9 on 2026-10-10. Quantities now include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Battery requirements are preserved from the original workbook. Purchase destinations were reviewed on 2026-10-23; marketplace stock, options and compatibility still need checking at order time. A dash means no purchase link was supplied.
+Parts and purchasing quantities for one XGO-Duck build, initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected the fastener descriptions for items 7–9 on 2026-10-10. Quantities now include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Battery requirements are preserved from the original workbook. A dash means no individual purchase link was supplied.
 
 ## Parts list
 
@@ -10,8 +10,8 @@ Parts and purchasing quantities for one XGO-Duck build, initially transcribed fr
 | ---: | --- | ---: | --- | --- |
 | 1 | Arduino UNO Q (2 GB / 4 GB) | 1 | Arduino Store: [2 GB](https://store.arduino.cc/products/uno-q) / [4 GB](https://store.arduino.cc/products/uno-q-4gb) | Choose one RAM variant. |
 | 2 | Robot expansion board | 1 | [Luwu Dynamics Store](https://shop.xgorobot.com/products/robot-driver-board) | Select **Only Robot Driver Board for Arduino UNO Q**; the battery-and-charger option is sold separately and has not been matched to items 5–6. See [PCBA design files](PCBA/). |
-| 3 | AMP 3-pin cable | 15 | — | You can buy the [complete XGO-Duck electronics kit](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235) directly; confirm the included cable count and connectors before ordering. |
-| 4 | Feetech 1910 servo | 15 | — | You can buy the [complete XGO-Duck electronics kit](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235) directly; confirm it includes 15 servos of the required HD-1910-C001 / HD1910M variant. |
+| 3 | AMP 3-pin cable | 15 | — | — |
+| 4 | Feetech 1910 servo | 15 | — | — |
 | 5 | 18650 battery pack, 8.4 V | 1 | — | XH2.54 connector; capacity **> 2,500 mAh**; discharge rating **> 3C**. |
 | 6 | 8.4 V Li-ion battery charger | 1 | — | 5.5 × 2.1 mm DC barrel plug (DC5521). |
 | 7 | M2 × 6 countersunk, flat-end self-tapping screw | 204 (200+4 for roller) | — | [Shape and photo reference](#fastener-identification) |
@@ -20,7 +20,7 @@ Parts and purchasing quantities for one XGO-Duck build, initially transcribed fr
 | 10 | Bearing, 10 × 15 × 3 mm | 10 (2+8 for roller) | [Tmall](https://detail.tmall.com/item.htm?id=721793990910&skuId=6237461598360) | — |
 | 11 | Bearing, 16 × 22 × 4 mm | 11 | [Tmall](https://detail.tmall.com/item.htm?id=721793990910&skuId=6237461598469) | — |
 
-**Link check (2026-10-23):** The two Arduino links open the respective official product pages. The Luwu expansion-board listing opens a multi-option product page, so item 2 requires selecting the board-only option. The complete electronics kit is an alternative to buying electronic components individually; its live contents could not be independently checked. The two Tmall SKU links were inaccessible to the checker; verify that each selected option matches its bearing dimensions. The fastener seller links below are product/size references, not approved suppliers or proof of an exact head profile.
+For easier purchasing, Luwu Dynamics offers an [official XGO-Duck electronics kit](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235) containing all components in this BOM except the Arduino UNO Q.
 
 ## Fastener identification
 

@@ -99,9 +99,9 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 
 Quantities include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Confirm the pack, charger, connector polarity and power requirements using the [component notes](docs/BOM.md) before sourcing or powering the build.
 
-The expansion-board store page also offers a separate battery-and-charger option. Select **Only Robot Driver Board for Arduino UNO Q** for the board above; the bundle has not been verified against the battery and charger specifications in this list. See the [link checks and purchasing notes](BOM.md).
+The expansion-board store page also offers a separate battery-and-charger option. Select **Only Robot Driver Board for Arduino UNO Q** for the board above; the bundle has not been verified against the battery and charger specifications in this list. See the [purchasing notes](BOM.md).
 
-You can also buy the [complete XGO-Duck electronics kit](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235) directly instead of sourcing the electronic parts one by one. Check the included components and quantities against the [BOM](BOM.md) before ordering.
+For easier purchasing, Luwu Dynamics offers an [official XGO-Duck electronics kit](https://shop.xgorobot.com/products/xgo-duck-biped-robot-electronics-kit-arduino-uno-q?variant=68379124138235) containing all components in the [BOM](BOM.md) except the Arduino UNO Q.
 
 **Identify the three fasteners before ordering.** Items 7 and 8 are self-tapping screws with flat ends. Items 8 and 9 share the same rounded side profile; item 8 has a flat top, while item 9 has the gently domed top shown in the photo below and a machine thread. The following shape guide is illustrative. See the [product photo and size references](BOM.md#fastener-identification) in the BOM.
 
