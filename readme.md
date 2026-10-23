@@ -91,13 +91,13 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 | AMP 3-pin servo cable | 15 |
 | Battery pack, listed as “18650 battery 8.4V” | 1 |
 | 8.4 V Li-ion battery charger with 5.5 × 2.1 mm DC barrel plug (DC5521) | 1 |
-| M2 × 6 countersunk, flat-end self-tapping screw | 200 |
+| M2 × 6 countersunk, flat-end self-tapping screw | 204 (200+4 for roller) |
 | M2.3 × 8 flat-top round-head, flat-end self-tapping screw | 6 |
 | M3 × 16 round-head machine screw | 4 |
-| 10 × 15 × 3 mm bearing | 2 |
+| 10 × 15 × 3 mm bearing | 10 (2+8 for roller) |
 | 16 × 22 × 4 mm bearing | 11 |
 
-Quantities reproduce the purchasing list, including screw quantities. Confirm the pack, charger, connector polarity and power requirements using the [component notes](docs/BOM.md) before sourcing or powering the build.
+Quantities include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Confirm the pack, charger, connector polarity and power requirements using the [component notes](docs/BOM.md) before sourcing or powering the build.
 
 **Identify the three fasteners before ordering.** Items 7 and 8 are self-tapping screws with flat ends. Items 8 and 9 share the same rounded side profile; item 8 has a flat top, while item 9 has the gently domed top shown in the photo below and a machine thread. The following shape guide is illustrative. See the [product photo and size references](BOM.md#fastener-identification) in the BOM.
 
@@ -114,10 +114,13 @@ Download the models from [structure/](structure/). The filenames carry useful as
 | Filename pattern | Meaning | Example |
 | --- | --- | --- |
 | `2x_` | Print two copies | `2x_shank.stl` |
+| `4x_` | Print four copies | `4x_tire.STL`, `4x_tire_axis.STL` |
 | `left_` / `right_` | Separate left and right parts | `left_foot.stl`, `right_foot.stl` |
 | `tpu` | Flexible part | `2x_foot_bottom_tpu.stl`, `mouth_up_tpu.stl` |
 
 Use the [print inventory](docs/PRINTING.md) to track parts. Test a servo mount and bearing fit before printing the full set; a complete validated print profile is still to be documented.
+
+For the optional roller skates, print [2x_tire_support.STL](structure/2x_tire_support.STL) × 2, [4x_tire.STL](structure/4x_tire.STL) × 4 and [4x_tire_axis.STL](structure/4x_tire_axis.STL) × 4.
 
 ![Print orientation reference: slicing preview on the left, recommended placement in the center, and incorrect placement marked with a red cross on the right](media/print-orientation-reference.png)
 

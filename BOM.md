@@ -2,7 +2,7 @@
 
 [Project overview](readme.md) · [Assembly guide](Assembly_Guide.pdf) · [Component specifications](docs/BOM.md)
 
-Parts and purchasing quantities for one XGO-Duck build, initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected the fastener descriptions for items 7–9 on 2026-10-10; their quantities are unchanged. Other purchase links and battery requirements are preserved from the original workbook. A dash means no purchase link was supplied.
+Parts and purchasing quantities for one XGO-Duck build, initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected the fastener descriptions for items 7–9 on 2026-10-10. Quantities now include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Other purchase links and battery requirements are preserved from the original workbook. A dash means no purchase link was supplied.
 
 ## Parts list
 
@@ -14,10 +14,10 @@ Parts and purchasing quantities for one XGO-Duck build, initially transcribed fr
 | 4 | Feetech 1910 servo | 15 | [Feetech servo kit](https://www.alibaba.com/product-detail/Microduck-Servo-Kit-Feetech-Low-Cost_1601942207064.html?spm=a2756.order-detail-bn.0.0.6b072fc22OPijK) | Shared purchase link with item 3 in the original workbook. |
 | 5 | 18650 battery pack, 8.4 V | 1 | — | XH2.54 connector; capacity **> 2,500 mAh**; discharge rating **> 3C**. |
 | 6 | 8.4 V Li-ion battery charger | 1 | — | 5.5 × 2.1 mm DC barrel plug (DC5521). |
-| 7 | M2 × 6 countersunk, flat-end self-tapping screw | 200 | — | [Shape and photo reference](#fastener-identification) |
+| 7 | M2 × 6 countersunk, flat-end self-tapping screw | 204 (200+4 for roller) | — | [Shape and photo reference](#fastener-identification) |
 | 8 | M2.3 × 8 flat-top round-head, flat-end self-tapping screw | 6 | — | [Shape and photo reference](#fastener-identification) |
 | 9 | M3 × 16 round-head machine screw | 4 | — | [Shape and photo reference](#fastener-identification) |
-| 10 | Bearing, 10 × 15 × 3 mm | 2 | [Tmall](https://detail.tmall.com/item.htm?id=721793990910&skuId=6237461598360) | — |
+| 10 | Bearing, 10 × 15 × 3 mm | 10 (2+8 for roller) | [Tmall](https://detail.tmall.com/item.htm?id=721793990910&skuId=6237461598360) | — |
 | 11 | Bearing, 16 × 22 × 4 mm | 11 | [Tmall](https://detail.tmall.com/item.htm?id=721793990910&skuId=6237461598469) | — |
 
 ## Fastener identification
@@ -44,7 +44,7 @@ Original workbook image accompanying the battery entry. Confirm the mating conne
 
 ## Build notes
 
-- Quantities are the original purchasing quantities, including fasteners. The item 7–9 descriptions reflect the maintainer's 2026-10-10 correction. Follow the [assembly guide](Assembly_Guide.pdf) for installation.
+- Quantities are the original purchasing quantities plus the roller-skate additions shown for items 7 and 10. The item 7–9 descriptions reflect the maintainer's 2026-10-10 correction. Follow the [assembly guide](Assembly_Guide.pdf) for installation.
 - The battery label and requirements above reproduce the source. Exact pack configuration, compatible charger and polarity require confirmation; see the [battery specification notes](docs/BOM.md#battery-and-charger-specification-still-to-be-finalized).
 - Printed parts are available in [structure/](structure/), with a separate [printing inventory](docs/PRINTING.md).
 - The [PCB manufacturing BOM](PCBA/BOM.xlsx) lists components for making the expansion board. Those components are already included when using a finished board.

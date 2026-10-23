@@ -2,7 +2,7 @@
 
 [Project](../readme.md) · [Build guide](BUILD_GUIDE.md)
 
-Quantities below follow the repository naming rule: `2x_` means two copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved so links remain compatible.
+Quantities below follow the repository naming rule: `2x_` means two copies and `4x_` means four copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved so links remain compatible.
 
 | File | Planned copies | Material note |
 | --- | ---: | --- |
@@ -33,6 +33,16 @@ Quantities below follow the repository naming rule: `2x_` means two copies; othe
 | [right_foot.stl](../structure/right_foot.stl) | 1 | Rigid material: confirm profile |
 | [thigh_left_shell.stl](../structure/thigh_left_shell.stl) | 1 | Rigid material: confirm profile |
 | [thigh_right_shell.stl](../structure/thigh_right_shell.stl) | 1 | Rigid material: confirm profile |
+
+## Optional roller skates
+
+Print these additional parts for the roller skates. They also require 4 additional M2 × 6 countersunk, flat-end self-tapping screws and 8 additional 10 × 15 × 3 mm bearings, included in the totals in [BOM.md](../BOM.md).
+
+| File | Planned copies | Material note |
+| --- | ---: | --- |
+| [2x_tire_support.STL](../structure/2x_tire_support.STL) | 2 | Material/profile to be confirmed |
+| [4x_tire.STL](../structure/4x_tire.STL) | 4 | Material/profile to be confirmed |
+| [4x_tire_axis.STL](../structure/4x_tire_axis.STL) | 4 | Material/profile to be confirmed |
 
 ## Print profile still required
 

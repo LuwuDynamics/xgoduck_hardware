@@ -2,7 +2,7 @@
 
 [Project](../readme.md) · [Purchasing list](../BOM.md) · [Build guide](BUILD_GUIDE.md) · [Print inventory](PRINTING.md)
 
-Quantities come from [the robot purchasing list](../BOM.md), items 1–11. They are purchasing quantities, not a verified installed-fastener count. The maintainer corrected the descriptions for fasteners 7–9 on 2026-10-10 without changing their quantities. Other component specifications below are source-backed; unresolved purchasing details are identified rather than replaced with generic substitutes.
+Quantities come from [the robot purchasing list](../BOM.md), items 1–11. They are purchasing quantities, not a verified installed-fastener count. The maintainer corrected the descriptions for fasteners 7–9 on 2026-10-10. Quantities now include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Other component specifications below are source-backed; unresolved purchasing details are identified rather than replaced with generic substitutes.
 
 ## Robot purchasing list
 
@@ -14,10 +14,10 @@ Quantities come from [the robot purchasing list](../BOM.md), items 1–11. They 
 | Servo cable | 15 | Supplier reference: AMP2.0-3P, 3 positions, 2.0 mm pitch; PVC; 150 ± 5 mm | Verify mating housing, pin orientation and wiring; wire gauge is not supplied |
 | Battery pack | 1 | Original BOM: “18650 battery 8.4V”; capacity >2,500 mAh; discharge rating >3C; XH2.54 connector | Pack model, chemistry, nominal voltage, cell arrangement, polarity and charger still need confirmation |
 | 8.4 V Li-ion battery charger | 1 | 5.5 × 2.1 mm DC barrel plug (DC5521), as listed in the robot BOM | Confirm charger model, charge current, plug polarity and compatibility with the actual battery pack |
-| M2 × 6 countersunk, flat-end self-tapping screws | 200 | 2 mm nominal diameter × 6 mm length; countersunk head; flat end; self-tapping thread | Maintainer correction; drive, material and finish remain unspecified. See [shape and photo references](../BOM.md#fastener-identification). |
+| M2 × 6 countersunk, flat-end self-tapping screws | 204 (200+4 for roller) | 2 mm nominal diameter × 6 mm length; countersunk head; flat end; self-tapping thread | Maintainer correction; drive, material and finish remain unspecified. See [shape and photo references](../BOM.md#fastener-identification). |
 | M2.3 × 8 flat-top round-head, flat-end self-tapping screws | 6 | 2.3 mm nominal diameter × 8 mm length; circular head with a flat top; flat end; self-tapping thread | Maintainer correction; do not substitute the servo sheet's M2.5 × 6 output-shaft screw. See [shape and photo references](../BOM.md#fastener-identification). |
 | M3 × 16 round-head machine screws | 4 | 3 mm nominal thread diameter × 16 mm length; round head; machine thread | Maintainer correction; drive, pitch, material and finish remain unspecified. See [shape and photo references](../BOM.md#fastener-identification). |
-| Bearing, 10 × 15 × 3 mm | 2 | 10 mm bore × 15 mm outside diameter × 3 mm width | Confirm shield/seal, flange, clearance and supplier part number |
+| Bearing, 10 × 15 × 3 mm | 10 (2+8 for roller) | 10 mm bore × 15 mm outside diameter × 3 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 | Bearing, 16 × 22 × 4 mm | 11 | 16 mm bore × 22 mm outside diameter × 4 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 
 The [PCBA BOM](../PCBA/BOM.xlsx) is for manufacturing the expansion board. Do not count its components again when buying a finished board. USB data cable, assembly tools, filament and adhesive are not separate entries in the robot purchasing list; account for them when planning the build.
@@ -135,7 +135,7 @@ For assembly, prepare screwdrivers matching the confirmed drives, a multimeter, 
 
 The maintainer estimates **approximately US$400** per build. No itemized quote is validated. Record supplier, exact SKU, quantity, unit price, currency/date, shipping, taxes, filament, tools and spares for a reproducible budget.
 
-- Robot purchasing list: `BOM.md`, items 1–11; initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected fastener descriptions 7–9 on 2026-10-10; quantities are unchanged.
+- Robot purchasing list: `BOM.md`, items 1–11; initially transcribed from the robot BOM in Git commit `80be3e2`. The maintainer corrected fastener descriptions 7–9 on 2026-10-10 and confirmed the roller-skate additions of 4 M2 × 6 screws and 8 bearings (10 × 15 × 3 mm) on 2026-10-23.
 - Fastener photo references: linked from `BOM.md`; seller images illustrate matching-size product options but do not establish the project supplier, drive, material or finish.
 - Maintainer confirmation in this documentation session: both Uno Q 2 GB and 4 GB variants are used; the supplied HD-1910-C001 / HD1910M specification identifies the project servo.
 - Supplier servo document: HD-1910-C001 A/0, 2026-09-07; printed pages 2/7 and 3/7 (PDF pages 3 and 4) for the ratings above. Local original SHA-256: `aafd3b6a03f4902f74164bf49091d88c01418b12ddf7d5f8118cbc763f03f9a9`.
