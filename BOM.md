@@ -51,4 +51,4 @@ Original workbook image accompanying the battery entry. Confirm the mating conne
 - Quantities are the original purchasing quantities plus the roller-skate additions shown for items 7 and 10. The item 7–9 descriptions reflect the maintainer's 2026-10-10 correction. Follow the [assembly guide](Assembly_Guide.pdf) for installation.
 - The battery label and requirements above reproduce the source. Exact pack configuration, compatible charger and polarity require confirmation; see the [battery specification notes](docs/BOM.md#battery-and-charger-specification-still-to-be-finalized).
 - Printed parts are available in [structure/](structure/), with a separate [printing inventory](docs/PRINTING.md).
-- The [PCB manufacturing BOM](PCBA/BOM.xlsx) lists components for making the expansion board. Those components are already included when using a finished board.
+- The [V1.1 PCB manufacturing BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) lists components for making the expansion board. Those components are already included when using a finished board.

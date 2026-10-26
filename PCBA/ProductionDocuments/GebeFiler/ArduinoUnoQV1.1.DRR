@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ArduinoUnoQV1.1.PcbDoc   2026/10/26  16:58:59
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : ArduinoUnoQV1.1-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : ArduinoUnoQV1.1-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             240       PTH        589.00mm (23.19inch)
+T2      0.8mm (31mil)                                             Slot              1         PTH        1.20mm (0.05inch)
+T3      0.899mm (35mil)                                           Round             2         PTH        2.50mm (0.10inch)
+T4      0.914mm (36mil)                                           Round             9         PTH        20.62mm (0.81inch)
+T5      1mm (39mil)                                               Round             16        PTH        83.82mm (3.30inch)
+T6      1.1mm (43mil)                                             Round             10        PTH        22.86mm (0.90inch)
+T7      1.2mm (47mil)                                             Round             6         PTH        12.70mm (0.50inch)
+T8      1.2mm (47mil)                                             Slot              4         PTH        54.70mm (2.15inch)
+T9      1.6mm (63mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T10     1.801mm (71mil)                                           Round             3         PTH        9.40mm (0.37inch)
+T11     3mm (118mil)                                              Round             3         PTH        80.99mm (3.19inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              295
+
+Total Processing Time (hh:mm:ss) : 00:00:00

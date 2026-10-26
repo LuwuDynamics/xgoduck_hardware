@@ -20,7 +20,7 @@ Quantities come from [the robot purchasing list](../BOM.md), items 1–11. They 
 | Bearing, 10 × 15 × 3 mm | 10 (2+8 for roller) | 10 mm bore × 15 mm outside diameter × 3 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 | Bearing, 16 × 22 × 4 mm | 11 | 16 mm bore × 22 mm outside diameter × 4 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 
-The [PCBA BOM](../PCBA/BOM.xlsx) is for manufacturing the expansion board. Do not count its components again when buying a finished board. USB data cable, assembly tools, filament and adhesive are not separate entries in the robot purchasing list; account for them when planning the build.
+The [V1.1 PCBA BOM](../PCBA/BOM/ArduinoUnoQV1.1.xlsx) is for manufacturing the expansion board. Do not count its components again when buying a finished board. USB data cable, assembly tools, filament and adhesive are not separate entries in the robot purchasing list; account for them when planning the build.
 
 ## Controller
 
@@ -93,7 +93,9 @@ These are software settings, not additional purchase specifications. Use the [ru
 
 ## Expansion board
 
-The dimensioned [PCB drawing](../PCBA/ArduinoUnoQ.pdf) gives a **68.55 × 53.38 mm** envelope. It is a board layout/outline drawing, not a rendered circuit schematic. Electrical design source is [ArduinoUnoQ.SchDoc](../PCBA/ArduinoUnoQ.SchDoc); PCB source is [ArduinoUnoQ.PcbDoc](../PCBA/ArduinoUnoQ.PcbDoc).
+The current release is [V1.1](../PCBA/), with its own schematic, BOM and production files. The dimensions and component table below describe the archived pre-V1.1 board and have not been revalidated for V1.1.
+
+The dimensioned [PCB drawing](../PCBA/archive/pre-V1.1/ArduinoUnoQ.pdf) gives a **68.55 × 53.38 mm** envelope. It is a board layout/outline drawing, not a rendered circuit schematic. Electrical design source is [ArduinoUnoQ.SchDoc](../PCBA/archive/pre-V1.1/ArduinoUnoQ.SchDoc); PCB source is [ArduinoUnoQ.PcbDoc](../PCBA/archive/pre-V1.1/ArduinoUnoQ.PcbDoc).
 
 | Component / interface | Board quantity | Identifier and known parameter |
 | --- | ---: | --- |
@@ -139,6 +141,6 @@ The maintainer estimates **approximately US$400** per build. No itemized quote i
 - Fastener photo references: linked from `BOM.md`; seller images illustrate matching-size product options but do not establish the project supplier, drive, material or finish.
 - Maintainer confirmation in this documentation session: both Uno Q 2 GB and 4 GB variants are used; the supplied HD-1910-C001 / HD1910M specification identifies the project servo.
 - Supplier servo document: HD-1910-C001 A/0, 2026-09-07; printed pages 2/7 and 3/7 (PDF pages 3 and 4) for the ratings above. Local original SHA-256: `aafd3b6a03f4902f74164bf49091d88c01418b12ddf7d5f8118cbc763f03f9a9`.
-- Expansion-board components: `PCBA/BOM.xlsx`, ArduinoUnoQ sheet; dimensions visually checked in `PCBA/ArduinoUnoQ.pdf`.
+- Expansion-board components: `PCBA/archive/pre-V1.1/BOM.xlsx`, ArduinoUnoQ sheet; dimensions visually checked in `PCBA/archive/pre-V1.1/ArduinoUnoQ.pdf`.
 - Software settings: runtime `sketch/duck_config.h` and documented setup procedure.
 - Controller and connector manufacturer references linked above, checked on 2026-09-26.

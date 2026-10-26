@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ArduinoUnoQV1.1.PrjPcb]
+   Generated File[ArduinoUnoQV1.1-RoundHoles-Plated.TXT]
+   Generated File[ArduinoUnoQV1.1-SlotHoles-Plated.TXT]
+   Generated File[ArduinoUnoQV1.1.LDP]
+   Generated File[ArduinoUnoQV1.1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 16:58:59 On 2026/10/26

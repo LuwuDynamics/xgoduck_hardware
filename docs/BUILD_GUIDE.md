@@ -10,7 +10,7 @@ Record the hardware, runtime and RL revisions you use. Inventory the BOM, identi
 
 ## 2. Prepare the board and individual servos
 
-Inspect the assembled expansion board against `PCBA/ArduinoUnoQ.pdf`, including component orientation and shorts. PCB fabrication settings and a tested board bring-up procedure are not yet supplied; have the board reviewed before connecting the controller or servos.
+Inspect the assembled expansion board against the files for its revision, including component orientation and shorts. For V1.1, use the [silkscreen layout](../PCBA/SilkscreenLayout/ArduinoUnoQV1.1.pdf) and [production documents](../PCBA/ProductionDocuments/); for older boards, use the [archive](../PCBA/archive/pre-V1.1/).
 
 Deploy the [runtime](https://github.com/LuwuDynamics/xgoduck_runtime_arduino) on Uno Q before configuring servos. Connect **one servo at a time**. In Servo setup, assign unique IDs 10–14, 20–24 and 30–34, center at raw 2047, then write stored gains according to the runtime guide. Label each servo. Duplicate IDs can receive the same write.
 

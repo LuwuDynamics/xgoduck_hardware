@@ -77,7 +77,7 @@ flowchart TD
 
 ## 开始制作
 
-> **2026-10-02 硬件修订：** 旧版 ArduinoUnoQ PCB 的 **U3、U4、U5** 接口 GND 与 SIGNAL 接反。已生产旧板的用户请先断电，按[旧板处理说明](PCBA/README.md)核对并修正线束；2 脚电源不变。原理图和 PCB 已更新。
+> **当前板卡版本：V1.1（2026-10-26）。** 请使用 [V1.1 设计与生产资料](PCBA/)。[旧版文件及处理说明](PCBA/archive/pre-V1.1/)已完整归档。
 
 ### 1. 准备零件和电子器件
 
@@ -153,11 +153,11 @@ flowchart TD
 | [Assembly_Guide.pdf](Assembly_Guide.pdf) | 25 页图解装配参考 |
 | [BOM.md](BOM.md) | 整机采购清单、供应商链接和电池接头参考图 |
 | [structure/](structure/) | 可打印 STL 模型 |
-| [PCBA/ArduinoUnoQ.SchDoc](PCBA/ArduinoUnoQ.SchDoc) | Altium 原理图源文件 |
-| [PCBA/ArduinoUnoQ.PcbDoc](PCBA/ArduinoUnoQ.PcbDoc) | Altium PCB 源文件 |
-| [PCBA/ArduinoUnoQ.pdf](PCBA/ArduinoUnoQ.pdf) | 板卡布局和尺寸图 |
-| [PCBA/ArduinoUnoQ.DWG](PCBA/ArduinoUnoQ.DWG) · [STEP 模型](PCBA/ArduinoUnoQ.step) | 板卡外形和机械集成模型 |
-| [PCBA/BOM.xlsx](PCBA/BOM.xlsx) · [贴片坐标](PCBA/Pick%20Place%20for%20ArduinoUnoQ.csv) | 扩展板装配物料和元件放置坐标 |
+| [V1.1 原理图](PCBA/ArduinoUnoQV1.1.SchDoc) | Altium 原理图源文件 |
+| [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [坐标](PCBA/CoordinatePoint/) | 板卡物料和元件放置坐标 |
+| [V1.1 生产资料](PCBA/ProductionDocuments/) | 工艺说明、Gerber 和钻孔文件 |
+| [V1.1 丝印布局](PCBA/SilkscreenLayout/ArduinoUnoQV1.1.pdf) | PDF 参考图 |
+| [旧版归档](PCBA/archive/pre-V1.1/) | 旧版完整文件及历史说明 |
 | [docs/](docs/) | 制作、打印、BOM 和故障排查说明 |
 
 ## 从硬件到自己的动作

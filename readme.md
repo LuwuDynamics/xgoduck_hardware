@@ -77,7 +77,7 @@ This is a functional overview; use the board design and assembly documentation f
 
 ## Start your build
 
-> **Hardware correction — 2026-10-02:** The old ArduinoUnoQ PCB reverses GND and SIGNAL on **U3, U4 and U5**. Owners of previously manufactured boards should disconnect power and follow the [old-board wiring instructions](PCBA/README.md#english-notice-for-previously-manufactured-boards). Pin 2 power is unchanged. Schematic and PCB sources are updated.
+> **Current board version: V1.1 (2026-10-26).** Use the [V1.1 design and production files](PCBA/). [Previous files and wiring instructions](PCBA/archive/pre-V1.1/) are archived separately.
 
 ### 1. Prepare parts and electronics
 
@@ -157,11 +157,11 @@ The runtime includes **walk, get-up and pick policies**, plus separate mouth con
 | [Assembly_Guide.pdf](Assembly_Guide.pdf) | 25-page illustrated assembly reference |
 | [BOM.md](BOM.md) | Whole-robot purchasing list, supplier links and battery reference image |
 | [structure/](structure/) | Printable STL models |
-| [PCBA/ArduinoUnoQ.SchDoc](PCBA/ArduinoUnoQ.SchDoc) | Altium schematic source |
-| [PCBA/ArduinoUnoQ.PcbDoc](PCBA/ArduinoUnoQ.PcbDoc) | Altium PCB source |
-| [PCBA/ArduinoUnoQ.pdf](PCBA/ArduinoUnoQ.pdf) | Board layout and dimension drawing |
-| [PCBA/ArduinoUnoQ.DWG](PCBA/ArduinoUnoQ.DWG) · [STEP model](PCBA/ArduinoUnoQ.step) | Board outline and mechanical integration model |
-| [PCBA/BOM.xlsx](PCBA/BOM.xlsx) · [Pick-and-place data](PCBA/Pick%20Place%20for%20ArduinoUnoQ.csv) | Expansion-board assembly materials and placement coordinates |
+| [V1.1 schematic](PCBA/ArduinoUnoQV1.1.SchDoc) | Altium schematic source |
+| [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [Placement data](PCBA/CoordinatePoint/) | Board materials and placement coordinates |
+| [V1.1 production files](PCBA/ProductionDocuments/) | Fabrication notes, Gerber and drill files |
+| [V1.1 silkscreen layout](PCBA/SilkscreenLayout/ArduinoUnoQV1.1.pdf) | PDF reference |
+| [Previous version archive](PCBA/archive/pre-V1.1/) | Complete previous files and historical instructions |
 | [docs/](docs/) | Build, printing, BOM and troubleshooting notes |
 
 ## From hardware to your own behavior
