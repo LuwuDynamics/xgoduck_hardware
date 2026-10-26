@@ -1,5 +1,10 @@
 # ArduinoUnoQ PCBA — V1.1
 
+> [!WARNING]
+> **视频及图片中的板卡与工程文件存在差异，实际设计与制作请以工程文件为准。**
+>
+> **The boards shown in the videos and images differ from the project files. Use the project files as the authoritative reference for design and fabrication.**
+
 > [!IMPORTANT]
 > **当前版本：V1.1 · 发布日期：2026-10-26。** 本目录默认展示 V1.1 资料；[旧版完整文件及历史说明](archive/pre-V1.1/)已归档保留。
 >
