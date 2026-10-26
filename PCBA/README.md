@@ -16,10 +16,38 @@
 | [SilkscreenLayout/ArduinoUnoQV1.1.pdf](SilkscreenLayout/ArduinoUnoQV1.1.pdf) | 丝印布局参考 / Silkscreen layout reference |
 | [DWG/ArduinoUnoQV1.1.DWG](DWG/ArduinoUnoQV1.1.DWG) | DWG 图纸 / DWG drawing |
 | [Step/ArduinoUnoQV1.1.step](Step/ArduinoUnoQV1.1.step) | STEP 三维模型 / STEP 3D model |
+| [TestVideo/](TestVideo/) | 反接防呆与舵机堵转测试视频 / Reverse-connection and servo stall test videos |
+| [Images/ArduinoUnoQ-board-photo.jpg](Images/ArduinoUnoQ-board-photo.jpg) | 板卡实物照片 / Board photograph |
 
-本次按提供的文件与目录原样发布；未包含 V1.1 的 `.PcbDoc` 文件。旧版归档中的 PCB 源文件不属于 V1.1，不能与本目录的新资料混作同一版本。具体电路改动、旧版兼容性及实物验证结果尚未随本批文件提供。
+本次按提供的文件与目录原样发布；未包含 V1.1 的 `.PcbDoc` 文件。旧版归档中的 PCB 源文件不属于 V1.1，不能与本目录的新资料混作同一版本。具体电路改动和旧版兼容性说明尚未随本批文件提供；测试视频及实物照片见下方。
 
-This publication preserves the supplied files and directory structure. A V1.1 `.PcbDoc` file was not supplied. The archived PCB source is not a V1.1 file and must not be mixed into this revision. Detailed circuit changes, backward compatibility and physical validation results were not supplied with this package.
+This publication preserves the supplied files and directory structure. A V1.1 `.PcbDoc` file was not supplied. The archived PCB source is not a V1.1 file and must not be mixed into this revision. Detailed circuit changes and backward compatibility notes were not supplied with this package; test videos and a board photograph are available below.
+
+## 测试视频与实物展示 / Test videos and board photograph
+
+### 反接防呆测试 / Reverse connection foolproof test
+
+[查看视频 / Watch video](TestVideo/Reverse%20connection%20foolproof%20test.mp4)
+
+反接防呆测试视频，用于记录反向连接场景下的测试过程及板卡响应。
+
+A reverse-connection test recording showing the test procedure and board response under the demonstrated connection conditions.
+
+### 舵机堵转测试 / Servo Stall Test
+
+[查看视频 / Watch video](TestVideo/Servo%20Stall%20Test.mp4)
+
+舵机堵转测试视频，用于记录舵机运动受阻时的测试过程及系统响应。
+
+A servo stall test recording showing the test procedure and system response when servo movement is obstructed.
+
+### 板卡实物照片 / Board photograph
+
+实物照片展示板卡外观、供电连接、舵机接口及指示灯，便于对照识别接口位置。
+
+The photograph shows the board, power connection, servo connectors and indicator LEDs as a visual reference for connector locations.
+
+<img src="Images/ArduinoUnoQ-board-photo.jpg" alt="ArduinoUnoQ board with power connected, servo connectors and illuminated indicator LEDs / ArduinoUnoQ 板卡供电连接、舵机接口及指示灯实物照片" width="640">
 
 ## 旧版归档 / Previous version
 
