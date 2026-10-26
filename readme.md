@@ -161,6 +161,7 @@ The runtime includes **walk, get-up and pick policies**, plus separate mouth con
 | [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [Placement data](PCBA/CoordinatePoint/) | Board materials and placement coordinates |
 | [V1.1 production files](PCBA/ProductionDocuments/) | Fabrication notes, Gerber and drill files |
 | [V1.1 silkscreen layout](PCBA/SilkscreenLayout/ArduinoUnoQV1.1.pdf) | PDF reference |
+| [V1.1 DWG](PCBA/DWG/ArduinoUnoQV1.1.DWG) · [STEP model](PCBA/Step/ArduinoUnoQV1.1.step) | Drawing and 3D model |
 | [Previous version archive](PCBA/archive/pre-V1.1/) | Complete previous files and historical instructions |
 | [docs/](docs/) | Build, printing, BOM and troubleshooting notes |
 

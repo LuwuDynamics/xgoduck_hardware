@@ -5,11 +5,6 @@
 >
 > **Current version: V1.1 · Published: 2026-10-26.** This directory contains the V1.1 files. [Previous files and historical instructions](archive/pre-V1.1/) remain available in the archive.
 
-> [!WARNING]
-> **调试舵机尽量避免堵转。**
->
-> **When testing and tuning servos, avoid stalling them as much as possible.**
-
 ## V1.1 文件 / Files
 
 | 文件 / Path | 内容 / Contents |
@@ -19,10 +14,12 @@
 | [CoordinatePoint/](CoordinatePoint/) | 元件放置坐标 / Pick-and-place coordinates |
 | [ProductionDocuments/](ProductionDocuments/) | 生产工艺、Gerber、钻孔及导出报告 / Fabrication notes, Gerber, drill files and export reports |
 | [SilkscreenLayout/ArduinoUnoQV1.1.pdf](SilkscreenLayout/ArduinoUnoQV1.1.pdf) | 丝印布局参考 / Silkscreen layout reference |
+| [DWG/ArduinoUnoQV1.1.DWG](DWG/ArduinoUnoQV1.1.DWG) | DWG 图纸 / DWG drawing |
+| [Step/ArduinoUnoQV1.1.step](Step/ArduinoUnoQV1.1.step) | STEP 三维模型 / STEP 3D model |
 
-本次按提供的文件与目录原样发布；未包含 V1.1 的 `.PcbDoc`、DWG 或 STEP 文件。旧版归档中的这些文件不属于 V1.1，不能与本目录的新资料混作同一版本。具体电路改动、旧版兼容性及实物验证结果尚未随本批文件提供。
+本次按提供的文件与目录原样发布；未包含 V1.1 的 `.PcbDoc` 文件。旧版归档中的 PCB 源文件不属于 V1.1，不能与本目录的新资料混作同一版本。具体电路改动、旧版兼容性及实物验证结果尚未随本批文件提供。
 
-This publication preserves the supplied files and directory structure. V1.1 `.PcbDoc`, DWG and STEP files were not supplied. Their archived predecessors are not V1.1 files and must not be mixed into this revision. Detailed circuit changes, backward compatibility and physical validation results were not supplied with this package.
+This publication preserves the supplied files and directory structure. A V1.1 `.PcbDoc` file was not supplied. The archived PCB source is not a V1.1 file and must not be mixed into this revision. Detailed circuit changes, backward compatibility and physical validation results were not supplied with this package.
 
 ## 旧版归档 / Previous version
 

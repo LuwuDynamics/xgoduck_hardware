@@ -157,6 +157,7 @@ flowchart TD
 | [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [坐标](PCBA/CoordinatePoint/) | 板卡物料和元件放置坐标 |
 | [V1.1 生产资料](PCBA/ProductionDocuments/) | 工艺说明、Gerber 和钻孔文件 |
 | [V1.1 丝印布局](PCBA/SilkscreenLayout/ArduinoUnoQV1.1.pdf) | PDF 参考图 |
+| [V1.1 DWG](PCBA/DWG/ArduinoUnoQV1.1.DWG) · [STEP 模型](PCBA/Step/ArduinoUnoQV1.1.step) | 图纸与三维模型 |
 | [旧版归档](PCBA/archive/pre-V1.1/) | 旧版完整文件及历史说明 |
 | [docs/](docs/) | 制作、打印、BOM 和故障排查说明 |
 
