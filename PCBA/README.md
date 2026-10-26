@@ -9,7 +9,7 @@
 
 ### 反接防呆测试 / Reverse connection foolproof test
 
-[查看视频 / Watch video](../media/pcba-v1.1/Reverse%20connection%20foolproof%20test.mp4)
+[打开或下载视频 / Open or download video](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/media/pcba-v1.1/Reverse%20connection%20foolproof%20test.mp4)
 
 反接防呆测试视频，用于记录反向连接场景下的测试过程及板卡响应。
 
@@ -17,7 +17,7 @@ A reverse-connection test recording showing the test procedure and board respons
 
 ### 舵机堵转测试 / Servo Stall Test
 
-[查看视频 / Watch video](../media/pcba-v1.1/Servo%20Stall%20Test.mp4)
+[打开或下载视频 / Open or download video](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/media/pcba-v1.1/Servo%20Stall%20Test.mp4)
 
 舵机堵转测试视频，用于记录舵机运动受阻时的测试过程及系统响应。
 
