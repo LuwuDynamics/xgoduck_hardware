@@ -12,7 +12,7 @@ Parts and purchasing quantities for one XGO-Duck build, initially transcribed fr
 | 2 | Robot expansion board | 1 | [Luwu Dynamics Store](https://shop.xgorobot.com/products/robot-driver-board) | Select **Only Robot Driver Board for Arduino UNO Q**; the battery-and-charger option is sold separately and has not been matched to items 5–6. See [PCBA design files](PCBA/). |
 | 3 | AMP 3-pin cable | 15 | — | — |
 | 4 | Feetech 1910 servo | 15 | — | — |
-| 5 | 18650 battery pack, 8.4 V | 1 | — | XH2.54 connector; capacity **> 2,500 mAh**; discharge rating **> 3C**. |
+| 5 | 18650 battery pack, 8.4 V | 1 | — | XH2.54 connector; capacity **> 3,500 mAh**; discharge rating **> 3C**. |
 | 6 | 8.4 V Li-ion battery charger | 1 | — | 5.5 × 2.1 mm DC barrel plug (DC5521). |
 | 7 | M2 × 6 countersunk, flat-end self-tapping screw | 204 (200+4 for roller) | — | [Shape and photo reference](#fastener-identification) |
 | 8 | M2.3 × 8 flat-top round-head, flat-end self-tapping screw | 6 | — | [Shape and photo reference](#fastener-identification) |
