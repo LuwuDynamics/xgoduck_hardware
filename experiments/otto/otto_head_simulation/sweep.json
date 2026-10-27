@@ -1,0 +1,362 @@
+[
+  {
+    "config": {
+      "hz": 0.7,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": -1,
+      "anklesign": -1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.0,
+      25.0
+    ],
+    "travel_mm": [
+      -0.58,
+      0.9,
+      5.66
+    ],
+    "tilt_max_deg": 0.5,
+    "single_support_transitions": 63,
+    "max_joint_torque_nm": 0.035,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 0.7,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": -1,
+      "anklesign": 1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.0,
+      25.0
+    ],
+    "travel_mm": [
+      255.81,
+      28.29,
+      5.5
+    ],
+    "tilt_max_deg": 0.9,
+    "single_support_transitions": 16,
+    "max_joint_torque_nm": 0.0451,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 0.7,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": 1,
+      "anklesign": -1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.0,
+      25.0
+    ],
+    "travel_mm": [
+      147.44,
+      -1.02,
+      5.59
+    ],
+    "tilt_max_deg": 1.6,
+    "single_support_transitions": 77,
+    "max_joint_torque_nm": 0.0385,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 0.7,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": 1,
+      "anklesign": 1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -24.9,
+      25.0
+    ],
+    "travel_mm": [
+      12.41,
+      -11.79,
+      5.55
+    ],
+    "tilt_max_deg": 1.3,
+    "single_support_transitions": 44,
+    "max_joint_torque_nm": 0.0479,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.0,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": -1,
+      "anklesign": -1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -24.9,
+      24.9
+    ],
+    "travel_mm": [
+      0.03,
+      3.83,
+      5.49
+    ],
+    "tilt_max_deg": 0.8,
+    "single_support_transitions": 64,
+    "max_joint_torque_nm": 0.0368,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.0,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": -1,
+      "anklesign": 1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -24.9,
+      24.9
+    ],
+    "travel_mm": [
+      358.18,
+      21.59,
+      5.31
+    ],
+    "tilt_max_deg": 1.1,
+    "single_support_transitions": 34,
+    "max_joint_torque_nm": 0.055,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.0,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": 1,
+      "anklesign": -1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.0,
+      24.9
+    ],
+    "travel_mm": [
+      228.53,
+      11.95,
+      5.42
+    ],
+    "tilt_max_deg": 2.6,
+    "single_support_transitions": 96,
+    "max_joint_torque_nm": 0.064,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.0,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": 1,
+      "anklesign": 1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.0,
+      25.0
+    ],
+    "travel_mm": [
+      10.15,
+      3.12,
+      5.12
+    ],
+    "tilt_max_deg": 1.9,
+    "single_support_transitions": 65,
+    "max_joint_torque_nm": 0.0548,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.3,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": -1,
+      "anklesign": -1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.2,
+      25.1
+    ],
+    "travel_mm": [
+      -2.35,
+      15.62,
+      5.22
+    ],
+    "tilt_max_deg": 1.2,
+    "single_support_transitions": 107,
+    "max_joint_torque_nm": 0.0423,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.3,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": -1,
+      "anklesign": 1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.3,
+      25.1
+    ],
+    "travel_mm": [
+      470.36,
+      10.22,
+      4.89
+    ],
+    "tilt_max_deg": 3.6,
+    "single_support_transitions": 42,
+    "max_joint_torque_nm": 0.0575,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.3,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": 1,
+      "anklesign": -1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.0,
+      25.0
+    ],
+    "travel_mm": [
+      304.41,
+      15.34,
+      5.03
+    ],
+    "tilt_max_deg": 2.3,
+    "single_support_transitions": 128,
+    "max_joint_torque_nm": 0.0642,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  },
+  {
+    "config": {
+      "hz": 1.3,
+      "hip": 30,
+      "ankle": 20,
+      "hipsign": 1,
+      "anklesign": 1
+    },
+    "duration_s": 10.0,
+    "total_mass_g": 218.2,
+    "head_yaw_deg": [
+      -25.3,
+      25.2
+    ],
+    "travel_mm": [
+      4.03,
+      -10.66,
+      5.35
+    ],
+    "tilt_max_deg": 3.1,
+    "single_support_transitions": 94,
+    "max_joint_torque_nm": 0.0581,
+    "upright": true,
+    "limitations": [
+      "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+      "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+      "No physical prototype, mount, battery or hardware validation",
+      "No external support or scripted body translation"
+    ]
+  }
+]

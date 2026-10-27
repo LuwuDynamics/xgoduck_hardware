@@ -1,0 +1,53 @@
+{
+  "source": "OttoDIY v09, original STL geometry, https://github.com/Open-Hardware-Leaders/OttoDIY",
+  "status": "Prototype, not final fit or walking validated",
+  "parts": [
+    {
+      "name": "Cece_Otto_Body_OLED_Window",
+      "volume_mm3": 33436.66,
+      "watertight": true
+    },
+    {
+      "name": "Cece_Otto_Head_LED_Ports",
+      "volume_mm3": 21776.06,
+      "watertight": true
+    },
+    {
+      "name": "Cece_LED_Faceplate",
+      "volume_mm3": 3613.8,
+      "watertight": true
+    },
+    {
+      "name": "Cece_OLED_Retaining_Frame",
+      "volume_mm3": 2515.34,
+      "watertight": true
+    },
+    {
+      "name": "Cece_OLED_Frame_Rear_Cover",
+      "volume_mm3": 1622.33,
+      "watertight": true
+    }
+  ],
+  "dimensions_mm": {
+    "oled_opening": [
+      25.6,
+      7.6
+    ],
+    "oled_board_assumed": [
+      35,
+      20,
+      4
+    ],
+    "eyes_nominal_led_diameter": 5,
+    "mouth_nominal_led_diameter": 3
+  },
+  "unresolved": [
+    "Fifth head servo mount, bearing and yaw cable loop not designed",
+    "Body-to-frame screw fit and board connector access not proven",
+    "2-AA holder support ledges are provisional; retention strap and servo/wire clearances not checked",
+    "Speaker locating rim has no retention clip; head yaw sweep and head wiring unverified",
+    "ESP32, amplifier, regulator and switch mounts and wiring not yet designed",
+    "Head and OLED installation and joint clearances need physical verification",
+    "Static fit, component mass, power and real walking not validated"
+  ]
+}

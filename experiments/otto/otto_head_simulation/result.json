@@ -1,0 +1,30 @@
+{
+  "config": {
+    "hz": 1.0,
+    "hip": 30,
+    "ankle": 20,
+    "hipsign": -1,
+    "anklesign": 1
+  },
+  "duration_s": 2069.23,
+  "total_mass_g": 218.2,
+  "head_yaw_deg": [
+    -24.9,
+    24.9
+  ],
+  "travel_mm": [
+    77033.61,
+    15861.86,
+    1.72
+  ],
+  "tilt_max_deg": 1.3,
+  "single_support_transitions": 6106,
+  "max_joint_torque_nm": 0.0569,
+  "upright": false,
+  "limitations": [
+    "Simplified boxes and assumed masses, not original Otto STL collision geometry",
+    "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+    "No physical prototype, mount, battery or hardware validation",
+    "No external support or scripted body translation"
+  ]
+}

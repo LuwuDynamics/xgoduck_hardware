@@ -1,0 +1,253 @@
+{
+  "upstream_commit": "106186e1beda690c28f485a754538d6f41b5d025",
+  "assumption": "100% solid; PLA 1.24 g/cm3, TPU 1.21 g/cm3; no supports, waste or electrical parts",
+  "quantity_basis": "2x_ prefix = two, other files one; verify against assembly, especially 2x_hip_yaw2rol.STL",
+  "rows": [
+    {
+      "file": "2x_ankle_axis.STL",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 217.652,
+      "watertight": true,
+      "unit_weight_g": 0.27,
+      "total_weight_g": 0.54
+    },
+    {
+      "file": "2x_foot_bottom_tpu.stl",
+      "quantity": 2,
+      "material": "TPU",
+      "volume_mm3": 11643.684,
+      "watertight": true,
+      "unit_weight_g": 14.089,
+      "total_weight_g": 28.178
+    },
+    {
+      "file": "2x_hip_rol_output.stl",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 5164.982,
+      "watertight": true,
+      "unit_weight_g": 6.405,
+      "total_weight_g": 12.809
+    },
+    {
+      "file": "2x_hip_rol_shell.stl",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 971.337,
+      "watertight": true,
+      "unit_weight_g": 1.204,
+      "total_weight_g": 2.409
+    },
+    {
+      "file": "2x_hip_yaw2rol.STL",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 3519.639,
+      "watertight": true,
+      "unit_weight_g": 4.364,
+      "total_weight_g": 8.729
+    },
+    {
+      "file": "2x_neck.stl",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 374.928,
+      "watertight": true,
+      "unit_weight_g": 0.465,
+      "total_weight_g": 0.93
+    },
+    {
+      "file": "2x_shank.stl",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 4288.098,
+      "watertight": true,
+      "unit_weight_g": 5.317,
+      "total_weight_g": 10.634
+    },
+    {
+      "file": "2x_thigh_support.stl",
+      "quantity": 2,
+      "material": "PLA",
+      "volume_mm3": 1586.758,
+      "watertight": true,
+      "unit_weight_g": 1.968,
+      "total_weight_g": 3.935
+    },
+    {
+      "file": "battery.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 12570.516,
+      "watertight": true,
+      "unit_weight_g": 15.587,
+      "total_weight_g": 15.587
+    },
+    {
+      "file": "body.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 8195.442,
+      "watertight": true,
+      "unit_weight_g": 10.162,
+      "total_weight_g": 10.162
+    },
+    {
+      "file": "body_left_shell.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 12227.958,
+      "watertight": true,
+      "unit_weight_g": 15.163,
+      "total_weight_g": 15.163
+    },
+    {
+      "file": "body_right_shell.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 12354.353,
+      "watertight": true,
+      "unit_weight_g": 15.319,
+      "total_weight_g": 15.319
+    },
+    {
+      "file": "eye.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 763.339,
+      "watertight": true,
+      "unit_weight_g": 0.947,
+      "total_weight_g": 0.947
+    },
+    {
+      "file": "eye_shell.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 4598.378,
+      "watertight": true,
+      "unit_weight_g": 5.702,
+      "total_weight_g": 5.702
+    },
+    {
+      "file": "head.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 42942.047,
+      "watertight": true,
+      "unit_weight_g": 53.248,
+      "total_weight_g": 53.248
+    },
+    {
+      "file": "head_pitch.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 4006.116,
+      "watertight": true,
+      "unit_weight_g": 4.968,
+      "total_weight_g": 4.968
+    },
+    {
+      "file": "head_servo_support.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 11210.78,
+      "watertight": true,
+      "unit_weight_g": 13.901,
+      "total_weight_g": 13.901
+    },
+    {
+      "file": "head_shell.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 41090.691,
+      "watertight": true,
+      "unit_weight_g": 50.952,
+      "total_weight_g": 50.952
+    },
+    {
+      "file": "head_yaw.STL",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 3808.038,
+      "watertight": true,
+      "unit_weight_g": 4.722,
+      "total_weight_g": 4.722
+    },
+    {
+      "file": "hip_yaw_support.STL",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 1606.332,
+      "watertight": true,
+      "unit_weight_g": 1.992,
+      "total_weight_g": 1.992
+    },
+    {
+      "file": "jaw.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 15721.526,
+      "watertight": true,
+      "unit_weight_g": 19.495,
+      "total_weight_g": 19.495
+    },
+    {
+      "file": "left_foot.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 17067.215,
+      "watertight": true,
+      "unit_weight_g": 21.163,
+      "total_weight_g": 21.163
+    },
+    {
+      "file": "mouth_buttom_tpu.stl",
+      "quantity": 1,
+      "material": "TPU",
+      "volume_mm3": 13826.198,
+      "watertight": true,
+      "unit_weight_g": 16.73,
+      "total_weight_g": 16.73
+    },
+    {
+      "file": "mouth_up_tpu.stl",
+      "quantity": 1,
+      "material": "TPU",
+      "volume_mm3": 3571.474,
+      "watertight": true,
+      "unit_weight_g": 4.321,
+      "total_weight_g": 4.321
+    },
+    {
+      "file": "right_foot.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 17051.498,
+      "watertight": true,
+      "unit_weight_g": 21.144,
+      "total_weight_g": 21.144
+    },
+    {
+      "file": "thigh_left_shell.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 7125.393,
+      "watertight": true,
+      "unit_weight_g": 8.835,
+      "total_weight_g": 8.835
+    },
+    {
+      "file": "thigh_right_shell.stl",
+      "quantity": 1,
+      "material": "PLA",
+      "volume_mm3": 7123.967,
+      "watertight": true,
+      "unit_weight_g": 8.834,
+      "total_weight_g": 8.834
+    }
+  ],
+  "total_g": 361.35,
+  "total_pla_g": 312.12,
+  "total_tpu_g": 49.23
+}

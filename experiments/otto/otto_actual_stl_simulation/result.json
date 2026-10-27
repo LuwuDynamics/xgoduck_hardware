@@ -1,0 +1,31 @@
+{
+  "config": {
+    "hz": 1.0,
+    "hip": 30,
+    "ankle": 20,
+    "hipsign": -1,
+    "anklesign": 1
+  },
+  "duration_s": 10.0,
+  "total_mass_g": 218.2,
+  "head_yaw_deg": [
+    -24.8,
+    24.9
+  ],
+  "travel_mm": [
+    361.04,
+    29.63,
+    5.29
+  ],
+  "tilt_max_deg": 1.1,
+  "single_support_transitions": 30,
+  "max_joint_torque_nm": 0.0544,
+  "upright": true,
+  "limitations": [
+    "Original Otto STL visuals at corrected seam; simplified collision boxes do not test head/body mesh interference",
+    "Generic torque-limited position actuator; no validated FS90 servo speed/current model",
+    "No physical prototype, mount, battery or hardware validation",
+    "No external support or scripted body translation"
+  ],
+  "visual_geometry": "Actual OttoDIY v09 STL meshes; two leg and foot meshes mirrored for opposite side"
+}

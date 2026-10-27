@@ -1,0 +1,257 @@
+[
+  {
+    "name": "trunk_base",
+    "source_body": "trunk_base",
+    "triangles": 15580,
+    "bounds_mm": [
+      [
+        -47.0,
+        -32.0,
+        71.158
+      ],
+      [
+        49.25,
+        32.0,
+        156.867
+      ]
+    ]
+  },
+  {
+    "name": "left_hip_yaw",
+    "source_body": "yaw2roll",
+    "triangles": 4450,
+    "bounds_mm": [
+      [
+        5.0,
+        6.0,
+        74.158
+      ],
+      [
+        36.5,
+        29.0,
+        114.158
+      ]
+    ]
+  },
+  {
+    "name": "left_hip_roll",
+    "source_body": "hip_l",
+    "triangles": 2628,
+    "bounds_mm": [
+      [
+        7.001,
+        8.036,
+        85.613
+      ],
+      [
+        42.5,
+        42.822,
+        108.122
+      ]
+    ]
+  },
+  {
+    "name": "left_hip_pitch",
+    "source_body": "upper_leg_left",
+    "triangles": 5748,
+    "bounds_mm": [
+      [
+        -28.162,
+        34.062,
+        48.261
+      ],
+      [
+        30.555,
+        72.333,
+        109.218
+      ]
+    ]
+  },
+  {
+    "name": "left_knee",
+    "source_body": "leg",
+    "triangles": 4308,
+    "bounds_mm": [
+      [
+        -16.694,
+        24.764,
+        9.855
+      ],
+      [
+        21.443,
+        58.237,
+        73.119
+      ]
+    ]
+  },
+  {
+    "name": "left_ankle",
+    "source_body": "ankle_left",
+    "triangles": 1590,
+    "bounds_mm": [
+      [
+        -11.47,
+        20.419,
+        1.001
+      ],
+      [
+        42.588,
+        61.08,
+        34.762
+      ]
+    ]
+  },
+  {
+    "name": "neck_pitch",
+    "source_body": "neck",
+    "triangles": 3552,
+    "bounds_mm": [
+      [
+        11.253,
+        -15.0,
+        136.311
+      ],
+      [
+        53.646,
+        15.0,
+        207.99
+      ]
+    ]
+  },
+  {
+    "name": "head_pitch",
+    "source_body": "neck_pitch",
+    "triangles": 1616,
+    "bounds_mm": [
+      [
+        14.899,
+        -17.5,
+        186.642
+      ],
+      [
+        32.899,
+        17.5,
+        214.893
+      ]
+    ]
+  },
+  {
+    "name": "head_yaw",
+    "source_body": "yaw_roll_motion",
+    "triangles": 5564,
+    "bounds_mm": [
+      [
+        3.899,
+        -24.5,
+        214.392
+      ],
+      [
+        41.899,
+        10.999,
+        244.392
+      ]
+    ]
+  },
+  {
+    "name": "head_roll",
+    "source_body": "jaw_soft",
+    "triangles": 18558,
+    "bounds_mm": [
+      [
+        -36.391,
+        -44.136,
+        211.892
+      ],
+      [
+        88.024,
+        44.142,
+        268.774
+      ]
+    ]
+  },
+  {
+    "name": "right_hip_yaw",
+    "source_body": "bearing_roll",
+    "triangles": 4450,
+    "bounds_mm": [
+      [
+        5.0,
+        -29.0,
+        74.158
+      ],
+      [
+        36.5,
+        -6.0,
+        114.158
+      ]
+    ]
+  },
+  {
+    "name": "right_hip_roll",
+    "source_body": "hip_l_2",
+    "triangles": 2628,
+    "bounds_mm": [
+      [
+        7.004,
+        -42.822,
+        85.609
+      ],
+      [
+        42.5,
+        -8.036,
+        108.122
+      ]
+    ]
+  },
+  {
+    "name": "right_hip_pitch",
+    "source_body": "upper_leg_right",
+    "triangles": 5744,
+    "bounds_mm": [
+      [
+        -28.162,
+        -72.333,
+        48.262
+      ],
+      [
+        30.555,
+        -34.063,
+        109.218
+      ]
+    ]
+  },
+  {
+    "name": "right_knee",
+    "source_body": "leg_2",
+    "triangles": 4308,
+    "bounds_mm": [
+      [
+        -16.694,
+        -58.238,
+        9.855
+      ],
+      [
+        21.443,
+        -24.765,
+        73.119
+      ]
+    ]
+  },
+  {
+    "name": "right_ankle",
+    "source_body": "ankle_right",
+    "triangles": 1604,
+    "bounds_mm": [
+      [
+        -11.47,
+        -61.081,
+        1.0
+      ],
+      [
+        42.587,
+        -20.42,
+        34.762
+      ]
+    ]
+  }
+]
