@@ -87,14 +87,13 @@ Open the [bill of materials](BOM.md) for the robot purchasing list, supplier lin
 | --- | ---: |
 | Arduino UNO Q ([2 GB](https://store.arduino.cc/products/uno-q) / [4 GB](https://store.arduino.cc/products/uno-q-4gb)) | 1 |
 | [Robot expansion board — Luwu Dynamics Store](https://shop.xgorobot.com/products/robot-driver-board) | 1 |
-| Feetech 1910 servo | 15 |
-| AMP 3-pin servo cable | 15 |
+| Feetech 1910 servo with AMP 3-pin cable | 15 |
 | Battery pack, listed as “18650 battery 8.4V” | 1 |
 | 8.4 V Li-ion battery charger with 5.5 × 2.1 mm DC barrel plug (DC5521) | 1 |
 | M2 × 6 countersunk, flat-end self-tapping screw | 204 (200+4 for roller) |
 | M2.3 × 8 flat-top round-head, flat-end self-tapping screw | 6 |
 | M3 × 16 round-head machine screw | 4 |
-| 10 × 15 × 3 mm bearing | 10 (2+8 for roller) |
+| 10 × 15 × 3 mm bearing | 11 (3+8 for roller) |
 | 16 × 22 × 4 mm bearing | 11 |
 
 Quantities include the optional roller skates: 4 additional M2 × 6 screws and 8 additional 10 × 15 × 3 mm bearings. Confirm the pack, charger, connector polarity and power requirements using the [component notes](docs/BOM.md) before sourcing or powering the build.
