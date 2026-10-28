@@ -1,0 +1,1154 @@
+{
+  "scope": "Exact printed shells, official OLED CAD and published/candidate component envelopes; static neutral pose",
+  "status": "NOT FIT VERIFIED: charger port, OLED I2C cable, servo wire bends, mounting, heat and full payload remain incomplete",
+  "locations_mm": {
+    "Battery_Clearance": {
+      "center": [
+        0.0,
+        3.0,
+        -24.0
+      ],
+      "envelope": [
+        35.0,
+        56.0,
+        16.0
+      ]
+    },
+    "UBEC_Clearance": {
+      "center": [
+        2.3,
+        0.0,
+        -8.0
+      ],
+      "envelope": [
+        21.0,
+        56.0,
+        14.0
+      ]
+    },
+    "Charger_UC2_Physical_Candidate": {
+      "center": [
+        0.0,
+        63.3,
+        -24.0
+      ],
+      "envelope": [
+        19.8,
+        39.6,
+        9.5
+      ]
+    },
+    "OLED_Adafruit4741_Official_CAD": {
+      "center": [
+        0.0,
+        -38.4,
+        -19.0
+      ],
+      "envelope": [
+        46.99,
+        5.63,
+        35.56
+      ]
+    },
+    "OLED_Rear_Header_Housing_Envelope": {
+      "center": [
+        20.96,
+        -26.0,
+        -17.7
+      ],
+      "envelope": [
+        5.0,
+        17.0,
+        22.0
+      ]
+    },
+    "OLED_Wire_Bend_Envelope": {
+      "center": [
+        17.0,
+        -15.0,
+        -9.0
+      ],
+      "envelope": [
+        6.0,
+        3.0,
+        4.0
+      ]
+    },
+    "OLED_Wire_Rise_Envelope": {
+      "center": [
+        15.0,
+        -15.0,
+        1.0
+      ],
+      "envelope": [
+        4.0,
+        4.0,
+        18.0
+      ]
+    },
+    "HC_SR04_PCB": {
+      "center": [
+        0.0,
+        -18.0,
+        14.5
+      ],
+      "envelope": [
+        45.0,
+        1.6,
+        20.0
+      ]
+    },
+    "HC_SR04_Left_Can": {
+      "center": [
+        -13.0,
+        -27.0,
+        14.5
+      ],
+      "envelope": [
+        16.0,
+        12.0,
+        16.0
+      ]
+    },
+    "HC_SR04_Right_Can": {
+      "center": [
+        13.0,
+        -27.0,
+        14.5
+      ],
+      "envelope": [
+        16.0,
+        12.0,
+        16.0
+      ]
+    },
+    "Speaker_COM21311_Clearance": {
+      "center": [
+        0.0,
+        44.7,
+        17.0
+      ],
+      "envelope": [
+        28.0,
+        7.0,
+        28.0
+      ]
+    },
+    "PiicoDev_Driver_Official_Partial_STEP": {
+      "center": [
+        1.0,
+        11.8,
+        13.0
+      ],
+      "envelope": [
+        52.0,
+        12.3,
+        25.4
+      ]
+    },
+    "PiicoDev_Upper_JST_Service_Envelope": {
+      "center": [
+        14.3,
+        11.8,
+        27.42
+      ],
+      "envelope": [
+        9.0,
+        8.0,
+        10.0
+      ]
+    },
+    "PiicoDev_Lower_USB_Service_Envelope": {
+      "center": [
+        -13.71,
+        11.8,
+        -0.51
+      ],
+      "envelope": [
+        9.0,
+        8.0,
+        10.0
+      ]
+    },
+    "ESP32_C3_Board_Envelope": {
+      "center": [
+        0.0,
+        24.0,
+        10.0
+      ],
+      "envelope": [
+        28.0,
+        8.0,
+        21.0
+      ]
+    },
+    "DFR0954_Amp_Envelope": {
+      "center": [
+        17.0,
+        -6.0,
+        24.0
+      ],
+      "envelope": [
+        22.0,
+        22.0,
+        6.0
+      ]
+    },
+    "INMP441_Breakout_Envelope": {
+      "center": [
+        -14.0,
+        -5.0,
+        24.0
+      ],
+      "envelope": [
+        16.0,
+        16.0,
+        6.0
+      ]
+    },
+    "Left_Hip_SG90_Proxy": {
+      "center": [
+        -25.5,
+        -5.5,
+        -24.0
+      ],
+      "envelope": [
+        12.2,
+        23.0,
+        22.0
+      ]
+    },
+    "Right_Hip_SG90_Proxy": {
+      "center": [
+        25.5,
+        -5.5,
+        -24.0
+      ],
+      "envelope": [
+        12.2,
+        23.0,
+        22.0
+      ]
+    },
+    "Left_Ankle_SG90_Proxy": {
+      "center": [
+        -25.5,
+        -3.5,
+        -62.0
+      ],
+      "envelope": [
+        12.2,
+        22.5,
+        23.0
+      ]
+    },
+    "Right_Ankle_SG90_Proxy": {
+      "center": [
+        25.5,
+        -3.5,
+        -62.0
+      ],
+      "envelope": [
+        12.2,
+        22.5,
+        23.0
+      ]
+    },
+    "SG90_Mated_Plug_1_Proxy": {
+      "center": [
+        0.96,
+        -3.43,
+        20.62
+      ],
+      "envelope": [
+        9.6,
+        18.15,
+        3.2
+      ]
+    },
+    "SG90_Mated_Plug_2_Proxy": {
+      "center": [
+        0.96,
+        -3.43,
+        15.54
+      ],
+      "envelope": [
+        9.6,
+        18.15,
+        3.2
+      ]
+    },
+    "SG90_Mated_Plug_3_Proxy": {
+      "center": [
+        0.96,
+        -3.43,
+        10.46
+      ],
+      "envelope": [
+        9.6,
+        18.15,
+        3.2
+      ]
+    },
+    "SG90_Mated_Plug_4_Proxy": {
+      "center": [
+        0.96,
+        -3.43,
+        5.38
+      ],
+      "envelope": [
+        9.6,
+        18.15,
+        3.2
+      ]
+    }
+  },
+  "source_sha256": {
+    "packaging_study\\Cece_Body_4741_HeaderRouteV4_CANDIDATE.stl": "c8c540ae8b0e9414eb9f3745b263ff708a079eebe46805314fd441a55a19fc65",
+    "packaging_study\\speaker_pod\\side_route_v3\\Cece_head_V2_hood_side_speaker_face_boss_V3_CANDIDATE.stl": "b90f48cc033efc34a6b2a5b1a6a9f7c6bccc420f94c5c69cd37db31302ff70b9",
+    "packaging_study\\speaker_pod\\side_route_v3\\Cece_faceplate_M2_retained_V3_CANDIDATE.stl": "ab38482a07ffc966a277c18319d7fc2fd19baaf961e1daa12204b37bb731c671",
+    "packaging_study\\Cece_Heart_Frame_4741_WindowV3_CANDIDATE.stl": "21c5c5cdad585d715ffd6e798bcd5dedeab5712f4902f238ed35fb25aa87966e",
+    "packaging_study\\reference\\adafruit_4741.step": "619d549e1754d27618b24cffc924748578cd1528155602ac0efb3a118ce6cb05",
+    "packaging_study\\reference\\piicodev_ce09181.step": "0867d5e8dd44b7b5f77407fd6b49e53d9266a2dc9ec17c623b1342014c425aab",
+    "packaging_study\\charger_cassette\\removable_tray.stl": "27fec911cfa1262cd94f06c0f8e8c760758a88d579b80e2b35caa469e16fbc02",
+    "packaging_study\\speaker_pod\\side_route_v3\\speaker_pod_side_wire_notch_V3_CANDIDATE.stl": "2feacf44cb167f6b9dae1b0e4d1cd37a2e6af8da8c825903d425bad135a3dec0",
+    "balance_study\\wide_foot\\Cece_left_wide_foot.stl": "6e6e8a0a01a38bc03e6ed9ba01342f0a34d0e75a14f5f221cab9fddcce8012be",
+    "balance_study\\wide_foot\\Cece_right_wide_foot.stl": "0198a0888886cc1a3a9bfeb7f2432085294c50dd367e6cd041ff0ca3f9f582ee"
+  },
+  "shell_clashes_mm3": {},
+  "module_clashes_mm3": {},
+  "plastic_clashes_mm3": {},
+  "selected_gaps_mm": {
+    "Battery_Clearance__UBEC_Clearance": 1.0,
+    "Battery_Clearance__Left_Hip_SG90_Proxy": 1.9,
+    "Battery_Clearance__Right_Hip_SG90_Proxy": 1.9,
+    "UBEC_Clearance__PiicoDev_Driver_Official_Partial_STEP": 1.3,
+    "PiicoDev_Driver_Official_Partial_STEP__ESP32_C3_Board_Envelope": 2.05,
+    "SG90_Mated_Plug_1_Proxy__ESP32_C3_Board_Envelope": 14.35,
+    "SG90_Mated_Plug_1_Proxy__Head": 5.201,
+    "ESP32_C3_Board_Envelope__DFR0954_Amp_Envelope": 15.008,
+    "DFR0954_Amp_Envelope__Speaker_COM21311_Clearance": 36.2
+  },
+  "frame": {
+    "old_frame_oled_overlap_mm3": 0.0,
+    "v3_frame_oled_overlap_mm3": 0.0,
+    "v3_frame_valid": true,
+    "v3_frame_solid_count": 1,
+    "v3_front_wall_nominal_mm": 1.35,
+    "active_window_check": {
+      "status": "candidate window geometry only; not print-ready whole robot",
+      "window_center_x_mm": 3.1,
+      "window_size_mm": [
+        30.2,
+        30.2
+      ],
+      "nominal_active_center_x_mm": 3.674,
+      "active_bounds_x_mm": [
+        -9.756,
+        17.104
+      ],
+      "active_bounds_z_mm": [
+        -32.303,
+        -5.443
+      ],
+      "window_bounds_x_mm": [
+        -12.0,
+        18.2
+      ],
+      "window_bounds_z_mm": [
+        -34.1,
+        -3.9
+      ],
+      "nominal_active_margins_mm": {
+        "left": 2.244,
+        "right": 1.096,
+        "bottom": 1.797,
+        "top": 1.543
+      },
+      "body_valid": true,
+      "frame_valid": true,
+      "body_vs_frame_mm3": 0.0,
+      "oled_vs_body_mm3": 0.0,
+      "oled_vs_frame_mm3": 0.0,
+      "limits": [
+        "Actual OLED glass placement can vary from official model.",
+        "Frame front wall remains nominally 1.35 mm; impact/fatigue untested.",
+        "No screen retainer, cable exit, body mounting or connector clearance proven.",
+        "Body window may affect front wall rigidity or servo support; physical check required."
+      ]
+    },
+    "warning": "Real OLED glass position, mounting and cable exit still unverified",
+    "v4_header_route": {
+      "status": "candidate through-hole OLED header route, exact connector and retention unverified",
+      "source": "charger_cassette\\cece_body_with_charger_posts_CANDIDATE.stl",
+      "output": "Cece_Body_4741_HeaderRouteV4_CANDIDATE.stl",
+      "passage_bounds_mm": {
+        "x": [
+          17.71,
+          24.21
+        ],
+        "y": [
+          -42,
+          -16.75
+        ],
+        "z": [
+          -29.45,
+          -5.95
+        ]
+      },
+      "nominal_housing_envelope_mm": {
+        "size": [
+          5,
+          17,
+          22
+        ],
+        "center": [
+          20.96,
+          -26,
+          -17.7
+        ]
+      },
+      "watertight": true,
+      "single_component": true,
+      "original_volume_mm3": 32642.069,
+      "candidate_volume_mm3": 32298.319,
+      "removed_volume_mm3": 343.75,
+      "limits": [
+        "Exact 1x8 header/housing, orientation key and wiring not selected.",
+        "OLED mounting and heart frame retention not tested.",
+        "Body strength after cut and physical cable bend need test."
+      ]
+    },
+    "v4_connector_probe": {
+      "right_angle_header_housing_y-37": {
+        "body": 0.0,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 118.43
+      },
+      "right_angle_header_housing_y-35": {
+        "body": 93.254,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "right_angle_header_housing_y-33": {
+        "body": 124.338,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "right_angle_header_housing_y-31": {
+        "body": 34.704,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "right_angle_header_housing_y-29": {
+        "body": 80.882,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "right_angle_header_housing_y-27": {
+        "body": 77.263,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "right_angle_header_housing_y-25": {
+        "body": 0.0,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "top_sh_plug_8x6x14": {
+        "body": 62.4,
+        "frame": 0.0,
+        "head": 12.589,
+        "oled": 33.082
+      },
+      "top_sh_wire_8x6x14": {
+        "body": 0.0,
+        "frame": 0.0,
+        "head": 224.0,
+        "oled": 0.0
+      },
+      "bottom_sh_plug_8x6x14": {
+        "body": 54.063,
+        "frame": 1.086,
+        "head": 0.0,
+        "oled": 33.082
+      },
+      "rear_pth_housing_5x17x22": {
+        "body": 259.416,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0
+      },
+      "v4_rear_pth_housing": {
+        "body_v4": 0.0,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0,
+        "right_hip": 0.0,
+        "ubec": 0.0,
+        "battery": 0.0
+      },
+      "v4_wire_bend_left": {
+        "body_v4": 0.0,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0,
+        "right_hip": 0.0,
+        "ubec": 0.0,
+        "battery": 0.0
+      },
+      "v4_wire_rise": {
+        "body_v4": 0.0,
+        "frame": 0.0,
+        "head": 0.0,
+        "oled": 0.0,
+        "right_hip": 0.0,
+        "ubec": 0.0,
+        "battery": 0.0
+      }
+    }
+  },
+  "cassette": {
+    "body_posts_intended_overlap_mm3": 627.93744,
+    "balance_lead_slot_removed_from_v3_body_mm3": 336.45499,
+    "balance_lead_passage_probe_vs_modified_body_mm3": 0.0,
+    "balance_lead_passage_probe_vs_tray_mm3": 0.0,
+    "usb_rear_probe_vs_tray_mm3": 0.0,
+    "usb_rear_probe_vs_lid_mm3": 0.0,
+    "mount_screw_core_probe_vs_body_and_tray_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rear_tool_access_probe_vs_tray_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lid_screw_core_probe_vs_tray_and_lid_mm3": [
+      0.0,
+      0.0
+    ],
+    "lead_passage_probe_envelope_mm": [
+      13.0,
+      11.9,
+      11.0
+    ],
+    "duct_wall_thickness_nominal_mm": 2.0,
+    "modified_body_watertight": true,
+    "modified_body_components": 1,
+    "posts_vs_tray_mm3": 0.0,
+    "tray_vs_v3_body_mm3": 0.0,
+    "tray_vs_head_mm3": 0.0,
+    "tray_vs_speaker_pod_mm3": 0.0,
+    "tray_vs_speaker_grille_mm3": 0.0,
+    "tray_vs_name_mm3": 0.0,
+    "lid_vs_name_mm3": 0.0,
+    "posts_vs_name_mm3": 0.0,
+    "posts_vs_head_mm3": 0.0,
+    "tray_vs_feet_mm3": [
+      0.0,
+      0.0
+    ],
+    "tray_vs_neutral_legs_mm3": [
+      0.0,
+      0.0
+    ],
+    "charger_vs_tray_mm3": 0.0,
+    "charger_vs_lid_mm3": 0.0,
+    "lid_vs_tray_mm3": 0.0,
+    "print_parts": {
+      "body_with_posts": {
+        "watertight": true,
+        "components": 1,
+        "volume_mm3": 32642.069
+      },
+      "tray": {
+        "watertight": true,
+        "components": 1,
+        "volume_mm3": 8824.656
+      },
+      "lid": {
+        "watertight": true,
+        "components": 1,
+        "volume_mm3": 924.22
+      }
+    },
+    "moving_hip_test": {
+      "left": {
+        "estimated_pivot_xyz_mm": [
+          -25.5,
+          0,
+          -48
+        ],
+        "sampled_angles_deg": [
+          -45,
+          -40,
+          -35,
+          -30,
+          -25,
+          -20,
+          -15,
+          -10,
+          -5,
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45
+        ],
+        "tray_intersection_mm3": {
+          "-45": 0.0,
+          "-40": 0.0,
+          "-35": 0.0,
+          "-30": 0.0,
+          "-25": 0.0,
+          "-20": 0.0,
+          "-15": 0.0,
+          "-10": 0.0,
+          "-5": 0.0,
+          "0": 0.0,
+          "5": 0.0,
+          "10": 0.0,
+          "15": 0.0,
+          "20": 0.0,
+          "25": 0.0,
+          "30": 0.0,
+          "35": 0.0,
+          "40": 0.0,
+          "45": 0.0
+        }
+      },
+      "right": {
+        "estimated_pivot_xyz_mm": [
+          25.5,
+          0,
+          -48
+        ],
+        "sampled_angles_deg": [
+          -45,
+          -40,
+          -35,
+          -30,
+          -25,
+          -20,
+          -15,
+          -10,
+          -5,
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45
+        ],
+        "tray_intersection_mm3": {
+          "-45": 0.0,
+          "-40": 0.0,
+          "-35": 0.0,
+          "-30": 0.0,
+          "-25": 0.0,
+          "-20": 0.0,
+          "-15": 0.0,
+          "-10": 0.0,
+          "-5": 0.0,
+          "0": 0.0,
+          "5": 0.0,
+          "10": 0.0,
+          "15": 0.0,
+          "20": 0.0,
+          "25": 0.0,
+          "30": 0.0,
+          "35": 0.0,
+          "40": 0.0,
+          "45": 0.0
+        }
+      }
+    }
+  },
+  "speaker_pod": {
+    "baseline": {
+      "modified_head_watertight": true,
+      "modified_head_components": 1,
+      "mount_vs_original_head_intended_overlap_mm3": 502.76715,
+      "wire_cut_vs_original_head_removed_mm3": 19.32175,
+      "pod_vs_modified_head_mm3": 0.0,
+      "pod_vs_v3_body_with_charger_posts_mm3": 0.0,
+      "pod_vs_rear_cece_name_mm3": 0.0,
+      "pod_vs_faceplate_mm3": 0.0,
+      "pod_vs_antenna_approx_position_mm3": 0.0,
+      "pod_vs_charger_tray_mm3": 0.0,
+      "pod_vs_charger_bezel_mm3": 0.0,
+      "pod_vs_feet_mm3": [
+        0.0,
+        0.0
+      ],
+      "grille_vs_pod_mm3": 0.0,
+      "speaker_vs_pod_mm3": 0.0,
+      "speaker_vs_grille_mm3": 0.0,
+      "mount_screw_core_probe_vs_modified_head_and_pod_mm3": [
+        0.0,
+        0.0
+      ],
+      "grille_screw_core_probe_vs_pod_and_grille_mm3": [
+        0.0,
+        0.0
+      ],
+      "speaker_wire_probe_vs_head_and_pod_mm3": 0.0,
+      "parts": {
+        "modified_head": {
+          "watertight": true,
+          "components": 1,
+          "solid_volume_mm3": 22851.46,
+          "bounds_xyz_mm": [
+            [
+              -33.8,
+              -32.2,
+              -7.0
+            ],
+            [
+              33.8,
+              37.2,
+              30.0
+            ]
+          ]
+        },
+        "pod": {
+          "watertight": true,
+          "components": 1,
+          "solid_volume_mm3": 6878.214,
+          "bounds_xyz_mm": [
+            [
+              -31.0,
+              37.2,
+              -0.229
+            ],
+            [
+              31.0,
+              50.2,
+              34.25
+            ]
+          ]
+        },
+        "grille": {
+          "watertight": true,
+          "components": 1,
+          "solid_volume_mm3": 2345.35,
+          "bounds_xyz_mm": [
+            [
+              -31.0,
+              48.2,
+              -0.229
+            ],
+            [
+              31.0,
+              52.2,
+              34.25
+            ]
+          ]
+        }
+      }
+    },
+    "side_route_v3": {
+      "status": "V3 right-side speaker/faceplate retention geometry candidate; actual plug, lead path to amp and screw holding not validated",
+      "source_head": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\servo_plug_check\\Cece_head_vertical_driver_hood_V2_CANDIDATE.stl",
+      "source_head_sha256": "22cb684870101df722e7dddc23a2bb4b80784a5fe2f0e9ba2aa92ee855f4344a",
+      "side_passage_xyz_mm": [
+        28,
+        null,
+        26
+      ],
+      "bore_diameter_mm": 12,
+      "sleeve_diameter_mm": 18,
+      "face_screw_centers_xz_mm": [
+        [
+          -25.5,
+          11
+        ],
+        [
+          25.5,
+          11
+        ]
+      ],
+      "face_through_diameter_mm": 2.3,
+      "head_pilot_diameter_mm": 1.8,
+      "face_counterbore_diameter_depth_mm": [
+        4,
+        1
+      ],
+      "speaker_mount_pilot_web_mm": 3.046,
+      "source_head_vs_added_sleeve_intended_mm3": 413.59049,
+      "source_head_vs_face_bosses_intended_mm3": [
+        51.66324,
+        51.66324
+      ],
+      "stls": {
+        "head": {
+          "watertight": true,
+          "components": 1,
+          "volume_mm3": 24906.599,
+          "bounds_xyz_mm": [
+            [
+              -33.8,
+              -32.2,
+              -7.0
+            ],
+            [
+              37.0,
+              37.2,
+              40.0
+            ]
+          ]
+        },
+        "face": {
+          "watertight": true,
+          "components": 1,
+          "volume_mm3": 1947.254,
+          "bounds_xyz_mm": [
+            [
+              -28.5,
+              -34.3,
+              0.5
+            ],
+            [
+              28.5,
+              -32.3,
+              27.5
+            ]
+          ]
+        },
+        "pod": {
+          "watertight": true,
+          "components": 1,
+          "volume_mm3": 6979.065,
+          "bounds_xyz_mm": [
+            [
+              -31.0,
+              37.2,
+              -0.229
+            ],
+            [
+              34.0,
+              50.2,
+              34.25
+            ]
+          ]
+        }
+      },
+      "printed_part_and_module_overlaps_mm3": {
+        "head_body": 0.0,
+        "head_frame": 0.0,
+        "face_head": 0.0,
+        "head_antenna": 0.0,
+        "pod_head": 0.0,
+        "pod_body": 0.0,
+        "pod_charger": 0.0,
+        "pod_grille": 0.0,
+        "speaker_pod": 0.0,
+        "speaker_grille": 0.0,
+        "head_ESP": 0.0,
+        "head_amp": 0.0,
+        "head_mic": 0.0,
+        "head_sensor_PCB": 0.0,
+        "head_UBEC": 0.0,
+        "head_battery": 0.0,
+        "head_gross_driver_box": 6.51104
+      },
+      "trial_plug_wire_and_screw_probes_mm3": {
+        "plug_head": 0.0,
+        "plug_pod": 0.0,
+        "plug_ESP": 0.0,
+        "plug_hood_gross": 0.0,
+        "wire_forward_head": 0.0,
+        "wire_forward_ESP": 0.0,
+        "wire_forward_driver_gross": 0.0,
+        "wire_forward_amp": 0.0,
+        "wire_external_pod": 0.0,
+        "wire_external_head": 0.0,
+        "cable_tie_holes_vs_pod": [
+          0.0,
+          0.0
+        ],
+        "speaker_mount_screw_cores_vs_head_pod": [
+          0.0,
+          0.0
+        ],
+        "face_screw_cores_vs_face_head": [
+          0.0,
+          0.0
+        ]
+      },
+      "limitations": [
+        "The actual speaker JST family/plug shape is unspecified; 8x7mm plug is assumed.",
+        "Open pod notch routes wire externally; two printed tie holes are a candidate restraint, not a tested strain relief.",
+        "A narrow cable tie can go through two reinforced \u00d82.4mm pod holes; actual tie/wire size and bending still require a physical check.",
+        "Only straight lead forward to y6.5 is checked; path into actual amplifier connector and bend radius remain unknown.",
+        "Driver is a conservative gross box, not the partial manufacturer STEP; socket/plug geometry missing.",
+        "M2 face screws/counterbores/pilots need physical screw-length and pull-out tests."
+      ]
+    },
+    "exact_driver_v3": {
+      "source_driver_step": "packaging_study/reference/piicodev_ce09181.step",
+      "placement": [
+        1,
+        11.8,
+        13
+      ],
+      "head_overlaps_mm3": {
+        "driver_partial_STEP": 0.0,
+        "top_JST_10mm_service_box": 3e-05,
+        "bottom_USB_10mm_service_box": 0.0,
+        "ESP": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0,
+        "Sensor_PCB": 0.0,
+        "plug_0": 0.0,
+        "plug_1": 0.0,
+        "plug_2": 0.0,
+        "plug_3": 0.0
+      },
+      "face_overlaps_mm3": {
+        "driver_partial_STEP": 0.0,
+        "top_JST_10mm_service_box": 0.0,
+        "bottom_USB_10mm_service_box": 0.0,
+        "ESP": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0,
+        "Sensor_PCB": 0.0,
+        "plug_0": 0.0,
+        "plug_1": 0.0,
+        "plug_2": 0.0,
+        "plug_3": 0.0
+      },
+      "limits": [
+        "USB-C and JST-SH connector solids absent from manufacturer STEP",
+        "Proposed service boxes are ideal straight corridors, not actual cable bends"
+      ]
+    }
+  },
+  "driver": {
+    "orientation": "vertical, servo headers facing front",
+    "center_mm": [
+      1,
+      11.8,
+      13
+    ],
+    "partial_official_step_bbox_mm": [
+      [
+        -25.001,
+        5.65,
+        0.3
+      ],
+      [
+        27.0,
+        17.95,
+        25.7
+      ]
+    ],
+    "warning": "Official KiCad-derived STEP omits USB-C and JST-SH sockets; selected 10 mm service boxes and four mated servo plug boxes are proxies, actual wire bends unverified"
+  },
+  "mass": {
+    "solid_geometry_PLA": {
+      "parts": {
+        "Body": {
+          "solid_PLA_g": 40.05,
+          "com_mm": [
+            0.69,
+            4.222,
+            -26.173
+          ]
+        },
+        "Head": {
+          "solid_PLA_g": 30.884,
+          "com_mm": [
+            0.708,
+            4.348,
+            19.285
+          ]
+        },
+        "Heart_Frame_V3": {
+          "solid_PLA_g": 1.931,
+          "com_mm": [
+            -1.744,
+            -41.239,
+            -12.838
+          ]
+        },
+        "Faceplate": {
+          "solid_PLA_g": 2.415,
+          "com_mm": [
+            -0.109,
+            -33.296,
+            13.899
+          ]
+        },
+        "Antenna": {
+          "solid_PLA_g": 0.276,
+          "com_mm": [
+            0.0,
+            0.0,
+            40.853
+          ]
+        },
+        "Left_Arm": {
+          "solid_PLA_g": 2.265,
+          "com_mm": [
+            -48.495,
+            -0.0,
+            -26.304
+          ]
+        },
+        "Right_Arm": {
+          "solid_PLA_g": 2.265,
+          "com_mm": [
+            48.495,
+            0.0,
+            -26.304
+          ]
+        },
+        "Left_Leg": {
+          "solid_PLA_g": 8.9,
+          "com_mm": [
+            -25.5,
+            0.517,
+            -58.488
+          ]
+        },
+        "Right_Leg": {
+          "solid_PLA_g": 8.9,
+          "com_mm": [
+            25.5,
+            0.517,
+            -58.488
+          ]
+        },
+        "Left_Foot": {
+          "solid_PLA_g": 21.695,
+          "com_mm": [
+            -30.388,
+            -0.0,
+            -83.85
+          ]
+        },
+        "Right_Foot": {
+          "solid_PLA_g": 21.695,
+          "com_mm": [
+            30.388,
+            -0.0,
+            -83.85
+          ]
+        },
+        "Left_Washer": {
+          "solid_PLA_g": 0.113,
+          "com_mm": [
+            -25.5,
+            -25.35,
+            -71.5
+          ]
+        },
+        "Right_Washer": {
+          "solid_PLA_g": 0.113,
+          "com_mm": [
+            25.5,
+            -25.35,
+            -71.5
+          ]
+        },
+        "Charger_Tray": {
+          "solid_PLA_g": 10.943,
+          "com_mm": [
+            -0.0,
+            60.625,
+            -24.0
+          ]
+        },
+        "Charger_Bezel": {
+          "solid_PLA_g": 1.146,
+          "com_mm": [
+            0.0,
+            86.1,
+            -24.0
+          ]
+        },
+        "Speaker_Pod": {
+          "solid_PLA_g": 8.654,
+          "com_mm": [
+            0.654,
+            42.179,
+            16.939
+          ]
+        },
+        "Speaker_Grille": {
+          "solid_PLA_g": 2.908,
+          "com_mm": [
+            -0.0,
+            50.889,
+            17.0
+          ]
+        }
+      },
+      "total_g": 165.154,
+      "com_mm": [
+        0.312,
+        8.61,
+        -32.341
+      ],
+      "warning": "Actual print mass requires slicer result or a scale; supports and infill change mass"
+    },
+    "known_purchased_g": {
+      "Dualsky_2S_550mAh": 35,
+      "Hobbywing_UBEC_5A": 21,
+      "SG90_four": 36,
+      "sum": 92
+    },
+    "charger_candidate_g": 6,
+    "incomplete_g": [
+      "PiicoDev board",
+      "OLED module",
+      "HC-SR04",
+      "ESP32-C3",
+      "speaker",
+      "microphone breakout",
+      "amplifier",
+      "LEDs/resistors",
+      "switch/protection",
+      "wiring/connectors",
+      "fasteners",
+      "printed retention/mounts"
+    ]
+  },
+  "limits": [
+    "Component boxes are not supplier 3D models; some listed PCB heights and exact module variants are unknown.",
+    "PiicoDev USB-C and JST-SH sockets are omitted from the official KiCad-derived STEP. Selected 10mm plug service corridors and four servo plug envelopes clear, but actual housings, cable bends, screws, board mounts and service access are not verified.",
+    "Battery discharge lead and balance connector envelope not established; LiPo must not be squeezed.",
+    "Rotated battery/UBEC leave very little end clearance for their leads despite zero box overlap.",
+    "ISDT UC2 is an unpurchased rear-cassette candidate; confirm delivered battery balance lead is XH 2.54 and isolate robot load while charging.",
+    "Cassette has post/screw attachment, a nominal rear USB opening and body balance-lead duct, but exact mated plugs, switch mount, cable bend, charger heat and retention are not verified.",
+    "Nominal Adafruit CAD active area fits shifted V3 window, but real glass position varies; proposed pocket has only ~1.35 mm front wall.",
+    "V4 body gives a zero-clash nominal route for a 1x8 rear through-hole OLED header/housing and wire bundle; exact keyed connector, OLED retainer, cable bend and electrical pinout are still unverified.",
+    "Core speaker is 28mm diameter, >4mm thick; 7mm depth allowance is provisional. Mic breakout exact size and mass are unknown.",
+    "V3 rear speaker pod has a nominal 12mm side plug passage and a tie saddle, but actual plug dimensions, lead bend into the amplifier, strain relief, acoustic response and real speaker thickness are unverified.",
+    "V3 faceplate has two M2 screw-boss candidates; pilot grip, screw length, sensor and LED retention still require physical testing.",
+    "SG90 hip/ankle case bodies are proxies inferred from shell openings and retailer overall size; horns, ears and wire exits are not modeled.",
+    "Mated SG90 servo plug boxes use a published Futaba-type 14x9.6x2.7mm female housing with additional vertical reserve; exact SG90 plug and wire-bend dimensions remain unknown.",
+    "Neutral pose clearance says nothing about head attachment, arm swing, gait, strength, heat or actual printed tolerances."
+  ]
+}

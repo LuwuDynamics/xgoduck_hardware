@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="565" viewBox="0 0 960 565">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172033}.title{font-size:24px;font-weight:700}.head{font-size:19px;font-weight:700}.label{font-size:14px}.small{font-size:12px;fill:#48566b}</style>
+<text x="30" y="40" class="title">Cece: ideal flat-foot support in neutral pose</text>
+<text x="30" y="66" class="label">Actual STL sole outlines; COM includes nominal solid shells and the hardware masses listed in the scenario.</text>
+<text x="240" y="106" class="head" text-anchor="middle">Existing feet</text>
+<line x1="240" y1="145" x2="240" y2="399" stroke="#b9c3d3" stroke-width="1" stroke-dasharray="5 5"/>
+<line x1="45" y1="285" x2="435" y2="285" stroke="#b9c3d3" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="66.15,367.35 81.40,382.60 179.00,382.60 194.25,367.35 194.25,202.65 179.00,187.40 81.40,187.40 66.15,202.65" fill="#bbd8f0" stroke="#23374f" stroke-width="2"/>
+<text x="130.2" y="290.0" class="label" text-anchor="middle">left</text>
+<polygon points="285.75,367.35 301.00,382.60 398.60,382.60 413.85,367.35 413.85,202.65 398.60,187.40 301.00,187.40 285.75,202.65" fill="#d2e9c9" stroke="#23374f" stroke-width="2"/>
+<text x="349.8" y="290.0" class="label" text-anchor="middle">right</text>
+<circle cx="240.39" cy="285.95" r="7" fill="#d14646" stroke="white" stroke-width="2"/>
+<text x="240" y="421" class="label" text-anchor="middle">COM above floor: 56.2 mm</text>
+<text x="240" y="447" class="label" text-anchor="middle">Shift COM for 5 mm one-foot reserve:</text>
+<text x="240" y="470" class="label" text-anchor="middle">20.1 mm left / 19.9 mm right</text>
+<text x="240" y="493" class="small" text-anchor="middle">One-foot margins: -15.1 / -14.9 mm</text>
+<text x="720" y="106" class="head" text-anchor="middle">Wider candidate feet</text>
+<line x1="720" y1="145" x2="720" y2="399" stroke="#b9c3d3" stroke-width="1" stroke-dasharray="5 5"/>
+<line x1="525" y1="285" x2="915" y2="285" stroke="#b9c3d3" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="546.15,367.35 561.40,382.60 659.00,382.60 692.55,367.35 707.80,352.10 707.80,217.90 692.55,202.65 659.00,187.40 561.40,187.40 546.15,202.65" fill="#bbd8f0" stroke="#23374f" stroke-width="2"/>
+<text x="610.2" y="290.0" class="label" text-anchor="middle">left</text>
+<polygon points="732.20,352.10 747.45,367.35 781.00,382.60 878.60,382.60 893.85,367.35 893.85,202.65 878.60,187.40 781.00,187.40 747.45,202.65 732.20,217.90" fill="#d2e9c9" stroke="#23374f" stroke-width="2"/>
+<text x="829.8" y="290.0" class="label" text-anchor="middle">right</text>
+<circle cx="720.38" cy="285.92" r="7" fill="#d14646" stroke="white" stroke-width="2"/>
+<text x="720" y="421" class="label" text-anchor="middle">COM above floor: 54.5 mm</text>
+<text x="720" y="447" class="label" text-anchor="middle">Shift COM for 5 mm one-foot reserve:</text>
+<text x="720" y="470" class="label" text-anchor="middle">9.1 mm left / 8.9 mm right</text>
+<text x="720" y="493" class="small" text-anchor="middle">One-foot margins: -4.1 / -3.9 mm</text>
+<circle cx="35" cy="526" r="7" fill="#d14646" stroke="white" stroke-width="2"/>
+<text x="52" y="531" class="small">Included-item COM projection; outside either sole in this pose</text>
+<text x="950" y="551" text-anchor="end" class="small">Interim only: Candidate boxes clear; charger, other payload and print masses remain unverified.</text>
+</svg>

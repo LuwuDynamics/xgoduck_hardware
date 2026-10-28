@@ -1,0 +1,30 @@
+{
+  "head_source": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\parts_adafruit_draft\\Cece_Head_Centered_Antenna_DRAFT.stl",
+  "speaker_envelope_mm": {
+    "diameter": 28.0,
+    "thickness": 7.0,
+    "axis": "Y",
+    "center_xyz": [
+      0,
+      44.7,
+      17
+    ]
+  },
+  "pod_outer_mm": {
+    "diameter": 34.5,
+    "front_y": 37.2,
+    "rear_y": 50.2,
+    "center_xz": [
+      0,
+      17
+    ]
+  },
+  "grille_rear_y_mm": 52.2,
+  "module_radial_clearance_mm": 1.25,
+  "speaker_seat_axial_gap_mm": 7.0,
+  "speaker_seat_note": "front/rear printed rim touch a nominal 7mm speaker; thinner speakers need a compressible shim, thicker ones require geometry revision",
+  "head_mount": "two rear posts at x +/-23,z17; two M3x10 screws from recessed rear access holes into blind 2.5mm pilot holes",
+  "grille_mount": "two M2x5 screws at x +/-28,z17 into separate 1.8mm pilot holes in pod side rails",
+  "wire_hole": "4mm diameter at x0,z17, through modified head and pod front",
+  "unknown": "speaker terminals, wire plug, acoustic response, screw fit, heat, print tolerance"
+}

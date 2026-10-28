@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\Cece_Body_4741_HeaderRouteV4_CANDIDATE.stl",
+  "crop_bounds_mm": [
+    [
+      14,
+      -29,
+      -39
+    ],
+    [
+      38,
+      16,
+      -10
+    ]
+  ],
+  "coupon_volume_mm3": 5296.396557155457,
+  "valid": true,
+  "solid_count": 1,
+  "purpose": "Print and fit the purchased SG90, horns, and mounting screws into a small exact slice of the V4 body before full-body printing."
+}

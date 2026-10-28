@@ -1,0 +1,852 @@
+[
+  {
+    "y": -26,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 11.399,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -26,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 7.504,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -26,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 17.372,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -26,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 25.197,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -26,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 77.197,
+    "bridge_head": 123.043,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -24,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.895,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -24,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.357,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -24,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 1.02,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -24,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 1.02,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -24,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 53.02,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -22,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -22,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -22,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -22,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -22,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 52.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -20,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -20,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -20,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -20,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -20,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 52.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -18,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -18,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -18,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -18,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": -18,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 52.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 18,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 18,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 18,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 18,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 18,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 52.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 20,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 20,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 20,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 20,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 20,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 52.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 22,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 22,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 22,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 22,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 0.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 22,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 52.0,
+    "bridge_head": 112.0,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 24,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 0.895,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 24,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 0.357,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 24,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 1.02,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 24,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 1.02,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 24,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 53.02,
+    "bridge_head": 112.378,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 26,
+    "tongue_x": [
+      25.5,
+      31.5
+    ],
+    "tongue_body": 11.399,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 26,
+    "tongue_x": [
+      26,
+      31
+    ],
+    "tongue_body": 7.504,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 26,
+    "tongue_x": [
+      27,
+      32
+    ],
+    "tongue_body": 17.372,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 26,
+    "tongue_x": [
+      27.5,
+      32.5
+    ],
+    "tongue_body": 25.197,
+    "bridge_head": 123.1,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  },
+  {
+    "y": 26,
+    "tongue_x": [
+      28,
+      33
+    ],
+    "tongue_body": 77.197,
+    "bridge_head": 123.043,
+    "bridge_body": 0.0,
+    "tongue_modules": {
+      "hip_right": 0.0,
+      "battery": 0.0,
+      "UBEC": 0.0,
+      "driver_gross": 0.0,
+      "ESP": 0.0
+    }
+  }
+]

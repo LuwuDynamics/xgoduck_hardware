@@ -1,0 +1,138 @@
+{
+  "11.8": {
+    "driver_esp_gap_mm": 2.05,
+    "driver_head_overlap_mm3": 0.0,
+    "driver_amp_overlap_mm3": 0.0,
+    "driver_mic_overlap_mm3": 0.0,
+    "driver_UBEC_overlap_mm3": 0.0,
+    "upper_JST_hood_overlap_mm3": 58.568,
+    "lower_USB_body_overlap_mm3": 0.0,
+    "lower_USB_UBEC_overlap_mm3": 0.0,
+    "servo_plug_head_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_sensor_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_amp_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_mic_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "12": {
+    "driver_esp_gap_mm": 1.85,
+    "driver_head_overlap_mm3": 0.0,
+    "driver_amp_overlap_mm3": 0.0,
+    "driver_mic_overlap_mm3": 0.0,
+    "driver_UBEC_overlap_mm3": 0.0,
+    "upper_JST_hood_overlap_mm3": 48.807,
+    "lower_USB_body_overlap_mm3": 0.0,
+    "lower_USB_UBEC_overlap_mm3": 0.0,
+    "servo_plug_head_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_sensor_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_amp_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_mic_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "12.5": {
+    "driver_esp_gap_mm": 1.35,
+    "driver_head_overlap_mm3": 0.0,
+    "driver_amp_overlap_mm3": 0.0,
+    "driver_mic_overlap_mm3": 0.0,
+    "driver_UBEC_overlap_mm3": 0.0,
+    "upper_JST_hood_overlap_mm3": 24.404,
+    "lower_USB_body_overlap_mm3": 0.0,
+    "lower_USB_UBEC_overlap_mm3": 0.0,
+    "servo_plug_head_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_sensor_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_amp_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_mic_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "13": {
+    "driver_esp_gap_mm": 0.85,
+    "driver_head_overlap_mm3": 0.0,
+    "driver_amp_overlap_mm3": 0.0,
+    "driver_mic_overlap_mm3": 0.0,
+    "driver_UBEC_overlap_mm3": 0.0,
+    "upper_JST_hood_overlap_mm3": 0.0,
+    "lower_USB_body_overlap_mm3": 0.0,
+    "lower_USB_UBEC_overlap_mm3": 0.0,
+    "servo_plug_head_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_sensor_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_amp_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "servo_plug_mic_overlap_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

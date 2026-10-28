@@ -1,0 +1,46 @@
+{
+  "hood_vs": {
+    "V4_Body": 0.0,
+    "Antenna": 0.0,
+    "Speaker_Pod": 0.0,
+    "Speaker_Grille": 0.0,
+    "OLED_Frame": 0.0,
+    "Driver_STEP": 0.0,
+    "ESP": 0.0,
+    "Amp": 0.0,
+    "Mic": 0.0,
+    "Sensor_PCB": 0.0,
+    "UBEC": 0.0,
+    "Battery": 0.0,
+    "Top_JST_Exit": 0.0,
+    "Bottom_USB_Exit": 0.0,
+    "Plug0": 0.0,
+    "Plug1": 0.0,
+    "Plug2": 0.0,
+    "Plug3": 0.0
+  },
+  "selected_vs_body": {
+    "Antenna": 0.0,
+    "Speaker_Pod": 0.0,
+    "Speaker_Grille": 0.0,
+    "OLED_Frame": 0.0,
+    "Driver_STEP": 0.0,
+    "ESP": 0.0,
+    "Amp": 0.0,
+    "Mic": 0.0,
+    "Sensor_PCB": 0.0,
+    "UBEC": 0.0,
+    "Battery": 0.0,
+    "Top_JST_Exit": 0.0,
+    "Bottom_USB_Exit": 0.0,
+    "Plug0": 0.0,
+    "Plug1": 0.0,
+    "Plug2": 0.0,
+    "Plug3": 0.0
+  },
+  "limits": [
+    "Official STEP omits PiicoDev USB-C and JST-SH sockets; selected exit boxes are conservative proxies.",
+    "Only static neutral geometry and assumed ESP/amp/mic/servo connector envelopes checked.",
+    "Head/body joint, retention/fastener details, wire flex and actual measured hardware still require validation."
+  ]
+}

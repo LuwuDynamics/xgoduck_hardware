@@ -1,0 +1,147 @@
+{
+  "source": "PiicoDev official KiCad board + partial STEP; Rapid SG90 plug unspecified; surrogate Futaba connector dimensions 14x9.6x2.7 mm",
+  "header_centers_xyz_mm": [
+    [
+      -0.044,
+      7.62,
+      14.15
+    ],
+    [
+      -0.044,
+      2.54,
+      14.15
+    ],
+    [
+      -0.044,
+      -2.54,
+      14.15
+    ],
+    [
+      -0.044,
+      -7.62,
+      14.15
+    ]
+  ],
+  "plug_proxy_size_mm": [
+    9.6,
+    3.2,
+    18.15
+  ],
+  "plug_proxy_z_mm": [
+    10,
+    28.15
+  ],
+  "checks": {
+    "Current_ESP": {
+      "head_overlap_mm3": 0.0,
+      "body_overlap_mm3": 0.0,
+      "driver_step_overlap_mm3": 0.0,
+      "plug_overlap_mm3": {
+        "Plug_1": 0.0,
+        "Plug_2": 245.76,
+        "Plug_3": 245.76,
+        "Plug_4": 245.76
+      },
+      "sensor_overlap_mm3": 0.0,
+      "speaker_overlap_mm3": 0.0,
+      "amp_overlap_mm3": 0.0,
+      "mic_overlap_mm3": 0.0
+    },
+    "Rotated_Left_ESP": {
+      "head_overlap_mm3": 8.601,
+      "body_overlap_mm3": 0.0,
+      "driver_step_overlap_mm3": 0.0,
+      "plug_overlap_mm3": {
+        "Plug_1": 0.0,
+        "Plug_2": 0.0,
+        "Plug_3": 0.0,
+        "Plug_4": 0.0
+      },
+      "sensor_overlap_mm3": 0.0,
+      "speaker_overlap_mm3": 0.0,
+      "amp_overlap_mm3": 0.0,
+      "mic_overlap_mm3": 224.0,
+      "rear_mic_overlap_mm3": 0.0
+    },
+    "Vertical_Rear_ESP": {
+      "head_overlap_mm3": 0.0,
+      "body_overlap_mm3": 0.0,
+      "driver_step_overlap_mm3": 0.0,
+      "plug_overlap_mm3": {
+        "Plug_1": 0.0,
+        "Plug_2": 0.0,
+        "Plug_3": 0.0,
+        "Plug_4": 0.0
+      },
+      "sensor_overlap_mm3": 0.0,
+      "speaker_overlap_mm3": 0.0,
+      "amp_overlap_mm3": 0.0,
+      "mic_overlap_mm3": 0.0
+    },
+    "Vertical_Rear_ESP_Y20": {
+      "head_overlap_mm3": 0.0,
+      "body_overlap_mm3": 0.0,
+      "driver_step_overlap_mm3": 0.0,
+      "plug_overlap_mm3": {
+        "Plug_1": 0.0,
+        "Plug_2": 0.0,
+        "Plug_3": 0.0,
+        "Plug_4": 0.0
+      },
+      "sensor_overlap_mm3": 0.0,
+      "speaker_overlap_mm3": 0.0,
+      "amp_overlap_mm3": 0.0,
+      "mic_overlap_mm3": 0.0,
+      "min_gaps_mm": {
+        "head": 4.4,
+        "body": 8.5,
+        "driver_step": 3.3,
+        "plug_1": 6.78,
+        "plug_2": 11.86,
+        "plug_3": 16.94,
+        "plug_4": 22.02,
+        "sensor": 33.2,
+        "speaker": 8.5,
+        "amp": 0.5,
+        "mic": 0.5
+      }
+    },
+    "Current_Mic": {
+      "head_overlap_mm3": 0.0,
+      "body_overlap_mm3": 0.0,
+      "driver_step_overlap_mm3": 0.0,
+      "plug_overlap_mm3": {
+        "Plug_1": 0.0,
+        "Plug_2": 0.0,
+        "Plug_3": 0.0,
+        "Plug_4": 0.0
+      },
+      "sensor_overlap_mm3": 0.0,
+      "speaker_overlap_mm3": 0.0,
+      "amp_overlap_mm3": 0.0,
+      "mic_overlap_mm3": 1536.0
+    },
+    "Rear_Mic": {
+      "head_overlap_mm3": 4.93,
+      "body_overlap_mm3": 0.0,
+      "driver_step_overlap_mm3": 0.0,
+      "plug_overlap_mm3": {
+        "Plug_1": 0.0,
+        "Plug_2": 0.0,
+        "Plug_3": 0.0,
+        "Plug_4": 0.0
+      },
+      "sensor_overlap_mm3": 0.0,
+      "speaker_overlap_mm3": 0.0,
+      "amp_overlap_mm3": 0.0,
+      "mic_overlap_mm3": 1152.0,
+      "rotated_esp_overlap_mm3": 0.0
+    }
+  },
+  "limits": [
+    "Proxy includes over-height reserve; actual SG90 plug geometry and insertion depth unknown.",
+    "Only housings represented, wires and bend radius absent.",
+    "ESP and mic dimension envelopes are assumed; actual board headers and cable paths absent.",
+    "Head shell is latest speaker-mount candidate STL."
+  ]
+}

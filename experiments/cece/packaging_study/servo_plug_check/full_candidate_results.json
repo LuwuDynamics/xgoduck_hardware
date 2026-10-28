@@ -1,0 +1,63 @@
+{
+  "placements": {
+    "driver_step_origin_mm": [
+      -1,
+      13,
+      13.7
+    ],
+    "ESP_center_mm": [
+      0,
+      24,
+      10
+    ],
+    "amp_center_mm": [
+      17,
+      -5,
+      24
+    ],
+    "mic_center_mm": [
+      -14,
+      -5,
+      24
+    ]
+  },
+  "collisions": {
+    "Driver": {
+      "head": 3.359,
+      "Corridor_USB_bottom": 30.168,
+      "Corridor_USB_top": 30.168,
+      "Corridor_JST_bottom": 23.272,
+      "Corridor_JST_top": 23.272
+    },
+    "ESP": {},
+    "Amp": {},
+    "Mic": {},
+    "Sensor_PCB": {},
+    "Speaker": {
+      "head": 73.646
+    },
+    "UBEC": {
+      "Corridor_JST_bottom": 102.017
+    },
+    "Battery": {},
+    "Plug_0": {},
+    "Plug_1": {},
+    "Plug_2": {},
+    "Plug_3": {},
+    "Corridor_USB_bottom": {
+      "Driver": 30.168
+    },
+    "Corridor_USB_top": {
+      "head": 144.0,
+      "Driver": 30.168
+    },
+    "Corridor_JST_bottom": {
+      "Driver": 23.272,
+      "UBEC": 102.017
+    },
+    "Corridor_JST_top": {
+      "head": 144.0,
+      "Driver": 23.272
+    }
+  }
+}

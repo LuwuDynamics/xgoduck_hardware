@@ -1,0 +1,234 @@
+{
+  "status": "candidate four-screw removable head/body joint, actual screws and print load untested",
+  "source_head": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\speaker_pod\\side_route_v3\\Cece_head_V2_hood_side_speaker_face_boss_V3_CANDIDATE.stl",
+  "source_head_sha256": "b90f48cc033efc34a6b2a5b1a6a9f7c6bccc420f94c5c69cd37db31302ff70b9",
+  "source_body": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\Cece_Body_4741_HeaderRouteV4_CANDIDATE.stl",
+  "source_body_sha256": "c8c540ae8b0e9414eb9f3745b263ff708a079eebe46805314fd441a55a19fc65",
+  "screw_centers_xyz_mm": [
+    [
+      -33.5,
+      -22.5,
+      -8.0
+    ],
+    [
+      -33.5,
+      22.5,
+      -8.0
+    ],
+    [
+      33.5,
+      -22.5,
+      -8.0
+    ],
+    [
+      33.5,
+      22.5,
+      -8.0
+    ]
+  ],
+  "tongue_x_abs_bounds_mm": [
+    26.5,
+    32.2
+  ],
+  "measured_body_wall_x_abs_bounds_at_joints_mm": [
+    32.5,
+    34.5
+  ],
+  "nominal_tongue_to_body_inner_wall_gap_mm": 0.3,
+  "candidate_screw": "four M3x8 pan-head screws through \u00d83.3mm body clearance into \u00d82.5mm blind head pilots",
+  "body_collar_diameter_height_mm": [
+    8,
+    1
+  ],
+  "head_tongue_blind_pilot_depth_mm": 5.3,
+  "head_tongue_min_inner_web_mm": 0.5,
+  "printed_STLs": {
+    "head": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 27845.37,
+      "bounds_xyz_mm": [
+        [
+          -34.0,
+          -32.2,
+          -13.0
+        ],
+        [
+          37.0,
+          37.2,
+          40.0
+        ]
+      ]
+    },
+    "body": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 32396.675,
+      "bounds_xyz_mm": [
+        [
+          -40.95,
+          -34.5,
+          -39.0
+        ],
+        [
+          40.95,
+          39.5,
+          0.0
+        ]
+      ]
+    }
+  },
+  "head_body_solid_overlap_mm3": 0.0,
+  "head_vs_parts_mm3": {
+    "speaker_pod": 0.0,
+    "speaker_grille": 0.0,
+    "charger_tray": 0.0,
+    "charger_bezel": 0.0,
+    "heart_frame": 0.0,
+    "faceplate": 0.0,
+    "left_leg": 0.0,
+    "right_leg": 0.0,
+    "left_foot": 0.0,
+    "right_foot": 0.0,
+    "antenna": 0.0,
+    "left_arm": 0.0,
+    "right_arm": 0.0
+  },
+  "body_vs_parts_mm3": {
+    "speaker_pod": 0.0,
+    "speaker_grille": 0.0,
+    "charger_tray": 0.0,
+    "charger_bezel": 0.0,
+    "heart_frame": 0.0,
+    "faceplate": 0.0,
+    "left_leg": 0.0,
+    "right_leg": 0.0,
+    "left_foot": 0.0,
+    "right_foot": 0.0,
+    "antenna": 0.0,
+    "left_arm": 0.0,
+    "right_arm": 0.0
+  },
+  "new_head_vs_modules_mm3": {
+    "battery": 0.0,
+    "UBEC": 0.0,
+    "ESP": 0.0,
+    "amp": 0.0,
+    "mic": 0.0,
+    "sensor_PCB": 0.0,
+    "driver_gross_box": 6.51104,
+    "left_hip_SG90": 0.0,
+    "right_hip_SG90": 0.0
+  },
+  "new_body_vs_modules_mm3": {
+    "battery": 0.0,
+    "UBEC": 0.0,
+    "ESP": 0.0,
+    "amp": 0.0,
+    "mic": 0.0,
+    "sensor_PCB": 0.0,
+    "driver_gross_box": 0.0,
+    "left_hip_SG90": 0.0,
+    "right_hip_SG90": 0.0
+  },
+  "screw_core_clearance_vs_head_body_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "screw_head_vs_head_body_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tool_approach_vs_printed_mm3": [
+    {
+      "head": 0.0,
+      "body": 0.0,
+      "speaker_pod": 0.0,
+      "speaker_grille": 0.0,
+      "charger_tray": 0.0,
+      "charger_bezel": 0.0,
+      "heart_frame": 0.0,
+      "faceplate": 0.0,
+      "left_leg": 0.0,
+      "right_leg": 0.0,
+      "left_foot": 0.0,
+      "right_foot": 0.0,
+      "antenna": 0.0,
+      "left_arm": 0.0,
+      "right_arm": 0.0
+    },
+    {
+      "head": 0.0,
+      "body": 0.0,
+      "speaker_pod": 0.0,
+      "speaker_grille": 0.0,
+      "charger_tray": 0.0,
+      "charger_bezel": 0.0,
+      "heart_frame": 0.0,
+      "faceplate": 0.0,
+      "left_leg": 0.0,
+      "right_leg": 0.0,
+      "left_foot": 0.0,
+      "right_foot": 0.0,
+      "antenna": 0.0,
+      "left_arm": 0.0,
+      "right_arm": 0.0
+    },
+    {
+      "head": 0.0,
+      "body": 0.0,
+      "speaker_pod": 0.0,
+      "speaker_grille": 0.0,
+      "charger_tray": 0.0,
+      "charger_bezel": 0.0,
+      "heart_frame": 0.0,
+      "faceplate": 0.0,
+      "left_leg": 0.0,
+      "right_leg": 0.0,
+      "left_foot": 0.0,
+      "right_foot": 0.0,
+      "antenna": 0.0,
+      "left_arm": 0.0,
+      "right_arm": 0.0
+    },
+    {
+      "head": 0.0,
+      "body": 0.0,
+      "speaker_pod": 0.0,
+      "speaker_grille": 0.0,
+      "charger_tray": 0.0,
+      "charger_bezel": 0.0,
+      "heart_frame": 0.0,
+      "faceplate": 0.0,
+      "left_leg": 0.0,
+      "right_leg": 0.0,
+      "left_foot": 0.0,
+      "right_foot": 0.0,
+      "antenna": 0.0,
+      "left_arm": 0.0,
+      "right_arm": 0.0
+    }
+  ],
+  "intended_head_bridge_fusion_mm3": [
+    98.0,
+    98.0,
+    98.0,
+    98.0
+  ],
+  "intended_body_collar_fusion_mm3": [
+    35.16076,
+    35.16076,
+    35.16076,
+    35.16076
+  ],
+  "limits": [
+    "Screw cores are void probes, not actual thread shape; four M3x8 screws need printed pilot and pull-out tests.",
+    "Local wall thickness inferred from mesh slices at screw centres; FDM shrink/elephant-foot can close the 0.3mm gap.",
+    "Modules are published/candidate boxes except PiicoDev, whose exact partial STEP is checked separately.",
+    "Head/body circumferential rim contact, full insertion force, torque under walking and cable flex remain untested."
+  ]
+}

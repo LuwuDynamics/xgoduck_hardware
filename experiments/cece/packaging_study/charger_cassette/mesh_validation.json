@@ -1,0 +1,169 @@
+{
+  "body_posts_intended_overlap_mm3": 627.93744,
+  "balance_lead_slot_removed_from_v3_body_mm3": 336.45499,
+  "balance_lead_passage_probe_vs_modified_body_mm3": 0.0,
+  "balance_lead_passage_probe_vs_tray_mm3": 0.0,
+  "usb_rear_probe_vs_tray_mm3": 0.0,
+  "usb_rear_probe_vs_lid_mm3": 0.0,
+  "mount_screw_core_probe_vs_body_and_tray_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "rear_tool_access_probe_vs_tray_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "lid_screw_core_probe_vs_tray_and_lid_mm3": [
+    0.0,
+    0.0
+  ],
+  "lead_passage_probe_envelope_mm": [
+    13.0,
+    11.9,
+    11.0
+  ],
+  "duct_wall_thickness_nominal_mm": 2.0,
+  "modified_body_watertight": true,
+  "modified_body_components": 1,
+  "posts_vs_tray_mm3": 0.0,
+  "tray_vs_v3_body_mm3": 0.0,
+  "tray_vs_head_mm3": 0.0,
+  "tray_vs_speaker_pod_mm3": 0.0,
+  "tray_vs_speaker_grille_mm3": 0.0,
+  "tray_vs_name_mm3": 0.0,
+  "lid_vs_name_mm3": 0.0,
+  "posts_vs_name_mm3": 0.0,
+  "posts_vs_head_mm3": 0.0,
+  "tray_vs_feet_mm3": [
+    0.0,
+    0.0
+  ],
+  "tray_vs_neutral_legs_mm3": [
+    0.0,
+    0.0
+  ],
+  "charger_vs_tray_mm3": 0.0,
+  "charger_vs_lid_mm3": 0.0,
+  "lid_vs_tray_mm3": 0.0,
+  "print_parts": {
+    "body_with_posts": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 32642.069
+    },
+    "tray": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 8824.656
+    },
+    "lid": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 924.22
+    }
+  },
+  "moving_hip_test": {
+    "left": {
+      "estimated_pivot_xyz_mm": [
+        -25.5,
+        0,
+        -48
+      ],
+      "sampled_angles_deg": [
+        -45,
+        -40,
+        -35,
+        -30,
+        -25,
+        -20,
+        -15,
+        -10,
+        -5,
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "tray_intersection_mm3": {
+        "-45": 0.0,
+        "-40": 0.0,
+        "-35": 0.0,
+        "-30": 0.0,
+        "-25": 0.0,
+        "-20": 0.0,
+        "-15": 0.0,
+        "-10": 0.0,
+        "-5": 0.0,
+        "0": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "15": 0.0,
+        "20": 0.0,
+        "25": 0.0,
+        "30": 0.0,
+        "35": 0.0,
+        "40": 0.0,
+        "45": 0.0
+      }
+    },
+    "right": {
+      "estimated_pivot_xyz_mm": [
+        25.5,
+        0,
+        -48
+      ],
+      "sampled_angles_deg": [
+        -45,
+        -40,
+        -35,
+        -30,
+        -25,
+        -20,
+        -15,
+        -10,
+        -5,
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "tray_intersection_mm3": {
+        "-45": 0.0,
+        "-40": 0.0,
+        "-35": 0.0,
+        "-30": 0.0,
+        "-25": 0.0,
+        "-20": 0.0,
+        "-15": 0.0,
+        "-10": 0.0,
+        "-5": 0.0,
+        "0": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "15": 0.0,
+        "20": 0.0,
+        "25": 0.0,
+        "30": 0.0,
+        "35": 0.0,
+        "40": 0.0,
+        "45": 0.0
+      }
+    }
+  }
+}

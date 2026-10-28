@@ -1,0 +1,50 @@
+{
+  "status": "candidate only; electrical connectors and actual plug dimensions not physically verified",
+  "source_head": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\speaker_pod\\cece_head_with_speaker_mount_CANDIDATE.stl",
+  "outer_hood_bounds_mm": [
+    [
+      7.8,
+      7,
+      27
+    ],
+    [
+      20.8,
+      31,
+      40
+    ]
+  ],
+  "inner_channel_bounds_mm": [
+    [
+      9.8,
+      9,
+      27
+    ],
+    [
+      18.8,
+      29,
+      38
+    ]
+  ],
+  "cable_service_bounds_mm": [
+    [
+      9.8,
+      9,
+      22.423
+    ],
+    [
+      18.8,
+      17,
+      32.423
+    ]
+  ],
+  "head_height_increase_mm": 10,
+  "service_overlap_mm3": 0.0,
+  "antenna_overlap_mm3": 0.0,
+  "valid": true,
+  "solid_count": 1,
+  "limits": [
+    "Output is a draft around nominal 10mm straight service corridor and rearward path; purchased PiicoDev JST-SH plug and cable bend not measured.",
+    "Hood wall and roof are nominally 2mm; print strength and water/impact protection untested.",
+    "Confirm antenna, head/body joining and screw access with whole-assembly CAD and physical trial."
+  ]
+}

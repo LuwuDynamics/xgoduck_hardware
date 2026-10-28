@@ -1,0 +1,74 @@
+{
+  "method": "Actual body STL boolean intersection against SG90 rectangular envelopes",
+  "dimensions_mm": {
+    "servo_body_box": [
+      12.2,
+      23,
+      22
+    ],
+    "battery_clearance": [
+      56,
+      35,
+      16
+    ],
+    "ubec_clearance": [
+      56,
+      21,
+      14
+    ]
+  },
+  "nominal": {
+    "left": {
+      "center_mm": [
+        -25.5,
+        -5.5,
+        -24
+      ],
+      "servo_vs_body_mm3": 0.0,
+      "servo_vs_battery_mm3": 3164.8,
+      "servo_vs_ubec_mm3": 120.4
+    },
+    "right": {
+      "center_mm": [
+        25.5,
+        -5.5,
+        -24
+      ],
+      "servo_vs_body_mm3": 0.0,
+      "servo_vs_battery_mm3": 3164.8,
+      "servo_vs_ubec_mm3": 120.4
+    }
+  },
+  "z_sweep": {
+    "-28": {
+      "body": 301.03,
+      "battery": 3164.8,
+      "ubec": 0.0
+    },
+    "-26": {
+      "body": 0.0,
+      "battery": 3164.8,
+      "ubec": 60.2
+    },
+    "-24": {
+      "body": 0.0,
+      "battery": 3164.8,
+      "ubec": 120.4
+    },
+    "-22": {
+      "body": 0.0,
+      "battery": 2769.2,
+      "ubec": 180.6
+    },
+    "-20": {
+      "body": 0.0,
+      "battery": 2373.6,
+      "ubec": 240.8
+    }
+  },
+  "limits": [
+    "SG90 retailer 23x12.2x29 overall size does not define rectangular case 22mm height. This is an illustrative body box, not a measured item.",
+    "Shaft center and y offset inferred from geometry; mounting lugs, turret, horn, cable, connectors, clearance and tolerances not included.",
+    "Battery and UBEC placement from existing packaging_study/layout_check.py; not a validated assembly."
+  ]
+}

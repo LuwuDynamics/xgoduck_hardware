@@ -1,0 +1,93 @@
+[
+  {
+    "center_xz": [
+      24,
+      24
+    ],
+    "screw_pilot_to_bore_web_mm": -0.179,
+    "source_head_material_to_remove_mm3": 596.508,
+    "bore_hits_mount_pilot_mm3": 1.301,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 2.8,
+    "straight_forward_wire_hits_source_head_mm3": 0.688,
+    "bore_hits_pod_mm3": 44.479
+  },
+  {
+    "center_xz": [
+      25,
+      25
+    ],
+    "screw_pilot_to_bore_web_mm": 0.996,
+    "source_head_material_to_remove_mm3": 569.627,
+    "bore_hits_mount_pilot_mm3": 0.0,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 0.0,
+    "straight_forward_wire_hits_source_head_mm3": 3.108,
+    "bore_hits_pod_mm3": 25.973
+  },
+  {
+    "center_xz": [
+      26,
+      25
+    ],
+    "screw_pilot_to_bore_web_mm": 1.294,
+    "source_head_material_to_remove_mm3": 567.663,
+    "bore_hits_mount_pilot_mm3": 0.0,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 0.0,
+    "straight_forward_wire_hits_source_head_mm3": 2.275,
+    "bore_hits_pod_mm3": 25.973
+  },
+  {
+    "center_xz": [
+      27,
+      26
+    ],
+    "screw_pilot_to_bore_web_mm": 2.599,
+    "source_head_material_to_remove_mm3": 496.53,
+    "bore_hits_mount_pilot_mm3": 0.0,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 0.0,
+    "straight_forward_wire_hits_source_head_mm3": 0.804,
+    "bore_hits_pod_mm3": 9.422
+  },
+  {
+    "center_xz": [
+      28,
+      26
+    ],
+    "screw_pilot_to_bore_web_mm": 3.046,
+    "source_head_material_to_remove_mm3": 460.587,
+    "bore_hits_mount_pilot_mm3": 0.0,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 0.0,
+    "straight_forward_wire_hits_source_head_mm3": 0.0,
+    "bore_hits_pod_mm3": 9.357
+  },
+  {
+    "center_xz": [
+      28,
+      27
+    ],
+    "screw_pilot_to_bore_web_mm": 3.93,
+    "source_head_material_to_remove_mm3": 414.567,
+    "bore_hits_mount_pilot_mm3": 0.0,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 0.0,
+    "straight_forward_wire_hits_source_head_mm3": 0.121,
+    "bore_hits_pod_mm3": 0.0
+  },
+  {
+    "center_xz": [
+      30,
+      27
+    ],
+    "screw_pilot_to_bore_web_mm": 4.957,
+    "source_head_material_to_remove_mm3": 326.842,
+    "bore_hits_mount_pilot_mm3": 0.0,
+    "plug_hits_ESP_mm3": 0.0,
+    "plug_hits_hood_outer_envelope_mm3": 0.0,
+    "straight_forward_wire_hits_source_head_mm3": 26.647,
+    "bore_hits_pod_mm3": 0.0
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "source": "Adafruit official 4741 3D STEP, see reference/README.md",
+  "oled_world_bbox_mm": [
+    [
+      -23.495,
+      -41.215,
+      -36.78
+    ],
+    [
+      23.495,
+      -35.585,
+      -1.22
+    ]
+  ],
+  "oled_vs_body_mm3": 0.0,
+  "oled_vs_frame_v2_mm3": 0.0,
+  "active_center_world_mm": [
+    3.674,
+    -41.215,
+    -18.873
+  ],
+  "active_x_bounds_mm": [
+    -9.756,
+    17.104
+  ],
+  "active_z_bounds_mm": [
+    -32.303,
+    -5.443
+  ],
+  "current_window_x_bounds_mm": [
+    -15.1,
+    15.1
+  ],
+  "current_window_z_bounds_mm": [
+    -34.1,
+    -3.9
+  ],
+  "active_area_clipped_right_mm": 2.004,
+  "note": "Current centered 30.2 mm square aperture is offset from the manufacturer CAD active area; real glass position may vary."
+}

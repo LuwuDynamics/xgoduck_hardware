@@ -1,0 +1,138 @@
+{
+  "status": "V3 right-side speaker/faceplate retention geometry candidate; actual plug, lead path to amp and screw holding not validated",
+  "source_head": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\servo_plug_check\\Cece_head_vertical_driver_hood_V2_CANDIDATE.stl",
+  "source_head_sha256": "22cb684870101df722e7dddc23a2bb4b80784a5fe2f0e9ba2aa92ee855f4344a",
+  "side_passage_xyz_mm": [
+    28,
+    null,
+    26
+  ],
+  "bore_diameter_mm": 12,
+  "sleeve_diameter_mm": 18,
+  "face_screw_centers_xz_mm": [
+    [
+      -25.5,
+      11
+    ],
+    [
+      25.5,
+      11
+    ]
+  ],
+  "face_through_diameter_mm": 2.3,
+  "head_pilot_diameter_mm": 1.8,
+  "face_counterbore_diameter_depth_mm": [
+    4,
+    1
+  ],
+  "speaker_mount_pilot_web_mm": 3.046,
+  "source_head_vs_added_sleeve_intended_mm3": 413.59049,
+  "source_head_vs_face_bosses_intended_mm3": [
+    51.66324,
+    51.66324
+  ],
+  "stls": {
+    "head": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 24906.599,
+      "bounds_xyz_mm": [
+        [
+          -33.8,
+          -32.2,
+          -7.0
+        ],
+        [
+          37.0,
+          37.2,
+          40.0
+        ]
+      ]
+    },
+    "face": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 1947.254,
+      "bounds_xyz_mm": [
+        [
+          -28.5,
+          -34.3,
+          0.5
+        ],
+        [
+          28.5,
+          -32.3,
+          27.5
+        ]
+      ]
+    },
+    "pod": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 6979.065,
+      "bounds_xyz_mm": [
+        [
+          -31.0,
+          37.2,
+          -0.229
+        ],
+        [
+          34.0,
+          50.2,
+          34.25
+        ]
+      ]
+    }
+  },
+  "printed_part_and_module_overlaps_mm3": {
+    "head_body": 0.0,
+    "head_frame": 0.0,
+    "face_head": 0.0,
+    "head_antenna": 0.0,
+    "pod_head": 0.0,
+    "pod_body": 0.0,
+    "pod_charger": 0.0,
+    "pod_grille": 0.0,
+    "speaker_pod": 0.0,
+    "speaker_grille": 0.0,
+    "head_ESP": 0.0,
+    "head_amp": 0.0,
+    "head_mic": 0.0,
+    "head_sensor_PCB": 0.0,
+    "head_UBEC": 0.0,
+    "head_battery": 0.0,
+    "head_gross_driver_box": 6.51104
+  },
+  "trial_plug_wire_and_screw_probes_mm3": {
+    "plug_head": 0.0,
+    "plug_pod": 0.0,
+    "plug_ESP": 0.0,
+    "plug_hood_gross": 0.0,
+    "wire_forward_head": 0.0,
+    "wire_forward_ESP": 0.0,
+    "wire_forward_driver_gross": 0.0,
+    "wire_forward_amp": 0.0,
+    "wire_external_pod": 0.0,
+    "wire_external_head": 0.0,
+    "cable_tie_holes_vs_pod": [
+      0.0,
+      0.0
+    ],
+    "speaker_mount_screw_cores_vs_head_pod": [
+      0.0,
+      0.0
+    ],
+    "face_screw_cores_vs_face_head": [
+      0.0,
+      0.0
+    ]
+  },
+  "limitations": [
+    "The actual speaker JST family/plug shape is unspecified; 8x7mm plug is assumed.",
+    "Open pod notch routes wire externally; two printed tie holes are a candidate restraint, not a tested strain relief.",
+    "A narrow cable tie can go through two reinforced \u00d82.4mm pod holes; actual tie/wire size and bending still require a physical check.",
+    "Only straight lead forward to y6.5 is checked; path into actual amplifier connector and bend radius remain unknown.",
+    "Driver is a conservative gross box, not the partial manufacturer STEP; socket/plug geometry missing.",
+    "M2 face screws/counterbores/pilots need physical screw-length and pull-out tests."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "coupon_watertight": true,
+  "coupon_components": 1,
+  "coupon_volume_mm3": 5296.397,
+  "nominal_overlap_mm3": {
+    "body__leg": 0.0,
+    "body__wide_foot": 0.0,
+    "leg__wide_foot": 0.0,
+    "body__hip_case_proxy": 0.0,
+    "coupon__leg": 0.0,
+    "coupon__wide_foot": 0.0,
+    "coupon__battery_clearance": 0.0,
+    "coupon__ubec_clearance": 0.0,
+    "coupon__hip_case_proxy": 0.0,
+    "hip_case_proxy__battery_clearance": 0.0,
+    "hip_case_proxy__ubec_clearance": 0.0,
+    "hip_case_proxy__leg": 0.0,
+    "hip_case_proxy__wide_foot": 0.0,
+    "ankle_case_proxy__leg": 0.0,
+    "ankle_case_proxy__wide_foot": 0.0
+  },
+  "shaft_proxy_overlap_mm3": {
+    "body": 0.0,
+    "leg": 0.0,
+    "hip_case": 6.273
+  },
+  "horn_proxy_overlap_mm3": {
+    "body": 0.0,
+    "leg": 11.963,
+    "hip_case": 0.0
+  },
+  "limits": [
+    "Case envelopes and component placements are inferred; mounting ears, output turret and wire exit are not dimensioned by the seller.",
+    "Shaft and trimmed horn proxies are illustrative test solids. Their non-overlap does not prove spline or screw fit.",
+    "Neutral-pose intersections do not certify dynamic gait clearance or printed tolerances."
+  ]
+}

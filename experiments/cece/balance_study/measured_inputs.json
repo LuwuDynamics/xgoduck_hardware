@@ -1,0 +1,90 @@
+{
+  "printed_part_masses_g": {},
+  "hardware": {
+    "left_ankle_sg90": {
+      "mass_g": 9.0,
+      "center_mm": null,
+      "source": "Rapid Robotics RR-MOT-SG90 published 9.0 g (https://rapidroboticsaustralia.com.au/products/sg90-micro-servo)"
+    },
+    "right_ankle_sg90": {
+      "mass_g": 9.0,
+      "center_mm": null,
+      "source": "Rapid Robotics RR-MOT-SG90 published 9.0 g (https://rapidroboticsaustralia.com.au/products/sg90-micro-servo)"
+    },
+    "left_hip_sg90": {
+      "mass_g": 9.0,
+      "center_mm": null,
+      "source": "Rapid Robotics RR-MOT-SG90 published 9.0 g (https://rapidroboticsaustralia.com.au/products/sg90-micro-servo)"
+    },
+    "right_hip_sg90": {
+      "mass_g": 9.0,
+      "center_mm": null,
+      "source": "Rapid Robotics RR-MOT-SG90 published 9.0 g (https://rapidroboticsaustralia.com.au/products/sg90-micro-servo)"
+    },
+    "battery": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "battery_charger": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "ubec": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "esp32_c3": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "servo_driver": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "oled": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "ultrasonic_sensor": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "microphone": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "amplifier": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "speaker": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "leds_and_resistors": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "switch_and_connectors": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    },
+    "cables_and_fasteners": {
+      "mass_g": null,
+      "center_mm": null,
+      "source": null
+    }
+  }
+}

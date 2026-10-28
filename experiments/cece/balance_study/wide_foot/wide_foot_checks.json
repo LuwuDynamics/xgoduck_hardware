@@ -1,0 +1,454 @@
+{
+  "status": "CAD_CANDIDATE_ONLY",
+  "modification": "11 mm inward sole flange; 8 mm neutral gap",
+  "tested": {
+    "left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17495.73,
+      "bounds_mm": [
+        [
+          -57.0,
+          -32.0,
+          -89.02
+        ],
+        [
+          -4.0,
+          32.0,
+          -62.0
+        ]
+      ],
+      "ankle_sweep_intersection_mm3": {
+        "-45": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-40": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-35": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-30": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-25": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-20": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-15": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-10": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-5": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "0": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "5": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "10": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "15": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "20": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "25": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "30": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "35": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "40": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "45": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        }
+      },
+      "swing_foot_vs_opposite_foot_mm3": {
+        "-45": 0.0,
+        "-40": 0.0,
+        "-35": 0.0,
+        "-30": 0.0,
+        "-25": 0.0,
+        "-20": 0.0,
+        "-15": 0.0,
+        "-10": 0.0,
+        "-5": 0.0,
+        "0": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "15": 0.0,
+        "20": 0.0,
+        "25": 0.0,
+        "30": 0.0,
+        "35": 0.0,
+        "40": 0.0,
+        "45": 0.0
+      }
+    },
+    "right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17495.73,
+      "bounds_mm": [
+        [
+          4.0,
+          -32.0,
+          -89.02
+        ],
+        [
+          57.0,
+          32.0,
+          -62.0
+        ]
+      ],
+      "ankle_sweep_intersection_mm3": {
+        "-45": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-40": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-35": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-30": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-25": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-20": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-15": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-10": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "-5": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "0": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "5": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "10": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "15": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "20": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "25": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "30": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "35": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "40": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        },
+        "45": {
+          "leg": 0.0,
+          "servo_body": 0.0,
+          "turret": 0.0,
+          "shaft": 0.0,
+          "washer": 0.0
+        }
+      },
+      "swing_foot_vs_opposite_foot_mm3": {
+        "-45": 0.0,
+        "-40": 0.0,
+        "-35": 0.0,
+        "-30": 0.0,
+        "-25": 0.0,
+        "-20": 0.0,
+        "-15": 0.0,
+        "-10": 0.0,
+        "-5": 0.0,
+        "0": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "15": 0.0,
+        "20": 0.0,
+        "25": 0.0,
+        "30": 0.0,
+        "35": 0.0,
+        "40": 0.0,
+        "45": 0.0
+      }
+    }
+  },
+  "neutral_foot_overlap_mm3": 0.0,
+  "neutral_gap_mm": 8.0,
+  "sole_polygons_xy_mm": {
+    "left": [
+      [
+        -57.0,
+        -27.0
+      ],
+      [
+        -52.0,
+        -32.0
+      ],
+      [
+        -20.0,
+        -32.0
+      ],
+      [
+        -9.0,
+        -27.0
+      ],
+      [
+        -4.0,
+        -22.0
+      ],
+      [
+        -4.0,
+        22.0
+      ],
+      [
+        -9.0,
+        27.0
+      ],
+      [
+        -20.0,
+        32.0
+      ],
+      [
+        -52.0,
+        32.0
+      ],
+      [
+        -57.0,
+        27.0
+      ]
+    ],
+    "right": [
+      [
+        4.0,
+        -22.0
+      ],
+      [
+        9.0,
+        -27.0
+      ],
+      [
+        20.0,
+        -32.0
+      ],
+      [
+        52.0,
+        -32.0
+      ],
+      [
+        57.0,
+        -27.0
+      ],
+      [
+        57.0,
+        27.0
+      ],
+      [
+        52.0,
+        32.0
+      ],
+      [
+        20.0,
+        32.0
+      ],
+      [
+        9.0,
+        27.0
+      ],
+      [
+        4.0,
+        22.0
+      ]
+    ]
+  },
+  "centered_com_single_foot_margin_mm": {
+    "left": -4.0,
+    "right": -4.0
+  },
+  "centered_com_shift_for_5mm_reserve_mm": {
+    "left": 9.0,
+    "right": 9.0
+  },
+  "limitations": [
+    "11 mm flange is a first-pass geometry proposal; impact/fatigue, print orientation, horn and fastener fit not physically tested.",
+    "Foot-to-foot swing collision is tested for single-axis ankle rotation with the other foot fixed, not for an actual combined hip/ankle gait.",
+    "Servo body/turret/shaft are published-dimension proxies, not measured purchased hardware.",
+    "This foot change improves support but cannot alone validate full robot balance or walking."
+  ]
+}

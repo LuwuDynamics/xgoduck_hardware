@@ -1,0 +1,98 @@
+{
+  "scenario": "Neutral-pose static mass scenario for V3 body and heart frame, wide feet, rear UC2 charger tray/bezel, rotated battery and UBEC; not a fitted complete robot",
+  "foot_variants": ["wider"],
+  "part_overrides": {
+    "body": {
+      "stl": "packaging_study/charger_cassette/cece_body_with_charger_posts_CANDIDATE.stl",
+      "translation_mm": [0, 0, 0]
+    },
+    "frame": {
+      "stl": "packaging_study/Cece_Heart_Frame_4741_WindowV3_CANDIDATE.stl",
+      "translation_mm": [0, 0, 0]
+    }
+  },
+  "additional_printed_parts": [
+    {
+      "name": "charger_tray",
+      "stl": "packaging_study/charger_cassette/removable_tray.stl",
+      "translation_mm": [0, 0, 0]
+    },
+    {
+      "name": "charger_bezel",
+      "stl": "packaging_study/charger_cassette/retaining_bezel.stl",
+      "translation_mm": [0, 0, 0]
+    }
+  ],
+  "included_hardware": [
+    {
+      "name": "battery",
+      "description": "Dualsky 2S 550 mAh LiPo",
+      "mass_g": 35.0,
+      "center_mm": [0.0, 3.0, -24.0],
+      "mass_source": "Purchased-part supplier mass carried in packaging_study/packaging_results.json; not weighed here",
+      "center_source": "Provisional rotated envelope selected after hip servo and body boolean probes; not physical fit verified"
+    },
+    {
+      "name": "ubec",
+      "description": "Hobbywing 5 A UBEC",
+      "mass_g": 21.0,
+      "center_mm": [0.0, 0.0, -8.0],
+      "mass_source": "Purchased-part supplier mass carried in packaging_study/packaging_results.json; not weighed here",
+      "center_source": "Provisional rotated envelope selected after hip servo and body boolean probes; not physical fit verified"
+    },
+    {
+      "name": "battery_charger",
+      "description": "ISDT UC2 2S USB-C charger candidate, unpurchased",
+      "mass_g": 6.0,
+      "center_mm": [0.0, 48.25, -24.2],
+      "mass_source": "Provisional 6 g estimate recorded in packaging_study/packaging_results.json, not a measured or verified manufacturer mass",
+      "center_source": "UC2 rectangular envelope center in packaging_study/charger_cassette/validate_meshes.py; USB and balance-lead connector locations unknown"
+    },
+    {
+      "name": "left_ankle_sg90",
+      "description": "Rapid Robotics SG90 micro servo",
+      "mass_g": 9.0,
+      "center_mm": [-25.5, -3.5, -62.0],
+      "mass_source": "Rapid Robotics product listing, 9 g per servo; not weighed here",
+      "center_source": "Mirrored case-body proxy center in ankle_v2/freecad_fit_results.json; actual servo mass centroid unmeasured"
+    },
+    {
+      "name": "right_ankle_sg90",
+      "description": "Rapid Robotics SG90 micro servo",
+      "mass_g": 9.0,
+      "center_mm": [25.5, -3.5, -62.0],
+      "mass_source": "Rapid Robotics product listing, 9 g per servo; not weighed here",
+      "center_source": "Case-body proxy center in ankle_v2/freecad_fit_results.json; actual servo mass centroid unmeasured"
+    },
+    {
+      "name": "left_hip_sg90",
+      "description": "Rapid Robotics SG90 micro servo",
+      "mass_g": 9.0,
+      "center_mm": [-25.5, -5.5, -24.0],
+      "mass_source": "Rapid Robotics product listing, 9 g per servo; not weighed here",
+      "center_source": "Inferred case-body proxy from body underside pocket; packaging_study/hip_servo_probe.py; not a verified physical mount"
+    },
+    {
+      "name": "right_hip_sg90",
+      "description": "Rapid Robotics SG90 micro servo",
+      "mass_g": 9.0,
+      "center_mm": [25.5, -5.5, -24.0],
+      "mass_source": "Rapid Robotics product listing, 9 g per servo; not weighed here",
+      "center_source": "Inferred case-body proxy from body underside pocket; packaging_study/hip_servo_probe.py; not a verified physical mount"
+    }
+  ],
+  "candidate_unpurchased_hardware": ["battery_charger"],
+  "collision_proxy_sizes_mm": {
+    "battery": [35.0, 56.0, 16.0],
+    "ubec": [21.0, 56.0, 14.0],
+    "battery_charger": [39.6, 9.5, 19.8],
+    "left_hip_sg90": [12.2, 23.0, 22.0],
+    "right_hip_sg90": [12.2, 23.0, 22.0]
+  },
+  "known_layout_conflicts": [],
+  "excluded_even_if_candidate_mass_exists": [
+    "Other electronics, wires, fasteners, mounting structures and actual print masses remain missing.",
+    "Zero overlap among these ideal boxes does not prove actual connectors, cable routing, retention, protection or charging safety.",
+    "Charger mass is an unpurchased 6 g candidate estimate and must be replaced after selecting and weighing the exact unit."
+  ]
+}

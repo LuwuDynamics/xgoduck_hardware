@@ -1,0 +1,411 @@
+{
+  "limits": [
+    "Partial KiCad STEP omits USB-C and JST-SH physical connector solids.",
+    "Plug envelopes are conservative 3-pin servo housing surrogate; real SG90 housing/engagement unknown.",
+    "Edge USB-C/JST service corridors are 10mm straight boxes and do not establish bend radius or cable connector fit."
+  ],
+  "candidates": {
+    "front_Y13_Z9": {
+      "driver_bbox_mm": [
+        [
+          -26.0,
+          6.85,
+          -3.7
+        ],
+        [
+          26.0,
+          19.15,
+          21.7
+        ]
+      ],
+      "driver_overlap_mm3": {
+        "head": 0.0,
+        "body": 0.0,
+        "sensor": 0.0,
+        "amp": 24.64,
+        "mic": 17.92
+      },
+      "plug_overlap_mm3": {
+        "head": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edge_corridor_overlap_mm3": {
+        "head": [
+          0.0,
+          0.0,
+          0.0,
+          30.456
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "front_Y13_Z11": {
+      "driver_bbox_mm": [
+        [
+          -26.0,
+          6.85,
+          -1.7
+        ],
+        [
+          26.0,
+          19.15,
+          23.7
+        ]
+      ],
+      "driver_overlap_mm3": {
+        "head": 0.0,
+        "body": 0.0,
+        "sensor": 0.0,
+        "amp": 94.872,
+        "mic": 69.951
+      },
+      "plug_overlap_mm3": {
+        "head": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edge_corridor_overlap_mm3": {
+        "head": [
+          0.0,
+          108.72,
+          0.0,
+          144.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "front_Y13_Z14": {
+      "driver_bbox_mm": [
+        [
+          -26.0,
+          6.85,
+          1.3
+        ],
+        [
+          26.0,
+          19.15,
+          26.7
+        ]
+      ],
+      "driver_overlap_mm3": {
+        "head": 1.374,
+        "body": 0.0,
+        "sensor": 0.0,
+        "amp": 227.576,
+        "mic": 146.462
+      },
+      "plug_overlap_mm3": {
+        "head": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edge_corridor_overlap_mm3": {
+        "head": [
+          0.0,
+          144.0,
+          0.0,
+          144.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "rear_Y13_Z9": {
+      "driver_bbox_mm": [
+        [
+          -26.0,
+          6.85,
+          -3.7
+        ],
+        [
+          26.0,
+          19.15,
+          21.7
+        ]
+      ],
+      "driver_overlap_mm3": {
+        "head": 0.0,
+        "body": 0.0,
+        "sensor": 0.0,
+        "amp": 24.64,
+        "mic": 8.96
+      },
+      "plug_overlap_mm3": {
+        "head": [
+          69.06,
+          46.215,
+          58.376,
+          74.959
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          4.224
+        ],
+        "sensor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edge_corridor_overlap_mm3": {
+        "head": [
+          0.0,
+          0.0,
+          0.0,
+          30.456
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "rear_Y13_Z11": {
+      "driver_bbox_mm": [
+        [
+          -26.0,
+          6.85,
+          -1.7
+        ],
+        [
+          26.0,
+          19.15,
+          23.7
+        ]
+      ],
+      "driver_overlap_mm3": {
+        "head": 0.0,
+        "body": 0.0,
+        "sensor": 0.0,
+        "amp": 94.872,
+        "mic": 41.738
+      },
+      "plug_overlap_mm3": {
+        "head": [
+          79.329,
+          65.848,
+          46.215,
+          61.44
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edge_corridor_overlap_mm3": {
+        "head": [
+          0.0,
+          108.72,
+          0.0,
+          144.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "rear_Y13_Z14": {
+      "driver_bbox_mm": [
+        [
+          -26.0,
+          6.85,
+          1.3
+        ],
+        [
+          26.0,
+          19.15,
+          26.7
+        ]
+      ],
+      "driver_overlap_mm3": {
+        "head": 4.302,
+        "body": 0.0,
+        "sensor": 0.0,
+        "amp": 227.576,
+        "mic": 97.148
+      },
+      "plug_overlap_mm3": {
+        "head": [
+          48.909,
+          70.166,
+          46.215,
+          59.105
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sensor": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "edge_corridor_overlap_mm3": {
+        "head": [
+          0.0,
+          144.0,
+          0.0,
+          144.0
+        ],
+        "body": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "antenna": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

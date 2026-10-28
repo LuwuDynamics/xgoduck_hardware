@@ -1,0 +1,198 @@
+{
+  "high_over_amp": [
+    {
+      "from": [
+        28,
+        24,
+        26
+      ],
+      "to": [
+        28,
+        6.5,
+        26
+      ],
+      "head": 0.0,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        28,
+        6.5,
+        26
+      ],
+      "to": [
+        28,
+        6.5,
+        28.5
+      ],
+      "head": 1.568,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.306,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        28,
+        6.5,
+        28.5
+      ],
+      "to": [
+        17,
+        6.5,
+        28.5
+      ],
+      "head": 28.062,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        17,
+        6.5,
+        28.5
+      ],
+      "to": [
+        17,
+        -5,
+        28.5
+      ],
+      "head": 29.723,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    }
+  ],
+  "right_edge_around_amp": [
+    {
+      "from": [
+        28,
+        24,
+        26
+      ],
+      "to": [
+        28,
+        6.5,
+        26
+      ],
+      "head": 0.0,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        28,
+        6.5,
+        26
+      ],
+      "to": [
+        29.5,
+        6.5,
+        26
+      ],
+      "head": 0.0,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        29.5,
+        6.5,
+        26
+      ],
+      "to": [
+        29.5,
+        -16,
+        26
+      ],
+      "head": 6.62,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        29.5,
+        -16,
+        26
+      ],
+      "to": [
+        17,
+        -17,
+        26
+      ],
+      "head": 0.0,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 6.186,
+        "Mic": 0.0
+      }
+    }
+  ],
+  "mid_side_to_amp_rear": [
+    {
+      "from": [
+        28,
+        24,
+        26
+      ],
+      "to": [
+        28,
+        6.5,
+        26
+      ],
+      "head": 0.0,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 0.0,
+        "Amp": 0.0,
+        "Mic": 0.0
+      }
+    },
+    {
+      "from": [
+        28,
+        6.5,
+        26
+      ],
+      "to": [
+        17,
+        6.5,
+        26
+      ],
+      "head": 0.0,
+      "modules": {
+        "ESP": 0.0,
+        "Driver_gross_bbox": 2.515,
+        "Amp": 6.737,
+        "Mic": 0.0
+      }
+    }
+  ]
+}

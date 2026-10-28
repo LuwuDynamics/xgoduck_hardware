@@ -1,5 +1,11 @@
 # Cece on Otto: consolidated prototype
 
+## Current engineering state — 29 October 2026
+
+The newest mechanical/electronics candidate is in [`packaging_study/`](packaging_study/README.md). It has a replacement body for the chosen Adafruit 4741 OLED and proposed charge passage, a replacement head with a vertical PiicoDev servo-driver cable hood and rear speaker pod, a rear candidate USB-C balance-charger cassette, the SG90 ankle V2 joint, and wider feet. The full FreeCAD neutral-pose scene reports **zero modeled solid intersections** for its selected printed parts and explicitly sized electronic/connector envelopes. The neutral static balance result has an ideal two-foot margin but still requires a lateral weight shift for one-foot walking. **This does not establish actual part, plug, fastener, electrical or moving fit. Do not release the full print or charge the battery in the robot yet.** See the packaging and [latest balance](balance_study/LATEST_BALANCE.md) reports.
+
+The older sections below document the path to that candidate and contain superseded parts and simulations. The MuJoCo viewer is for appearance/motion illustration only; the latest FreeCAD assembly and physical dry-fit procedure govern the current prototype.
+
 ## SG90 ankle V2 FreeCAD study
 
 `ankle_v2/` contains revised left/right legs and feet, separate bearing washers,
@@ -40,10 +46,8 @@ Cece and Otto variants only for this experiment; it does not replace them.
 
 ## Hard blockers to a finished build
 
-- No installed-part CAD fit check exists for the LiPo, driver, four servos,
-  UBEC, speaker, microphone, amplifier, wires, terminals or charging hardware.
-- 2S balance charging, port location, isolation, protection and connections
-  are not designed. No charging USB connector may be connected to the battery.
+- The current [installed-part CAD study](packaging_study/README.md) checks nominal printed shells, published component clearance boxes and the official OLED and partial servo-driver CAD. The real LiPo/servo/plugs, terminals, switch and moving wires are not yet dry-fitted.
+- A rear-cassette ISDT UC2 balance-charger **candidate** and USB-C opening now exist in CAD. Its exact plugs, switch, load isolation, protection and wiring need physical verification; no charging USB cable may be connected to the pack except through a verified 2S balance charger with the robot off.
 - No final fit, thermal, current, print tolerance, gait or hardware tests.
 - ESP32-C3 board is generic: printed pin labels, boot pins, USB/5V backfeed,
   I2S/firmware and OLED connector must be checked on the actual items.

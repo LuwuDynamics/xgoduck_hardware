@@ -1,0 +1,57 @@
+{
+  "nominal_pitch_mm": [
+    41.91,
+    30.48
+  ],
+  "holes": {
+    "-20.955,-34.240": {
+      "pilot_overlap_mm3": {
+        "Body": 12.3543,
+        "Frame": 0.0,
+        "OLED": 0.0
+      },
+      "boss_overlap_mm3": {
+        "Body": 42.9061,
+        "Frame": 0.0,
+        "OLED": 0.0
+      }
+    },
+    "-20.955,-3.760": {
+      "pilot_overlap_mm3": {
+        "Body": 7.6027,
+        "Frame": 4.9417,
+        "OLED": 0.0
+      },
+      "boss_overlap_mm3": {
+        "Body": 42.4743,
+        "Frame": 0.0,
+        "OLED": 0.0
+      }
+    },
+    "+20.955,-34.240": {
+      "pilot_overlap_mm3": {
+        "Body": 12.3543,
+        "Frame": 1.1148,
+        "OLED": 0.0
+      },
+      "boss_overlap_mm3": {
+        "Body": 42.9061,
+        "Frame": 0.0,
+        "OLED": 0.0
+      }
+    },
+    "+20.955,-3.760": {
+      "pilot_overlap_mm3": {
+        "Body": 7.6027,
+        "Frame": 4.9417,
+        "OLED": 0.0
+      },
+      "boss_overlap_mm3": {
+        "Body": 40.9162,
+        "Frame": 0.0,
+        "OLED": 0.0
+      }
+    }
+  },
+  "warning": "CAD hole alignment only; screws, boss load and OLED variation unverified"
+}

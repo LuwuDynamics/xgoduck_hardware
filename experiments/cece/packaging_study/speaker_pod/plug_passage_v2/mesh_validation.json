@@ -1,0 +1,73 @@
+{
+  "status": "candidate only; purchased speaker plug unmeasured",
+  "source_head": "C:\\Users\\user\\OneDrive\\Documents\\ChatGPT\\simple_robot\\xgoduck_project_repo\\experiments\\cece\\packaging_study\\servo_plug_check\\Cece_head_vertical_driver_hood_CANDIDATE.stl",
+  "bore_diameter_mm": 12.0,
+  "outer_sleeve_diameter_mm": 18.0,
+  "key_relief_bounds_xyz_mm": [
+    [
+      5.65,
+      27.0,
+      15.5
+    ],
+    [
+      7.15,
+      39.3,
+      18.5
+    ]
+  ],
+  "exported_parts": {
+    "head": {
+      "watertight": true,
+      "components": 1,
+      "bounds_xyz_mm": [
+        [
+          -33.8,
+          -32.2,
+          -7.0
+        ],
+        [
+          33.8,
+          37.2,
+          40.0
+        ]
+      ],
+      "solid_volume_mm3": 24817.77
+    },
+    "pod": {
+      "watertight": true,
+      "components": 1,
+      "bounds_xyz_mm": [
+        [
+          -31.0,
+          37.2,
+          -0.229
+        ],
+        [
+          31.0,
+          50.2,
+          34.25
+        ]
+      ],
+      "solid_volume_mm3": 6669.915
+    }
+  },
+  "intended_sleeve_vs_source_head_overlap_mm3": 465.86081,
+  "plug_probe_8x7x16_vs_head_pod_mm3": 0.0,
+  "bare_wire_probe_vs_head_pod_mm3": 0.0,
+  "solid_overlaps_mm3": {
+    "head_vs_body_v4": 0.0,
+    "head_vs_faceplate": 0.0,
+    "head_vs_heart_frame": 0.0,
+    "pod_vs_head": 0.0,
+    "pod_vs_body_v4": 0.0,
+    "pod_vs_charger_tray": 0.0,
+    "pod_vs_grille": 0.0,
+    "speaker_envelope_vs_pod": 0.0,
+    "speaker_envelope_vs_grille": 0.0
+  },
+  "limits": [
+    "SparkFun/Core call the attached connector only two-wire JST; series and size are unspecified.",
+    "The 8 x 7 mm plug probe is a trial envelope, not a measurement of the delivered part.",
+    "Head-to-body, speaker seating, terminal relief, strain relief and actual cable bend still require physical checks."
+  ]
+}
