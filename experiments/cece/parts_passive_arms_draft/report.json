@@ -1,0 +1,80 @@
+{
+  "status": "prototype, not fit validated",
+  "parts": [
+    {
+      "name": "Cece_Body_Name_Passive_Pin_DRAFT",
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -40.95,
+          -35.04,
+          -39.0
+        ],
+        [
+          40.95,
+          34.55,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Cece_Head_Antenna_DRAFT",
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -33.8,
+          -32.2,
+          -7.0
+        ],
+        [
+          33.8,
+          32.2,
+          30.0
+        ]
+      ]
+    },
+    {
+      "name": "Cece_Passive_Arm_x2_DRAFT",
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -1.4,
+          -5.5,
+          -25.5
+        ],
+        [
+          1.4,
+          5.5,
+          5.5
+        ]
+      ]
+    },
+    {
+      "name": "Cece_Antenna_DRAFT",
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          23.0
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "No charger socket cut: connector and 2S balance-charge design not selected",
+    "Passive arms may swing by inertia only; not linked to leg servos",
+    "Spring pins, mounting strength, servo clearance and antenna attachment need physical testing",
+    "Head/body inherited tabs unverified; not a new validated click fit",
+    "Markings removed only at two detected locations on head and body"
+  ]
+}

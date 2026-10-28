@@ -40,3 +40,12 @@ Cece and Otto variants only for this experiment; it does not replace them.
 
 See `electronics/WIRING_DRAFT.md`. STL closed-mesh checks do not mean parts fit.
 
+
+## Current cosmetic revision
+
+`parts_passive_arms_draft/` contains a newer **test-only** head and body with
+Cece name, two unpowered swinging arms and a decorative antenna. It supersedes
+only the corresponding older shell candidates in `parts/`. The old simulation
+still uses the previous shell and does not display these new parts. Its snap
+pins and head joint require fit testing. No charging socket or charge circuit
+has yet been finalized. Refer to that folder's README before printing.
