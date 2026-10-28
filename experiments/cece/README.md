@@ -49,3 +49,10 @@ only the corresponding older shell candidates in `parts/`. The old simulation
 still uses the previous shell and does not display these new parts. Its snap
 pins and head joint require fit testing. No charging socket or charge circuit
 has yet been finalized. Refer to that folder's README before printing.
+
+Interactive viewer: install the dependencies in `simulation/requirements.txt`,
+then run `python simulation/view_cece_live.py`. It displays the newer draft
+body, antenna, faceplate, OLED frame and free-moving arms. The arms use assumed
+joint parameters, contain no collision contacts, and are not physically tested.
+The viewer automatically resets after 10 seconds or a fall; close it to stop.
+The old recorded GIF and numeric result are from the previous shell revision.
