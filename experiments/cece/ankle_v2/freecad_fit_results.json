@@ -1,0 +1,421 @@
+{
+  "design": "SG90 ankle V2, retained opposite bearing, enlarged servo insertion corridor",
+  "published_servo_size_mm": [
+    23,
+    12.2,
+    29
+  ],
+  "servo_proxy_body_xyz_mm": [
+    12.2,
+    22.5,
+    23
+  ],
+  "servo_proxy_body_center_xyz_mm": [
+    25.5,
+    -3.5,
+    -62
+  ],
+  "shaft_direction": "+Y",
+  "bearing_diameter_mm": 4.7,
+  "foot_bearing_bore_mm": 5.4,
+  "pilot_diameter_mm": 1.6,
+  "washer_od_mm": 8.8,
+  "washer_hole_mm": 2.2,
+  "tie_groove_centers_z_mm": [
+    -54.5,
+    -59.5
+  ],
+  "tested": {
+    "right": {
+      "leg_volume_mm3": 7177.669796292248,
+      "leg_valid": true,
+      "leg_solids": 1,
+      "foot_valid": true,
+      "foot_solids": 1,
+      "washer_valid": true,
+      "static_overlap_mm3": {
+        "leg_vs_foot": 0.0,
+        "washer_vs_foot": 0.0,
+        "servo_body_vs_leg": 0.0,
+        "enlarged_body_vs_leg": 0.0,
+        "servo_body_vs_foot": 0.0,
+        "turret_vs_leg": 0.0,
+        "turret_vs_foot": 0.0,
+        "shaft_vs_leg": 0.0,
+        "shaft_vs_foot": 0.0
+      },
+      "assembly_sweep_overlap_mm3": {
+        "-45": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-40": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-35": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-30": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-25": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-20": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-15": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-10": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-5": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "0": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "5": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "10": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "15": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "20": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "25": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "30": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "35": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "40": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "45": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        }
+      }
+    },
+    "left": {
+      "leg_volume_mm3": 7177.669796292244,
+      "leg_valid": true,
+      "leg_solids": 1,
+      "foot_valid": true,
+      "foot_solids": 1,
+      "washer_valid": true,
+      "static_overlap_mm3": {
+        "leg_vs_foot": 0.0,
+        "washer_vs_foot": 0.0,
+        "servo_body_vs_leg": 0.0,
+        "enlarged_body_vs_leg": 0.0,
+        "servo_body_vs_foot": 0.0,
+        "turret_vs_leg": 0.0,
+        "turret_vs_foot": 0.0,
+        "shaft_vs_leg": 0.0,
+        "shaft_vs_foot": 0.0
+      },
+      "assembly_sweep_overlap_mm3": {
+        "-45": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-40": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-35": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-30": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-25": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-20": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-15": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-10": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "-5": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "0": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "5": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "10": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "15": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "20": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "25": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "30": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "35": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "40": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        },
+        "45": {
+          "leg_vs_foot": 0.0,
+          "servo_body_vs_foot": 0.0,
+          "turret_vs_foot": 0.0,
+          "shaft_vs_foot": 0.0,
+          "bearing_washer_vs_foot": 0.0,
+          "tie_1_vs_foot": 0.0,
+          "tie_2_vs_foot": 0.0
+        }
+      }
+    }
+  },
+  "limitations": [
+    "SG90 shaft, horn and screw dimensions are not published for the exact purchased item.",
+    "Washer requires a suitable M2 x 8 pointed screw or equivalent; included screw length/count unconfirmed.",
+    "Two narrow nylon cable ties per ankle are used to secure the servo body; fit and tie tension require physical testing.",
+    "Servo body box is an approximation to the published overall size; final physical fit still required.",
+    "Strength, torque, wiring, gait and balance not tested."
+  ]
+}

@@ -1,5 +1,16 @@
 # Cece on Otto: consolidated prototype
 
+## SG90 ankle V2 FreeCAD study
+
+`ankle_v2/` contains revised left/right legs and feet, separate bearing washers,
+optional servo shims, an editable FreeCAD assembly, and its exact-solid
+interference results. It keeps the four purchased SG90 servos: two hips and two
+ankles. The foot uses the supplied SG90 horn as the drive and a screw-retained
+bearing on the opposite side. FreeCAD checks the printed parts and servo
+envelopes at 5-degree intervals from -45 to +45 degrees. This is a mechanical
+prototype: the actual horn, screws, case tolerances and powered movement still
+need a one-ankle physical check before a final Cece print.
+
 **Status: DEVELOPMENT ONLY. Not ready for final printing or battery operation.**
 
 The goal is a fixed-head four-servo Otto with HC-SR04, LED face, 128x32 OLED,
