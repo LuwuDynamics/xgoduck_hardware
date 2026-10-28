@@ -10,16 +10,16 @@ import mujoco.viewer
 from base_rig import XML
 
 here=Path(__file__).resolve().parent
-parts=here.parent/'parts';draft=here.parent/'parts_happy_draft'
-root=ET.fromstring(XML);root.set('model','Cece Happy - prototype four servos and passive arms')
+parts=here.parent/'parts';draft=here.parent/'parts_heart_draft'
+root=ET.fromstring(XML);root.set('model','Cece Heart - prototype four servos and passive arms')
 torso=root.find('.//body[@name="torso"]');head=root.find('.//body[@name="head"]');head.set('pos','0 0 .039')
 head.remove(head.find('joint'));torso.remove(root.find('.//geom[@name="head_servo"]'))
 act=root.find('actuator');act.remove(act.find('position[@name="head_yaw"]'))
 assets=ET.Element('asset');root.insert(1,assets)
 files={'body':draft/'Cece_Body_Rounded_DRAFT.stl','head':draft/'Cece_Head_Centered_Antenna_DRAFT.stl',
  'arm_l':draft/'Cece_Left_Arm_45_DRAFT.stl','arm_r':draft/'Cece_Right_Arm_45_DRAFT.stl','antenna':draft/'Cece_Antenna_DRAFT.stl',
- 'name':draft/'Cece_Name_Visual_Overlay.stl','heart':draft/'Cece_Heart_Visual_Overlay.stl',
- 'face':draft/'Cece_Happy_Faceplate_DRAFT.stl','oled':parts/'Cece_OLED_Retaining_Frame.stl',
+ 'name':draft/'Cece_Name_Back_Visual_Overlay.stl',
+ 'face':draft/'Cece_Happy_Faceplate_DRAFT.stl','oled':draft/'Cece_Heart_OLED_Frame_DRAFT.stl',
  'leg_l':parts/'OttoDIY_Leg_V9.stl','leg_r':parts/'leg_mirror.stl',
  'foot_l':parts/'OttoDIY_foot_V9.stl','foot_r':parts/'foot_mirror.stl'}
 for name,path in files.items():
@@ -33,17 +33,17 @@ for name,asset,pos in [('torso','body','0 0 .039'),('head','head','0 0 0'),('lef
                mass='0',contype='0',conaffinity='0',rgba='.35 .8 .29 1')
 for label,asset,b,pos in [('face','face',head,'0 0 0'),('oled','oled',torso,'.0375 0 .020'),('antenna','antenna',head,'0 0 .027')]:
  ET.SubElement(b,'geom',name='visual_'+label,type='mesh',mesh=asset,euler='0 0 90',pos=pos,
-               mass='0',contype='0',conaffinity='0',rgba='.75 .85 .25 1')
+               mass='0',contype='0',conaffinity='0',rgba=('1 .18 .27 1' if label=='oled' else '.75 .85 .25 1'))
 # Contrast overlays are visual only; same raised details are fused into the STL.
-for name,colour in [('name','1 .96 .8 1'),('heart','1 .12 .18 1')]:
+for name,colour in [('name','1 .96 .8 1')]:
  ET.SubElement(torso,'geom',name='visual_'+name,type='mesh',mesh=name,euler='0 0 90',
-               pos='.00008 0 .039',mass='0',contype='0',conaffinity='0',rgba=colour)
+               pos='-.00008 0 .039',mass='0',contype='0',conaffinity='0',rgba=colour)
 for sign in [-1,1]:
  b=ET.SubElement(torso,'body',name='passive_arm_'+str(sign),pos=f'0 {sign*.0372} .024')
  ET.SubElement(b,'joint',type='hinge',name='arm_joint_'+str(sign),axis='0 1 0',range='-65 65',damping='.0003')
  ET.SubElement(b,'geom',type='mesh',mesh=('arm_l' if sign < 0 else 'arm_r'),euler='0 0 90',mass='.003',contype='0',conaffinity='0',rgba='.2 .65 .2 1')
 # Coloured visual placeholders: LEDs, dark ultrasonic cans and OLED surface.
-for x,z,r,c in [(-.025,.023,.0026,'.1 .8 1 1'),(.025,.023,.0026,'.1 .8 1 1'),(-.0055,.0045,.0016,'1 .2 .1 1'),(0,.002,.0016,'1 .2 .1 1'),(.0055,.0045,.0016,'1 .2 .1 1')]:
+for x,z,r,c in [(-.025,.023,.0026,'.1 .8 1 1'),(.025,.023,.0026,'.1 .8 1 1'),(-.008,.004,.0016,'1 .2 .1 1'),(-.004,.0029,.0016,'1 .2 .1 1'),(0,.0022,.0016,'1 .2 .1 1'),(.004,.0029,.0016,'1 .2 .1 1'),(.008,.004,.0016,'1 .2 .1 1')]:
  ET.SubElement(head,'geom',type='sphere',size=str(r),pos=f'.035 {x} {z}',mass='0',contype='0',conaffinity='0',rgba=c)
 for y in (-.013,.013):
  ET.SubElement(head,'geom',type='sphere',size='.0075',pos=f'.0325 {y} .0145',mass='0',contype='0',conaffinity='0',rgba='.15 .15 .15 1')

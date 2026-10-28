@@ -65,3 +65,12 @@ hands. Use its head and faceplate together. The live MuJoCo viewer shows this
 revision and uses colored placeholder shapes for LEDs, sensor and display;
 it does not simulate the electronics or prove real-world motion. See the
 folder README for measured CAD checks and unresolved fit/charging work.
+
+## Heart-front revision
+
+`parts_heart_draft/` is the latest appearance: five mouth LEDs, heart-shaped
+frame around the rectangular OLED, and raised Cece name on the back. The
+front and back previews are `simulation/cece_heart_front.png` and
+`simulation/cece_heart_back.png`. The heart is a colored preview; print color
+requires filament choice or painting. All electronic mounting, charger and
+physical fit cautions still apply; see that folder's README.
