@@ -22,3 +22,8 @@ physical tests have been performed; these files are prototypes.
 
 Regenerate with design/build_heart_base.py followed by
  design/build_heart_cece.py (numpy, trimesh and manifold3d required).
+
+NOTE: These frame and body-window STLs are for the old 0.91-inch OLED, not
+the newly selected 1.5-inch Adafruit 4741 OLED. Do not print this frame as a
+fit for the new screen. A revised mounting and window layout is required.
+The name on the rear of the latest body is lowercase `cece`.

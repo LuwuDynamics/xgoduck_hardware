@@ -32,6 +32,12 @@ letters=trimesh.load(ROOT/'parts'/'Cece_Name_Letters.stl',force='mesh')
 # credit in documentation. Fuse slightly beyond nominal surfaces for continuity.
 body=union([body,box([39,0.55,7.4],[.8,34.275,-33.05])])
 head=union([head,box([44.5,8.2,.55],[-.75,.14,28.225])])
+# Replace capital C with a copy of the existing lower-case c glyph.
+# Keep glyph outlines and baseline consistent without adding font dependencies.
+glyphs=sorted(letters.split(),key=lambda m: m.bounds[0,0])
+small_c=glyphs[2].copy()
+small_c.apply_translation([float(glyphs[0].centroid[0]-small_c.centroid[0]),0,0])
+letters=trimesh.util.concatenate([small_c,glyphs[1],glyphs[2],glyphs[3]])
 # Taller raised name for tactile/visual contrast. It overlaps the wall.
 letters.vertices[:,1]=-34.5 + (letters.vertices[:,1]+34.5)*1.8
 letters.apply_translation([0,.15,0])

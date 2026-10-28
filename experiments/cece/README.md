@@ -74,3 +74,15 @@ front and back previews are `simulation/cece_heart_front.png` and
 `simulation/cece_heart_back.png`. The heart is a colored preview; print color
 requires filament choice or painting. All electronic mounting, charger and
 physical fit cautions still apply; see that folder's README.
+
+## Display selection change — 28 October 2026
+
+Core cart now contains Adafruit 4741, 1.5-inch 128x128 grayscale SSD1327 OLED,
+instead of the previously selected 0.91-inch SSD1306. The current heart bezel,
+body window, screen placeholder and OLED firmware are STILL FOR THE OLD 0.91
+INCH SCREEN. They do not fit or support the new display and are not ready for
+printing or use. A new mounting layout must establish the actual 4741 board,
+active window, connector and fastener geometry and check battery/servos.
+The display uses I2C STEMMA QT and needs an SSD1327-compatible Arduino library;
+the existing SSD1306 sketch is not compatible. Current rear name is lowercase
+`cece`. Preview at `simulation/cece_lowercase_back.png`.
