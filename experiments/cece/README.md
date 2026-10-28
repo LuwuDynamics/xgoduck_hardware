@@ -86,3 +86,13 @@ active window, connector and fastener geometry and check battery/servos.
 The display uses I2C STEMMA QT and needs an SSD1327-compatible Arduino library;
 the existing SSD1306 sketch is not compatible. Current rear name is lowercase
 `cece`. Preview at `simulation/cece_lowercase_back.png`.
+
+## Waveshare square OLED concept
+
+The cheaper candidate is Waveshare WS-13992 1.5-inch SSD1327 (Little Bird
+cart). `parts_waveshare_draft/` contains an unverified external heart frame and
+body opening for it; see its README and fit report. The latest live preview
+shows this concept. It does not show all electronic parts or confirm fit.
+The module ships in SPI mode; I2C configuration needs SMD rework, so it does
+not currently satisfy the simple, no-SMD-rework wiring goal. Wiring/firmware
+and charger are unresolved.
