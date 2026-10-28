@@ -19,3 +19,10 @@
 
 Regenerate by running design/build_happy_base.py then design/build_happy_cece.py;
 requires numpy, trimesh and manifold3d. Attribution is in the project README.
+
+The body now has taller raised Cece text above the OLED and a raised heart below
+it. Both are fused into the body STL. In the MuJoCo view only, separate visual
+overlays color the text and heart; single-color prints need paint or slicer
+coloring. Do not print the `Visual_Overlay` meshes as extra parts. The heart
+had zero CAD intersection with the modeled external OLED frame at its nominal
+position. Physical and board/cable fit remain unverified.

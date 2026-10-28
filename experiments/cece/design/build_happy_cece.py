@@ -32,8 +32,27 @@ letters=trimesh.load(ROOT/'parts'/'Cece_Name_Letters.stl',force='mesh')
 # credit in documentation. Fuse slightly beyond nominal surfaces for continuity.
 body=union([body,box([39,0.55,7.4],[.8,34.275,-33.05])])
 head=union([head,box([44.5,8.2,.55],[-.75,.14,28.225])])
-# Name lettering overlaps front wall by 0.14 mm rather than merely touching it.
-letters.apply_translation([0,.15,0]); body=union([body,letters])
+# Taller raised name for tactile/visual contrast. It overlaps the wall.
+letters.vertices[:,1]=-34.5 + (letters.vertices[:,1]+34.5)*1.8
+letters.apply_translation([0,.15,0])
+# Heart below OLED frame, offset from the center wire hole; a shallow
+# raised ornament fused to the body, not a separate electronic component.
+# Triangle is in local XY, extruded then rotated into the XZ front plane.
+heart_tri=trimesh.creation.extrude_triangulation(
+ np.array([[8.4,-34.1],[15.6,-34.1],[12.,-38.7]]),
+ np.array([[0,1,2]]), height=1.25)
+heart_tri.apply_transform(trimesh.transformations.rotation_matrix(np.pi/2,[1,0,0]))
+heart_tri.apply_translation([0,-34.35,0])
+def front_cyl(x,z):
+ m=trimesh.creation.cylinder(radius=1.85,height=1.25,sections=48)
+ m.apply_transform(trimesh.transformations.rotation_matrix(np.pi/2,[1,0,0]))
+ m.apply_translation([x,-34.975,z]);return m
+heart=union([heart_tri,front_cyl(10.25,-33.8),front_cyl(13.75,-33.8)])
+body=union([body,letters,heart])
+# Visual overlays use these exact shapes; set color in slicer or paint after
+# printing, since a single-material STL does not encode color.
+letters.export(OUT/'Cece_Name_Visual_Overlay.stl')
+heart.export(OUT/'Cece_Heart_Visual_Overlay.stl')
 # Round four external vertical corners with a 5 mm radius, using cutters
 # only at the extreme corner quadrants. Servo and OLED clearances unverified.
 for sx in (-1,1):

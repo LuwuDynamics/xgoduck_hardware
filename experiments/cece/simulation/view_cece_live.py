@@ -18,6 +18,7 @@ act=root.find('actuator');act.remove(act.find('position[@name="head_yaw"]'))
 assets=ET.Element('asset');root.insert(1,assets)
 files={'body':draft/'Cece_Body_Rounded_DRAFT.stl','head':draft/'Cece_Head_Centered_Antenna_DRAFT.stl',
  'arm_l':draft/'Cece_Left_Arm_45_DRAFT.stl','arm_r':draft/'Cece_Right_Arm_45_DRAFT.stl','antenna':draft/'Cece_Antenna_DRAFT.stl',
+ 'name':draft/'Cece_Name_Visual_Overlay.stl','heart':draft/'Cece_Heart_Visual_Overlay.stl',
  'face':draft/'Cece_Happy_Faceplate_DRAFT.stl','oled':parts/'Cece_OLED_Retaining_Frame.stl',
  'leg_l':parts/'OttoDIY_Leg_V9.stl','leg_r':parts/'leg_mirror.stl',
  'foot_l':parts/'OttoDIY_foot_V9.stl','foot_r':parts/'foot_mirror.stl'}
@@ -33,6 +34,10 @@ for name,asset,pos in [('torso','body','0 0 .039'),('head','head','0 0 0'),('lef
 for label,asset,b,pos in [('face','face',head,'0 0 0'),('oled','oled',torso,'.0375 0 .020'),('antenna','antenna',head,'0 0 .027')]:
  ET.SubElement(b,'geom',name='visual_'+label,type='mesh',mesh=asset,euler='0 0 90',pos=pos,
                mass='0',contype='0',conaffinity='0',rgba='.75 .85 .25 1')
+# Contrast overlays are visual only; same raised details are fused into the STL.
+for name,colour in [('name','1 .96 .8 1'),('heart','1 .12 .18 1')]:
+ ET.SubElement(torso,'geom',name='visual_'+name,type='mesh',mesh=name,euler='0 0 90',
+               pos='.00008 0 .039',mass='0',contype='0',conaffinity='0',rgba=colour)
 for sign in [-1,1]:
  b=ET.SubElement(torso,'body',name='passive_arm_'+str(sign),pos=f'0 {sign*.0372} .024')
  ET.SubElement(b,'joint',type='hinge',name='arm_joint_'+str(sign),axis='0 1 0',range='-65 65',damping='.0003')
@@ -46,7 +51,7 @@ ET.SubElement(torso,'geom',type='box',size='.0003 .012 .0038',pos='.041 0 .020',
 model=mujoco.MjModel.from_xml_string(ET.tostring(root,encoding='unicode'));data=mujoco.MjData(model)
 print('MuJoCo Cece: fixed head, four driven legs and two passive visual arms. Close window to exit.',flush=True)
 with mujoco.viewer.launch_passive(model,data) as viewer:
- viewer.cam.distance=.45;viewer.cam.azimuth=135;viewer.cam.elevation=-14
+ viewer.cam.distance=.32;viewer.cam.azimuth=180;viewer.cam.elevation=-14
  while viewer.is_running():
   start=time.perf_counter();t=data.time;ramp=min(1,t/.7);phase=2*math.pi*t
   hip=math.radians(30)*math.sin(phase)*ramp;ankle=math.radians(20)*math.sin(phase-math.pi/2)*ramp
