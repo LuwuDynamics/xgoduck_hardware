@@ -56,3 +56,12 @@ body, antenna, faceplate, OLED frame and free-moving arms. The arms use assumed
 joint parameters, contain no collision contacts, and are not physically tested.
 The viewer automatically resets after 10 seconds or a fall; close it to stop.
 The old recorded GIF and numeric result are from the previous shell revision.
+
+## Happy-face update
+
+`parts_happy_draft/` is the newest prototype: centered antenna, rounded body,
+smiling three-LED face and separate outward 45-degree passive arms with round
+hands. Use its head and faceplate together. The live MuJoCo viewer shows this
+revision and uses colored placeholder shapes for LEDs, sensor and display;
+it does not simulate the electronics or prove real-world motion. See the
+folder README for measured CAD checks and unresolved fit/charging work.
