@@ -1,0 +1,74 @@
+{
+  "status": "concept, NOT final print or fit verified",
+  "module": "Adafruit 4741 (rotated 90 degrees)",
+  "published_board_xy_mm": [
+    47.0,
+    35.56
+  ],
+  "footprint_window_mm": [
+    29.0,
+    26.85
+  ],
+  "assumptions_mm": {
+    "square_window": 30.2,
+    "board_pocket": [
+      48.0,
+      36.56,
+      6.8
+    ],
+    "window_center_xyz": [
+      0,
+      -33.8,
+      -19
+    ],
+    "frame_translation": [
+      0,
+      -37.5,
+      -19
+    ]
+  },
+  "body_frame_intersection_mm3": 0,
+  "parts": [
+    {
+      "file": "cece_body_square_OLED_DRAFT.stl",
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -40.95,
+          -34.5,
+          -39.0
+        ],
+        [
+          40.95,
+          35.59,
+          0.0
+        ]
+      ]
+    },
+    {
+      "file": "cece_heart_frame_Adafruit4741_DRAFT.stl",
+      "watertight": true,
+      "components": 1,
+      "bounds_mm": [
+        [
+          -29.0,
+          -6.1,
+          -19.0
+        ],
+        [
+          29.0,
+          3.0,
+          19.0
+        ]
+      ]
+    }
+  ],
+  "unresolved": [
+    "Board active area and cable location relative to PCB not validated",
+    "No module retainer or frame attachment designed",
+    "Rotated PCB mounting holes, STEMMA QT connectors, cable exits and offset glass alignment unverified",
+    "servo, battery, charging, wiring and other internal collisions not checked",
+    "External frame may conflict with body/head joint or arms"
+  ]
+}

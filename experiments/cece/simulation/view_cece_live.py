@@ -10,8 +10,8 @@ import mujoco.viewer
 from base_rig import XML
 
 here=Path(__file__).resolve().parent
-parts=here.parent/'parts';draft=here.parent/'parts_waveshare_draft'
-root=ET.fromstring(XML);root.set('model','cece - square OLED concept and passive arms')
+parts=here.parent/'parts';draft=here.parent/'parts_adafruit_draft'
+root=ET.fromstring(XML);root.set('model','cece - Adafruit display concept and cleaned feet')
 torso=root.find('.//body[@name="torso"]');head=root.find('.//body[@name="head"]');head.set('pos','0 0 .039')
 head.remove(head.find('joint'));torso.remove(root.find('.//geom[@name="head_servo"]'))
 act=root.find('actuator');act.remove(act.find('position[@name="head_yaw"]'))
@@ -19,9 +19,9 @@ assets=ET.Element('asset');root.insert(1,assets)
 files={'body':draft/'cece_body_square_OLED_DRAFT.stl','head':draft/'Cece_Head_Centered_Antenna_DRAFT.stl',
  'arm_l':draft/'Cece_Left_Arm_45_DRAFT.stl','arm_r':draft/'Cece_Right_Arm_45_DRAFT.stl','antenna':draft/'Cece_Antenna_DRAFT.stl',
  'name':draft/'Cece_Name_Back_Visual_Overlay.stl',
- 'face':draft/'Cece_Happy_Faceplate_DRAFT.stl','oled':draft/'cece_heart_frame_Waveshare_DRAFT.stl',
+ 'face':draft/'Cece_Happy_Faceplate_DRAFT.stl','oled':draft/'cece_heart_frame_Adafruit4741_DRAFT.stl',
  'leg_l':parts/'OttoDIY_Leg_V9.stl','leg_r':parts/'leg_mirror.stl',
- 'foot_l':parts/'OttoDIY_foot_V9.stl','foot_r':parts/'foot_mirror.stl'}
+ 'foot_l':draft/'cece_foot_right_clean.stl','foot_r':draft/'cece_foot_left_clean.stl'}
 for name,path in files.items():
  ET.SubElement(assets,'mesh',name=name,file=str(path.resolve()).replace('\\','/'),scale='.001 .001 .001')
 for geom in root.findall('.//worldbody//geom'):
@@ -47,7 +47,7 @@ for x,z,r,c in [(-.025,.023,.0026,'.1 .8 1 1'),(.025,.023,.0026,'.1 .8 1 1'),(-.
  ET.SubElement(head,'geom',type='sphere',size=str(r),pos=f'.035 {x} {z}',mass='0',contype='0',conaffinity='0',rgba=c)
 for y in (-.013,.013):
  ET.SubElement(head,'geom',type='sphere',size='.0075',pos=f'.0325 {y} .0145',mass='0',contype='0',conaffinity='0',rgba='.15 .15 .15 1')
-ET.SubElement(torso,'geom',type='box',size='.0003 .0139 .0139',pos='.0437 0 .020',mass='0',contype='0',conaffinity='0',rgba='.02 .04 .05 1')
+ET.SubElement(torso,'geom',type='box',size='.0003 .0151 .0151',pos='.0437 0 .020',mass='0',contype='0',conaffinity='0',rgba='.02 .04 .05 1')
 model=mujoco.MjModel.from_xml_string(ET.tostring(root,encoding='unicode'));data=mujoco.MjData(model)
 print('MuJoCo Cece: fixed head, four driven legs and two passive visual arms. Close window to exit.',flush=True)
 with mujoco.viewer.launch_passive(model,data) as viewer:

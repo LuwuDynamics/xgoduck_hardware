@@ -96,3 +96,12 @@ shows this concept. It does not show all electronic parts or confirm fit.
 The module ships in SPI mode; I2C configuration needs SMD rework, so it does
 not currently satisfy the simple, no-SMD-rework wiring goal. Wiring/firmware
 and charger are unresolved.
+
+## Adafruit prototype and wiring review
+
+The Core cart selection is Adafruit 4741. `parts_adafruit_draft/` is the
+latest geometry concept, includes URL-cleaned feet and a preliminary mass and
+battery-envelope check. It is not fit-confirmed or ready for final printing.
+See `parts_adafruit_draft/README.md`, its JSON reports, and
+`electronics/ADAFRUIT_CONNECTION_SCHEDULE_DRAFT.md` for the current wiring
+proposal. The earlier `WIRING_DRAFT.md` and Waveshare folders are historical.
