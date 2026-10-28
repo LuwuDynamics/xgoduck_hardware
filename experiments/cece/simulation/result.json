@@ -1,0 +1,18 @@
+{
+  "elapsed_s": 10.0,
+  "upright_at_end": true,
+  "max_tilt_deg": 1.18,
+  "displacement_mm": [
+    360.27,
+    17.71,
+    5.33
+  ],
+  "assumed_mass_g": 209.2,
+  "limitations": [
+    "Visual mesh only; collision bodies are generic boxes",
+    "Mass, center of gravity, servo torque, gait and contacts are assumed",
+    "Battery, driver, wires and real mechanical fit not simulated",
+    "Faceplate, OLED, sensor, LEDs and audio components are not rendered",
+    "Not hardware validation or proof of walking"
+  ]
+}
