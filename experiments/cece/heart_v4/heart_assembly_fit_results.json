@@ -1,0 +1,13 @@
+{
+  "source": "Cece_Full_Electronics_Study.FCStd",
+  "heart_valid": true,
+  "heart_solids": 1,
+  "heart_volume_mm3": 4072.556862411124,
+  "heart_center_mm": [
+    -1.5126280228145481,
+    -42.833213776794516,
+    -18.794922963784874
+  ],
+  "neutral_pose_overlaps_above_0_01_mm3": [],
+  "limitation": "CAD geometry only; connectors, assembly hardware and motion not verified."
+}
