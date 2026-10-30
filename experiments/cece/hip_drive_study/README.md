@@ -7,6 +7,36 @@ and feet, with the original battery, charger and electronics placeholders.
 Run `show_whole_robot.FCMacro` in FreeCAD for a coloured exterior view. The
 assembly includes no measured servo horn or servo screws.
 
+## Electronics and four-actuator view
+
+`Cece_Full_Electronics_Visible_v2_Study.FCStd` is the full packaging view with
+transparent plastic and colored electronics already visible. In FreeCAD, use
+the eye icons in the model tree to toggle individual parts; the `show_full_electronics.FCMacro`
+also recreates this view from `Cece_Full_Electronics_Study.FCStd`.
+`Cece_Electronics_Overview.png` and `Cece_Four_Servos_Overview.png` provide
+labeled snapshots of the same modeled locations.
+
+There are exactly four SG90 case proxies: left and right hips in the lower
+torso, with assumed vertical output axes; and left and right ankles inside the
+legs, with assumed fore/aft output axes. The newly added turret and output
+shaft proxies have no modeled volume intersection with the corresponding body,
+leg or foot in the neutral pose. These shapes and axes are assumptions from
+the earlier studies, not accurate vendor CAD of the purchased parts. They omit
+the actual supplied horns, mounting ears, screws, plugs and wires.
+
+The model also shows battery and UBEC envelopes; the vendor's OLED and partial
+servo-driver CAD; ultrasonic PCB/cans; microphone, amplifier and speaker
+envelopes; C3 and unpurchased camera envelopes; five LED-body proxies; and the
+unbought UC2 2S charger envelope in the external tray. A brown **30 × 20 mm**
+perfboard placeholder and its **32 × 22 × 8 mm** component allowance were added
+inside the head. This board size and component height have not been selected
+or measured, and individual resistors, capacitors and a switch are not shown.
+`full_electronics_fit_results.json` reports no detected volume overlaps for
+these newly added selected shapes, not a complete full-assembly check. In
+particular the relocated speaker is just **1 mm** from the ESP envelope, with
+terminals and wires absent. Real connectors, routing, insertion, mount features,
+insulation, charger access and all moving poses still require verification.
+
 ## Revised hip slot
 
 The previous sample straight horn proxy was 3 × 15 × 2 mm, and the old leg
