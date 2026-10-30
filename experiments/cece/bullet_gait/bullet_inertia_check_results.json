@@ -1,0 +1,2766 @@
+{
+  "engine": "Bullet PyBullet conda-forge 3.25",
+  "status": "EXPERIMENTAL SIMULATION; NOT PROOF OF REAL ROBOT",
+  "model": {
+    "mass_g": 339.159,
+    "body_masses_g": {
+      "base": 260.747,
+      "left_leg": 17.936,
+      "left_foot": 21.27,
+      "right_leg": 17.936,
+      "right_foot": 21.27
+    },
+    "additional_estimated_components_g": {
+      "speaker_hypothesis": 12,
+      "camera_hypothesis": 10,
+      "oled_hypothesis": 12,
+      "ultrasonic_hypothesis": 7,
+      "driver_hypothesis": 8,
+      "c3_hypothesis": 5,
+      "amp_hypothesis": 3,
+      "mic_hypothesis": 2,
+      "perfboard_hypothesis": 5,
+      "wires_fasteners_hypothesis": 8
+    },
+    "joint_frame_error_mm": 4e-06,
+    "friction_coefficient": 0.8,
+    "max_motor_torque_Nm": 0.08,
+    "assumed_no_load_speed_deg_per_s": 500,
+    "phase_duration_s": 0.8,
+    "collision": "sole convex polygon extruded 5.02 mm; body/head/legs are boxes; self-collision off",
+    "inertia": "solid CAD inertia for printed parts; assumed uniform box inertia for hardware; assembled actual inertia not measured",
+    "mass_model": "solid PLA model, known hardware masses plus explicitly assumed small components"
+  },
+  "result": {
+    "requested_half_steps": 2,
+    "completed_half_steps": 2,
+    "fell": false,
+    "failure": null,
+    "simulated_gait_time_s": 8.0,
+    "net_base_displacement_mm": [
+      -0.34,
+      -13.31,
+      0.04
+    ],
+    "max_body_tilt_deg": 12.1,
+    "final_body_tilt_deg": 0.07,
+    "peak_motor_torque_Nm": 0.0689,
+    "foot_contact_time_samples": {
+      "1": 4736,
+      "3": 4619
+    },
+    "observed_lift_and_land_count": 2,
+    "step_evidence": [
+      {
+        "half_step": 1,
+        "swing": "right",
+        "max_foot_aabb_bottom_mm": 4.14,
+        "airborne_duration_s": 1.321,
+        "ground_contact_during_final_phase": true
+      },
+      {
+        "half_step": 2,
+        "swing": "left",
+        "max_foot_aabb_bottom_mm": 4.06,
+        "airborne_duration_s": 1.292,
+        "ground_contact_during_final_phase": true
+      }
+    ],
+    "video_frames": 0
+  },
+  "asset_sha256": {
+    "left_leg": "819c1d15f4fe3a7a3879726475de2bc2de3f81125126793707f6656f027b44f7",
+    "left_foot": "5d912e766371d7ab2c079e77bd321a304de52765aa552e9948fb40d517b80c3a",
+    "right_leg": "38d75f630aba65c27ea330296cc15396615255f641f309c04dfa47fd58290d91",
+    "right_foot": "32532a881c1b6ae4fc3d649979846aa6be5e08a46323fa10ce87fef71288f98e"
+  },
+  "limitations": [
+    "A sensorless position controller and limit are approximations; exact servo speed/torque/current unknown",
+    "Ground friction and floor properties assumed; contact modeling and sole stiffness unknown",
+    "Collision shapes use sole hulls and simple body/leg boxes; self-collision, horns and wires not simulated",
+    "Masses and inertias are incomplete/estimated; CAD servo positions and axes assumed",
+    "No hardware validation, electronics/power sag, print tolerance, bearing friction or joint backlash"
+  ],
+  "trace": [
+    {
+      "t_s": 0.1,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        0.0001,
+        0.00409,
+        0.08786
+      ],
+      "tilt_deg": 0.292,
+      "target_deg": [
+        0,
+        0.52,
+        0,
+        1.37
+      ],
+      "actual_deg": [
+        -0.02,
+        0.35,
+        0.02,
+        0.76
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.29,
+      "motor_torques_Nm": [
+        0.0094,
+        0.0073,
+        -0.013,
+        0.037
+      ]
+    },
+    {
+      "t_s": 0.2,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.00132,
+        0.00409,
+        0.08837
+      ],
+      "tilt_deg": 1.461,
+      "target_deg": [
+        0,
+        1.88,
+        0,
+        5.0
+      ],
+      "actual_deg": [
+        -0.03,
+        1.47,
+        0.03,
+        3.85
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.333,
+      "motor_torques_Nm": [
+        0.0154,
+        0.0072,
+        -0.0158,
+        0.0354
+      ]
+    },
+    {
+      "t_s": 0.3,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.0035,
+        0.00407,
+        0.08909
+      ],
+      "tilt_deg": 3.251,
+      "target_deg": [
+        0,
+        3.8,
+        0,
+        10.19
+      ],
+      "actual_deg": [
+        -0.05,
+        3.27,
+        0.02,
+        8.65
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.386,
+      "motor_torques_Nm": [
+        0.0179,
+        0.0059,
+        -0.0161,
+        0.0337
+      ]
+    },
+    {
+      "t_s": 0.4,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.00615,
+        0.00405,
+        0.08986
+      ],
+      "tilt_deg": 5.394,
+      "target_deg": [
+        0,
+        6.0,
+        0,
+        16.3
+      ],
+      "actual_deg": [
+        -0.01,
+        5.4,
+        0.01,
+        14.56
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.423,
+      "motor_torques_Nm": [
+        0.0049,
+        0.0051,
+        -0.0029,
+        0.0312
+      ]
+    },
+    {
+      "t_s": 0.5,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.00893,
+        0.00405,
+        0.09055
+      ],
+      "tilt_deg": 7.615,
+      "target_deg": [
+        0,
+        8.2,
+        0,
+        22.64
+      ],
+      "actual_deg": [
+        -0.02,
+        7.62,
+        0.0,
+        20.87
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.429,
+      "motor_torques_Nm": [
+        0.0101,
+        0.0041,
+        -0.0096,
+        0.0284
+      ]
+    },
+    {
+      "t_s": 0.6,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.01148,
+        0.00405,
+        0.09109
+      ],
+      "tilt_deg": 9.637,
+      "target_deg": [
+        0,
+        10.12,
+        0,
+        28.39
+      ],
+      "actual_deg": [
+        -0.0,
+        9.64,
+        0.0,
+        26.85
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.399,
+      "motor_torques_Nm": [
+        0.0044,
+        0.003,
+        -0.0023,
+        0.0256
+      ]
+    },
+    {
+      "t_s": 0.7,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.01344,
+        0.00407,
+        0.09144
+      ],
+      "tilt_deg": 11.18,
+      "target_deg": [
+        0,
+        11.48,
+        0,
+        32.64
+      ],
+      "actual_deg": [
+        -0.02,
+        11.18,
+        0.0,
+        31.6
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.35,
+      "motor_torques_Nm": [
+        0.0072,
+        0.0038,
+        -0.0071,
+        0.0217
+      ]
+    },
+    {
+      "t_s": 0.8,
+      "half_step": 0,
+      "phase": 0,
+      "base_com_m": [
+        -0.0144,
+        0.00407,
+        0.09159
+      ],
+      "tilt_deg": 11.931,
+      "target_deg": [
+        0,
+        12.0,
+        0,
+        34.25
+      ],
+      "actual_deg": [
+        -0.01,
+        11.93,
+        -0.0,
+        33.98
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.311,
+      "motor_torques_Nm": [
+        0.0019,
+        0.0074,
+        0.004,
+        0.0177
+      ]
+    },
+    {
+      "t_s": 0.9,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01434,
+        0.00403,
+        0.09157
+      ],
+      "tilt_deg": 11.881,
+      "target_deg": [
+        0,
+        12,
+        0,
+        33.29
+      ],
+      "actual_deg": [
+        -0.0,
+        11.86,
+        0.01,
+        33.66
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.295,
+      "motor_torques_Nm": [
+        0.0026,
+        0.0509,
+        0.0001,
+        -0.0004
+      ]
+    },
+    {
+      "t_s": 1.0,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01435,
+        0.004,
+        0.09157
+      ],
+      "tilt_deg": 11.895,
+      "target_deg": [
+        0,
+        12,
+        0,
+        30.77
+      ],
+      "actual_deg": [
+        0.04,
+        11.88,
+        -0.0,
+        31.54
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -5.499,
+      "motor_torques_Nm": [
+        0.002,
+        0.0469,
+        0.0001,
+        -0.0007
+      ]
+    },
+    {
+      "t_s": 1.1,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01436,
+        0.00399,
+        0.09157
+      ],
+      "tilt_deg": 11.905,
+      "target_deg": [
+        0,
+        12,
+        0,
+        27.21
+      ],
+      "actual_deg": [
+        0.04,
+        11.89,
+        -0.0,
+        28.23
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": -4.142,
+      "motor_torques_Nm": [
+        0.002,
+        0.047,
+        0.0001,
+        -0.001
+      ]
+    },
+    {
+      "t_s": 1.2,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01436,
+        0.00399,
+        0.09157
+      ],
+      "tilt_deg": 11.908,
+      "target_deg": [
+        0,
+        12,
+        0,
+        23.12
+      ],
+      "actual_deg": [
+        0.03,
+        11.89,
+        -0.0,
+        24.26
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": -2.365,
+      "motor_torques_Nm": [
+        0.002,
+        0.0471,
+        0.0001,
+        -0.0013
+      ]
+    },
+    {
+      "t_s": 1.3,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01436,
+        0.00402,
+        0.09158
+      ],
+      "tilt_deg": 11.906,
+      "target_deg": [
+        0,
+        12,
+        0,
+        19.04
+      ],
+      "actual_deg": [
+        0.04,
+        11.88,
+        -0.0,
+        20.14
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": -0.329,
+      "motor_torques_Nm": [
+        0.0021,
+        0.0466,
+        0.0001,
+        -0.0014
+      ]
+    },
+    {
+      "t_s": 1.4,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01437,
+        0.00399,
+        0.09158
+      ],
+      "tilt_deg": 11.923,
+      "target_deg": [
+        0,
+        12,
+        0,
+        15.48
+      ],
+      "actual_deg": [
+        0.04,
+        11.9,
+        -0.0,
+        16.41
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 1.648,
+      "motor_torques_Nm": [
+        0.0021,
+        0.0475,
+        0.0001,
+        -0.0015
+      ]
+    },
+    {
+      "t_s": 1.5,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01433,
+        0.00397,
+        0.09157
+      ],
+      "tilt_deg": 11.893,
+      "target_deg": [
+        0,
+        12,
+        0,
+        12.96
+      ],
+      "actual_deg": [
+        0.04,
+        11.87,
+        -0.0,
+        13.57
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 3.184,
+      "motor_torques_Nm": [
+        0.002,
+        0.0478,
+        0.0001,
+        -0.0014
+      ]
+    },
+    {
+      "t_s": 1.6,
+      "half_step": 0,
+      "phase": 1,
+      "base_com_m": [
+        -0.01432,
+        0.00396,
+        0.09157
+      ],
+      "tilt_deg": 11.889,
+      "target_deg": [
+        0,
+        12,
+        0,
+        12.0
+      ],
+      "actual_deg": [
+        0.04,
+        11.87,
+        -0.0,
+        12.16
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.017,
+      "motor_torques_Nm": [
+        0.002,
+        0.0478,
+        0.0001,
+        -0.0012
+      ]
+    },
+    {
+      "t_s": 1.7,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01429,
+        0.00383,
+        0.09157
+      ],
+      "tilt_deg": 11.883,
+      "target_deg": [
+        0.43,
+        12,
+        0.43,
+        12
+      ],
+      "actual_deg": [
+        0.3,
+        11.86,
+        0.27,
+        12.01
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.105,
+      "motor_torques_Nm": [
+        0.0028,
+        0.0477,
+        0.0002,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 1.8,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01423,
+        0.00343,
+        0.09159
+      ],
+      "tilt_deg": 11.886,
+      "target_deg": [
+        1.56,
+        12,
+        1.56,
+        12
+      ],
+      "actual_deg": [
+        1.28,
+        11.86,
+        1.24,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.136,
+      "motor_torques_Nm": [
+        0.003,
+        0.0486,
+        0.0003,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 1.9,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01417,
+        0.00271,
+        0.09161
+      ],
+      "tilt_deg": 11.904,
+      "target_deg": [
+        3.16,
+        12,
+        3.16,
+        12
+      ],
+      "actual_deg": [
+        2.78,
+        11.88,
+        2.73,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.141,
+      "motor_torques_Nm": [
+        0.0011,
+        0.0451,
+        0.0004,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 2.0,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01406,
+        0.00188,
+        0.09161
+      ],
+      "tilt_deg": 11.881,
+      "target_deg": [
+        5.0,
+        12,
+        5.0,
+        12
+      ],
+      "actual_deg": [
+        4.56,
+        11.86,
+        4.52,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.074,
+      "motor_torques_Nm": [
+        0.0011,
+        0.0485,
+        0.0004,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 2.1,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01401,
+        0.00103,
+        0.09162
+      ],
+      "tilt_deg": 11.886,
+      "target_deg": [
+        6.84,
+        12,
+        6.84,
+        12
+      ],
+      "actual_deg": [
+        6.41,
+        11.87,
+        6.37,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.043,
+      "motor_torques_Nm": [
+        0.0002,
+        0.0485,
+        0.0004,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 2.2,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.014,
+        0.00027,
+        0.09163
+      ],
+      "tilt_deg": 11.893,
+      "target_deg": [
+        8.44,
+        12,
+        8.44,
+        12
+      ],
+      "actual_deg": [
+        8.09,
+        11.85,
+        8.04,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 4.021,
+      "motor_torques_Nm": [
+        -0.0007,
+        0.048,
+        0.0003,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 2.3,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01398,
+        -0.00032,
+        0.09163
+      ],
+      "tilt_deg": 11.886,
+      "target_deg": [
+        9.57,
+        12,
+        9.57,
+        12
+      ],
+      "actual_deg": [
+        9.36,
+        11.86,
+        9.31,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 3.976,
+      "motor_torques_Nm": [
+        -0.0013,
+        0.0487,
+        0.0002,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 2.4,
+      "half_step": 0,
+      "phase": 2,
+      "base_com_m": [
+        -0.01399,
+        -0.00062,
+        0.09163
+      ],
+      "tilt_deg": 11.889,
+      "target_deg": [
+        10.0,
+        12,
+        10.0,
+        12
+      ],
+      "actual_deg": [
+        9.98,
+        11.87,
+        9.94,
+        12.0
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 3.954,
+      "motor_torques_Nm": [
+        -0.0019,
+        0.0483,
+        0.0001,
+        -0.0011
+      ]
+    },
+    {
+      "t_s": 2.5,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01398,
+        -0.00065,
+        0.09163
+      ],
+      "tilt_deg": 11.882,
+      "target_deg": [
+        10,
+        12,
+        10,
+        12.96
+      ],
+      "actual_deg": [
+        10.04,
+        11.85,
+        10.0,
+        12.59
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 3.639,
+      "motor_torques_Nm": [
+        -0.0014,
+        0.0485,
+        0.0001,
+        -0.0008
+      ]
+    },
+    {
+      "t_s": 2.6,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01398,
+        -0.00065,
+        0.09163
+      ],
+      "tilt_deg": 11.884,
+      "target_deg": [
+        10,
+        12,
+        10,
+        15.48
+      ],
+      "actual_deg": [
+        10.05,
+        11.86,
+        10.0,
+        14.71
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 2.491,
+      "motor_torques_Nm": [
+        -0.001,
+        0.0485,
+        0.0001,
+        -0.0005
+      ]
+    },
+    {
+      "t_s": 2.7,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01396,
+        -0.00066,
+        0.09163
+      ],
+      "tilt_deg": 11.87,
+      "target_deg": [
+        10,
+        12,
+        10,
+        19.04
+      ],
+      "actual_deg": [
+        10.04,
+        11.85,
+        10.0,
+        18.02
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": 0.691,
+      "motor_torques_Nm": [
+        -0.0011,
+        0.0481,
+        0.0001,
+        -0.0002
+      ]
+    },
+    {
+      "t_s": 2.8,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01396,
+        -0.00066,
+        0.09162
+      ],
+      "tilt_deg": 11.87,
+      "target_deg": [
+        10,
+        12,
+        10,
+        23.12
+      ],
+      "actual_deg": [
+        10.04,
+        11.85,
+        10.0,
+        21.99
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": -1.33,
+      "motor_torques_Nm": [
+        -0.0011,
+        0.0479,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "t_s": 2.9,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01397,
+        -0.00066,
+        0.09163
+      ],
+      "tilt_deg": 11.885,
+      "target_deg": [
+        10,
+        12,
+        10,
+        27.21
+      ],
+      "actual_deg": [
+        10.05,
+        11.86,
+        10.0,
+        26.11
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": -3.247,
+      "motor_torques_Nm": [
+        -0.0011,
+        0.048,
+        0.0001,
+        0.0002
+      ]
+    },
+    {
+      "t_s": 3.0,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01395,
+        -0.00067,
+        0.09163
+      ],
+      "tilt_deg": 11.871,
+      "target_deg": [
+        10,
+        12,
+        10,
+        30.77
+      ],
+      "actual_deg": [
+        10.04,
+        11.85,
+        10.0,
+        29.85
+      ],
+      "contact_links": [
+        1
+      ],
+      "swing_foot_aabb_bottom_mm": -4.907,
+      "motor_torques_Nm": [
+        -0.0011,
+        0.0477,
+        0.0001,
+        0.0003
+      ]
+    },
+    {
+      "t_s": 3.1,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01396,
+        -0.00068,
+        0.09163
+      ],
+      "tilt_deg": 11.881,
+      "target_deg": [
+        10,
+        12,
+        10,
+        33.29
+      ],
+      "actual_deg": [
+        10.04,
+        11.86,
+        10.0,
+        32.68
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.056,
+      "motor_torques_Nm": [
+        -0.0011,
+        0.0474,
+        0.0001,
+        0.0002
+      ]
+    },
+    {
+      "t_s": 3.2,
+      "half_step": 0,
+      "phase": 3,
+      "base_com_m": [
+        -0.01421,
+        -0.0006,
+        0.09168
+      ],
+      "tilt_deg": 12.083,
+      "target_deg": [
+        10,
+        12,
+        10,
+        34.25
+      ],
+      "actual_deg": [
+        10.0,
+        12.1,
+        10.01,
+        34.04
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.31,
+      "motor_torques_Nm": [
+        0.0017,
+        -0.0057,
+        -0.0085,
+        0.0245
+      ]
+    },
+    {
+      "t_s": 3.3,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.0139,
+        -0.00061,
+        0.09163
+      ],
+      "tilt_deg": 11.832,
+      "target_deg": [
+        10,
+        11.48,
+        10,
+        32.64
+      ],
+      "actual_deg": [
+        10.01,
+        11.82,
+        10.01,
+        33.25
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.322,
+      "motor_torques_Nm": [
+        -0.006,
+        0.0035,
+        0.0035,
+        0.0017
+      ]
+    },
+    {
+      "t_s": 3.4,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.01243,
+        -0.00062,
+        0.09139
+      ],
+      "tilt_deg": 10.682,
+      "target_deg": [
+        10,
+        10.12,
+        10,
+        28.39
+      ],
+      "actual_deg": [
+        10.03,
+        10.67,
+        10.0,
+        29.68
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.369,
+      "motor_torques_Nm": [
+        -0.0114,
+        0.0078,
+        0.0049,
+        0.0017
+      ]
+    },
+    {
+      "t_s": 3.5,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.01015,
+        -0.00063,
+        0.09095
+      ],
+      "tilt_deg": 8.881,
+      "target_deg": [
+        10,
+        8.2,
+        10,
+        22.64
+      ],
+      "actual_deg": [
+        10.04,
+        8.86,
+        9.99,
+        24.3
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.415,
+      "motor_torques_Nm": [
+        -0.0086,
+        0.0166,
+        0.0086,
+        0.0051
+      ]
+    },
+    {
+      "t_s": 3.6,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.00742,
+        -0.00064,
+        0.09032
+      ],
+      "tilt_deg": 6.712,
+      "target_deg": [
+        10,
+        6.0,
+        10,
+        16.3
+      ],
+      "actual_deg": [
+        10.03,
+        6.7,
+        9.99,
+        18.08
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.432,
+      "motor_torques_Nm": [
+        -0.0118,
+        0.0193,
+        0.0084,
+        0.006
+      ]
+    },
+    {
+      "t_s": 3.7,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.00461,
+        -0.00065,
+        0.08956
+      ],
+      "tilt_deg": 4.466,
+      "target_deg": [
+        10,
+        3.8,
+        10,
+        10.19
+      ],
+      "actual_deg": [
+        10.04,
+        4.46,
+        9.98,
+        11.86
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.413,
+      "motor_torques_Nm": [
+        -0.0143,
+        0.0225,
+        0.0105,
+        0.0089
+      ]
+    },
+    {
+      "t_s": 3.8,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.0021,
+        -0.00065,
+        0.08878
+      ],
+      "tilt_deg": 2.429,
+      "target_deg": [
+        10,
+        1.88,
+        10,
+        5.0
+      ],
+      "actual_deg": [
+        10.05,
+        2.42,
+        9.97,
+        6.37
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.368,
+      "motor_torques_Nm": [
+        -0.0174,
+        0.0266,
+        0.0133,
+        0.0113
+      ]
+    },
+    {
+      "t_s": 3.9,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        -0.0002,
+        -0.00065,
+        0.08812
+      ],
+      "tilt_deg": 0.876,
+      "target_deg": [
+        10,
+        0.52,
+        10,
+        1.37
+      ],
+      "actual_deg": [
+        10.07,
+        0.87,
+        9.97,
+        2.27
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.316,
+      "motor_torques_Nm": [
+        -0.0202,
+        0.0298,
+        0.0154,
+        0.0135
+      ]
+    },
+    {
+      "t_s": 4.0,
+      "half_step": 0,
+      "phase": 4,
+      "base_com_m": [
+        0.00074,
+        -0.00063,
+        0.08777
+      ],
+      "tilt_deg": 0.095,
+      "target_deg": [
+        10,
+        0.0,
+        10,
+        0.0
+      ],
+      "actual_deg": [
+        10.08,
+        0.08,
+        9.97,
+        0.25
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.288,
+      "motor_torques_Nm": [
+        -0.0236,
+        0.0277,
+        0.0173,
+        0.0168
+      ]
+    },
+    {
+      "t_s": 4.1,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.00118,
+        -0.00063,
+        0.08785
+      ],
+      "tilt_deg": 0.305,
+      "target_deg": [
+        10,
+        -1.37,
+        10,
+        -0.52
+      ],
+      "actual_deg": [
+        10.03,
+        -0.79,
+        9.94,
+        -0.32
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.297,
+      "motor_torques_Nm": [
+        -0.0142,
+        -0.0308,
+        0.0148,
+        -0.0157
+      ]
+    },
+    {
+      "t_s": 4.2,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.00263,
+        -0.0006,
+        0.08833
+      ],
+      "tilt_deg": 1.483,
+      "target_deg": [
+        10,
+        -5.0,
+        10,
+        -1.88
+      ],
+      "actual_deg": [
+        10.0,
+        -3.87,
+        10.0,
+        -1.49
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.334,
+      "motor_torques_Nm": [
+        0.0077,
+        -0.0335,
+        -0.0008,
+        -0.0085
+      ]
+    },
+    {
+      "t_s": 4.3,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.00484,
+        -0.00062,
+        0.089
+      ],
+      "tilt_deg": 3.287,
+      "target_deg": [
+        10,
+        -10.19,
+        10,
+        -3.8
+      ],
+      "actual_deg": [
+        10.0,
+        -8.68,
+        9.99,
+        -3.29
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.386,
+      "motor_torques_Nm": [
+        -0.0029,
+        -0.0316,
+        0.0054,
+        -0.0063
+      ]
+    },
+    {
+      "t_s": 4.4,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.00751,
+        -0.00064,
+        0.0897
+      ],
+      "tilt_deg": 5.45,
+      "target_deg": [
+        10,
+        -16.3,
+        10,
+        -6.0
+      ],
+      "actual_deg": [
+        10.01,
+        -14.57,
+        10.0,
+        -5.45
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.424,
+      "motor_torques_Nm": [
+        -0.0036,
+        -0.0301,
+        0.0053,
+        -0.0028
+      ]
+    },
+    {
+      "t_s": 4.5,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.01031,
+        -0.00065,
+        0.09032
+      ],
+      "tilt_deg": 7.694,
+      "target_deg": [
+        10,
+        -22.64,
+        10,
+        -8.2
+      ],
+      "actual_deg": [
+        10.01,
+        -20.88,
+        10.0,
+        -7.7
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.429,
+      "motor_torques_Nm": [
+        -0.0101,
+        -0.0266,
+        0.0079,
+        -0.0046
+      ]
+    },
+    {
+      "t_s": 4.6,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.01288,
+        -0.00066,
+        0.0908
+      ],
+      "tilt_deg": 9.736,
+      "target_deg": [
+        10,
+        -28.39,
+        10,
+        -10.12
+      ],
+      "actual_deg": [
+        10.01,
+        -26.85,
+        9.99,
+        -9.74
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.399,
+      "motor_torques_Nm": [
+        -0.0054,
+        -0.0265,
+        0.0052,
+        0.0036
+      ]
+    },
+    {
+      "t_s": 4.7,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.01484,
+        -0.00066,
+        0.09109
+      ],
+      "tilt_deg": 11.291,
+      "target_deg": [
+        10,
+        -32.64,
+        10,
+        -11.48
+      ],
+      "actual_deg": [
+        10.01,
+        -31.58,
+        9.99,
+        -11.3
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.349,
+      "motor_torques_Nm": [
+        -0.0054,
+        -0.0232,
+        0.0046,
+        0.0051
+      ]
+    },
+    {
+      "t_s": 4.8,
+      "half_step": 1,
+      "phase": 0,
+      "base_com_m": [
+        0.01581,
+        -0.00065,
+        0.09122
+      ],
+      "tilt_deg": 12.056,
+      "target_deg": [
+        10,
+        -34.25,
+        10,
+        -12.0
+      ],
+      "actual_deg": [
+        10.01,
+        -33.97,
+        9.98,
+        -12.06
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.313,
+      "motor_torques_Nm": [
+        -0.0032,
+        -0.0205,
+        0.004,
+        0.0034
+      ]
+    },
+    {
+      "t_s": 4.9,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01572,
+        -0.00062,
+        0.0912
+      ],
+      "tilt_deg": 11.978,
+      "target_deg": [
+        10,
+        -33.29,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -33.67,
+        10.02,
+        -11.98
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.318,
+      "motor_torques_Nm": [
+        0.0016,
+        -0.0011,
+        0.0005,
+        -0.019
+      ]
+    },
+    {
+      "t_s": 5.0,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01566,
+        -0.00062,
+        0.09118
+      ],
+      "tilt_deg": 11.921,
+      "target_deg": [
+        10,
+        -30.77,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -31.52,
+        10.02,
+        -11.88
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -5.61,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.0007,
+        -0.0053,
+        -0.0419
+      ]
+    },
+    {
+      "t_s": 5.1,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01567,
+        -0.0006,
+        0.09118
+      ],
+      "tilt_deg": 11.931,
+      "target_deg": [
+        10,
+        -27.21,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -28.21,
+        10.03,
+        -11.89
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -4.26,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.001,
+        -0.0051,
+        -0.0419
+      ]
+    },
+    {
+      "t_s": 5.2,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01544,
+        -0.00064,
+        0.09117
+      ],
+      "tilt_deg": 11.765,
+      "target_deg": [
+        10,
+        -23.12,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -24.22,
+        10.02,
+        -11.75
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -2.632,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.0013,
+        -0.0048,
+        -0.0444
+      ]
+    },
+    {
+      "t_s": 5.3,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01527,
+        -0.00064,
+        0.09116
+      ],
+      "tilt_deg": 11.642,
+      "target_deg": [
+        10,
+        -19.04,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -20.09,
+        10.01,
+        -11.64
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -0.806,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.0014,
+        -0.005,
+        -0.0433
+      ]
+    },
+    {
+      "t_s": 5.4,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01525,
+        -0.00062,
+        0.09116
+      ],
+      "tilt_deg": 11.638,
+      "target_deg": [
+        10,
+        -15.48,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -16.36,
+        10.01,
+        -11.64
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 1.15,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.0015,
+        -0.005,
+        -0.0434
+      ]
+    },
+    {
+      "t_s": 5.5,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01523,
+        -0.00061,
+        0.09116
+      ],
+      "tilt_deg": 11.632,
+      "target_deg": [
+        10,
+        -12.96,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -13.52,
+        10.01,
+        -11.63
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 2.725,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.0014,
+        -0.005,
+        -0.0436
+      ]
+    },
+    {
+      "t_s": 5.6,
+      "half_step": 1,
+      "phase": 1,
+      "base_com_m": [
+        0.01521,
+        -0.00059,
+        0.09115
+      ],
+      "tilt_deg": 11.623,
+      "target_deg": [
+        10,
+        -12.0,
+        10,
+        -12
+      ],
+      "actual_deg": [
+        10.0,
+        -12.1,
+        10.01,
+        -11.62
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.554,
+      "motor_torques_Nm": [
+        -0.0001,
+        0.0012,
+        -0.005,
+        -0.0436
+      ]
+    },
+    {
+      "t_s": 5.7,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01511,
+        -0.0008,
+        0.09117
+      ],
+      "tilt_deg": 11.619,
+      "target_deg": [
+        9.14,
+        -12,
+        9.14,
+        -12
+      ],
+      "actual_deg": [
+        9.46,
+        -11.95,
+        9.47,
+        -11.62
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.66,
+      "motor_torques_Nm": [
+        -0.0003,
+        0.0011,
+        -0.0066,
+        -0.0436
+      ]
+    },
+    {
+      "t_s": 5.8,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01484,
+        -0.00161,
+        0.09122
+      ],
+      "tilt_deg": 11.616,
+      "target_deg": [
+        6.88,
+        -12,
+        6.88,
+        -12
+      ],
+      "actual_deg": [
+        7.52,
+        -11.95,
+        7.53,
+        -11.61
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.71,
+      "motor_torques_Nm": [
+        -0.0005,
+        0.0011,
+        -0.0058,
+        -0.0445
+      ]
+    },
+    {
+      "t_s": 5.9,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01447,
+        -0.00287,
+        0.09129
+      ],
+      "tilt_deg": 11.612,
+      "target_deg": [
+        3.67,
+        -12,
+        3.67,
+        -12
+      ],
+      "actual_deg": [
+        4.53,
+        -11.95,
+        4.54,
+        -11.61
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.762,
+      "motor_torques_Nm": [
+        -0.0006,
+        0.0011,
+        -0.0047,
+        -0.0457
+      ]
+    },
+    {
+      "t_s": 6.0,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01412,
+        -0.00441,
+        0.09136
+      ],
+      "tilt_deg": 11.609,
+      "target_deg": [
+        0.0,
+        -12,
+        0.0,
+        -12
+      ],
+      "actual_deg": [
+        0.96,
+        -11.95,
+        0.96,
+        -11.61
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.789,
+      "motor_torques_Nm": [
+        -0.0007,
+        0.0011,
+        -0.0032,
+        -0.0468
+      ]
+    },
+    {
+      "t_s": 6.1,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01386,
+        -0.00602,
+        0.09141
+      ],
+      "tilt_deg": 11.608,
+      "target_deg": [
+        -3.67,
+        -12,
+        -3.67,
+        -12
+      ],
+      "actual_deg": [
+        -2.74,
+        -11.95,
+        -2.74,
+        -11.61
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.779,
+      "motor_torques_Nm": [
+        -0.0007,
+        0.0011,
+        -0.0017,
+        -0.0478
+      ]
+    },
+    {
+      "t_s": 6.2,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01365,
+        -0.0075,
+        0.09145
+      ],
+      "tilt_deg": 11.61,
+      "target_deg": [
+        -6.88,
+        -12,
+        -6.88,
+        -12
+      ],
+      "actual_deg": [
+        -6.09,
+        -11.98,
+        -6.08,
+        -11.82
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.741,
+      "motor_torques_Nm": [
+        -0.0006,
+        0.0011,
+        0.0012,
+        -0.0466
+      ]
+    },
+    {
+      "t_s": 6.3,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01395,
+        -0.00864,
+        0.09149
+      ],
+      "tilt_deg": 11.839,
+      "target_deg": [
+        -9.14,
+        -12,
+        -9.14,
+        -12
+      ],
+      "actual_deg": [
+        -8.63,
+        -11.99,
+        -8.58,
+        -11.91
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.977,
+      "motor_torques_Nm": [
+        -0.0004,
+        0.0011,
+        0.0015,
+        -0.0456
+      ]
+    },
+    {
+      "t_s": 6.4,
+      "half_step": 1,
+      "phase": 2,
+      "base_com_m": [
+        0.01392,
+        -0.00914,
+        0.09151
+      ],
+      "tilt_deg": 11.822,
+      "target_deg": [
+        -10.0,
+        -12,
+        -10.0,
+        -12
+      ],
+      "actual_deg": [
+        -9.88,
+        -11.99,
+        -9.83,
+        -11.9
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.906,
+      "motor_torques_Nm": [
+        -0.0002,
+        0.0011,
+        0.0032,
+        -0.0629
+      ]
+    },
+    {
+      "t_s": 6.5,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01404,
+        -0.00923,
+        0.09148
+      ],
+      "tilt_deg": 11.891,
+      "target_deg": [
+        -10,
+        -12.96,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -12.57,
+        -10.01,
+        -11.9
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 3.702,
+      "motor_torques_Nm": [
+        -0.0002,
+        0.0008,
+        0.0182,
+        -0.0377
+      ]
+    },
+    {
+      "t_s": 6.6,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01403,
+        -0.00925,
+        0.09148
+      ],
+      "tilt_deg": 11.882,
+      "target_deg": [
+        -10,
+        -15.48,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -14.7,
+        -10.01,
+        -11.89
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 2.526,
+      "motor_torques_Nm": [
+        -0.0,
+        0.0005,
+        -0.0018,
+        -0.0464
+      ]
+    },
+    {
+      "t_s": 6.7,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01403,
+        -0.00923,
+        0.09148
+      ],
+      "tilt_deg": 11.874,
+      "target_deg": [
+        -10,
+        -19.04,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -18.01,
+        -10.01,
+        -11.88
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": 0.744,
+      "motor_torques_Nm": [
+        0.0,
+        0.0001,
+        -0.0143,
+        -0.0585
+      ]
+    },
+    {
+      "t_s": 6.8,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01403,
+        -0.00926,
+        0.09148
+      ],
+      "tilt_deg": 11.874,
+      "target_deg": [
+        -10,
+        -23.12,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -21.98,
+        -10.01,
+        -11.88
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -1.274,
+      "motor_torques_Nm": [
+        -0.0001,
+        -0.0001,
+        0.0007,
+        -0.0458
+      ]
+    },
+    {
+      "t_s": 6.9,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01403,
+        -0.00924,
+        0.09148
+      ],
+      "tilt_deg": 11.874,
+      "target_deg": [
+        -10,
+        -27.21,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -26.09,
+        -10.01,
+        -11.88
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -3.223,
+      "motor_torques_Nm": [
+        -0.0,
+        -0.0003,
+        -0.013,
+        -0.0552
+      ]
+    },
+    {
+      "t_s": 7.0,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01404,
+        -0.00926,
+        0.09148
+      ],
+      "tilt_deg": 11.88,
+      "target_deg": [
+        -10,
+        -30.77,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -29.83,
+        -10.01,
+        -11.89
+      ],
+      "contact_links": [
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -4.854,
+      "motor_torques_Nm": [
+        -0.0001,
+        -0.0003,
+        0.0004,
+        -0.0454
+      ]
+    },
+    {
+      "t_s": 7.1,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01405,
+        -0.00924,
+        0.09148
+      ],
+      "tilt_deg": 11.886,
+      "target_deg": [
+        -10,
+        -33.29,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -10.0,
+        -32.67,
+        -10.01,
+        -11.9
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.002,
+      "motor_torques_Nm": [
+        -0.0001,
+        -0.0002,
+        0.0179,
+        -0.0369
+      ]
+    },
+    {
+      "t_s": 7.2,
+      "half_step": 1,
+      "phase": 3,
+      "base_com_m": [
+        0.01427,
+        -0.00924,
+        0.0915
+      ],
+      "tilt_deg": 12.074,
+      "target_deg": [
+        -10,
+        -34.25,
+        -10,
+        -12
+      ],
+      "actual_deg": [
+        -9.99,
+        -33.95,
+        -9.94,
+        -12.13
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.307,
+      "motor_torques_Nm": [
+        0.0039,
+        -0.031,
+        -0.0114,
+        0.025
+      ]
+    },
+    {
+      "t_s": 7.3,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.01395,
+        -0.00924,
+        0.09147
+      ],
+      "tilt_deg": 11.821,
+      "target_deg": [
+        -10,
+        -32.64,
+        -10,
+        -11.48
+      ],
+      "actual_deg": [
+        -10.0,
+        -33.25,
+        -9.98,
+        -11.83
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.337,
+      "motor_torques_Nm": [
+        -0.0069,
+        -0.0033,
+        0.0072,
+        0.0127
+      ]
+    },
+    {
+      "t_s": 7.4,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.01251,
+        -0.00925,
+        0.09123
+      ],
+      "tilt_deg": 10.657,
+      "target_deg": [
+        -10,
+        -28.39,
+        -10,
+        -10.12
+      ],
+      "actual_deg": [
+        -9.98,
+        -29.68,
+        -10.02,
+        -10.65
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.398,
+      "motor_torques_Nm": [
+        -0.012,
+        -0.005,
+        0.0123,
+        0.0153
+      ]
+    },
+    {
+      "t_s": 7.5,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.01032,
+        -0.00927,
+        0.09082
+      ],
+      "tilt_deg": 8.851,
+      "target_deg": [
+        -10,
+        -22.64,
+        -10,
+        -8.2
+      ],
+      "actual_deg": [
+        -9.98,
+        -24.28,
+        -10.02,
+        -8.85
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.441,
+      "motor_torques_Nm": [
+        -0.0108,
+        -0.007,
+        0.0136,
+        0.0096
+      ]
+    },
+    {
+      "t_s": 7.6,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.00771,
+        -0.00927,
+        0.09022
+      ],
+      "tilt_deg": 6.687,
+      "target_deg": [
+        -10,
+        -16.3,
+        -10,
+        -6.0
+      ],
+      "actual_deg": [
+        -9.96,
+        -18.06,
+        -10.04,
+        -6.68
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.455,
+      "motor_torques_Nm": [
+        -0.0144,
+        -0.0098,
+        0.0182,
+        0.004
+      ]
+    },
+    {
+      "t_s": 7.7,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.00505,
+        -0.00926,
+        0.08949
+      ],
+      "tilt_deg": 4.446,
+      "target_deg": [
+        -10,
+        -10.19,
+        -10,
+        -3.8
+      ],
+      "actual_deg": [
+        -9.95,
+        -11.84,
+        -10.06,
+        -4.44
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.431,
+      "motor_torques_Nm": [
+        -0.0167,
+        -0.0129,
+        0.0209,
+        -0.0017
+      ]
+    },
+    {
+      "t_s": 7.8,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.00267,
+        -0.00925,
+        0.08874
+      ],
+      "tilt_deg": 2.407,
+      "target_deg": [
+        -10,
+        -5.0,
+        -10,
+        -1.88
+      ],
+      "actual_deg": [
+        -9.95,
+        -6.35,
+        -10.08,
+        -2.4
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.381,
+      "motor_torques_Nm": [
+        -0.0183,
+        -0.016,
+        0.0229,
+        -0.0058
+      ]
+    },
+    {
+      "t_s": 7.9,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        0.00092,
+        -0.00924,
+        0.08811
+      ],
+      "tilt_deg": 0.857,
+      "target_deg": [
+        -10,
+        -1.37,
+        -10,
+        -0.52
+      ],
+      "actual_deg": [
+        -9.96,
+        -2.25,
+        -10.07,
+        -0.85
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.325,
+      "motor_torques_Nm": [
+        -0.016,
+        -0.0188,
+        0.0199,
+        -0.008
+      ]
+    },
+    {
+      "t_s": 8.0,
+      "half_step": 1,
+      "phase": 4,
+      "base_com_m": [
+        9e-05,
+        -0.00923,
+        0.08777
+      ],
+      "tilt_deg": 0.073,
+      "target_deg": [
+        -10,
+        -0.0,
+        -10,
+        -0.0
+      ],
+      "actual_deg": [
+        -9.96,
+        -0.22,
+        -10.08,
+        -0.07
+      ],
+      "contact_links": [
+        1,
+        3
+      ],
+      "swing_foot_aabb_bottom_mm": -6.299,
+      "motor_torques_Nm": [
+        -0.0155,
+        -0.0209,
+        0.0177,
+        -0.0089
+      ]
+    }
+  ]
+}

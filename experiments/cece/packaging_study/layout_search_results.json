@@ -1,0 +1,78 @@
+{
+  "method": "Exact body STL boolean intersections; other modules axis-aligned boxes; charger bounded 2 mm center grid",
+  "fixed_provisional_placements": {
+    "battery": {
+      "size_mm": [
+        35,
+        56,
+        16
+      ],
+      "center_mm": [
+        0,
+        3,
+        -24
+      ],
+      "body_overlap_mm3": 0.0,
+      "hip_overlap_mm3": {
+        "left": 0.0,
+        "right": 0.0
+      }
+    },
+    "ubec": {
+      "size_mm": [
+        21,
+        56,
+        14
+      ],
+      "center_mm": [
+        0,
+        0,
+        -8
+      ],
+      "body_overlap_mm3": 0.0,
+      "hip_overlap_mm3": {
+        "left": 0.0,
+        "right": 0.0
+      }
+    },
+    "battery_vs_ubec_overlap_mm3": 0.0
+  },
+  "charger_scan": {
+    "(13.5, 23.8, 43.6)": {
+      "sample_centers": 0,
+      "module_disjoint_candidates": 0,
+      "first_centers": []
+    },
+    "(13.5, 43.6, 23.8)": {
+      "sample_centers": 1650,
+      "module_disjoint_candidates": 0,
+      "first_centers": []
+    },
+    "(23.8, 13.5, 43.6)": {
+      "sample_centers": 0,
+      "module_disjoint_candidates": 0,
+      "first_centers": []
+    },
+    "(23.8, 43.6, 13.5)": {
+      "sample_centers": 2772,
+      "module_disjoint_candidates": 0,
+      "first_centers": []
+    },
+    "(43.6, 13.5, 23.8)": {
+      "sample_centers": 1650,
+      "module_disjoint_candidates": 0,
+      "first_centers": []
+    },
+    "(43.6, 23.8, 13.5)": {
+      "sample_centers": 2772,
+      "module_disjoint_candidates": 0,
+      "first_centers": []
+    }
+  },
+  "limitations": [
+    "SG90 case height and placement inferred; pocket shaft center from STL, not purchased servo measurements.",
+    "Battery and UBEC clearance boxes from packaging_study/layout_check.py; charger box is unpurchased candidate.",
+    "Exact body STL intersection zero is not a clearance/assembly/retention certification.",
+    "Charger scan is finite and axis aligned; it does not exclude rotated, shifted, or external designs."
+  ]
+}
