@@ -1,0 +1,10 @@
+{
+  "scope": "motor-case, shaft, turret and hip-horn proxies over sampled second half-step",
+  "poses_checked": 48,
+  "collisions": [],
+  "limits": [
+    "Servo cases, shaft and horn geometry are approximate, not measured purchased parts",
+    "Servo ears, horn retaining screws, case clamps, cables and loads are missing",
+    "Sampled positions only; no continuous clearance, dynamic response or physical verification"
+  ]
+}

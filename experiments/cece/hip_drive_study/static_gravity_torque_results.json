@@ -1,0 +1,240 @@
+{
+  "scope": "ideal static gravity moments in 22 single-support positions",
+  "total_modeled_mass_g": 289.159,
+  "sg90_seller_holding_rating_Nm_at_4p8V": 0.1765,
+  "poses": [
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": -10,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04413,
+        "stance_hip": 0.00011,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": -8,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04406,
+        "stance_hip": 0.00065,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": -6,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.0439,
+        "stance_hip": 0.00118,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": -4,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04365,
+        "stance_hip": 0.00172,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": -2,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04331,
+        "stance_hip": 0.00226,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": 0,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04289,
+        "stance_hip": 0.00279,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": 2,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04238,
+        "stance_hip": 0.00332,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": 4,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04178,
+        "stance_hip": 0.00384,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": 6,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.0411,
+        "stance_hip": 0.00436,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": 8,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.04033,
+        "stance_hip": 0.00487,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "left",
+      "stance_hip_yaw_deg": 10,
+      "gravity_moments_Nm": {
+        "stance_ankle": 0.03948,
+        "stance_hip": 0.00538,
+        "swing_hip": -6e-05,
+        "swing_ankle": 0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": -10,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.03811,
+        "stance_hip": -0.00533,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": -8,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.03895,
+        "stance_hip": -0.00483,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": -6,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.03971,
+        "stance_hip": -0.00433,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": -4,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04039,
+        "stance_hip": -0.00382,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": -2,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04099,
+        "stance_hip": -0.00331,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": 0,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.0415,
+        "stance_hip": -0.00279,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": 2,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04192,
+        "stance_hip": -0.00227,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": 4,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04226,
+        "stance_hip": -0.00174,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": 6,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04251,
+        "stance_hip": -0.00122,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": 8,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04268,
+        "stance_hip": -0.00069,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    },
+    {
+      "stance": "right",
+      "stance_hip_yaw_deg": 10,
+      "gravity_moments_Nm": {
+        "stance_ankle": -0.04276,
+        "stance_hip": -0.00016,
+        "swing_hip": 6e-05,
+        "swing_ankle": -0.00113
+      }
+    }
+  ],
+  "max_abs_gravity_moment_Nm": {
+    "stance_ankle": 0.04413,
+    "stance_hip": 0.00538,
+    "swing_hip": 6e-05,
+    "swing_ankle": 0.00113
+  },
+  "limitations": [
+    "Not a motor operating rating or proof of adequate torque; the published number is a holding figure",
+    "No acceleration, speed/torque curve, inertia, friction, impacts, losses, control or electrical sag",
+    "Actual servo shaft positions and horn stiffness unknown; outputs are ideal revolute joints",
+    "Includes hypothetical 10g camera and 12g speaker; excludes other boards, wires, screws and mounts",
+    "Single-support only; edge-transfer forces and loads are not calculated"
+  ]
+}

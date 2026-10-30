@@ -7,6 +7,9 @@ and feet, with the original battery, charger and electronics placeholders.
 Run `show_whole_robot.FCMacro` in FreeCAD for a coloured exterior view. The
 assembly includes no measured servo horn or servo screws.
 
+The current force checks, explicit limits and proposed physical walking
+acceptance test are recorded in [WALKING_PROOF_STATUS.md](WALKING_PROOF_STATUS.md).
+
 ## Electronics and four-actuator view
 
 `Cece_Full_Electronics_Visible_v2_Study.FCStd` is the full packaging view with
