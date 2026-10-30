@@ -1,0 +1,570 @@
+{
+  "scope": "sampled stationary two-foot edge-contact configurations, 0\u201314 degrees body roll",
+  "floor_z_mm": -89.02,
+  "poses": [
+    {
+      "stance": "left",
+      "body_roll_deg": 0,
+      "selected": {
+        "swing_ankle_deg": -0.0,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 24,
+        "static_support_margin_mm": 27.375,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -0.0,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 24,
+          "static_support_margin_mm": 27.375,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -2,
+      "selected": {
+        "swing_ankle_deg": 5.329,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.105,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -3.323,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 8.619,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 5.329,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.105,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -4,
+      "selected": {
+        "swing_ankle_deg": 10.743,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.206,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -7.223,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 12.321,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 10.743,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.206,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -6,
+      "selected": {
+        "swing_ankle_deg": 16.301,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.309,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -12.034,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 16.516,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 16.301,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.309,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -8,
+      "selected": {
+        "swing_ankle_deg": 22.037,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.415,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -18.583,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 21.597,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 22.037,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.415,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -10,
+      "selected": {
+        "swing_ankle_deg": 27.997,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.525,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -31.533,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 24.476,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 27.997,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.525,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -12,
+      "selected": {
+        "swing_ankle_deg": 34.248,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.639,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": 34.248,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.639,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "left",
+      "body_roll_deg": -14,
+      "selected": {
+        "swing_ankle_deg": 40.9,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.759,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": 40.9,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.759,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 0,
+      "selected": {
+        "swing_ankle_deg": -0.0,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 24,
+        "static_support_margin_mm": 27.375,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -0.0,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 24,
+          "static_support_margin_mm": 27.375,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 2,
+      "selected": {
+        "swing_ankle_deg": -5.329,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.138,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -5.329,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.138,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 3.323,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 9.121,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 4,
+      "selected": {
+        "swing_ankle_deg": -10.743,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.239,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -10.743,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.239,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 7.223,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 12.822,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 6,
+      "selected": {
+        "swing_ankle_deg": -16.301,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.343,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -16.301,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.343,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 12.034,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 17.015,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 8,
+      "selected": {
+        "swing_ankle_deg": -22.037,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.45,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -22.037,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.45,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 18.583,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 22.094,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 10,
+      "selected": {
+        "swing_ankle_deg": -27.997,
+        "floor_gap_mm": 0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.561,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -27.997,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.561,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        },
+        {
+          "swing_ankle_deg": 31.533,
+          "floor_gap_mm": 0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 24.575,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 12,
+      "selected": {
+        "swing_ankle_deg": -34.248,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.676,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -34.248,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.676,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "stance": "right",
+      "body_roll_deg": 14,
+      "selected": {
+        "swing_ankle_deg": -40.9,
+        "floor_gap_mm": -0.0,
+        "contact_vertices": 2,
+        "static_support_margin_mm": 26.797,
+        "foot_overlap_mm3": 0.0,
+        "swing_foot_vs_swing_leg_mm3": 0.0,
+        "swing_foot_vs_stance_leg_mm3": 0.0,
+        "stance_foot_vs_stance_leg_mm3": 0.0,
+        "swing_foot_vs_body_mm3": 0.0
+      },
+      "options": [
+        {
+          "swing_ankle_deg": -40.9,
+          "floor_gap_mm": -0.0,
+          "contact_vertices": 2,
+          "static_support_margin_mm": 26.797,
+          "foot_overlap_mm3": 0.0,
+          "swing_foot_vs_swing_leg_mm3": 0.0,
+          "swing_foot_vs_stance_leg_mm3": 0.0,
+          "stance_foot_vs_stance_leg_mm3": 0.0,
+          "swing_foot_vs_body_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Sole edge contact uses ideal rigid horizontal floor; no friction, forces, torque or deformation",
+    "Sampled static poses only; transitioning and feasibility of contact forces not demonstrated",
+    "Partial mass estimate, camera/speaker assumptions and assumed servo axes",
+    "Only selected printed meshes checked; actual parts, horn and joint clearances remain unverified"
+  ]
+}

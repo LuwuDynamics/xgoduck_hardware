@@ -1,0 +1,134 @@
+{
+  "scope": "Single hip yaw with both ankle joints neutral; exact printed meshes, sampled static overlap",
+  "degrees": [
+    -30,
+    -20,
+    -10,
+    0,
+    10,
+    20,
+    30
+  ],
+  "results": {
+    "left": {
+      "-30": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.196
+      },
+      "-20": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "-10": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "0": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "10": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "20": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "30": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.196
+      }
+    },
+    "right": {
+      "-30": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.196
+      },
+      "-20": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "-10": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "0": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "10": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "20": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.0
+      },
+      "30": {
+        "leg_body": 0.0,
+        "foot_body": 0.0,
+        "leg_other_leg": 0.0,
+        "leg_other_foot": 0.0,
+        "foot_other_leg": 0.0,
+        "foot_other_foot": 0.196
+      }
+    }
+  },
+  "limits": [
+    "Hip axis assumed; horn and servo case not moving in this check",
+    "Floor contact, mass, torque, simultaneous hip movement, cable flex, and walking not simulated"
+  ]
+}
