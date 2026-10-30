@@ -1,0 +1,23 @@
+{
+  "scope": "discrete manifold-mesh overlap of ten body/leg/foot pairs along Bullet trajectory",
+  "trace_rate_hz": 20,
+  "sample_count": 800,
+  "collision_threshold_mm3": 0.01,
+  "collision_samples": [],
+  "max_overlap_mm3": {},
+  "limits": [
+    "Body, leg and foot STL solids only; not camera/head geometry, servo horns, ears, screws or cables",
+    "This is sampled at fixed intervals, not continuous collision detection",
+    "Bullet has no dynamic self-collision and assumes simplified floor contacts",
+    "Real parts, print tolerance, loads and electronics remain unverified"
+  ],
+  "source_sha256": {
+    "base": "53fe1f2f2a6ea847b17f1d7fe35f0574152f3cd52abcc3494d1ba1fdfa81e456",
+    "left_leg": "819c1d15f4fe3a7a3879726475de2bc2de3f81125126793707f6656f027b44f7",
+    "right_leg": "38d75f630aba65c27ea330296cc15396615255f641f309c04dfa47fd58290d91",
+    "left_foot": "5d912e766371d7ab2c079e77bd321a304de52765aa552e9948fb40d517b80c3a",
+    "right_foot": "32532a881c1b6ae4fc3d649979846aa6be5e08a46323fa10ce87fef71288f98e"
+  },
+  "trace_sha256": "1bf3dfad790f208811edb4ff57b9ce4f01492da4239bfefee28e7254f171ad04",
+  "colliding_sample_count": 0
+}

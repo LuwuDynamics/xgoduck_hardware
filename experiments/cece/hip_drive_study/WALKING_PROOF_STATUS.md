@@ -5,6 +5,12 @@ powered full robot, actual servo-to-horn measurements, finished wiring or
 physical walking trial were available to this study. The model can only screen
 whether the stated assumptions contain obvious geometric or static failures.
 
+A later **Bullet dynamics experiment** with gravity, motor limits and floor
+contact is documented in [the Bullet study](../bullet_gait/README.md). It
+completes ten lift-and-land steps in its nominal assumed model, but a weak-motor
+case fails to lift and a stronger side push tips the model. The assumptions
+and missing real-part measurements mean it does not prove physical walking.
+
 ## Latest model checks
 
 - The alternate weight transfer keeps an assumed foot edge in contact while
