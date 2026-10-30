@@ -1,0 +1,123 @@
+{
+  "status": "SOLID PLA MASS SENSITIVITY ONLY - concept head, not finished design",
+  "removed_original_parts": [
+    "antenna",
+    "body",
+    "face",
+    "head",
+    "speaker_grille",
+    "speaker_pod"
+  ],
+  "new_parts": [
+    {
+      "name": "Body",
+      "mass_g": 40.17187685198412,
+      "center_mm": [
+        0.6877315710571733,
+        4.208740342088219,
+        -26.11812683227108
+      ]
+    },
+    {
+      "name": "Rounded_Head_Study",
+      "mass_g": 40.9195161709035,
+      "center_mm": [
+        -1.7749136769222782e-14,
+        -6.78708765912993,
+        31.827861692573013
+      ]
+    },
+    {
+      "name": "Rear_Cover_Study",
+      "mass_g": 8.828667401971414,
+      "center_mm": [
+        1.2454643995286737e-15,
+        38.200000000000074,
+        27.66286049120451
+      ]
+    },
+    {
+      "name": "Antenna",
+      "mass_g": 0.2763975064387018,
+      "center_mm": [
+        -8.504690365432678e-17,
+        -1.6797697368914616e-16,
+        67.35280075264694
+      ]
+    }
+  ],
+  "without_camera_or_speaker": {
+    "printed_mass_g": 170.163,
+    "printed_center_mm": [
+      0.143,
+      5.374,
+      -27.113
+    ],
+    "included_hardware_mass_g": 98.0,
+    "included_total_mass_g": 268.163,
+    "included_center_mm": [
+      0.271,
+      4.614,
+      -27.273
+    ],
+    "center_height_above_floor_mm": 61.747,
+    "signed_support_margin_mm": {
+      "left_foot": -4.271,
+      "right_foot": -3.729,
+      "both_feet": 27.386
+    },
+    "lateral_COM_shift_for_reserve_mm": {
+      "left_foot": 9.271,
+      "right_foot": 8.729
+    },
+    "equivalent_rigid_tilt_for_shift_deg": {
+      "left_foot": 8.54,
+      "right_foot": 8.05
+    },
+    "outward_lateral_acceleration_limit_from_current_one_foot_pose_m_s2": {
+      "left_foot": 0.0,
+      "right_foot": 0.0
+    },
+    "outward_lateral_acceleration_limit_if_shifted_to_5mm_edge_margin_m_s2": 0.794
+  },
+  "with_12g_speaker_and_hypothetical_10g_camera": {
+    "printed_mass_g": 170.163,
+    "printed_center_mm": [
+      0.143,
+      5.374,
+      -27.113
+    ],
+    "included_hardware_mass_g": 120.0,
+    "included_total_mass_g": 290.163,
+    "included_center_mm": [
+      0.25,
+      4.609,
+      -23.192
+    ],
+    "center_height_above_floor_mm": 65.828,
+    "signed_support_margin_mm": {
+      "left_foot": -4.25,
+      "right_foot": -3.75,
+      "both_feet": 27.391
+    },
+    "lateral_COM_shift_for_reserve_mm": {
+      "left_foot": 9.25,
+      "right_foot": 8.75
+    },
+    "equivalent_rigid_tilt_for_shift_deg": {
+      "left_foot": 8.0,
+      "right_foot": 7.57
+    },
+    "outward_lateral_acceleration_limit_from_current_one_foot_pose_m_s2": {
+      "left_foot": 0.0,
+      "right_foot": 0.0
+    },
+    "outward_lateral_acceleration_limit_if_shifted_to_5mm_edge_margin_m_s2": 0.745
+  },
+  "limitations": [
+    "Camera and speaker weights are sensitivity assumptions, not measured components",
+    "Missing other boards, wires, fasteners, speaker mounts, printer supports and plastic retention features",
+    "All printed geometry assumed fully solid PLA at 1.24 g/cm3, not a slicer output",
+    "Stationary level floor only; dynamic gait and servo torque are not calculated"
+  ]
+}
