@@ -41,7 +41,7 @@ def main():
         samples.append(first)
         for values in foot_heights.values():
             values.clear()
-    walk_controller.main()
+    walk_controller.main(steps=2)
     time.sleep(1)
     with lock:
         rows = list(samples)

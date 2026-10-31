@@ -20,13 +20,19 @@ gz sim generated/starter_cece.sdf
 
 The model uses existing CAD visuals, estimated component masses, simple box
 colliders and approximate box inertias. Four Gazebo position controllers and
-an experimental two-half-step gait are provided:
+an experimental gait are provided:
 
 ```bash
 source /opt/ros/jazzy/setup.bash
-python3 walk_controller.py
+python3 walk_controller.py --steps 20
 python3 evaluate_gait.py
 ```
+
+Each requested step corresponds to one alternating commanded half-step.
+If no count is specified, motion continues until a stop request. The PC bridge
+accepts requests such as “move forward twenty steps” without a fixed maximum;
+say “stop” to request a stop. It responds once the request has been launched,
+not when motion finishes. The stop request applies to the Gazebo gait only.
 
 The evaluation measured all four joints moving and roughly 15 mm of body
 displacement in one run. Reported foot-frame vertical ranges were under

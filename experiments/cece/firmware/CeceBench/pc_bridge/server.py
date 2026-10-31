@@ -1,10 +1,11 @@
-"""Cece's prototype text bridge. Voice and walking are not implemented here."""
+"""Cece's prototype text bridge with an optional Gazebo-only gait."""
 import argparse
 import json
 import os
 import re
 import subprocess
 import threading
+import time
 from pathlib import Path
 import urllib.error
 import urllib.parse
@@ -12,6 +13,42 @@ import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 motion_lock = threading.Lock()
+SIM_DIR = Path(__file__).resolve().parents[3] / "ros2_sim"
+STOP_FILE = SIM_DIR / "generated" / ".cece_stop"
+
+def requested_steps(prompt):
+    match = re.search(r"\b(\d+|(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:[ -](?:one|two|three|four|five|six|seven|eight|nine))?)\s+steps?\b", prompt, re.I)
+    if not match:
+        return None
+    value = match.group(1).lower()
+    if value.isdigit():
+        return int(value)
+    numbers = dict(zip(("one","two","three","four","five","six","seven","eight","nine",
+                        "ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen",
+                        "seventeen","eighteen","nineteen","twenty"),
+                       range(1, 21)))
+    numbers.update({"thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
+                    "seventy": 70, "eighty": 80, "ninety": 90})
+    return sum(numbers[word] for word in re.split(r"[ -]", value))
+
+def start_gait(steps):
+    STOP_FILE.parent.mkdir(exist_ok=True)
+    STOP_FILE.unlink(missing_ok=True)
+    count = 0 if steps is None else steps
+    process = subprocess.Popen(["wsl", "-d", "Ubuntu", "--", "bash", "-c",
+        f"source /opt/ros/jazzy/setup.bash && exec /usr/bin/python3 walk_controller.py --steps {count}"],
+        cwd=SIM_DIR,
+        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    # Detect immediate launch errors before reporting that the request started.
+    time.sleep(3)
+    if process.poll() is not None:
+        raise RuntimeError("Gazebo gait controller failed to start")
+    def watch():
+        try:
+            process.wait()
+        finally:
+            motion_lock.release()
+    threading.Thread(target=watch, daemon=True).start()
 
 def json_request(url, *, payload=None, headers=None, timeout=30):
     data = None if payload is None else json.dumps(payload).encode("utf-8")
@@ -78,20 +115,28 @@ def atbots_answer(prompt, model):
 
 def reply(prompt, config):
     # Keep motor commands away from model text: walking is not yet calibrated.
+    if getattr(config, "sim_motion", False) and re.search(r"\b(?:stop|halt)\b", prompt, re.I):
+        if not motion_lock.locked():
+            return "The simulated gait is not running."
+        STOP_FILE.parent.mkdir(exist_ok=True)
+        STOP_FILE.touch()
+        return "Stopping the simulated gait."
     if re.search(r"\b(?:walk|move|step|forward|backward)\b", prompt, re.I):
         if getattr(config, "sim_motion", False):
             if re.search(r"\b(?:backward|backwards|back|left|right)\b", prompt, re.I):
                 return "Only the forward test gait is available in simulation."
+            steps = requested_steps(prompt)
+            if steps is not None and steps < 1:
+                return "Please ask for at least one step."
             if not motion_lock.acquire(blocking=False):
                 return "The simulated gait is already running."
             try:
-                sim_dir = Path(__file__).resolve().parents[3] / "ros2_sim"
-                subprocess.run(["wsl", "-d", "Ubuntu", "--", "bash", "-c",
-                    "source /opt/ros/jazzy/setup.bash && /usr/bin/python3 walk_controller.py"],
-                    cwd=sim_dir, check=True, timeout=40, capture_output=True)
-                return "I sent two step commands in the simulator."
-            finally:
+                start_gait(steps)
+            except Exception:
                 motion_lock.release()
+                raise
+            return (f"Requested {steps} simulated steps." if steps is not None
+                    else "Moving in simulation until you say stop.")
         return "I cannot walk yet. My motors need calibration and a tested gait."
     if re.search(r"\b(?:weather|temperature|forecast)\b", prompt, re.I):
         return get_weather(config.city, config.latitude, config.longitude)

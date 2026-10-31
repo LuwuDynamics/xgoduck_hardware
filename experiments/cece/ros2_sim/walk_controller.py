@@ -1,4 +1,5 @@
 """Experimental four-joint Gazebo gait. Does not command physical hardware."""
+import argparse
 import math
 import json
 from pathlib import Path
@@ -9,6 +10,7 @@ from gz.transport13 import Node
 from gz.msgs10.double_pb2 import Double
 
 NAMES = ("left_hip", "left_ankle", "right_hip", "right_ankle")
+STOP_FILE = Path(__file__).resolve().parent / "generated" / ".cece_stop"
 POSES = json.loads((Path(__file__).resolve().parent.parent / "hip_drive_study" /
                     "edge_transfer_results.json").read_text())["poses"]
 EDGE = sorted((abs(row["body_roll_deg"]), abs(row["selected"]["swing_ankle_deg"]))
@@ -45,7 +47,13 @@ def targets(half, phase, t):
         return [hip, sign * a, hip, sign * b]
     return [hip, sign * b, hip, sign * a]
 
-def main():
+def main(steps=None):
+    if steps is None:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--steps", type=int, default=0, help="0 runs until stopped")
+        steps = parser.parse_args().steps
+    if steps < 0:
+        raise ValueError("Step count must be nonnegative")
     node = Node()
     pubs = [node.advertise("/cece/" + name, Double) for name in NAMES]
     time.sleep(1.5)  # Allow transport discovery.
@@ -57,16 +65,23 @@ def main():
             msg = Double()
             msg.data = math.radians(angle)
             pub.publish(msg)
-    for half in range(2):
-        for phase in range(5):
-            start = time.monotonic()
-            while True:
-                t = min(1.0, (time.monotonic() - start) / 0.8)
-                send(targets(half, phase, t))
-                if t >= 1:
+    half = 0
+    try:
+        while (steps == 0 or half < steps) and not STOP_FILE.exists():
+            for phase in range(5):
+                start = time.monotonic()
+                while not STOP_FILE.exists():
+                    t = min(1.0, (time.monotonic() - start) / 0.8)
+                    send(targets(half, phase, t))
+                    if t >= 1:
+                        break
+                    time.sleep(.05)
+                if STOP_FILE.exists():
                     break
-                time.sleep(.05)
-    send([0, 0, 0, 0])
+            half += 1
+    finally:
+        send([0, 0, 0, 0])
+        STOP_FILE.unlink(missing_ok=True)
     print("Gait targets sent to Gazebo. Motion and balance require observation.")
 
 if __name__ == "__main__":

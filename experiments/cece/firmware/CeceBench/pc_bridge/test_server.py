@@ -57,13 +57,26 @@ class BridgeTest(unittest.TestCase):
             self.assertEqual(server.reply("hello", config), "Hello!")
             model.assert_called_once_with("hello", "gpt-6-luna")
 
-    def test_simulation_motion_is_explicit_and_bounded(self):
+    def test_simulation_motion_accepts_requested_count(self):
         config = SimpleNamespace(sim_motion=True)
-        with patch.object(server.subprocess, "run") as run:
-            self.assertIn("simulator", server.reply("move forward", config))
-            run.assert_called_once()
+        with patch.object(server, "start_gait", side_effect=lambda count: server.motion_lock.release()) as run:
+            self.assertIn("20 simulated steps", server.reply("move forward twenty steps", config))
+            run.assert_called_once_with(20)
             self.assertIn("forward", server.reply("move backwards", config))
             self.assertEqual(run.call_count, 1)
+        self.assertEqual(server.requested_steps("move forward 100 steps"), 100)
+        self.assertIsNone(server.requested_steps("move forward"))
+
+    def test_stop_signal_only_for_running_simulation(self):
+        config = SimpleNamespace(sim_motion=True)
+        self.assertEqual(server.reply("stop", config), "The simulated gait is not running.")
+        with patch.object(server, "STOP_FILE") as stop:
+            server.motion_lock.acquire()
+            try:
+                self.assertEqual(server.reply("stop", config), "Stopping the simulated gait.")
+                stop.touch.assert_called_once()
+            finally:
+                server.motion_lock.release()
 
     def test_missing_key_does_not_claim_success(self):
         with patch.dict("os.environ", {}, clear=True):
