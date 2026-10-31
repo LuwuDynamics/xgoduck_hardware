@@ -1,29 +1,72 @@
-import io, json, threading, unittest, urllib.error, urllib.request
-from unittest.mock import patch
+import io
+import json
+import threading
+import unittest
+import urllib.error
+import urllib.request
 from http.server import ThreadingHTTPServer
+from types import SimpleNamespace
+from unittest.mock import patch
 import server
+
 class BridgeTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.http=ThreadingHTTPServer(('127.0.0.1',0),server.Handler); cls.http.model='test-model'
-        cls.worker=threading.Thread(target=cls.http.serve_forever,daemon=True);cls.worker.start()
-        cls.url='http://127.0.0.1:%s/ask' % cls.http.server_port
+        cls.http = ThreadingHTTPServer(("127.0.0.1", 0), server.Handler)
+        cls.http.config = SimpleNamespace(provider="openai", model="test-model",
+                                          city="Sydney", latitude=-33.8688, longitude=151.2093)
+        cls.worker = threading.Thread(target=cls.http.serve_forever, daemon=True)
+        cls.worker.start()
+        cls.url = f"http://127.0.0.1:{cls.http.server_port}/ask"
+
     @classmethod
-    def tearDownClass(cls): cls.http.shutdown();cls.http.server_close();cls.worker.join()
-    def post(self,data): return urllib.request.urlopen(urllib.request.Request(self.url,data=data,method='POST'),timeout=3)
-    def test_forward(self):
-        original=urllib.request.urlopen
-        class Response(io.BytesIO):
-            def __enter__(self): return self
-            def __exit__(self,*args): self.close()
-        def route(req,*args,**kwargs):
-            if req.full_url == 'http://127.0.0.1:11434/api/generate':
-                payload=json.loads(req.data); self.assertEqual(payload['prompt'],'hello'); self.assertEqual(payload['model'],'test-model')
-                return Response(b'{"response":"Hello Cece"}')
-            return original(req,*args,**kwargs)
-        with patch.object(server.urllib.request,'urlopen',side_effect=route):
-            with self.post(b'hello') as result: self.assertEqual(result.read(),b'Hello Cece')
+    def tearDownClass(cls):
+        cls.http.shutdown()
+        cls.http.server_close()
+        cls.worker.join()
+
+    def post(self, text):
+        request = urllib.request.Request(self.url, data=text, method="POST")
+        return urllib.request.urlopen(request, timeout=3)
+
+    def test_openai_response(self):
+        response = {"output": [{"type": "message", "content": [
+            {"type": "output_text", "text": "Hello there!"}]}]}
+        with patch.dict("os.environ", {"OPENAI_API_KEY": "test-only"}), \
+             patch.object(server, "json_request", return_value=response) as mock:
+            with self.post(b"Hello") as result:
+                self.assertEqual(result.read(), b"Hello there!")
+            self.assertEqual(mock.call_args.kwargs["payload"]["model"], "test-model")
+            self.assertFalse(mock.call_args.kwargs["payload"]["store"])
+
+    def test_weather_uses_weather_service(self):
+        data = {"current": {"temperature_2m": 21.2, "weather_code": 0, "is_day": 1}}
+        with patch.object(server, "json_request", return_value=data):
+            with self.post(b"What is the weather?") as result:
+                self.assertEqual(result.read(), b"In Sydney, it is sunny and 21 degrees Celsius.")
+
+    def test_walk_not_claimed_or_dispatched(self):
+        with patch.object(server, "openai_answer") as model:
+            with self.post(b"move forward") as result:
+                self.assertIn(b"cannot walk", result.read())
+            model.assert_not_called()
+
+    def test_atbots_provider_selected(self):
+        config = SimpleNamespace(provider="atbots", model="gpt-6-luna")
+        with patch.object(server, "atbots_answer", return_value="Hello!") as model:
+            self.assertEqual(server.reply("hello", config), "Hello!")
+            model.assert_called_once_with("hello", "gpt-6-luna")
+
+    def test_missing_key_does_not_claim_success(self):
+        with patch.dict("os.environ", {}, clear=True):
+            with self.assertRaises(urllib.error.HTTPError) as exc:
+                self.post(b"hello")
+            self.assertEqual(exc.exception.code, 502)
+
     def test_empty_rejected(self):
-        with self.assertRaises(urllib.error.HTTPError) as e: self.post(b'')
-        self.assertEqual(e.exception.code,413)
-if __name__=='__main__': unittest.main()
+        with self.assertRaises(urllib.error.HTTPError) as exc:
+            self.post(b"")
+        self.assertEqual(exc.exception.code, 413)
+
+if __name__ == "__main__":
+    unittest.main()

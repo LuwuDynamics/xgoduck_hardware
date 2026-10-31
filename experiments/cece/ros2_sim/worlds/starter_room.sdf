@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <world name="cece_starter_room">
+    <physics name="physics" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <scene><ambient>0.55 0.55 0.55 1</ambient><background>0.7 0.75 0.8 1</background></scene>
+    <light type="directional" name="sun">
+      <pose>0 0 5 0 0 0</pose><diffuse>0.9 0.9 0.9 1</diffuse>
+      <direction>-0.4 0.2 -1</direction><cast_shadows>true</cast_shadows>
+    </light>
+    <model name="room">
+      <static>true</static>
+      <link name="room_geometry">
+        <collision name="floor_collision"><pose>0 0 -0.025 0 0 0</pose><geometry><box><size>4 4 0.05</size></box></geometry></collision>
+        <visual name="floor_visual"><pose>0 0 -0.025 0 0 0</pose><geometry><box><size>4 4 0.05</size></box></geometry><material><ambient>0.7 0.66 0.6 1</ambient><diffuse>0.7 0.66 0.6 1</diffuse></material></visual>
+        <collision name="north_collision"><pose>0 2 0.5 0 0 0</pose><geometry><box><size>4.1 0.1 1</size></box></geometry></collision>
+        <visual name="north_visual"><pose>0 2 0.5 0 0 0</pose><geometry><box><size>4.1 0.1 1</size></box></geometry><material><ambient>0.85 0.88 0.9 1</ambient></material></visual>
+        <collision name="south_collision"><pose>0 -2 0.5 0 0 0</pose><geometry><box><size>4.1 0.1 1</size></box></geometry></collision>
+        <visual name="south_visual"><pose>0 -2 0.5 0 0 0</pose><geometry><box><size>4.1 0.1 1</size></box></geometry><material><ambient>0.85 0.88 0.9 1</ambient></material></visual>
+        <collision name="east_collision"><pose>2 0 0.5 0 0 0</pose><geometry><box><size>0.1 4 1</size></box></geometry></collision>
+        <visual name="east_visual"><pose>2 0 0.5 0 0 0</pose><geometry><box><size>0.1 4 1</size></box></geometry><material><ambient>0.85 0.88 0.9 1</ambient></material></visual>
+        <collision name="west_collision"><pose>-2 0 0.5 0 0 0</pose><geometry><box><size>0.1 4 1</size></box></geometry></collision>
+        <visual name="west_visual"><pose>-2 0 0.5 0 0 0</pose><geometry><box><size>0.1 4 1</size></box></geometry><material><ambient>0.85 0.88 0.9 1</ambient></material></visual>
+      </link>
+    </model>
+    <model name="obstacle">
+      <static>true</static><pose>0.8 0.6 0.1 0 0 0</pose>
+      <link name="box">
+        <collision name="collision"><geometry><box><size>0.3 0.3 0.2</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>0.3 0.3 0.2</size></box></geometry><material><ambient>0.3 0.5 0.8 1</ambient><diffuse>0.3 0.5 0.8 1</diffuse></material></visual>
+      </link>
+    </model>
+  </world>
+</sdf>
