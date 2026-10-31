@@ -1,0 +1,1 @@
+[wokwi]\nversion = 1\nfirmware = "build/CeceBench.ino.bin"\nelf = "build/CeceBench.ino.elf"\n\n[[chip]]\nname = "pca9685"\nbinary = "chips/chip.wasm"\n\n[[chip]]\nname = "ssd1327"\nbinary = "chips/ssd1327.chip.wasm"\n\n

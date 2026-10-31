@@ -20,7 +20,7 @@
   its exact board's power path and USB isolation; avoid USB/UBEC backfeeding.
   Its 3.3 V pin supplies logic, microphone and OLED, subject to regulator
   capacity and OLED requirements. ESP32 3.3 V and all 5 V grounds common.
-- Four SG90 servo plugs -> driver servo channels 0..3, polarity per silk, assign
+- Four SG90 servo plugs -> driver sockets labelled 1..4 (PCA9685 channels 3,2,1,0 respectively), polarity per silk, assign
   left hip, right hip, left ankle, right ankle after mechanical calibration.
 - Audio speaker connects across amplifier + and - outputs only; neither
   speaker terminal is ground. Verify connector and pin labels on both parts.
@@ -46,10 +46,11 @@
 
 GPIO2, 8 and 9 are strapping pins; 18 and 19 are USB. GPIO20/21 may be
 labelled RX/TX and can affect serial use. GPIO0/1 assignment and 3.3 V I2C
-pull-ups must be checked on actual modules. The default PiicoDev address is
+pull-ups must be checked on actual modules. The selected Adafruit 4741 SSD1327 OLED defaults to I2C 0x3D (0x3C if its address jumper is bridged); the PiicoDev socket labels 1,2,3,4 map to chip channels 3,2,1,0. The default PiicoDev address is
 0x44; verify OLED address and ensure no duplicate pull-up or 5 V pull-ups.
-ESP32-C3 supports full-duplex standard I2S with shared clocks in current ESP-IDF,
-but this firmware does not yet implement audio. See
+ESP32-C3 supports full-duplex standard I2S with shared clocks in current ESP-IDF.
+The firmware has unverified microphone and test-tone diagnostics; voice streaming
+and physical audio validation are still outstanding. See
 https://docs.espressif.com/projects/esp-idf/en/release-v6.0/esp32c3/api-reference/peripherals/i2s.html
 
 ## Missing or unverified before ordering the rest

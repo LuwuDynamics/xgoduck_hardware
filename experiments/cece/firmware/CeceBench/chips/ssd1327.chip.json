@@ -1,0 +1,6 @@
+{
+  "name": "SSD1327 I2C (partial model)",
+  "author": "Cece project",
+  "pins": ["SCL", "SDA", "GND", "VCC"],
+  "display": {"width": 128, "height": 128}
+}
