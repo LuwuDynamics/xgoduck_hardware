@@ -58,15 +58,24 @@ def joint(model, name, parent, child, axis):
     ax = element(item, "axis")
     element(ax, "xyz", axis)
     limit = element(ax, "limit")
-    for name, value in (("lower", -0.52), ("upper", 0.52), ("effort", 0.08), ("velocity", 2.5)):
-        element(limit, name, value)
+    for field, value in (("lower", -0.52), ("upper", 0.52), ("effort", 0.08), ("velocity", 2.5)):
+        element(limit, field, value)
     element(element(ax, "dynamics"), "damping", 0.001)
+    controller = element(model, "plugin",
+                         filename="gz-sim-joint-position-controller-system",
+                         name="gz::sim::systems::JointPositionController")
+    for tag, value in (("joint_name", name), ("topic", "/cece/" + name),
+                       ("p_gain", 0.5), ("i_gain", 0), ("d_gain", 0.01),
+                       ("cmd_max", 0.08), ("cmd_min", -0.08)):
+        element(controller, tag, value)
 
 def main():
     tree = ET.parse(HERE / "worlds" / "starter_room.sdf")
     world = tree.getroot().find("world")
     model = element(world, "model", name="cece_prototype")
     element(model, "pose", "0 0 0.08902 0 0 0")
+    element(model, "plugin", filename="gz-sim-joint-state-publisher-system",
+            name="gz::sim::systems::JointStatePublisher")
     masses = json.loads(RESULTS.read_text())["model"]["body_masses_g"]
     base = link(model, "base", (0, 0, 0), masses["base"]/1000,
                 (.082, .079, .095), (0, 0, 0.008))

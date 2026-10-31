@@ -57,6 +57,14 @@ class BridgeTest(unittest.TestCase):
             self.assertEqual(server.reply("hello", config), "Hello!")
             model.assert_called_once_with("hello", "gpt-6-luna")
 
+    def test_simulation_motion_is_explicit_and_bounded(self):
+        config = SimpleNamespace(sim_motion=True)
+        with patch.object(server.subprocess, "run") as run:
+            self.assertIn("simulator", server.reply("move forward", config))
+            run.assert_called_once()
+            self.assertIn("forward", server.reply("move backwards", config))
+            self.assertEqual(run.call_count, 1)
+
     def test_missing_key_does_not_claim_success(self):
         with patch.dict("os.environ", {}, clear=True):
             with self.assertRaises(urllib.error.HTTPError) as exc:

@@ -7,7 +7,34 @@ This project builds real Arduino ESP32-C3 firmware. It is currently a component 
 - Wokwi runs the compiled C3 firmware and shows a modeled HC-SR04 range reading of about 25 cm. An I2C scan detects the modeled PCA9685 servo driver at 0x44. This is functional simulation, not electrical or mechanical certification.
 - An SSD1327 custom-chip model displays the firmware's status screen in Wokwi; the simulated ESP32 I2C scan detects it at 0x3D. The model covers the command subset used by this firmware, not the complete display controller, and the physical display remains untested.
 - The simulated ESP32 connected to Wokwi Wi-Fi and sent text requests through its private gateway to the PC bridge, receiving responses from Ollama and from OpenAI via AtBots ChatGPT sign-in. It has also retrieved live Sydney weather through the updated bridge. The separate API-key provider has only mocked tests.
-- Wokwi does not emulate the ESP32-C3 I2S peripheral. The firmware contains hardware I2S `mic` and `beep` diagnostics, but the microphone, amplifier and speaker have not been emulated or tested on hardware. Camera, speech transcription, speech playback and full walking software remain to be implemented. The camera interface and model are not selected.
+- Wokwi does not emulate the ESP32-C3 I2S peripheral. The firmware contains hardware I2S `mic` and `beep` diagnostics, but the microphone, amplifier and speaker have not been emulated or tested on hardware. Camera, robot-side speech streaming and a validated walking controller remain outstanding. The camera interface and model are not selected.
+
+An experimental laptop push-to-talk application is in `pc_bridge/laptop_voice.py`.
+It uses Vosk or faster-whisper for local speech recognition and Windows speech synthesis for
+laptop audio. Recognized text goes through Wokwi serial into the running ESP32
+firmware, which sends the request over Wi-Fi to the PC bridge and displays the
+reply on its modeled OLED. It does not emulate the ESP32's I2S microphone or
+amplifier. A generated speech sample and a live laptop-microphone utterance
+were transcribed successfully after selecting the built-in WDM-KS microphone.
+The voice window has an input-device selector and input-level indication.
+
+The prototype needs `vosk`, `sounddevice`, `pyserial`, Windows
+System.Speech, and a locally downloaded Vosk model. Optionally install
+`faster-whisper` and provide `--whisper-model PATH_TO_CTRANSLATE2_MODEL`
+for the stronger local recognizer. Launch it from the same
+Python environment as AtBots with `python pc_bridge/laptop_voice.py --model
+PATH_TO_VOSK_MODEL --device DEVICE_INDEX`. The Listen button records a short
+utterance; the window offers the available input devices.
+
+Run the Gazebo world with its four joint controllers as described in
+`../../ros2_sim/README.md`, then start the bridge with `--port 8768
+--provider atbots --sim-motion`. This explicit flag permits the bridge to
+invoke the experimental Gazebo gait when asked to move. It never commands
+real motors. The Gazebo controller is called by the PC, not via observed
+PCA9685 PWM signals. Wokwi's RFC2217 port 4000 must be reachable by the
+laptop voice application, and the simulated ESP32 must first connect to
+`Wokwi-GUEST` through the serial command documented below. The RFC2217
+service is not authenticated; restrict access to trusted environments.
 
 ## Wiring
 

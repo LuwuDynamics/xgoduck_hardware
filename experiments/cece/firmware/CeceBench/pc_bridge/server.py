@@ -3,10 +3,15 @@ import argparse
 import json
 import os
 import re
+import subprocess
+import threading
+from pathlib import Path
 import urllib.error
 import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+motion_lock = threading.Lock()
 
 def json_request(url, *, payload=None, headers=None, timeout=30):
     data = None if payload is None else json.dumps(payload).encode("utf-8")
@@ -74,6 +79,19 @@ def atbots_answer(prompt, model):
 def reply(prompt, config):
     # Keep motor commands away from model text: walking is not yet calibrated.
     if re.search(r"\b(?:walk|move|step|forward|backward)\b", prompt, re.I):
+        if getattr(config, "sim_motion", False):
+            if re.search(r"\b(?:backward|backwards|back|left|right)\b", prompt, re.I):
+                return "Only the forward test gait is available in simulation."
+            if not motion_lock.acquire(blocking=False):
+                return "The simulated gait is already running."
+            try:
+                sim_dir = Path(__file__).resolve().parents[3] / "ros2_sim"
+                subprocess.run(["wsl", "-d", "Ubuntu", "--", "bash", "-c",
+                    "source /opt/ros/jazzy/setup.bash && /usr/bin/python3 walk_controller.py"],
+                    cwd=sim_dir, check=True, timeout=40, capture_output=True)
+                return "I sent two step commands in the simulator."
+            finally:
+                motion_lock.release()
         return "I cannot walk yet. My motors need calibration and a tested gait."
     if re.search(r"\b(?:weather|temperature|forecast)\b", prompt, re.I):
         return get_weather(config.city, config.latitude, config.longitude)
@@ -117,6 +135,8 @@ def main():
     parser.add_argument("--city", default="Sydney")
     parser.add_argument("--latitude", type=float, default=-33.8688)
     parser.add_argument("--longitude", type=float, default=151.2093)
+    parser.add_argument("--sim-motion", action="store_true",
+                        help="Enable experimental Gazebo gait; never drives physical servos")
     args = parser.parse_args()
     if args.model is None:
         args.model = "qwen3:1.7b" if args.provider == "ollama" else "gpt-6-luna"

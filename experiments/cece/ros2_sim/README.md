@@ -19,12 +19,24 @@ gz sim generated/starter_cece.sdf
 ```
 
 The model uses existing CAD visuals, estimated component masses, simple box
-colliders and approximate box inertias. It has four passive revolute joints;
-there is no motor controller or walking gait in this Gazebo model yet. A
-100-step headless launch was checked; this is not a walking test. The existing
-`../bullet_gait` experiment has separate assumed motor parameters, contact
-and inertias; its gait has not been ported or validated in Gazebo.
-The OpenAI bridge and ESP32/Wokwi circuit are not connected to this world.
+colliders and approximate box inertias. Four Gazebo position controllers and
+an experimental two-half-step gait are provided:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+python3 walk_controller.py
+python3 evaluate_gait.py
+```
+
+The evaluation measured all four joints moving and roughly 15 mm of body
+displacement in one run. Reported foot-frame vertical ranges were under
+0.001 mm: this does not demonstrate foot lift and suggests sliding. The
+script does not measure ground contact or landing, and cannot establish
+walking. The previous
+`../bullet_gait` study uses different contact geometry and assumptions.
+The PC bridge can explicitly enable a simulation-only gait in response to a
+request from the ESP32; it launches the Gazebo controller directly. This is
+not a simulation of the ESP32's PCA9685 outputs driving Gazebo joints.
 This world cannot establish physical walking, obstacle detection, real-world
 mapping, servo fit or electrical safety. Camera hardware and actual room data
 are still needed for a real reconstruction.
@@ -36,7 +48,7 @@ send audio or commands over Wi-Fi to a PC service rather than running the
 large language model locally. The PC service can use AtBots and the user's
 own authorized ChatGPT plan for text; weather comes from a weather service.
 ROS 2 will coordinate robot state and commands, and Gazebo will model the
-robot, sensors and room. A Wokwi-to-ROS bridge still has to be written and
-tested. ChatGPT plan OAuth does not by itself provide simulated I2S audio,
+robot, sensors and room. A direct Wokwi servo-output-to-ROS bridge still has
+to be written and tested. ChatGPT plan OAuth does not provide simulated I2S audio,
 and its preview route does not support audio or transcription; speech needs
 an additional supported speech path.
