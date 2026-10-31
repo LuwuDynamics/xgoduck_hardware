@@ -1,5 +1,10 @@
 # Cece on Otto: consolidated prototype
 
+**Want to run the current Windows simulation?** Start with
+[the step-by-step ROS 2, Gazebo and voice guide](START_HERE.md).
+The sections below include older historical studies and may describe
+superseded firmware or appearance.
+
 ## Current engineering state — 29 October 2026
 
 The newest mechanical/electronics candidate is in [`packaging_study/`](packaging_study/README.md). It has a replacement body for the chosen Adafruit 4741 OLED and proposed charge passage, a replacement head with a vertical PiicoDev servo-driver cable hood and rear speaker pod, a rear candidate USB-C balance-charger cassette, the SG90 ankle V2 joint, and wider feet. The full FreeCAD neutral-pose scene reports **zero modeled solid intersections** for its selected printed parts and explicitly sized electronic/connector envelopes. The neutral static balance result has an ideal two-foot margin but still requires a lateral weight shift for one-foot walking. **This does not establish actual part, plug, fastener, electrical or moving fit. Do not release the full print or charge the battery in the robot yet.** See the packaging and [latest balance](balance_study/LATEST_BALANCE.md) reports.

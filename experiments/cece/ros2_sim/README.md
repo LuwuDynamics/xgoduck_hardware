@@ -1,5 +1,8 @@
 # Cece ROS 2 and Gazebo study
 
+For the complete Windows start-up sequence, including Wokwi, voice and AtBots,
+see [Start Cece's simulation](../START_HERE.md).
+
 The starter world is a 4 m by 4 m virtual room with a floor, four walls and a
 box obstacle. It is invented geometry, not a scan or measurement of a real
 room. The XML can be inspected with any SDF-compatible tool.
