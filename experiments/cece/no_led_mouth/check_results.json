@@ -1,7 +1,0 @@
-{
-  "head_valid": true,
-  "head_solids": 1,
-  "added_volume_mm3": 64.33981754554407,
-  "new_material_overlaps_above_0_01_mm3": [],
-  "scope": "Neutral CAD check of material added to fill five LED passages only; no physical validation."
-}

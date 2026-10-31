@@ -1,8 +1,0 @@
-{
-  "Battery_Clearance__Body": 0.0,
-  "UBEC_Clearance__Body": 4.5,
-  "PiicoDev_Driver_Envelope__Head": 2.2,
-  "ESP32_C3_Board_Envelope__Head": 2.95,
-  "Charger_UC2_Physical_Candidate__Charger_Tray": 2.0,
-  "Speaker_COM21311_Clearance__Head": 0.3
-}

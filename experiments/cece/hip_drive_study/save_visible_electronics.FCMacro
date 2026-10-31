@@ -1,9 +1,0 @@
-"""Create a separately named FreeCAD file with the electronics view saved."""
-from pathlib import Path
-import FreeCADGui as Gui
-root=Path(__file__).resolve().parent
-macro=root/'show_full_electronics.FCMacro'
-exec(compile(macro.read_text(encoding='utf-8'),str(macro),'exec'))
-doc.recompute()
-doc.saveAs(str(root/'Cece_Full_Electronics_Visible_v2_Study.FCStd'))
-Gui.getMainWindow().close()

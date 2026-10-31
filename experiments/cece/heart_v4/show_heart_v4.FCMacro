@@ -1,9 +1,0 @@
-import FreeCAD as App, FreeCADGui as Gui
-from pathlib import Path
-p=Path(__file__).resolve().parent
-doc=App.openDocument(str(p/'Cece_Heart_V4_Assembly.FCStd'))
-colors={'Rounded_Head_Study':(.88,.92,.96),'Rear_Cover_Study':(.76,.85,.93),'Body':(.85,.89,.94),'Heart_Frame_V3':(.88,.30,.45),'Left_Arm':(.56,.72,.84),'Right_Arm':(.56,.72,.84),'Left_Leg':(.58,.71,.83),'Right_Leg':(.58,.71,.83),'Left_Foot':(.36,.52,.69),'Right_Foot':(.36,.52,.69),'HC_SR04_Left_Can':(.28,.68,.76),'HC_SR04_Right_Can':(.28,.68,.76),'OLED_Adafruit4741_Official_CAD':(.12,.18,.25),'Left_Washer':(.35,.43,.51),'Right_Washer':(.35,.43,.51),'Antenna':(.96,.7,.32),'Camera_Lens_Corridor_Provisional':(.08,.1,.12)}
-for o in doc.Objects:
- o.ViewObject.Visibility=o.Name in colors
- if o.Name in colors: o.ViewObject.ShapeColor=colors[o.Name]
-Gui.activeDocument().activeView().viewFront();Gui.activeDocument().activeView().fitAll()
