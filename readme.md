@@ -1,7 +1,11 @@
 > [!WARNING]
-> **When testing and tuning servos, avoid stalling them as much as possible.**
+> **⚠️ CHARGING SAFETY — POWER SWITCH OFF**
 >
-> **Always turn the power switch OFF before charging, and keep it OFF throughout charging.**
+> **Always turn the power switch OFF before charging.**<br>
+> **Keep it OFF throughout charging.**
+
+> [!WARNING]
+> **When testing and tuning servos, avoid stalling them as much as possible.**
 
 <div align="center">
 
