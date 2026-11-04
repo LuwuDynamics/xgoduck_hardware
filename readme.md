@@ -1,5 +1,7 @@
 > [!WARNING]
 > **When testing and tuning servos, avoid stalling them as much as possible.**
+>
+> **Always turn the power switch OFF before charging, and keep it OFF throughout charging.**
 
 <div align="center">
 
