@@ -6,13 +6,14 @@
 >
 > **If the adapter indicator turns green but the system will not power on:**
 >
-> If this happens after extended charging, with the adapter unplugged and the power switch turned ON, turn the switch OFF again and disconnect the adapter before troubleshooting.
+> If, after extended charging, the adapter indicator turns green but the system will not power on after the adapter is unplugged and the power switch is turned ON, check the battery pack's output with a multimeter.
 >
-> If the battery pack's output measures **0 V** on a multimeter, **stop charging and contact the battery supplier or hello@xgorobot.com**. A 0 V output may indicate a protection shutdown or a battery fault; it does not confirm that the battery can be safely recharged.
+> **The recovery procedure below applies only to a 2-series-cell lithium-ion pack rated 7.4 V nominal / 8.4 V maximum, with healthy cells and a confirmed protection-board cutoff at the pack output. A 0 V output reading alone does not establish these conditions. Do not use this procedure for deeply discharged or damaged cells.**
 >
-> Use only the battery manufacturer's approved recovery equipment and instructions for that exact battery pack. **Do not bypass the protection circuit or attempt to revive the battery with a generic power adapter or a timed bench-supply charge.**
->
-> Only after the battery has been confirmed safe to reuse should it be reconnected to the PCB and charged with the compatible charger. **Keep the power switch OFF throughout charging.**
+> 1. Turn the power switch **OFF**, unplug the adapter, and disconnect the battery pack from the PCB.
+> 2. Use a regulated, **current-limited** external supply at **7.4 V or 8.4 V**, with a **1 A or 2 A current limit** that does not exceed the pack's specified charging current. Alternatively, use an adjustable DC bench supply with the **voltage limit set to 7.4 V and the current limit set to 1 A**. These are voltage and current limits, not a requirement to force a constant 1 A into the battery. An adapter's nameplate current rating alone is not a controlled charging current.
+> 3. With the recovery supply switched OFF, connect its positive and negative leads to the battery pack's matching **protected charging terminals**, checking polarity carefully. **Do not bypass the protection board or connect directly to bare cells.** Enable the supply for approximately **1 minute** while monitoring the pack to attempt to release the protection cutoff. Then switch the supply OFF and disconnect it. Stop if there is abnormal heating or any other abnormal behavior. Confirm that the pack output has recovered; if it remains at 0 V, stop and contact the battery supplier or hello@xgorobot.com rather than repeating the attempt.
+> 4. Once the output has recovered and the pack is operating normally, reconnect the battery to the PCB and reconnect the compatible charging adapter to resume normal charging. **Keep the power switch OFF throughout charging.**
 
 > [!WARNING]
 > **When testing and tuning servos, avoid stalling them as much as possible.**
