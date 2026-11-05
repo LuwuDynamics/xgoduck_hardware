@@ -3,6 +3,16 @@
 >
 > **Always turn the power switch OFF before charging.**<br>
 > **Keep it OFF throughout charging.**
+>
+> **If the adapter indicator turns green but the system will not power on:**
+>
+> If this happens after extended charging, with the adapter unplugged and the power switch turned ON, turn the switch OFF again and disconnect the adapter before troubleshooting.
+>
+> If the battery pack's output measures **0 V** on a multimeter, **stop charging and contact the battery supplier or hello@xgorobot.com**. A 0 V output may indicate a protection shutdown or a battery fault; it does not confirm that the battery can be safely recharged.
+>
+> Use only the battery manufacturer's approved recovery equipment and instructions for that exact battery pack. **Do not bypass the protection circuit or attempt to revive the battery with a generic power adapter or a timed bench-supply charge.**
+>
+> Only after the battery has been confirmed safe to reuse should it be reconnected to the PCB and charged with the compatible charger. **Keep the power switch OFF throughout charging.**
 
 > [!WARNING]
 > **When testing and tuning servos, avoid stalling them as much as possible.**
