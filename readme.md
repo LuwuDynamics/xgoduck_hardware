@@ -8,7 +8,7 @@
 >
 > If, after extended charging, the adapter indicator turns green but the system will not power on after the adapter is unplugged and the power switch is turned ON, check the battery pack's output with a multimeter.
 >
-> **The recovery procedure below applies only to a 2-series-cell lithium-ion pack rated 7.4 V nominal / 8.4 V maximum, with healthy cells and a confirmed protection-board cutoff at the pack output. A 0 V output reading alone does not establish these conditions. Do not use this procedure for deeply discharged or damaged cells.**
+> **The recovery procedure below applies only to a 2-series-cell lithium-ion pack rated 7.4 V nominal / 8.4 V maximum. Do not use this procedure for deeply discharged or damaged cells.**
 >
 > 1. Turn the power switch **OFF**, unplug the adapter, and disconnect the battery pack from the PCB.
 > 2. Use a regulated, **current-limited** external supply at **7.4 V or 8.4 V**, with a **1 A or 2 A current limit** that does not exceed the pack's specified charging current. Alternatively, use an adjustable DC bench supply with the **voltage limit set to 7.4 V and the current limit set to 1 A**. These are voltage and current limits, not a requirement to force a constant 1 A into the battery. An adapter's nameplate current rating alone is not a controlled charging current.
