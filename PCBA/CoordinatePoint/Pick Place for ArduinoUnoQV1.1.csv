@@ -1,16 +1,19 @@
 Altium Designer Pick and Place Locations
-D:\LuwuProject\ArduinoUnoQ\ArduinoUnoQV1.1\Project Outputs for ArduinoUnoQV1.1\Pick Place for ArduinoUnoQV1.1.csv
+D:\LuwuProject\ArduinoUnoQ\ArduinoUnoQV1.1.1\Project Outputs for ArduinoUnoQV1.1\Pick Place for ArduinoUnoQV1.1.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       26/10/26
-Time:       15:50
+Date:       05/11/26
+Time:       23:42
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"R17","22K/±1%","BottomLayer","R0603","32.2834","24.0928","270","厚膜电阻  ±1% 100mW"
+"R16","100K/±1%","BottomLayer","R0603","31.4334","26.7208","0","厚膜电阻  ±1% 100mW"
+"R15","1K","BottomLayer","R1206","4.4958","7.9050","90","电阻类型:厚膜电阻;阻值:1kΩ;精度:±5%;功率:250mW;工作电压:200V;温度系数:±100ppm/℃;"
 "CN2","b2b-ph-sm4-tb(lf)(sn)","TopLayer","CONN-SMD_B2B-PH-SM4-TB-LF-SN","18.9964","18.0729","0","插针结构:1x2P;间距:2mm;安装方式:立贴;参考系列:PH;总PIN数:2P;排数:1;每排PIN数:2;行距:-;额定电流:2A;触头材质:铜合金;触头镀层:锡;工作温度:-25℃~+85℃;"
 "C22","100nF","TopLayer","C0805","13.5128","36.8968","90","精度:±10%;额定电压:50V;温度系数:X7R;"
 "C17","22uF","BottomLayer","C0805","30.6672","45.0850","0","精度:±10%;额定电压:50V;温度系数:X7R;"
