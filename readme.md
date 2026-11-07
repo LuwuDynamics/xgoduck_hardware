@@ -1,23 +1,3 @@
-> [!WARNING]
-> **⚠️ CHARGING SAFETY — POWER SWITCH OFF**
->
-> **Always turn the power switch OFF before charging.**<br>
-> **Keep it OFF throughout charging.**
->
-> **If the adapter indicator turns green but the system will not power on:**
->
-> If, after extended charging, the adapter indicator turns green but the system will not power on after the adapter is unplugged and the power switch is turned ON, check the battery pack's output with a multimeter.
->
-> **The recovery procedure below applies only to a 2-series-cell lithium-ion pack rated 7.4 V nominal / 8.4 V maximum. Do not use this procedure for deeply discharged or damaged cells.**
->
-> 1. Turn the power switch **OFF**, unplug the adapter, and disconnect the battery pack from the PCB.
-> 2. Use a regulated, **current-limited** external supply at **7.4 V or 8.4 V**, with a **1 A or 2 A current limit** that does not exceed the pack's specified charging current. Alternatively, use an adjustable DC bench supply with the **voltage limit set to 7.4 V and the current limit set to 1 A**. These are voltage and current limits, not a requirement to force a constant 1 A into the battery. An adapter's nameplate current rating alone is not a controlled charging current.
-> 3. With the recovery supply switched OFF, connect its positive and negative leads to the battery pack's matching **protected charging terminals**, checking polarity carefully. **Do not bypass the protection board or connect directly to bare cells.** Enable the supply for **10–20 seconds** while monitoring the pack to attempt to release the protection cutoff. Then switch the supply OFF and disconnect it. Stop if there is abnormal heating or any other abnormal behavior. Confirm that the pack output has recovered; if it remains at 0 V, stop and contact the battery supplier or hello@xgorobot.com rather than repeating the attempt.
-> 4. Once the output has recovered and the pack is operating normally, reconnect the battery to the PCB and reconnect the compatible charging adapter to resume normal charging. **Keep the power switch OFF throughout charging.**
-
-> [!WARNING]
-> **When testing and tuning servos, avoid stalling them as much as possible.**
-
 <div align="center">
 
 [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/pfWrJeJRh6)
@@ -25,6 +5,8 @@
 # XGO-Duck
 
 **English** · [简体中文](README_CN.md)
+
+Board charging and troubleshooting: [English](PCBA/README.md) · [简体中文](PCBA/README_CN.md).
 
 **Build a robot duck. Explore how it moves. Make it your own.**
 
