@@ -2,6 +2,8 @@
 
 [Project](../readme.md) · [Build guide](BUILD_GUIDE.md)
 
+This revision contains the consolidated **original XGO-Duck (V2)** STL set. It was exported in millimetres from the nine-plate print project. Choose one backpack enclosure for your board: [V1](../structure/ENCLOSURE_FOR_V1.stl) or [V1.1](../structure/ENCLOSURE_FOR_V1P1.stl).
+
 Quantities below follow the repository naming rule: `2x_` means two copies and `4x_` means four copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved so links remain compatible.
 
 | File | Planned copies | Material note |
@@ -24,7 +26,7 @@ Quantities below follow the repository naming rule: `2x_` means two copies and `
 | [head_servo_support.stl](../structure/head_servo_support.stl) | 1 | Rigid material: confirm profile |
 | [head_shell.stl](../structure/head_shell.stl) | 1 | Rigid material: confirm profile |
 | [head_yaw.STL](../structure/head_yaw.STL) | 1 | Rigid material: confirm profile |
-| [hip_yaw2rol.STL](../structure/hip_yaw2rol.STL) | 1 | Rigid material: confirm profile |
+| [2x_hip_yaw2rol.STL](../structure/2x_hip_yaw2rol.STL) | 2 | Rigid material: confirm profile |
 | [hip_yaw_support.STL](../structure/hip_yaw_support.STL) | 1 | Rigid material: confirm profile |
 | [jaw.stl](../structure/jaw.stl) | 1 | Rigid material: confirm profile |
 | [left_foot.stl](../structure/left_foot.stl) | 1 | Rigid material: confirm profile |
