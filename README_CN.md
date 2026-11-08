@@ -112,6 +112,8 @@ flowchart TD
 
 ### 2. 打印结构件
 
+本目录是**影音版（V5）**的 STL。搭建原版硬件请下载[原版最终版 STL（V2）](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure)。
+
 从 [structure/](structure/) 下载模型。文件名包含以下装配信息：
 
 | 文件名特征 | 含义 | 示例 |

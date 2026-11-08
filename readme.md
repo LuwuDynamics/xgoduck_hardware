@@ -111,6 +111,8 @@ For easier purchasing, Luwu Dynamics offers an [official XGO-Duck electronics ki
 
 ### 2. Print the structure
 
+The current STL set is for the **audio/video design (V5)**. For the original hardware, use the [final original STL set (V2)](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure).
+
 Download the models from [structure/](structure/). The filenames carry useful assembly information:
 
 | Filename pattern | Meaning | Example |

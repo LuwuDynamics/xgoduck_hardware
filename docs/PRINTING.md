@@ -2,7 +2,7 @@
 
 [Project](../readme.md) · [Build guide](BUILD_GUIDE.md)
 
-This revision contains the consolidated **original XGO-Duck (V2)** STL set. It was exported in millimetres from the nine-plate print project. Choose one backpack enclosure for your board: [V1](../structure/ENCLOSURE_FOR_V1.stl) or [V1.1](../structure/ENCLOSURE_FOR_V1P1.stl).
+This revision contains the **audio/video XGO-Duck (V5)** STL set. For the original hardware, use the complete [V2 STL set](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure); do not mix head parts across versions. It was exported in millimetres from the nine-plate print project. Choose one backpack enclosure for your board: [V1](../structure/ENCLOSURE_FOR_V1.stl) or [V1.1](../structure/ENCLOSURE_FOR_V1P1.stl).
 
 Quantities below follow the repository naming rule: `2x_` means two copies and `4x_` means four copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved so links remain compatible.
 
@@ -20,7 +20,10 @@ Quantities below follow the repository naming rule: `2x_` means two copies and `
 | [body_left_shell.stl](../structure/body_left_shell.stl) | 1 | Rigid material: confirm profile |
 | [body_right_shell.stl](../structure/body_right_shell.stl) | 1 | Rigid material: confirm profile |
 | [eye.stl](../structure/eye.stl) | 1 | Rigid material: confirm profile |
-| [eye_shell.stl](../structure/eye_shell.stl) | 1 | Rigid material: confirm profile |
+| [FACE.stl](../structure/FACE.stl) | 1 | Audio/video face part |
+| [FACE_CAMERA.stl](../structure/FACE_CAMERA.stl) | 1 | Audio/video face part |
+| [FACE_LIGHT.stl](../structure/FACE_LIGHT.stl) | 1 | Audio/video face part |
+| [FACE_TOF.stl](../structure/FACE_TOF.stl) | 1 | Audio/video face part |
 | [head.stl](../structure/head.stl) | 1 | Rigid material: confirm profile |
 | [head_pitch.stl](../structure/head_pitch.stl) | 1 | Rigid material: confirm profile |
 | [head_servo_support.stl](../structure/head_servo_support.stl) | 1 | Rigid material: confirm profile |
