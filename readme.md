@@ -111,6 +111,21 @@ For easier purchasing, Luwu Dynamics offers an [official XGO-Duck electronics ki
 
 ### 2. Print the structure
 
+#### Complete 3MF print projects
+
+Choose **V5 for the audio/video design** or **V2 for the original design**. Each project bundles the model parts, prepared plate layouts, and saved print settings, so you do not need to download and arrange individual STL files.
+
+| Robot version | Complete print project |
+| --- | --- |
+| **V5 — Audio/video design** | [Download V5 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/xgoduckV5.3mf) |
+| **V2 — Original design** | [Download V2 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/XGO_duckV2.3mf) |
+
+Open the matching project in **Bambu Studio**, confirm your printer and PLA/TPU assignments, then **slice and print**. Both projects save a **P1P / 0.4 mm nozzle** profile and nine plates. Choose one V1/V1.1 board enclosure; roller-skate parts are optional. These are project files, not pre-sliced G-code.
+
+[Plate guide and instructions](3DManufacturingFormat/README.md) · [简体中文](3DManufacturingFormat/README_CN.md)
+
+#### Individual STL files
+
 The current STL set is for the **audio/video design (V5)**. For the original hardware, use the [final original STL set (V2)](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure).
 
 Download the models from [structure/](structure/). The filenames carry useful assembly information:

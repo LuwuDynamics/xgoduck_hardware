@@ -112,6 +112,21 @@ flowchart TD
 
 ### 2. 打印结构件
 
+#### 整套 3MF 打印工程下载
+
+按机器人版本选择：**V5 为音视频版结构，V2 为原版结构**。工程包含整套模型、预排版打印盘及保存的打印设置，无需逐个下载和重新排布 STL。
+
+| 机器人版本 | 整套打印工程 |
+| --- | --- |
+| **V5——音视频版** | [下载 V5 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/xgoduckV5.3mf) |
+| **V2——原版** | [下载 V2 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/XGO_duckV2.3mf) |
+
+在 **Bambu Studio** 中打开对应项目，核对机型及 PLA／TPU 耗材后**切片打印**。两个项目均保存了 **P1P／0.4mm 喷嘴**配置，共九盘。V1／V1.1 板卡外壳按需二选一，轮滑套件为可选内容。这些文件是项目文件，不包含已切片的 G-code。
+
+[分盘及使用说明](3DManufacturingFormat/README_CN.md) · [English](3DManufacturingFormat/README.md)
+
+#### 单个 STL 文件
+
 本目录是**影音版（V5）**的 STL。搭建原版硬件请下载[原版最终版 STL（V2）](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure)。
 
 从 [structure/](structure/) 下载模型。文件名包含以下装配信息：

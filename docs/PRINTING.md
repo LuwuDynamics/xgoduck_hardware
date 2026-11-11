@@ -2,6 +2,8 @@
 
 [Project](../readme.md) · [Build guide](BUILD_GUIDE.md)
 
+For complete pre-arranged 3MF projects, use [V5 audio/video or V2 original downloads and the plate guide](../3DManufacturingFormat/README.md) ([简体中文](../3DManufacturingFormat/README_CN.md)). Open the matching project in Bambu Studio, confirm the printer and filaments, then slice before printing.
+
 This revision contains the **audio/video XGO-Duck (V5)** STL set. For the original hardware, use the complete [V2 STL set](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure); do not mix head parts across versions. It was exported in millimetres from the nine-plate print project. Choose one backpack enclosure for your board: [V1](../structure/ENCLOSURE_FOR_V1.stl) or [V1.1](../structure/ENCLOSURE_FOR_V1P1.stl).
 
 Quantities below follow the repository naming rule: `2x_` means two copies and `4x_` means four copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved so links remain compatible.
