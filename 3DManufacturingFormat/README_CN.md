@@ -6,10 +6,10 @@
 
 ## 选择版本并下载
 
-| 机器人版本 | 工程文件 | 直接下载 | 保存的配置 |
-| --- | --- | --- | --- |
-| **V5——音视频版** | `xgoduckV5.3mf` | [下载 V5 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/xgoduckV5.3mf) | P1P · 0.4mm 喷嘴 · 9 盘 |
-| **V2——原版** | `XGO_duckV2.3mf` | [下载 V2 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/XGO_duckV2.3mf) | P1P · 0.4mm 喷嘴 · 9 盘 |
+| 机器人版本 | 工程文件 | 直接下载 |
+| --- | --- | --- |
+| **V5——音视频版** | `xgoduckV5.3mf` | [下载 V5 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/xgoduckV5.3mf) |
+| **V2——原版** | `XGO_duckV2.3mf` | [下载 V2 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/XGO_duckV2.3mf) |
 
 需要单个模型时，可使用[当前 V5 STL](../structure/)或[原版 V2 STL](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure)。请使用同一机器人版本对应的零件，不要混用不同版本的头部零件。
 
