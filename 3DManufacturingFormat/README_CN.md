@@ -11,7 +11,7 @@
 | **V5——音视频版** | `xgoduckV5.3mf` | [下载 V5 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/xgoduckV5.3mf) |
 | **V2——原版** | `XGO_duckV2.3mf` | [下载 V2 整套 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/XGO_duckV2.3mf) |
 
-需要单个模型时，可使用 [V5 音视频版 STL](../structure/v5/README.zh-CN.md)（50 个，前缀 `V5_AUDIO_VIDEO_`）或 [V2 普通版 STL，无音视频](../structure/v2/README.zh-CN.md)（47 个，前缀 `V2_STANDARD_`）。每个带序号的文件对应原工程中的一个零件实例。请使用同一机器人版本对应的零件，不要混用不同版本的头部零件。
+需要单个模型时，可使用 [V5 音视频版 STL](../structure/V5_AUDIO_VIDEO_/README.zh-CN.md)（50 个，前缀 `V5_AUDIO_VIDEO_`）或 [V2 普通版 STL，无音视频](../structure/V2_STANDARD_/README.zh-CN.md)（47 个，前缀 `V2_STANDARD_`）。每个带序号的文件对应原工程中的一个零件实例。请使用同一机器人版本对应的零件，不要混用不同版本的头部零件。
 
 ## 打开、核对、切片、打印
 

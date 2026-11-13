@@ -130,14 +130,14 @@ Choose the folder for your kit. Both sets were exported from the corresponding 3
 
 | Kit and folder | STL files | Filename prefix |
 | --- | ---: | --- |
-| [V2 — Standard kit, without audio/video](structure/v2/) | 47 | `V2_STANDARD_` |
-| [V5 — Audio/video kit](structure/v5/) | 50 | `V5_AUDIO_VIDEO_` |
+| [V2 — Standard kit, without audio/video](structure/V2_STANDARD_/) | 47 | `V2_STANDARD_` |
+| [V5 — Audio/video kit](structure/V5_AUDIO_VIDEO_/) | 50 | `V5_AUDIO_VIDEO_` |
 
 Each folder includes English and Chinese instructions. Numbered files such as `_01` and `_02` already represent separate instances: print each selected file once, without multiplying it again by a retained `2x` or `4x` label. Parts marked `TPU` require flexible material. Keep the parts for your chosen version together and select one backpack enclosure for your board revision.
 
 Use the [print inventory](docs/PRINTING.md) to track parts. Test a servo mount and bearing fit before printing the full set; a complete validated print profile is still to be documented.
 
-The optional roller-skate parts are already included in each version folder: two numbered tire supports, four tires and four tire axes. Print each of those files once when using that accessory. The existing files directly under [structure/](structure/) remain available for earlier links and builds.
+The optional roller-skate parts are already included in each version folder: two numbered tire supports, four tires and four tire axes. Print each of those files once when using that accessory. The [structure/](structure/) directory contains only the `V2_STANDARD_/` and `V5_AUDIO_VIDEO_/` sets.
 
 ![Print orientation reference: slicing preview on the left, recommended placement in the center, and incorrect placement marked with a red cross on the right](media/print-orientation-reference.png)
 
@@ -169,7 +169,7 @@ The runtime includes **walk, get-up and pick policies**, plus separate mouth con
 | --- | --- |
 | [Assembly_Guide.pdf](Assembly_Guide.pdf) | 25-page illustrated assembly reference |
 | [BOM.md](BOM.md) | Whole-robot purchasing list, supplier links and battery reference image |
-| [structure/v2/](structure/v2/) · [structure/v5/](structure/v5/) | Separate standard and audio/video STL sets, with bilingual guides |
+| [structure/V2_STANDARD_/](structure/V2_STANDARD_/) · [structure/V5_AUDIO_VIDEO_/](structure/V5_AUDIO_VIDEO_/) | Separate standard and audio/video STL sets, with bilingual guides |
 | [V1.1 schematic](PCBA/ArduinoUnoQV1.1.SchDoc) | Altium schematic source |
 | [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [Placement data](PCBA/CoordinatePoint/) | Board materials and placement coordinates |
 | [V1.1 production files](PCBA/ProductionDocuments/) | Fabrication notes, Gerber and drill files |

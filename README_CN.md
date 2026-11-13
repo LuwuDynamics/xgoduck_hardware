@@ -131,14 +131,14 @@ flowchart TD
 
 | 套件及目录 | STL 数量 | 文件名前缀 |
 | --- | ---: | --- |
-| [V2——普通版套件，无音视频](structure/v2/) | 47 | `V2_STANDARD_` |
-| [V5——音视频套件适配版](structure/v5/) | 50 | `V5_AUDIO_VIDEO_` |
+| [V2——普通版套件，无音视频](structure/V2_STANDARD_/) | 47 | `V2_STANDARD_` |
+| [V5——音视频套件适配版](structure/V5_AUDIO_VIDEO_/) | 50 | `V5_AUDIO_VIDEO_` |
 
 每个目录均有中英文说明。`_01`、`_02` 等带序号的文件已经对应不同零件实例，选中的文件各打印一份，不要再按保留的 `2x` 或 `4x` 标记倍增数量。标有 `TPU` 的零件使用柔性耗材。请使用同一版本的零件，并按板卡版本选择一种背包外壳。
 
 使用[打印零件清单](docs/PRINTING.md)核对零件。在打印全套零件前，先测试一个舵机安装位和轴承配合；完整、经过验证的打印参数仍待补充。
 
-每个版本目录已包含可选轮滑套件的两个支架、四个轮胎和四个轮轴，均已分别编号；需要该配件时，各文件打印一份。[structure/](structure/) 下原有的单个文件继续保留，供已有链接和旧版制作记录使用。
+每个版本目录已包含可选轮滑套件的两个支架、四个轮胎和四个轮轴，均已分别编号；需要该配件时，各文件打印一份。[structure/](structure/) 下仅保留 `V2_STANDARD_/` 和 `V5_AUDIO_VIDEO_/` 两个版本目录。
 
 ### 3. 设置舵机并装配
 
@@ -166,7 +166,7 @@ flowchart TD
 | --- | --- |
 | [Assembly_Guide.pdf](Assembly_Guide.pdf) | 25 页图解装配参考 |
 | [BOM.md](BOM.md) | 整机采购清单、供应商链接和电池接头参考图 |
-| [structure/v2/](structure/v2/) · [structure/v5/](structure/v5/) | 分开的普通版与音视频版 STL，附中英文说明 |
+| [structure/V2_STANDARD_/](structure/V2_STANDARD_/) · [structure/V5_AUDIO_VIDEO_/](structure/V5_AUDIO_VIDEO_/) | 分开的普通版与音视频版 STL，附中英文说明 |
 | [V1.1 原理图](PCBA/ArduinoUnoQV1.1.SchDoc) | Altium 原理图源文件 |
 | [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [坐标](PCBA/CoordinatePoint/) | 板卡物料和元件放置坐标 |
 | [V1.1 生产资料](PCBA/ProductionDocuments/) | 工艺说明、Gerber 和钻孔文件 |
