@@ -1,0 +1,39 @@
+"""Open upstream XGO-Duck simulation links in FreeCAD for visual inspection."""
+import FreeCAD as App, Mesh, json, os, traceback
+
+ROOT=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'xgoduck_freecad_reference')
+try:
+    with open(os.path.join(ROOT,'manifest.json')) as f: links=json.load(f)
+    doc=App.newDocument('XGO_Duck_Standing_Reference')
+    groups={}
+    for name in ('Body','Left_Leg','Right_Leg','Head_and_Neck'):
+        groups[name]=doc.addObject('App::DocumentObjectGroup',name)
+    for item in links:
+        name=item['name']
+        key='Left_Leg' if name.startswith('left_') else ('Right_Leg' if name.startswith('right_') else ('Body' if name=='trunk_base' else 'Head_and_Neck'))
+        obj=doc.addObject('Mesh::Feature',name)
+        obj.Label=name.replace('_',' ')
+        obj.Mesh=Mesh.Mesh(os.path.join(ROOT,'posed_meshes',name+'.stl'))
+        obj.addProperty('App::PropertyString','SourceBody','Reference');obj.SourceBody=item['source_body']
+        groups[key].addObject(obj)
+        obj.ViewObject.ShapeColor=(0.89,0.73,0.18) if 'ankle' in name else ((0.94,0.94,0.89) if key in ('Body','Head_and_Neck') else (0.59,0.68,0.72))
+        obj.ViewObject.LineColor=(0.15,0.18,0.20)
+    notes=doc.addObject('App::FeaturePython','About_This_Model')
+    for key,value in {
+        'Source':'LuwuDynamics/xgoduck_rl; source commit fa621fc77ad9a05d69da13270e86118bdd3603fe',
+        'Pose':'Upstream scene_walk.xml STAND keyframe, link meshes transformed to millimetres',
+        'Limitation':'Static mesh links for viewing only; not an editable parametric assembly or walking simulation',
+        'Hardware':'For actual separate print parts and assembly see xgoduck_hardware repository',
+        'License':'Consult upstream licenses and hardware file-level rights before redistribution',
+    }.items():
+        notes.addProperty('App::PropertyString',key,'Reference');setattr(notes,key,value)
+    doc.recompute()
+    view=Gui.activeDocument().activeView()
+    if hasattr(view,'setAnimationEnabled'):view.setAnimationEnabled(False)
+    view.viewAxonometric();view.fitAll();Gui.updateGui()
+    doc.recompute();doc.saveAs(os.path.join(ROOT,'XGO_Duck_Standing_Reference.FCStd'))
+    view.saveImage(os.path.join(ROOT,'xgoduck_freecad_preview.png'),1200,1100,'White')
+    with open(os.path.join(ROOT,'status.txt'),'w') as f:f.write('SUCCESS')
+except Exception:
+    with open(os.path.join(ROOT,'status.txt'),'w') as f:f.write(traceback.format_exc())
+    raise
