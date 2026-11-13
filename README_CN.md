@@ -127,20 +127,18 @@ flowchart TD
 
 #### 单个 STL 文件
 
-本目录是**影音版（V5）**的 STL。搭建原版硬件请下载[原版最终版 STL（V2）](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure)。
+按套件选择对应目录。两套 STL 分别从对应的 3MF 工程导出，每个零件均已单独贴底。文件名前缀写明适配版本，单独下载后也能辨认。
 
-从 [structure/](structure/) 下载模型。文件名包含以下装配信息：
+| 套件及目录 | STL 数量 | 文件名前缀 |
+| --- | ---: | --- |
+| [V2——普通版套件，无音视频](structure/v2/) | 47 | `V2_STANDARD_` |
+| [V5——音视频套件适配版](structure/v5/) | 50 | `V5_AUDIO_VIDEO_` |
 
-| 文件名特征 | 含义 | 示例 |
-| --- | --- | --- |
-| `2x_` | 打印两份 | `2x_shank.stl` |
-| `4x_` | 打印四份 | `4x_tire.STL`、`4x_tire_axis.STL` |
-| `left_` / `right_` | 左右侧分别提供文件 | `left_foot.stl`、`right_foot.stl` |
-| `tpu` | 柔性零件 | `2x_foot_bottom_tpu.stl`、`mouth_up_tpu.stl` |
+每个目录均有中英文说明。`_01`、`_02` 等带序号的文件已经对应不同零件实例，选中的文件各打印一份，不要再按保留的 `2x` 或 `4x` 标记倍增数量。标有 `TPU` 的零件使用柔性耗材。请使用同一版本的零件，并按板卡版本选择一种背包外壳。
 
 使用[打印零件清单](docs/PRINTING.md)核对零件。在打印全套零件前，先测试一个舵机安装位和轴承配合；完整、经过验证的打印参数仍待补充。
 
-如需安装可选轮滑鞋，另打印 [2x_tire_support.STL](structure/2x_tire_support.STL) × 2、[4x_tire.STL](structure/4x_tire.STL) × 4、[4x_tire_axis.STL](structure/4x_tire_axis.STL) × 4。
+每个版本目录已包含可选轮滑套件的两个支架、四个轮胎和四个轮轴，均已分别编号；需要该配件时，各文件打印一份。[structure/](structure/) 下原有的单个文件继续保留，供已有链接和旧版制作记录使用。
 
 ### 3. 设置舵机并装配
 
@@ -168,7 +166,7 @@ flowchart TD
 | --- | --- |
 | [Assembly_Guide.pdf](Assembly_Guide.pdf) | 25 页图解装配参考 |
 | [BOM.md](BOM.md) | 整机采购清单、供应商链接和电池接头参考图 |
-| [structure/](structure/) | 可打印 STL 模型 |
+| [structure/v2/](structure/v2/) · [structure/v5/](structure/v5/) | 分开的普通版与音视频版 STL，附中英文说明 |
 | [V1.1 原理图](PCBA/ArduinoUnoQV1.1.SchDoc) | Altium 原理图源文件 |
 | [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [坐标](PCBA/CoordinatePoint/) | 板卡物料和元件放置坐标 |
 | [V1.1 生产资料](PCBA/ProductionDocuments/) | 工艺说明、Gerber 和钻孔文件 |

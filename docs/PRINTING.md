@@ -4,9 +4,20 @@
 
 For complete pre-arranged 3MF projects, use [V5 audio/video or V2 original downloads and the plate guide](../3DManufacturingFormat/README.md) ([简体中文](../3DManufacturingFormat/README_CN.md)). Open the matching project in Bambu Studio, confirm the printer and filaments, then slice before printing.
 
-This revision contains the **audio/video XGO-Duck (V5)** STL set. For the original hardware, use the complete [V2 STL set](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure); do not mix head parts across versions. It was exported in millimetres from the nine-plate print project. Choose one backpack enclosure for your board: [V1](../structure/ENCLOSURE_FOR_V1.stl) or [V1.1](../structure/ENCLOSURE_FOR_V1P1.stl).
+## Choose the STL set for your kit
 
-Quantities below follow the repository naming rule: `2x_` means two copies and `4x_` means four copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved so links remain compatible.
+| Kit | Folder and instructions | STL files | Filename prefix |
+| --- | --- | ---: | --- |
+| V2 standard kit, without audio/video | [English](../structure/v2/) · [简体中文](../structure/v2/README.zh-CN.md) | 47 | `V2_STANDARD_` |
+| V5 audio/video kit | [English](../structure/v5/) · [简体中文](../structure/v5/README.zh-CN.md) | 50 | `V5_AUDIO_VIDEO_` |
+
+These sets were exported in millimetres from the corresponding nine-plate 3MF projects. Numbered files already represent separate instances: print each selected file once, without multiplying it again by a retained `2x` or `4x` label. Do not mix parts across robot versions. Each set includes optional roller-skate parts and alternative backpack enclosures; choose one enclosure for your V1 or V1.1 board using the [plate guide](../3DManufacturingFormat/README.md).
+
+## Existing files directly under structure/
+
+The following tables describe the existing files directly under `structure/`, retained for earlier links and builds. Their copy counts do not apply to the numbered files in `structure/v2/` or `structure/v5/`.
+
+For these existing files, `2x_` means two copies and `4x_` means four copies; other files default to one for planning and require confirmation against the assembly. Left/right files are distinct. Original filenames, including `mouth_buttom_tpu.stl`, are preserved. Choose one backpack enclosure for your board: [V1](../structure/ENCLOSURE_FOR_V1.stl) or [V1.1](../structure/ENCLOSURE_FOR_V1P1.stl).
 
 | File | Planned copies | Material note |
 | --- | ---: | --- |
@@ -41,7 +52,7 @@ Quantities below follow the repository naming rule: `2x_` means two copies and `
 | [thigh_left_shell.stl](../structure/thigh_left_shell.stl) | 1 | Rigid material: confirm profile |
 | [thigh_right_shell.stl](../structure/thigh_right_shell.stl) | 1 | Rigid material: confirm profile |
 
-## Optional roller skates
+### Optional roller skates — existing files
 
 Print these additional parts for the roller skates. They also require 4 additional M2 × 6 countersunk, flat-end self-tapping screws and 8 additional 10 × 15 × 3 mm bearings, included in the totals in [BOM.md](../BOM.md).
 

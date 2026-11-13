@@ -126,20 +126,18 @@ Open the matching project in **Bambu Studio**, confirm your printer and PLA/TPU 
 
 #### Individual STL files
 
-The current STL set is for the **audio/video design (V5)**. For the original hardware, use the [final original STL set (V2)](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure).
+Choose the folder for your kit. Both sets were exported from the corresponding 3MF project, with each part positioned individually on the build plane. The filename prefix identifies the kit even when a file is downloaded separately.
 
-Download the models from [structure/](structure/). The filenames carry useful assembly information:
+| Kit and folder | STL files | Filename prefix |
+| --- | ---: | --- |
+| [V2 — Standard kit, without audio/video](structure/v2/) | 47 | `V2_STANDARD_` |
+| [V5 — Audio/video kit](structure/v5/) | 50 | `V5_AUDIO_VIDEO_` |
 
-| Filename pattern | Meaning | Example |
-| --- | --- | --- |
-| `2x_` | Print two copies | `2x_shank.stl` |
-| `4x_` | Print four copies | `4x_tire.STL`, `4x_tire_axis.STL` |
-| `left_` / `right_` | Separate left and right parts | `left_foot.stl`, `right_foot.stl` |
-| `tpu` | Flexible part | `2x_foot_bottom_tpu.stl`, `mouth_up_tpu.stl` |
+Each folder includes English and Chinese instructions. Numbered files such as `_01` and `_02` already represent separate instances: print each selected file once, without multiplying it again by a retained `2x` or `4x` label. Parts marked `TPU` require flexible material. Keep the parts for your chosen version together and select one backpack enclosure for your board revision.
 
 Use the [print inventory](docs/PRINTING.md) to track parts. Test a servo mount and bearing fit before printing the full set; a complete validated print profile is still to be documented.
 
-For the optional roller skates, print [2x_tire_support.STL](structure/2x_tire_support.STL) × 2, [4x_tire.STL](structure/4x_tire.STL) × 4 and [4x_tire_axis.STL](structure/4x_tire_axis.STL) × 4.
+The optional roller-skate parts are already included in each version folder: two numbered tire supports, four tires and four tire axes. Print each of those files once when using that accessory. The existing files directly under [structure/](structure/) remain available for earlier links and builds.
 
 ![Print orientation reference: slicing preview on the left, recommended placement in the center, and incorrect placement marked with a red cross on the right](media/print-orientation-reference.png)
 
@@ -171,7 +169,7 @@ The runtime includes **walk, get-up and pick policies**, plus separate mouth con
 | --- | --- |
 | [Assembly_Guide.pdf](Assembly_Guide.pdf) | 25-page illustrated assembly reference |
 | [BOM.md](BOM.md) | Whole-robot purchasing list, supplier links and battery reference image |
-| [structure/](structure/) | Printable STL models |
+| [structure/v2/](structure/v2/) · [structure/v5/](structure/v5/) | Separate standard and audio/video STL sets, with bilingual guides |
 | [V1.1 schematic](PCBA/ArduinoUnoQV1.1.SchDoc) | Altium schematic source |
 | [V1.1 BOM](PCBA/BOM/ArduinoUnoQV1.1.xlsx) · [Placement data](PCBA/CoordinatePoint/) | Board materials and placement coordinates |
 | [V1.1 production files](PCBA/ProductionDocuments/) | Fabrication notes, Gerber and drill files |

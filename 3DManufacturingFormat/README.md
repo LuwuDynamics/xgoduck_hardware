@@ -11,7 +11,7 @@ Choose **V5 for the audio/video design** or **V2 for the original design**. Thes
 | **V5 — Audio/video design** | `xgoduckV5.3mf` | [Download V5 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/xgoduckV5.3mf) |
 | **V2 — Original design** | `XGO_duckV2.3mf` | [Download V2 3MF](https://raw.githubusercontent.com/LuwuDynamics/xgoduck_hardware/master/3DManufacturingFormat/XGO_duckV2.3mf) |
 
-For individual models, use the [current V5 STL set](../structure/) or the [original V2 STL set](https://github.com/LuwuDynamics/xgoduck_hardware/tree/9a97c3dac11d445691c228ccd9f1ecaa8eec28c9/structure). Keep the parts for your chosen robot version together; do not mix head parts across versions.
+For individual models, use the [V5 audio/video STL set](../structure/v5/) (50 files, `V5_AUDIO_VIDEO_` prefix) or the [V2 standard STL set without audio/video](../structure/v2/) (47 files, `V2_STANDARD_` prefix). Each numbered file represents one instance from its source project. Keep the parts for your chosen robot version together; do not mix head parts across versions.
 
 ## Open, check, slice and print
 
