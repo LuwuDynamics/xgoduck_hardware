@@ -131,7 +131,7 @@ Choose the folder for your kit. Both sets were exported from the corresponding 3
 | Kit and folder | STL files | Filename prefix |
 | --- | ---: | --- |
 | [V2 — Standard kit, without audio/video](structure/V2_STANDARD_/) | 47 | `V2_STANDARD_` |
-| [V5 — Audio/video kit](structure/V5_AUDIO_VIDEO_/) | 50 | `V5_AUDIO_VIDEO_` |
+| [V5 — Audio/video kit](structure/V5_AUDIO_VIDEO_/) | 51 | `V5_AUDIO_VIDEO_` |
 
 Each folder includes English and Chinese instructions. Numbered files such as `_01` and `_02` already represent separate instances: print each selected file once, without multiplying it again by a retained `2x` or `4x` label. Parts marked `TPU` require flexible material. Keep the parts for your chosen version together and select one backpack enclosure for your board revision.
 

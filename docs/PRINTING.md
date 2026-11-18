@@ -9,9 +9,9 @@ For complete pre-arranged 3MF projects, use [V5 audio/video or V2 original downl
 | Kit | Folder and instructions | STL files | Filename prefix |
 | --- | --- | ---: | --- |
 | V2 standard kit, without audio/video | [English](../structure/V2_STANDARD_/) · [简体中文](../structure/V2_STANDARD_/README.zh-CN.md) | 47 | `V2_STANDARD_` |
-| V5 audio/video kit | [English](../structure/V5_AUDIO_VIDEO_/) · [简体中文](../structure/V5_AUDIO_VIDEO_/README.zh-CN.md) | 50 | `V5_AUDIO_VIDEO_` |
+| V5 audio/video kit | [English](../structure/V5_AUDIO_VIDEO_/) · [简体中文](../structure/V5_AUDIO_VIDEO_/README.zh-CN.md) | 51 | `V5_AUDIO_VIDEO_` |
 
-These sets were exported in millimetres from the corresponding nine-plate 3MF projects. Numbered files already represent separate instances: print each selected file once, without multiplying it again by a retained `2x` or `4x` label. Do not mix parts across robot versions. Each set includes optional roller-skate parts and alternative backpack enclosures; choose one enclosure for your V1 or V1.1 board using the [plate guide](../3DManufacturingFormat/README.md).
+These sets are in millimetres. They include exports from the corresponding nine-plate 3MF projects and newer individual STL revisions. Numbered files already represent separate instances: print each selected file once, without multiplying it again by a retained `2x` or `4x` label. Do not mix parts across robot versions. Each set includes optional roller-skate parts and alternative backpack enclosures; choose one enclosure for your V1 or V1.1 board using the [plate guide](../3DManufacturingFormat/README.md).
 
 The [structure/](../structure/) directory contains only `V2_STANDARD_/` and `V5_AUDIO_VIDEO_/`. Use the matching version folder and its guide for the complete file inventory.
 
