@@ -1,0 +1,4086 @@
+[
+  {
+    "t": 0.02,
+    "x_m": -4e-05,
+    "y_m": 1e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.01,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.04,
+    "x_m": -7e-05,
+    "y_m": 5e-05,
+    "height_m": 0.13701,
+    "tilt_deg": 0.11,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.06,
+    "x_m": 9e-05,
+    "y_m": 2e-05,
+    "height_m": 0.13725,
+    "tilt_deg": 0.21,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.08,
+    "x_m": 0.00029,
+    "y_m": -2e-05,
+    "height_m": 0.13747,
+    "tilt_deg": 0.31,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.1,
+    "x_m": 0.00045,
+    "y_m": -3e-05,
+    "height_m": 0.13758,
+    "tilt_deg": 0.4,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.12,
+    "x_m": 0.00057,
+    "y_m": -2e-05,
+    "height_m": 0.13763,
+    "tilt_deg": 0.48,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.14,
+    "x_m": 0.00069,
+    "y_m": -0.0,
+    "height_m": 0.13764,
+    "tilt_deg": 0.55,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.16,
+    "x_m": 0.0008,
+    "y_m": 1e-05,
+    "height_m": 0.13764,
+    "tilt_deg": 0.61,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.18,
+    "x_m": 0.00088,
+    "y_m": 1e-05,
+    "height_m": 0.13764,
+    "tilt_deg": 0.66,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.2,
+    "x_m": 0.00095,
+    "y_m": 2e-05,
+    "height_m": 0.13764,
+    "tilt_deg": 0.7,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.22,
+    "x_m": 0.001,
+    "y_m": 3e-05,
+    "height_m": 0.13764,
+    "tilt_deg": 0.73,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.24,
+    "x_m": 0.00104,
+    "y_m": 4e-05,
+    "height_m": 0.13764,
+    "tilt_deg": 0.76,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.26,
+    "x_m": 0.00106,
+    "y_m": 4e-05,
+    "height_m": 0.13763,
+    "tilt_deg": 0.77,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.28,
+    "x_m": 0.00109,
+    "y_m": 5e-05,
+    "height_m": 0.13763,
+    "tilt_deg": 0.79,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.3,
+    "x_m": 0.00111,
+    "y_m": 5e-05,
+    "height_m": 0.13763,
+    "tilt_deg": 0.8,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.32,
+    "x_m": 0.00112,
+    "y_m": 6e-05,
+    "height_m": 0.13763,
+    "tilt_deg": 0.81,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.34,
+    "x_m": 0.00114,
+    "y_m": 6e-05,
+    "height_m": 0.13762,
+    "tilt_deg": 0.81,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.36,
+    "x_m": 0.00116,
+    "y_m": 6e-05,
+    "height_m": 0.13762,
+    "tilt_deg": 0.82,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.38,
+    "x_m": 0.00118,
+    "y_m": 6e-05,
+    "height_m": 0.13762,
+    "tilt_deg": 0.83,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.4,
+    "x_m": 0.0012,
+    "y_m": 7e-05,
+    "height_m": 0.13762,
+    "tilt_deg": 0.84,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.42,
+    "x_m": 0.00121,
+    "y_m": 7e-05,
+    "height_m": 0.13762,
+    "tilt_deg": 0.85,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.44,
+    "x_m": 0.00123,
+    "y_m": 8e-05,
+    "height_m": 0.13762,
+    "tilt_deg": 0.86,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.46,
+    "x_m": 0.00124,
+    "y_m": 8e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.86,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.48,
+    "x_m": 0.00126,
+    "y_m": 8e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.87,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.5,
+    "x_m": 0.00128,
+    "y_m": 8e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.88,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.52,
+    "x_m": 0.00129,
+    "y_m": 9e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.89,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.54,
+    "x_m": 0.0013,
+    "y_m": 9e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.89,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.56,
+    "x_m": 0.00131,
+    "y_m": 9e-05,
+    "height_m": 0.13761,
+    "tilt_deg": 0.9,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.58,
+    "x_m": 0.00133,
+    "y_m": 9e-05,
+    "height_m": 0.1376,
+    "tilt_deg": 0.91,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.6,
+    "x_m": 0.00135,
+    "y_m": 0.0001,
+    "height_m": 0.1376,
+    "tilt_deg": 0.92,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.62,
+    "x_m": 0.00137,
+    "y_m": 0.0001,
+    "height_m": 0.1376,
+    "tilt_deg": 0.93,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.64,
+    "x_m": 0.00139,
+    "y_m": 0.00011,
+    "height_m": 0.1376,
+    "tilt_deg": 0.93,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.66,
+    "x_m": 0.00141,
+    "y_m": 0.00012,
+    "height_m": 0.13759,
+    "tilt_deg": 0.95,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.68,
+    "x_m": 0.00144,
+    "y_m": 0.00012,
+    "height_m": 0.13759,
+    "tilt_deg": 0.96,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.7,
+    "x_m": 0.00146,
+    "y_m": 0.00013,
+    "height_m": 0.13759,
+    "tilt_deg": 0.97,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.72,
+    "x_m": 0.00149,
+    "y_m": 0.00014,
+    "height_m": 0.13758,
+    "tilt_deg": 0.99,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.74,
+    "x_m": 0.00152,
+    "y_m": 0.00015,
+    "height_m": 0.13758,
+    "tilt_deg": 1.0,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.76,
+    "x_m": 0.00155,
+    "y_m": 0.00016,
+    "height_m": 0.13757,
+    "tilt_deg": 1.02,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.78,
+    "x_m": 0.00158,
+    "y_m": 0.00015,
+    "height_m": 0.13756,
+    "tilt_deg": 1.04,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.8,
+    "x_m": 0.00162,
+    "y_m": 0.00015,
+    "height_m": 0.13756,
+    "tilt_deg": 1.06,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.82,
+    "x_m": 0.00167,
+    "y_m": 0.00015,
+    "height_m": 0.13756,
+    "tilt_deg": 1.08,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.84,
+    "x_m": 0.00172,
+    "y_m": 0.00016,
+    "height_m": 0.13755,
+    "tilt_deg": 1.11,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.86,
+    "x_m": 0.00178,
+    "y_m": 0.00016,
+    "height_m": 0.13755,
+    "tilt_deg": 1.14,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.88,
+    "x_m": 0.00184,
+    "y_m": 0.00017,
+    "height_m": 0.13754,
+    "tilt_deg": 1.18,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.9,
+    "x_m": 0.00189,
+    "y_m": 0.00017,
+    "height_m": 0.13754,
+    "tilt_deg": 1.21,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.92,
+    "x_m": 0.00196,
+    "y_m": 0.00018,
+    "height_m": 0.13753,
+    "tilt_deg": 1.25,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.94,
+    "x_m": 0.00202,
+    "y_m": 0.00018,
+    "height_m": 0.13753,
+    "tilt_deg": 1.28,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.96,
+    "x_m": 0.00209,
+    "y_m": 0.00019,
+    "height_m": 0.13752,
+    "tilt_deg": 1.32,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 0.98,
+    "x_m": 0.00216,
+    "y_m": 0.00019,
+    "height_m": 0.13751,
+    "tilt_deg": 1.37,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.0,
+    "x_m": 0.00224,
+    "y_m": 0.0002,
+    "height_m": 0.1375,
+    "tilt_deg": 1.41,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.02,
+    "x_m": 0.00232,
+    "y_m": 0.00021,
+    "height_m": 0.13749,
+    "tilt_deg": 1.46,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.04,
+    "x_m": 0.00241,
+    "y_m": 0.00022,
+    "height_m": 0.13748,
+    "tilt_deg": 1.51,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.06,
+    "x_m": 0.0025,
+    "y_m": 0.00024,
+    "height_m": 0.13747,
+    "tilt_deg": 1.56,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.08,
+    "x_m": 0.00261,
+    "y_m": 0.00026,
+    "height_m": 0.13746,
+    "tilt_deg": 1.62,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.1,
+    "x_m": 0.00273,
+    "y_m": 0.00029,
+    "height_m": 0.13745,
+    "tilt_deg": 1.69,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.12,
+    "x_m": 0.00287,
+    "y_m": 0.00034,
+    "height_m": 0.13743,
+    "tilt_deg": 1.76,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.14,
+    "x_m": 0.00303,
+    "y_m": 0.00044,
+    "height_m": 0.1374,
+    "tilt_deg": 1.85,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.16,
+    "x_m": 0.00321,
+    "y_m": 0.00056,
+    "height_m": 0.13737,
+    "tilt_deg": 1.95,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.18,
+    "x_m": 0.00341,
+    "y_m": 0.00072,
+    "height_m": 0.13733,
+    "tilt_deg": 2.06,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.2,
+    "x_m": 0.00361,
+    "y_m": 0.00092,
+    "height_m": 0.13727,
+    "tilt_deg": 2.19,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.22,
+    "x_m": 0.00381,
+    "y_m": 0.00117,
+    "height_m": 0.13721,
+    "tilt_deg": 2.31,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.24,
+    "x_m": 0.00401,
+    "y_m": 0.00151,
+    "height_m": 0.13717,
+    "tilt_deg": 2.44,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.26,
+    "x_m": 0.00427,
+    "y_m": 0.00201,
+    "height_m": 0.13719,
+    "tilt_deg": 2.54,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.28,
+    "x_m": 0.00475,
+    "y_m": 0.00305,
+    "height_m": 0.1372,
+    "tilt_deg": 2.56,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.3,
+    "x_m": 0.00551,
+    "y_m": 0.00489,
+    "height_m": 0.13713,
+    "tilt_deg": 2.51,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.32,
+    "x_m": 0.00664,
+    "y_m": 0.00717,
+    "height_m": 0.13698,
+    "tilt_deg": 2.66,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.34,
+    "x_m": 0.00813,
+    "y_m": 0.009,
+    "height_m": 0.13708,
+    "tilt_deg": 3.08,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.36,
+    "x_m": 0.00929,
+    "y_m": 0.01007,
+    "height_m": 0.13773,
+    "tilt_deg": 3.52,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.38,
+    "x_m": 0.01049,
+    "y_m": 0.01052,
+    "height_m": 0.13841,
+    "tilt_deg": 3.75,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.4,
+    "x_m": 0.01188,
+    "y_m": 0.01042,
+    "height_m": 0.1389,
+    "tilt_deg": 3.75,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.42,
+    "x_m": 0.01364,
+    "y_m": 0.00974,
+    "height_m": 0.13913,
+    "tilt_deg": 3.59,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.44,
+    "x_m": 0.01564,
+    "y_m": 0.00843,
+    "height_m": 0.13913,
+    "tilt_deg": 3.38,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.46,
+    "x_m": 0.01791,
+    "y_m": 0.00647,
+    "height_m": 0.13887,
+    "tilt_deg": 3.16,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.48,
+    "x_m": 0.02052,
+    "y_m": 0.00386,
+    "height_m": 0.13821,
+    "tilt_deg": 2.92,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.5,
+    "x_m": 0.02332,
+    "y_m": 0.00069,
+    "height_m": 0.137,
+    "tilt_deg": 2.68,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.52,
+    "x_m": 0.02625,
+    "y_m": -0.00229,
+    "height_m": 0.13663,
+    "tilt_deg": 2.84,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.54,
+    "x_m": 0.02917,
+    "y_m": -0.0045,
+    "height_m": 0.13741,
+    "tilt_deg": 3.16,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.56,
+    "x_m": 0.03135,
+    "y_m": -0.00585,
+    "height_m": 0.13836,
+    "tilt_deg": 3.45,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.58,
+    "x_m": 0.03317,
+    "y_m": -0.00629,
+    "height_m": 0.13896,
+    "tilt_deg": 3.57,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.6,
+    "x_m": 0.03511,
+    "y_m": -0.00609,
+    "height_m": 0.13929,
+    "tilt_deg": 3.5,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.62,
+    "x_m": 0.03722,
+    "y_m": -0.00532,
+    "height_m": 0.13933,
+    "tilt_deg": 3.37,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.64,
+    "x_m": 0.03952,
+    "y_m": -0.0039,
+    "height_m": 0.13915,
+    "tilt_deg": 3.26,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.66,
+    "x_m": 0.04203,
+    "y_m": -0.00178,
+    "height_m": 0.13874,
+    "tilt_deg": 3.14,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.68,
+    "x_m": 0.0448,
+    "y_m": 0.00102,
+    "height_m": 0.13798,
+    "tilt_deg": 2.98,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.7,
+    "x_m": 0.04773,
+    "y_m": 0.00435,
+    "height_m": 0.13667,
+    "tilt_deg": 2.83,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.72,
+    "x_m": 0.05087,
+    "y_m": 0.00735,
+    "height_m": 0.13647,
+    "tilt_deg": 3.18,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.74,
+    "x_m": 0.05447,
+    "y_m": 0.00967,
+    "height_m": 0.13718,
+    "tilt_deg": 3.58,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.76,
+    "x_m": 0.0576,
+    "y_m": 0.01118,
+    "height_m": 0.1383,
+    "tilt_deg": 4.04,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.78,
+    "x_m": 0.06028,
+    "y_m": 0.012,
+    "height_m": 0.13917,
+    "tilt_deg": 4.43,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.8,
+    "x_m": 0.06281,
+    "y_m": 0.01224,
+    "height_m": 0.13959,
+    "tilt_deg": 4.67,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.82,
+    "x_m": 0.06535,
+    "y_m": 0.0119,
+    "height_m": 0.13963,
+    "tilt_deg": 4.76,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.84,
+    "x_m": 0.068,
+    "y_m": 0.01091,
+    "height_m": 0.1394,
+    "tilt_deg": 4.72,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.86,
+    "x_m": 0.07082,
+    "y_m": 0.00924,
+    "height_m": 0.1389,
+    "tilt_deg": 4.56,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.88,
+    "x_m": 0.07386,
+    "y_m": 0.00691,
+    "height_m": 0.13805,
+    "tilt_deg": 4.32,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.9,
+    "x_m": 0.07706,
+    "y_m": 0.00398,
+    "height_m": 0.13665,
+    "tilt_deg": 4.05,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 1.92,
+    "x_m": 0.0803,
+    "y_m": 0.00102,
+    "height_m": 0.13579,
+    "tilt_deg": 4.04,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.94,
+    "x_m": 0.08366,
+    "y_m": -0.00111,
+    "height_m": 0.13654,
+    "tilt_deg": 4.2,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.96,
+    "x_m": 0.08615,
+    "y_m": -0.00247,
+    "height_m": 0.13758,
+    "tilt_deg": 4.39,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 1.98,
+    "x_m": 0.08811,
+    "y_m": -0.00296,
+    "height_m": 0.13835,
+    "tilt_deg": 4.45,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.0,
+    "x_m": 0.09015,
+    "y_m": -0.00282,
+    "height_m": 0.13888,
+    "tilt_deg": 4.31,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.02,
+    "x_m": 0.09235,
+    "y_m": -0.00209,
+    "height_m": 0.1391,
+    "tilt_deg": 4.1,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.04,
+    "x_m": 0.09469,
+    "y_m": -0.00069,
+    "height_m": 0.13903,
+    "tilt_deg": 3.89,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.06,
+    "x_m": 0.09717,
+    "y_m": 0.00141,
+    "height_m": 0.13868,
+    "tilt_deg": 3.68,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.08,
+    "x_m": 0.09987,
+    "y_m": 0.00422,
+    "height_m": 0.13797,
+    "tilt_deg": 3.44,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.1,
+    "x_m": 0.10273,
+    "y_m": 0.00761,
+    "height_m": 0.13672,
+    "tilt_deg": 3.23,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.12,
+    "x_m": 0.10582,
+    "y_m": 0.01083,
+    "height_m": 0.13638,
+    "tilt_deg": 3.51,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.14,
+    "x_m": 0.10935,
+    "y_m": 0.01336,
+    "height_m": 0.13705,
+    "tilt_deg": 3.88,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.16,
+    "x_m": 0.11237,
+    "y_m": 0.01499,
+    "height_m": 0.13821,
+    "tilt_deg": 4.3,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.18,
+    "x_m": 0.11488,
+    "y_m": 0.01593,
+    "height_m": 0.13916,
+    "tilt_deg": 4.64,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.2,
+    "x_m": 0.11723,
+    "y_m": 0.01632,
+    "height_m": 0.13963,
+    "tilt_deg": 4.83,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.22,
+    "x_m": 0.11963,
+    "y_m": 0.01617,
+    "height_m": 0.1397,
+    "tilt_deg": 4.86,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.24,
+    "x_m": 0.12215,
+    "y_m": 0.01541,
+    "height_m": 0.13951,
+    "tilt_deg": 4.76,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.26,
+    "x_m": 0.12489,
+    "y_m": 0.014,
+    "height_m": 0.13907,
+    "tilt_deg": 4.54,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.28,
+    "x_m": 0.12779,
+    "y_m": 0.01192,
+    "height_m": 0.13838,
+    "tilt_deg": 4.28,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.3,
+    "x_m": 0.13087,
+    "y_m": 0.00922,
+    "height_m": 0.13724,
+    "tilt_deg": 3.97,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.32,
+    "x_m": 0.13398,
+    "y_m": 0.00613,
+    "height_m": 0.13563,
+    "tilt_deg": 3.7,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.34,
+    "x_m": 0.13718,
+    "y_m": 0.00368,
+    "height_m": 0.13595,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.36,
+    "x_m": 0.14021,
+    "y_m": 0.00197,
+    "height_m": 0.13707,
+    "tilt_deg": 3.83,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.38,
+    "x_m": 0.14242,
+    "y_m": 0.00099,
+    "height_m": 0.13797,
+    "tilt_deg": 3.92,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.4,
+    "x_m": 0.14452,
+    "y_m": 0.00074,
+    "height_m": 0.13866,
+    "tilt_deg": 3.87,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.42,
+    "x_m": 0.14675,
+    "y_m": 0.00107,
+    "height_m": 0.13906,
+    "tilt_deg": 3.72,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.44,
+    "x_m": 0.14908,
+    "y_m": 0.00202,
+    "height_m": 0.13914,
+    "tilt_deg": 3.55,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.46,
+    "x_m": 0.15152,
+    "y_m": 0.00366,
+    "height_m": 0.13895,
+    "tilt_deg": 3.38,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.48,
+    "x_m": 0.15413,
+    "y_m": 0.00601,
+    "height_m": 0.13848,
+    "tilt_deg": 3.2,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.5,
+    "x_m": 0.15695,
+    "y_m": 0.00904,
+    "height_m": 0.13761,
+    "tilt_deg": 3.0,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.52,
+    "x_m": 0.15988,
+    "y_m": 0.01248,
+    "height_m": 0.13638,
+    "tilt_deg": 2.97,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.54,
+    "x_m": 0.16309,
+    "y_m": 0.01531,
+    "height_m": 0.13663,
+    "tilt_deg": 3.4,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.56,
+    "x_m": 0.16663,
+    "y_m": 0.0175,
+    "height_m": 0.13747,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.58,
+    "x_m": 0.16945,
+    "y_m": 0.01878,
+    "height_m": 0.13862,
+    "tilt_deg": 4.15,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.6,
+    "x_m": 0.17189,
+    "y_m": 0.01945,
+    "height_m": 0.1394,
+    "tilt_deg": 4.44,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.62,
+    "x_m": 0.17427,
+    "y_m": 0.01958,
+    "height_m": 0.13971,
+    "tilt_deg": 4.57,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.64,
+    "x_m": 0.17673,
+    "y_m": 0.01912,
+    "height_m": 0.13968,
+    "tilt_deg": 4.56,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.66,
+    "x_m": 0.17937,
+    "y_m": 0.01803,
+    "height_m": 0.13939,
+    "tilt_deg": 4.42,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.68,
+    "x_m": 0.18218,
+    "y_m": 0.01628,
+    "height_m": 0.13888,
+    "tilt_deg": 4.2,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.7,
+    "x_m": 0.18518,
+    "y_m": 0.01386,
+    "height_m": 0.13801,
+    "tilt_deg": 3.94,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.72,
+    "x_m": 0.18831,
+    "y_m": 0.0109,
+    "height_m": 0.13657,
+    "tilt_deg": 3.62,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.74,
+    "x_m": 0.19146,
+    "y_m": 0.00796,
+    "height_m": 0.13574,
+    "tilt_deg": 3.56,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.76,
+    "x_m": 0.19474,
+    "y_m": 0.00583,
+    "height_m": 0.13661,
+    "tilt_deg": 3.67,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.78,
+    "x_m": 0.19735,
+    "y_m": 0.00442,
+    "height_m": 0.1377,
+    "tilt_deg": 3.81,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.8,
+    "x_m": 0.19944,
+    "y_m": 0.00383,
+    "height_m": 0.13846,
+    "tilt_deg": 3.86,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.82,
+    "x_m": 0.2016,
+    "y_m": 0.00386,
+    "height_m": 0.13899,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.84,
+    "x_m": 0.20388,
+    "y_m": 0.00447,
+    "height_m": 0.1392,
+    "tilt_deg": 3.61,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.86,
+    "x_m": 0.20626,
+    "y_m": 0.00574,
+    "height_m": 0.13913,
+    "tilt_deg": 3.45,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.88,
+    "x_m": 0.20878,
+    "y_m": 0.00771,
+    "height_m": 0.1388,
+    "tilt_deg": 3.29,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.9,
+    "x_m": 0.2115,
+    "y_m": 0.0104,
+    "height_m": 0.13816,
+    "tilt_deg": 3.1,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.92,
+    "x_m": 0.21441,
+    "y_m": 0.01368,
+    "height_m": 0.137,
+    "tilt_deg": 2.91,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 2.94,
+    "x_m": 0.21745,
+    "y_m": 0.01701,
+    "height_m": 0.1363,
+    "tilt_deg": 3.16,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.96,
+    "x_m": 0.22087,
+    "y_m": 0.01963,
+    "height_m": 0.13692,
+    "tilt_deg": 3.59,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 2.98,
+    "x_m": 0.22422,
+    "y_m": 0.02147,
+    "height_m": 0.13798,
+    "tilt_deg": 3.97,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.0,
+    "x_m": 0.22688,
+    "y_m": 0.0225,
+    "height_m": 0.13903,
+    "tilt_deg": 4.35,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.02,
+    "x_m": 0.22931,
+    "y_m": 0.02297,
+    "height_m": 0.13961,
+    "tilt_deg": 4.59,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.04,
+    "x_m": 0.23174,
+    "y_m": 0.0229,
+    "height_m": 0.13975,
+    "tilt_deg": 4.67,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.06,
+    "x_m": 0.23426,
+    "y_m": 0.02223,
+    "height_m": 0.1396,
+    "tilt_deg": 4.62,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.08,
+    "x_m": 0.23699,
+    "y_m": 0.02092,
+    "height_m": 0.13922,
+    "tilt_deg": 4.44,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.1,
+    "x_m": 0.23988,
+    "y_m": 0.01894,
+    "height_m": 0.13859,
+    "tilt_deg": 4.21,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.12,
+    "x_m": 0.24295,
+    "y_m": 0.01633,
+    "height_m": 0.13755,
+    "tilt_deg": 3.92,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.14,
+    "x_m": 0.24609,
+    "y_m": 0.01323,
+    "height_m": 0.13591,
+    "tilt_deg": 3.62,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.16,
+    "x_m": 0.24929,
+    "y_m": 0.01056,
+    "height_m": 0.13583,
+    "tilt_deg": 3.66,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.18,
+    "x_m": 0.25246,
+    "y_m": 0.00866,
+    "height_m": 0.13689,
+    "tilt_deg": 3.75,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.2,
+    "x_m": 0.25489,
+    "y_m": 0.00749,
+    "height_m": 0.13795,
+    "tilt_deg": 3.86,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.22,
+    "x_m": 0.25699,
+    "y_m": 0.00712,
+    "height_m": 0.13863,
+    "tilt_deg": 3.87,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.24,
+    "x_m": 0.2592,
+    "y_m": 0.00733,
+    "height_m": 0.13906,
+    "tilt_deg": 3.75,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.26,
+    "x_m": 0.26152,
+    "y_m": 0.00816,
+    "height_m": 0.13918,
+    "tilt_deg": 3.6,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.28,
+    "x_m": 0.26394,
+    "y_m": 0.00966,
+    "height_m": 0.13903,
+    "tilt_deg": 3.44,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.3,
+    "x_m": 0.26653,
+    "y_m": 0.01187,
+    "height_m": 0.13862,
+    "tilt_deg": 3.26,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.32,
+    "x_m": 0.26934,
+    "y_m": 0.01477,
+    "height_m": 0.13784,
+    "tilt_deg": 3.07,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.34,
+    "x_m": 0.27227,
+    "y_m": 0.0182,
+    "height_m": 0.13653,
+    "tilt_deg": 2.94,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.36,
+    "x_m": 0.27545,
+    "y_m": 0.02118,
+    "height_m": 0.13653,
+    "tilt_deg": 3.33,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.38,
+    "x_m": 0.27906,
+    "y_m": 0.0235,
+    "height_m": 0.13728,
+    "tilt_deg": 3.71,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.4,
+    "x_m": 0.28205,
+    "y_m": 0.02495,
+    "height_m": 0.13843,
+    "tilt_deg": 4.12,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.42,
+    "x_m": 0.28456,
+    "y_m": 0.02574,
+    "height_m": 0.13929,
+    "tilt_deg": 4.45,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.44,
+    "x_m": 0.28695,
+    "y_m": 0.02598,
+    "height_m": 0.13967,
+    "tilt_deg": 4.63,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.46,
+    "x_m": 0.28939,
+    "y_m": 0.02565,
+    "height_m": 0.13969,
+    "tilt_deg": 4.65,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.48,
+    "x_m": 0.29199,
+    "y_m": 0.0247,
+    "height_m": 0.13944,
+    "tilt_deg": 4.54,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.5,
+    "x_m": 0.29478,
+    "y_m": 0.02309,
+    "height_m": 0.13897,
+    "tilt_deg": 4.33,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.52,
+    "x_m": 0.29774,
+    "y_m": 0.0208,
+    "height_m": 0.13819,
+    "tilt_deg": 4.08,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.54,
+    "x_m": 0.30086,
+    "y_m": 0.01794,
+    "height_m": 0.13688,
+    "tilt_deg": 3.78,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.56,
+    "x_m": 0.30399,
+    "y_m": 0.01488,
+    "height_m": 0.13564,
+    "tilt_deg": 3.65,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.58,
+    "x_m": 0.30728,
+    "y_m": 0.01262,
+    "height_m": 0.13632,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.6,
+    "x_m": 0.31003,
+    "y_m": 0.01108,
+    "height_m": 0.13743,
+    "tilt_deg": 3.89,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.62,
+    "x_m": 0.31211,
+    "y_m": 0.01034,
+    "height_m": 0.13825,
+    "tilt_deg": 3.97,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.64,
+    "x_m": 0.31424,
+    "y_m": 0.01025,
+    "height_m": 0.13886,
+    "tilt_deg": 3.88,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.66,
+    "x_m": 0.3165,
+    "y_m": 0.01074,
+    "height_m": 0.13915,
+    "tilt_deg": 3.72,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.68,
+    "x_m": 0.31884,
+    "y_m": 0.01188,
+    "height_m": 0.13914,
+    "tilt_deg": 3.55,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.7,
+    "x_m": 0.32133,
+    "y_m": 0.01371,
+    "height_m": 0.13887,
+    "tilt_deg": 3.38,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.72,
+    "x_m": 0.32401,
+    "y_m": 0.01625,
+    "height_m": 0.13829,
+    "tilt_deg": 3.19,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.74,
+    "x_m": 0.32689,
+    "y_m": 0.01943,
+    "height_m": 0.13726,
+    "tilt_deg": 2.98,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.76,
+    "x_m": 0.32988,
+    "y_m": 0.02283,
+    "height_m": 0.13623,
+    "tilt_deg": 3.11,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 3.78,
+    "x_m": 0.3332,
+    "y_m": 0.02555,
+    "height_m": 0.13675,
+    "tilt_deg": 3.54,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.8,
+    "x_m": 0.33667,
+    "y_m": 0.02757,
+    "height_m": 0.13775,
+    "tilt_deg": 3.9,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.82,
+    "x_m": 0.3394,
+    "y_m": 0.02871,
+    "height_m": 0.13887,
+    "tilt_deg": 4.28,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.84,
+    "x_m": 0.34182,
+    "y_m": 0.02928,
+    "height_m": 0.13955,
+    "tilt_deg": 4.54,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.86,
+    "x_m": 0.34422,
+    "y_m": 0.0293,
+    "height_m": 0.13977,
+    "tilt_deg": 4.64,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.88,
+    "x_m": 0.34669,
+    "y_m": 0.02875,
+    "height_m": 0.13967,
+    "tilt_deg": 4.6,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.9,
+    "x_m": 0.34937,
+    "y_m": 0.02756,
+    "height_m": 0.13933,
+    "tilt_deg": 4.44,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.92,
+    "x_m": 0.3522,
+    "y_m": 0.0257,
+    "height_m": 0.13877,
+    "tilt_deg": 4.21,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.94,
+    "x_m": 0.35522,
+    "y_m": 0.0232,
+    "height_m": 0.13783,
+    "tilt_deg": 3.92,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.96,
+    "x_m": 0.35835,
+    "y_m": 0.02018,
+    "height_m": 0.13632,
+    "tilt_deg": 3.6,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 3.98,
+    "x_m": 0.36151,
+    "y_m": 0.0173,
+    "height_m": 0.13573,
+    "tilt_deg": 3.56,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.0,
+    "x_m": 0.3648,
+    "y_m": 0.01522,
+    "height_m": 0.13666,
+    "tilt_deg": 3.64,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.02,
+    "x_m": 0.36735,
+    "y_m": 0.01387,
+    "height_m": 0.13771,
+    "tilt_deg": 3.78,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.04,
+    "x_m": 0.36942,
+    "y_m": 0.01335,
+    "height_m": 0.13845,
+    "tilt_deg": 3.83,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.06,
+    "x_m": 0.37159,
+    "y_m": 0.01344,
+    "height_m": 0.13898,
+    "tilt_deg": 3.72,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.08,
+    "x_m": 0.37389,
+    "y_m": 0.01412,
+    "height_m": 0.13917,
+    "tilt_deg": 3.57,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.1,
+    "x_m": 0.37629,
+    "y_m": 0.01547,
+    "height_m": 0.13909,
+    "tilt_deg": 3.41,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.12,
+    "x_m": 0.37885,
+    "y_m": 0.01753,
+    "height_m": 0.13873,
+    "tilt_deg": 3.25,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.14,
+    "x_m": 0.38161,
+    "y_m": 0.02029,
+    "height_m": 0.13804,
+    "tilt_deg": 3.06,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.16,
+    "x_m": 0.38454,
+    "y_m": 0.02364,
+    "height_m": 0.13682,
+    "tilt_deg": 2.89,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.18,
+    "x_m": 0.38766,
+    "y_m": 0.02682,
+    "height_m": 0.13647,
+    "tilt_deg": 3.2,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.2,
+    "x_m": 0.39121,
+    "y_m": 0.0293,
+    "height_m": 0.1371,
+    "tilt_deg": 3.6,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.22,
+    "x_m": 0.39439,
+    "y_m": 0.03095,
+    "height_m": 0.13819,
+    "tilt_deg": 4.01,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.24,
+    "x_m": 0.39699,
+    "y_m": 0.03185,
+    "height_m": 0.13913,
+    "tilt_deg": 4.38,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.26,
+    "x_m": 0.39942,
+    "y_m": 0.0322,
+    "height_m": 0.1396,
+    "tilt_deg": 4.6,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.28,
+    "x_m": 0.40187,
+    "y_m": 0.03199,
+    "height_m": 0.13968,
+    "tilt_deg": 4.66,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.3,
+    "x_m": 0.40444,
+    "y_m": 0.03116,
+    "height_m": 0.13949,
+    "tilt_deg": 4.59,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.32,
+    "x_m": 0.40722,
+    "y_m": 0.02967,
+    "height_m": 0.13906,
+    "tilt_deg": 4.41,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.34,
+    "x_m": 0.41016,
+    "y_m": 0.02752,
+    "height_m": 0.13835,
+    "tilt_deg": 4.17,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.36,
+    "x_m": 0.41327,
+    "y_m": 0.02474,
+    "height_m": 0.13716,
+    "tilt_deg": 3.88,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.38,
+    "x_m": 0.41641,
+    "y_m": 0.02162,
+    "height_m": 0.13564,
+    "tilt_deg": 3.69,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.4,
+    "x_m": 0.41966,
+    "y_m": 0.01921,
+    "height_m": 0.1361,
+    "tilt_deg": 3.79,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.42,
+    "x_m": 0.42262,
+    "y_m": 0.01754,
+    "height_m": 0.13723,
+    "tilt_deg": 3.89,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.44,
+    "x_m": 0.42484,
+    "y_m": 0.01666,
+    "height_m": 0.13817,
+    "tilt_deg": 3.99,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.46,
+    "x_m": 0.42689,
+    "y_m": 0.01654,
+    "height_m": 0.13877,
+    "tilt_deg": 3.95,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.48,
+    "x_m": 0.42911,
+    "y_m": 0.01698,
+    "height_m": 0.1391,
+    "tilt_deg": 3.8,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.5,
+    "x_m": 0.43144,
+    "y_m": 0.01806,
+    "height_m": 0.13914,
+    "tilt_deg": 3.62,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.52,
+    "x_m": 0.43389,
+    "y_m": 0.01983,
+    "height_m": 0.13891,
+    "tilt_deg": 3.44,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.54,
+    "x_m": 0.43654,
+    "y_m": 0.02231,
+    "height_m": 0.13838,
+    "tilt_deg": 3.25,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.56,
+    "x_m": 0.4394,
+    "y_m": 0.02544,
+    "height_m": 0.13742,
+    "tilt_deg": 3.03,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.58,
+    "x_m": 0.44235,
+    "y_m": 0.0289,
+    "height_m": 0.13626,
+    "tilt_deg": 3.09,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.6,
+    "x_m": 0.44562,
+    "y_m": 0.0317,
+    "height_m": 0.13665,
+    "tilt_deg": 3.52,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.62,
+    "x_m": 0.44904,
+    "y_m": 0.0338,
+    "height_m": 0.13763,
+    "tilt_deg": 3.88,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.64,
+    "x_m": 0.45176,
+    "y_m": 0.03501,
+    "height_m": 0.13878,
+    "tilt_deg": 4.26,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.66,
+    "x_m": 0.45419,
+    "y_m": 0.03563,
+    "height_m": 0.1395,
+    "tilt_deg": 4.51,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.68,
+    "x_m": 0.45658,
+    "y_m": 0.03571,
+    "height_m": 0.13975,
+    "tilt_deg": 4.61,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.7,
+    "x_m": 0.45906,
+    "y_m": 0.03521,
+    "height_m": 0.13969,
+    "tilt_deg": 4.57,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.72,
+    "x_m": 0.46172,
+    "y_m": 0.03409,
+    "height_m": 0.13938,
+    "tilt_deg": 4.42,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.74,
+    "x_m": 0.46454,
+    "y_m": 0.0323,
+    "height_m": 0.13885,
+    "tilt_deg": 4.19,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.76,
+    "x_m": 0.46754,
+    "y_m": 0.02986,
+    "height_m": 0.13795,
+    "tilt_deg": 3.92,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.78,
+    "x_m": 0.47067,
+    "y_m": 0.02689,
+    "height_m": 0.1365,
+    "tilt_deg": 3.59,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 4.8,
+    "x_m": 0.47382,
+    "y_m": 0.02394,
+    "height_m": 0.13567,
+    "tilt_deg": 3.52,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.82,
+    "x_m": 0.47712,
+    "y_m": 0.02181,
+    "height_m": 0.13655,
+    "tilt_deg": 3.61,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.84,
+    "x_m": 0.47979,
+    "y_m": 0.02039,
+    "height_m": 0.13767,
+    "tilt_deg": 3.74,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.86,
+    "x_m": 0.48188,
+    "y_m": 0.01982,
+    "height_m": 0.13842,
+    "tilt_deg": 3.82,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.88,
+    "x_m": 0.48402,
+    "y_m": 0.0199,
+    "height_m": 0.13894,
+    "tilt_deg": 3.73,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.9,
+    "x_m": 0.4863,
+    "y_m": 0.02057,
+    "height_m": 0.13917,
+    "tilt_deg": 3.58,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.92,
+    "x_m": 0.48869,
+    "y_m": 0.02191,
+    "height_m": 0.1391,
+    "tilt_deg": 3.42,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.94,
+    "x_m": 0.49123,
+    "y_m": 0.02395,
+    "height_m": 0.13877,
+    "tilt_deg": 3.25,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.96,
+    "x_m": 0.49398,
+    "y_m": 0.0267,
+    "height_m": 0.1381,
+    "tilt_deg": 3.06,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 4.98,
+    "x_m": 0.49689,
+    "y_m": 0.03005,
+    "height_m": 0.13689,
+    "tilt_deg": 2.89,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.0,
+    "x_m": 0.49997,
+    "y_m": 0.03334,
+    "height_m": 0.13638,
+    "tilt_deg": 3.19,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.02,
+    "x_m": 0.50346,
+    "y_m": 0.03592,
+    "height_m": 0.13702,
+    "tilt_deg": 3.62,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.04,
+    "x_m": 0.50673,
+    "y_m": 0.03768,
+    "height_m": 0.1381,
+    "tilt_deg": 4.02,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.06,
+    "x_m": 0.50935,
+    "y_m": 0.03867,
+    "height_m": 0.13911,
+    "tilt_deg": 4.41,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.08,
+    "x_m": 0.51175,
+    "y_m": 0.0391,
+    "height_m": 0.13965,
+    "tilt_deg": 4.64,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.1,
+    "x_m": 0.51417,
+    "y_m": 0.03899,
+    "height_m": 0.13976,
+    "tilt_deg": 4.71,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.12,
+    "x_m": 0.5167,
+    "y_m": 0.03829,
+    "height_m": 0.13959,
+    "tilt_deg": 4.65,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.14,
+    "x_m": 0.51946,
+    "y_m": 0.03695,
+    "height_m": 0.13918,
+    "tilt_deg": 4.47,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.16,
+    "x_m": 0.52235,
+    "y_m": 0.03494,
+    "height_m": 0.13853,
+    "tilt_deg": 4.23,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.18,
+    "x_m": 0.52543,
+    "y_m": 0.03231,
+    "height_m": 0.13745,
+    "tilt_deg": 3.94,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.2,
+    "x_m": 0.52857,
+    "y_m": 0.02923,
+    "height_m": 0.13582,
+    "tilt_deg": 3.65,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.22,
+    "x_m": 0.53178,
+    "y_m": 0.02669,
+    "height_m": 0.13591,
+    "tilt_deg": 3.7,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.24,
+    "x_m": 0.53495,
+    "y_m": 0.0249,
+    "height_m": 0.13693,
+    "tilt_deg": 3.77,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.26,
+    "x_m": 0.53721,
+    "y_m": 0.02382,
+    "height_m": 0.1378,
+    "tilt_deg": 3.9,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.28,
+    "x_m": 0.53926,
+    "y_m": 0.0235,
+    "height_m": 0.1385,
+    "tilt_deg": 3.88,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.3,
+    "x_m": 0.54148,
+    "y_m": 0.02377,
+    "height_m": 0.13896,
+    "tilt_deg": 3.74,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.32,
+    "x_m": 0.54381,
+    "y_m": 0.02466,
+    "height_m": 0.1391,
+    "tilt_deg": 3.57,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.34,
+    "x_m": 0.54625,
+    "y_m": 0.02625,
+    "height_m": 0.13894,
+    "tilt_deg": 3.4,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.36,
+    "x_m": 0.54885,
+    "y_m": 0.02855,
+    "height_m": 0.1385,
+    "tilt_deg": 3.23,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.38,
+    "x_m": 0.55167,
+    "y_m": 0.03154,
+    "height_m": 0.13766,
+    "tilt_deg": 3.04,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.4,
+    "x_m": 0.55459,
+    "y_m": 0.035,
+    "height_m": 0.13637,
+    "tilt_deg": 2.99,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.42,
+    "x_m": 0.5578,
+    "y_m": 0.03792,
+    "height_m": 0.13654,
+    "tilt_deg": 3.43,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.44,
+    "x_m": 0.56133,
+    "y_m": 0.04018,
+    "height_m": 0.13741,
+    "tilt_deg": 3.81,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.46,
+    "x_m": 0.56415,
+    "y_m": 0.04153,
+    "height_m": 0.13859,
+    "tilt_deg": 4.21,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.48,
+    "x_m": 0.56661,
+    "y_m": 0.04226,
+    "height_m": 0.13942,
+    "tilt_deg": 4.5,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.5,
+    "x_m": 0.56899,
+    "y_m": 0.04245,
+    "height_m": 0.13975,
+    "tilt_deg": 4.63,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.52,
+    "x_m": 0.57145,
+    "y_m": 0.04209,
+    "height_m": 0.13974,
+    "tilt_deg": 4.61,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.54,
+    "x_m": 0.57408,
+    "y_m": 0.0411,
+    "height_m": 0.13947,
+    "tilt_deg": 4.48,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.56,
+    "x_m": 0.57687,
+    "y_m": 0.03945,
+    "height_m": 0.13899,
+    "tilt_deg": 4.27,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.58,
+    "x_m": 0.57984,
+    "y_m": 0.03715,
+    "height_m": 0.13818,
+    "tilt_deg": 4.0,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.6,
+    "x_m": 0.58297,
+    "y_m": 0.03428,
+    "height_m": 0.13685,
+    "tilt_deg": 3.68,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.62,
+    "x_m": 0.58611,
+    "y_m": 0.03124,
+    "height_m": 0.13561,
+    "tilt_deg": 3.54,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.64,
+    "x_m": 0.58939,
+    "y_m": 0.02898,
+    "height_m": 0.13633,
+    "tilt_deg": 3.64,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.66,
+    "x_m": 0.59217,
+    "y_m": 0.02745,
+    "height_m": 0.13749,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.68,
+    "x_m": 0.59429,
+    "y_m": 0.02668,
+    "height_m": 0.13829,
+    "tilt_deg": 3.84,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.7,
+    "x_m": 0.59645,
+    "y_m": 0.02657,
+    "height_m": 0.1389,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.72,
+    "x_m": 0.59873,
+    "y_m": 0.02704,
+    "height_m": 0.13918,
+    "tilt_deg": 3.62,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.74,
+    "x_m": 0.6011,
+    "y_m": 0.02816,
+    "height_m": 0.13917,
+    "tilt_deg": 3.46,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.76,
+    "x_m": 0.60359,
+    "y_m": 0.02997,
+    "height_m": 0.1389,
+    "tilt_deg": 3.3,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.78,
+    "x_m": 0.60627,
+    "y_m": 0.03248,
+    "height_m": 0.13834,
+    "tilt_deg": 3.13,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.8,
+    "x_m": 0.60916,
+    "y_m": 0.03565,
+    "height_m": 0.13733,
+    "tilt_deg": 2.93,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.82,
+    "x_m": 0.61214,
+    "y_m": 0.03905,
+    "height_m": 0.1363,
+    "tilt_deg": 3.04,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 5.84,
+    "x_m": 0.61544,
+    "y_m": 0.04176,
+    "height_m": 0.13677,
+    "tilt_deg": 3.47,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.86,
+    "x_m": 0.6189,
+    "y_m": 0.04378,
+    "height_m": 0.13773,
+    "tilt_deg": 3.82,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.88,
+    "x_m": 0.62164,
+    "y_m": 0.04493,
+    "height_m": 0.13882,
+    "tilt_deg": 4.2,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.9,
+    "x_m": 0.6241,
+    "y_m": 0.04548,
+    "height_m": 0.1395,
+    "tilt_deg": 4.46,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.92,
+    "x_m": 0.62651,
+    "y_m": 0.04548,
+    "height_m": 0.13972,
+    "tilt_deg": 4.56,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.94,
+    "x_m": 0.62901,
+    "y_m": 0.04489,
+    "height_m": 0.13964,
+    "tilt_deg": 4.53,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.96,
+    "x_m": 0.63171,
+    "y_m": 0.04365,
+    "height_m": 0.1393,
+    "tilt_deg": 4.37,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 5.98,
+    "x_m": 0.63457,
+    "y_m": 0.04175,
+    "height_m": 0.13872,
+    "tilt_deg": 4.15,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.0,
+    "x_m": 0.63762,
+    "y_m": 0.0392,
+    "height_m": 0.13775,
+    "tilt_deg": 3.87,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.02,
+    "x_m": 0.64077,
+    "y_m": 0.03613,
+    "height_m": 0.1362,
+    "tilt_deg": 3.57,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.04,
+    "x_m": 0.64398,
+    "y_m": 0.03331,
+    "height_m": 0.13587,
+    "tilt_deg": 3.59,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.06,
+    "x_m": 0.64727,
+    "y_m": 0.03129,
+    "height_m": 0.13684,
+    "tilt_deg": 3.68,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.08,
+    "x_m": 0.64977,
+    "y_m": 0.03003,
+    "height_m": 0.1379,
+    "tilt_deg": 3.83,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.1,
+    "x_m": 0.65182,
+    "y_m": 0.02963,
+    "height_m": 0.1386,
+    "tilt_deg": 3.88,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.12,
+    "x_m": 0.65396,
+    "y_m": 0.02986,
+    "height_m": 0.13904,
+    "tilt_deg": 3.77,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.14,
+    "x_m": 0.65625,
+    "y_m": 0.03068,
+    "height_m": 0.13919,
+    "tilt_deg": 3.61,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.16,
+    "x_m": 0.65864,
+    "y_m": 0.03218,
+    "height_m": 0.13907,
+    "tilt_deg": 3.45,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.18,
+    "x_m": 0.6612,
+    "y_m": 0.03439,
+    "height_m": 0.13867,
+    "tilt_deg": 3.27,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.2,
+    "x_m": 0.66397,
+    "y_m": 0.03729,
+    "height_m": 0.13791,
+    "tilt_deg": 3.07,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.22,
+    "x_m": 0.66688,
+    "y_m": 0.04074,
+    "height_m": 0.13659,
+    "tilt_deg": 2.92,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.24,
+    "x_m": 0.67003,
+    "y_m": 0.04386,
+    "height_m": 0.13647,
+    "tilt_deg": 3.3,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.26,
+    "x_m": 0.6736,
+    "y_m": 0.04631,
+    "height_m": 0.13724,
+    "tilt_deg": 3.71,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.28,
+    "x_m": 0.67659,
+    "y_m": 0.04786,
+    "height_m": 0.13842,
+    "tilt_deg": 4.14,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.3,
+    "x_m": 0.67913,
+    "y_m": 0.04872,
+    "height_m": 0.13931,
+    "tilt_deg": 4.48,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.32,
+    "x_m": 0.68156,
+    "y_m": 0.04904,
+    "height_m": 0.13971,
+    "tilt_deg": 4.66,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.34,
+    "x_m": 0.68402,
+    "y_m": 0.0488,
+    "height_m": 0.13975,
+    "tilt_deg": 4.69,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.36,
+    "x_m": 0.68662,
+    "y_m": 0.04795,
+    "height_m": 0.13952,
+    "tilt_deg": 4.59,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.38,
+    "x_m": 0.68942,
+    "y_m": 0.04645,
+    "height_m": 0.13907,
+    "tilt_deg": 4.4,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.4,
+    "x_m": 0.69237,
+    "y_m": 0.04429,
+    "height_m": 0.13833,
+    "tilt_deg": 4.15,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.42,
+    "x_m": 0.6955,
+    "y_m": 0.04153,
+    "height_m": 0.13712,
+    "tilt_deg": 3.86,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.44,
+    "x_m": 0.69865,
+    "y_m": 0.03843,
+    "height_m": 0.13558,
+    "tilt_deg": 3.65,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.46,
+    "x_m": 0.70193,
+    "y_m": 0.03604,
+    "height_m": 0.13606,
+    "tilt_deg": 3.75,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.48,
+    "x_m": 0.70489,
+    "y_m": 0.03438,
+    "height_m": 0.1372,
+    "tilt_deg": 3.85,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.5,
+    "x_m": 0.7071,
+    "y_m": 0.03353,
+    "height_m": 0.13813,
+    "tilt_deg": 3.95,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.52,
+    "x_m": 0.70919,
+    "y_m": 0.03342,
+    "height_m": 0.13876,
+    "tilt_deg": 3.91,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.54,
+    "x_m": 0.71143,
+    "y_m": 0.03388,
+    "height_m": 0.1391,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.56,
+    "x_m": 0.71378,
+    "y_m": 0.03497,
+    "height_m": 0.13914,
+    "tilt_deg": 3.59,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.58,
+    "x_m": 0.71624,
+    "y_m": 0.03676,
+    "height_m": 0.1389,
+    "tilt_deg": 3.42,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.6,
+    "x_m": 0.71888,
+    "y_m": 0.03925,
+    "height_m": 0.13836,
+    "tilt_deg": 3.23,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.62,
+    "x_m": 0.72174,
+    "y_m": 0.04241,
+    "height_m": 0.13739,
+    "tilt_deg": 3.03,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.64,
+    "x_m": 0.72468,
+    "y_m": 0.04589,
+    "height_m": 0.13624,
+    "tilt_deg": 3.1,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.66,
+    "x_m": 0.72793,
+    "y_m": 0.04872,
+    "height_m": 0.13665,
+    "tilt_deg": 3.55,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.68,
+    "x_m": 0.73136,
+    "y_m": 0.05085,
+    "height_m": 0.13765,
+    "tilt_deg": 3.92,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.7,
+    "x_m": 0.73406,
+    "y_m": 0.05208,
+    "height_m": 0.13881,
+    "tilt_deg": 4.3,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.72,
+    "x_m": 0.73648,
+    "y_m": 0.05273,
+    "height_m": 0.13954,
+    "tilt_deg": 4.56,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.74,
+    "x_m": 0.73886,
+    "y_m": 0.05285,
+    "height_m": 0.1398,
+    "tilt_deg": 4.65,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.76,
+    "x_m": 0.74133,
+    "y_m": 0.05239,
+    "height_m": 0.13973,
+    "tilt_deg": 4.61,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.78,
+    "x_m": 0.744,
+    "y_m": 0.05132,
+    "height_m": 0.13942,
+    "tilt_deg": 4.46,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.8,
+    "x_m": 0.74681,
+    "y_m": 0.04958,
+    "height_m": 0.1389,
+    "tilt_deg": 4.23,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.82,
+    "x_m": 0.74982,
+    "y_m": 0.0472,
+    "height_m": 0.13803,
+    "tilt_deg": 3.95,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.84,
+    "x_m": 0.75296,
+    "y_m": 0.04429,
+    "height_m": 0.1366,
+    "tilt_deg": 3.61,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 6.86,
+    "x_m": 0.75611,
+    "y_m": 0.04139,
+    "height_m": 0.13573,
+    "tilt_deg": 3.51,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.88,
+    "x_m": 0.75941,
+    "y_m": 0.03932,
+    "height_m": 0.13652,
+    "tilt_deg": 3.58,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.9,
+    "x_m": 0.76208,
+    "y_m": 0.03795,
+    "height_m": 0.13756,
+    "tilt_deg": 3.7,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.92,
+    "x_m": 0.76413,
+    "y_m": 0.03723,
+    "height_m": 0.13825,
+    "tilt_deg": 3.76,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.94,
+    "x_m": 0.76631,
+    "y_m": 0.03714,
+    "height_m": 0.13884,
+    "tilt_deg": 3.66,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.96,
+    "x_m": 0.76862,
+    "y_m": 0.03767,
+    "height_m": 0.13912,
+    "tilt_deg": 3.51,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 6.98,
+    "x_m": 0.771,
+    "y_m": 0.03886,
+    "height_m": 0.13909,
+    "tilt_deg": 3.36,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.0,
+    "x_m": 0.77353,
+    "y_m": 0.04075,
+    "height_m": 0.1388,
+    "tilt_deg": 3.21,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.02,
+    "x_m": 0.77624,
+    "y_m": 0.04336,
+    "height_m": 0.13819,
+    "tilt_deg": 3.04,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.04,
+    "x_m": 0.77915,
+    "y_m": 0.04659,
+    "height_m": 0.1371,
+    "tilt_deg": 2.87,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.06,
+    "x_m": 0.78217,
+    "y_m": 0.04988,
+    "height_m": 0.13638,
+    "tilt_deg": 3.11,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.08,
+    "x_m": 0.78556,
+    "y_m": 0.05244,
+    "height_m": 0.13693,
+    "tilt_deg": 3.53,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.1,
+    "x_m": 0.78888,
+    "y_m": 0.05427,
+    "height_m": 0.13793,
+    "tilt_deg": 3.89,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.12,
+    "x_m": 0.79154,
+    "y_m": 0.05529,
+    "height_m": 0.13895,
+    "tilt_deg": 4.25,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.14,
+    "x_m": 0.79399,
+    "y_m": 0.05571,
+    "height_m": 0.13952,
+    "tilt_deg": 4.48,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.16,
+    "x_m": 0.79644,
+    "y_m": 0.05558,
+    "height_m": 0.13967,
+    "tilt_deg": 4.56,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.18,
+    "x_m": 0.79898,
+    "y_m": 0.05483,
+    "height_m": 0.13954,
+    "tilt_deg": 4.51,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.2,
+    "x_m": 0.80174,
+    "y_m": 0.05344,
+    "height_m": 0.13915,
+    "tilt_deg": 4.33,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.22,
+    "x_m": 0.80466,
+    "y_m": 0.05136,
+    "height_m": 0.1385,
+    "tilt_deg": 4.1,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.24,
+    "x_m": 0.80776,
+    "y_m": 0.04865,
+    "height_m": 0.13739,
+    "tilt_deg": 3.82,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.26,
+    "x_m": 0.81092,
+    "y_m": 0.04553,
+    "height_m": 0.13583,
+    "tilt_deg": 3.6,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.28,
+    "x_m": 0.81416,
+    "y_m": 0.04303,
+    "height_m": 0.13611,
+    "tilt_deg": 3.7,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.3,
+    "x_m": 0.81728,
+    "y_m": 0.04126,
+    "height_m": 0.13715,
+    "tilt_deg": 3.8,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.32,
+    "x_m": 0.81956,
+    "y_m": 0.04029,
+    "height_m": 0.13811,
+    "tilt_deg": 3.92,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.34,
+    "x_m": 0.82158,
+    "y_m": 0.04013,
+    "height_m": 0.13872,
+    "tilt_deg": 3.91,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.36,
+    "x_m": 0.82375,
+    "y_m": 0.04055,
+    "height_m": 0.13908,
+    "tilt_deg": 3.77,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.38,
+    "x_m": 0.82604,
+    "y_m": 0.04159,
+    "height_m": 0.13915,
+    "tilt_deg": 3.6,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.4,
+    "x_m": 0.82846,
+    "y_m": 0.04332,
+    "height_m": 0.13895,
+    "tilt_deg": 3.42,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.42,
+    "x_m": 0.83106,
+    "y_m": 0.04576,
+    "height_m": 0.13845,
+    "tilt_deg": 3.23,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.44,
+    "x_m": 0.83388,
+    "y_m": 0.04887,
+    "height_m": 0.13754,
+    "tilt_deg": 3.02,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.46,
+    "x_m": 0.83679,
+    "y_m": 0.05237,
+    "height_m": 0.13628,
+    "tilt_deg": 3.02,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.48,
+    "x_m": 0.84001,
+    "y_m": 0.05526,
+    "height_m": 0.13659,
+    "tilt_deg": 3.46,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.5,
+    "x_m": 0.84349,
+    "y_m": 0.05748,
+    "height_m": 0.13754,
+    "tilt_deg": 3.83,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.52,
+    "x_m": 0.84625,
+    "y_m": 0.05878,
+    "height_m": 0.13871,
+    "tilt_deg": 4.23,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.54,
+    "x_m": 0.84869,
+    "y_m": 0.05949,
+    "height_m": 0.13949,
+    "tilt_deg": 4.51,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.56,
+    "x_m": 0.85108,
+    "y_m": 0.05965,
+    "height_m": 0.13978,
+    "tilt_deg": 4.62,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.58,
+    "x_m": 0.85354,
+    "y_m": 0.05926,
+    "height_m": 0.13974,
+    "tilt_deg": 4.61,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.6,
+    "x_m": 0.85619,
+    "y_m": 0.05824,
+    "height_m": 0.13945,
+    "tilt_deg": 4.47,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.62,
+    "x_m": 0.859,
+    "y_m": 0.05657,
+    "height_m": 0.13894,
+    "tilt_deg": 4.25,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.64,
+    "x_m": 0.862,
+    "y_m": 0.05425,
+    "height_m": 0.13811,
+    "tilt_deg": 3.98,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.66,
+    "x_m": 0.86514,
+    "y_m": 0.05137,
+    "height_m": 0.13673,
+    "tilt_deg": 3.65,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.68,
+    "x_m": 0.8683,
+    "y_m": 0.04842,
+    "height_m": 0.13566,
+    "tilt_deg": 3.52,
+    "contacts": [
+      "left_foot_collision",
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.7,
+    "x_m": 0.87161,
+    "y_m": 0.04627,
+    "height_m": 0.13642,
+    "tilt_deg": 3.61,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.72,
+    "x_m": 0.87435,
+    "y_m": 0.04484,
+    "height_m": 0.13748,
+    "tilt_deg": 3.73,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.74,
+    "x_m": 0.87641,
+    "y_m": 0.04414,
+    "height_m": 0.13821,
+    "tilt_deg": 3.82,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.76,
+    "x_m": 0.87857,
+    "y_m": 0.04408,
+    "height_m": 0.13883,
+    "tilt_deg": 3.72,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.78,
+    "x_m": 0.88086,
+    "y_m": 0.04462,
+    "height_m": 0.13912,
+    "tilt_deg": 3.58,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.8,
+    "x_m": 0.88324,
+    "y_m": 0.04583,
+    "height_m": 0.1391,
+    "tilt_deg": 3.42,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.82,
+    "x_m": 0.88574,
+    "y_m": 0.04773,
+    "height_m": 0.13881,
+    "tilt_deg": 3.27,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.84,
+    "x_m": 0.88844,
+    "y_m": 0.05036,
+    "height_m": 0.13821,
+    "tilt_deg": 3.09,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.86,
+    "x_m": 0.89132,
+    "y_m": 0.05361,
+    "height_m": 0.13712,
+    "tilt_deg": 2.91,
+    "contacts": [
+      "right_foot_collision"
+    ]
+  },
+  {
+    "t": 7.88,
+    "x_m": 0.89433,
+    "y_m": 0.05693,
+    "height_m": 0.13639,
+    "tilt_deg": 3.15,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.9,
+    "x_m": 0.8977,
+    "y_m": 0.05953,
+    "height_m": 0.13693,
+    "tilt_deg": 3.58,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.92,
+    "x_m": 0.90099,
+    "y_m": 0.06138,
+    "height_m": 0.13793,
+    "tilt_deg": 3.95,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.94,
+    "x_m": 0.90362,
+    "y_m": 0.06241,
+    "height_m": 0.13895,
+    "tilt_deg": 4.32,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.96,
+    "x_m": 0.90604,
+    "y_m": 0.06285,
+    "height_m": 0.13953,
+    "tilt_deg": 4.55,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 7.98,
+    "x_m": 0.90846,
+    "y_m": 0.06274,
+    "height_m": 0.13968,
+    "tilt_deg": 4.62,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  },
+  {
+    "t": 8.0,
+    "x_m": 0.91098,
+    "y_m": 0.06203,
+    "height_m": 0.13955,
+    "tilt_deg": 4.56,
+    "contacts": [
+      "left_foot_collision"
+    ]
+  }
+]
