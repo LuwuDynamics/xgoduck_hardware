@@ -19,6 +19,7 @@ Quantities come from [the robot purchasing list](../BOM.md), items 1–11. They 
 | M3 × 16 round-head machine screws | 4 | 3 mm nominal thread diameter × 16 mm length; round head; machine thread | Maintainer correction; drive, pitch, material and finish remain unspecified. See [shape and photo references](../BOM.md#fastener-identification). |
 | Bearing, 10 × 15 × 3 mm | 10 (2+8 for roller) | 10 mm bore × 15 mm outside diameter × 3 mm width | Confirm shield/seal, flange, clearance and supplier part number |
 | Bearing, 16 × 22 × 4 mm | 11 | 16 mm bore × 22 mm outside diameter × 4 mm width | Confirm shield/seal, flange, clearance and supplier part number |
+|  Audio & Vision Expansion Kit | 1| camera, audio, and depth sensor | dedicated USB-C cable |
 
 The [V1.1 PCBA BOM](../PCBA/BOM/ArduinoUnoQV1.1.xlsx) is for manufacturing the expansion board. Do not count its components again when buying a finished board. USB data cable, assembly tools, filament and adhesive are not separate entries in the robot purchasing list; account for them when planning the build.
 
