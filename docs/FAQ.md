@@ -40,4 +40,4 @@ Check instructions, improve diagrams, identify missing information, review sourc
 
 ## Can I sell a build or use it commercially?
 
-Read [Licensing](../LICENSING.md) for the specific material. Existing Apache-2.0 code rights remain in place; design and model terms require separate review. Contact the team for material needing additional authorization.
+The CC BY-NC-SA 4.0 license covers noncommercial use of the applicable hardware designs. To sell a build based on those designs or use them commercially, request separate permission from **hello@xgorobot.com**. See [Hardware licensing](../LICENSING.md) for details.

@@ -14,6 +14,6 @@ Include repository commit, hardware/board revision, servo model, host environmen
 4. State exactly what was checked: documentation only, simulation, bench test or real-robot test. Include failures and untested environments.
 5. For a hardware change, identify the revision and effect on fit, wiring and calibration. For a model change, include a model card and interface comparison.
 
-Do not submit material you cannot license. Discuss file-level licensing with maintainers before contributing to areas whose terms remain unresolved; no automatic copyright transfer or commercial relicensing permission is implied by this guide. Existing Apache-2.0 contribution terms remain applicable where that license governs.
+Submit only material you have permission to contribute under the applicable terms in [LICENSING.md](LICENSING.md). Identify the source and license of any upstream or third-party material you include.
 
 Use clear, respectful communication and credit the people whose work you build on. Contact **hello@xgorobot.com** for commercial licensing, private security-sensitive reports or questions unsuitable for a public issue. There is no promised support response time.

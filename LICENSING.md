@@ -1,21 +1,15 @@
-# Licensing status
+# XGO-Duck hardware licensing
 
-No top-level license file was found in the repository snapshot used for this documentation update. Publication of files by itself does not establish a complete reuse grant. Upstream and third-party components retain their applicable terms.
+Luwu Dynamics licenses the XGO-Duck hardware design material in this repository that it has the right to license under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) (`CC-BY-NC-SA-4.0`). This includes its original mechanical designs in [structure/](structure/), 3MF print projects in [3DManufacturingFormat/](3DManufacturingFormat/), and electrical design and fabrication files in [PCBA/](PCBA/).
 
-## Maintainer intent for eligible original material
+You may copy, share, and adapt the covered designs for noncommercial purposes. When you share them, give appropriate credit, link to the license, and indicate any changes. If you share an adaptation, use the same license or another license permitted by its ShareAlike terms.
 
-The maintainer intends to allow personal and educational replication and require separate authorization for commercial use of material they have the right to license. This statement records intent; it is not a finalized replacement license and does not override any existing grants or third-party rights. File-level scope and final terms are pending.
+For commercial use of these hardware designs, contact **hello@xgorobot.com** with the files or revisions involved and a description of the intended use.
 
-A project-wide “noncommercial only” label would be inaccurate where Apache-2.0 or another license already permits commercial use. Noncommercial restrictions also do not meet the OSI definition of open-source software. Describe the actual license of each component rather than claiming the whole project is under one permissive license.
+## Upstream and third-party materials
 
-For a commercial enquiry, email **hello@xgorobot.com** with the files/revisions involved, intended product or service, expected quantity and distribution plans. For personal/educational replication of material without final terms, use the same address to confirm applicable permissions.
-
-## Design and model provenance
-
-Code licensing does not establish rights to every model or design asset. Review the upstream findings and file-level scope in the hardware repository's [origins documentation](https://github.com/LuwuDynamics/xgoduck_hardware) before distributing inherited designs. Exact source revisions and applicable notices remain to be recorded.
+Upstream and third-party material remains subject to its applicable license terms and attribution notices. Prior license grants continue to apply to the versions and material they cover. See [UPSTREAM.md](UPSTREAM.md) for the origins of inherited designs.
 
 ## Credits
 
-The project builds on [Microduck](https://github.com/pollen-robotics/microduck) and [microduck_rl](https://github.com/pollen-robotics/microduck_rl) by Pollen Robotics. Training uses [mjlab](https://github.com/mujocolab/mjlab) and [BAM](https://github.com/Rhoban/bam). Hardware and software adaptations should be credited without implying endorsement by those projects or Arduino.
-
-References: [OSI Open Source Definition](https://opensource.org/osd), [Apache-2.0 text](https://www.apache.org/licenses/LICENSE-2.0).
+The XGO-Duck hardware design builds on [Microduck](https://github.com/pollen-robotics/microduck) by Pollen Robotics.

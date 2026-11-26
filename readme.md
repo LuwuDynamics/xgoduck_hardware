@@ -196,4 +196,6 @@ XGO-Duck builds on [Microduck](https://github.com/pollen-robotics/microduck) and
 
 Build reports, tested print settings, clearer assembly photos and reproducible fixes are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) or [open an issue](https://github.com/LuwuDynamics/xgoduck_hardware/issues).
 
-For reuse terms, consult [LICENSING.md](LICENSING.md) and the applicable file-level notices. Contact: **hello@xgorobot.com**.
+## Hardware licensing
+
+Luwu Dynamics releases its original hardware design files under **CC BY-NC-SA 4.0**. See [LICENSING.md](LICENSING.md) for scope, full license terms, and upstream notices. For commercial hardware licensing, contact **hello@xgorobot.com**.
