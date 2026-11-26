@@ -1,0 +1,156 @@
+{
+  "scene": "upstream scene_walk.xml STAND pose, simplified position actuators",
+  "policy": "upstream xgoduck_walk.onnx with policy.py observation and filtering",
+  "policy_sha256": "57cdebf36e7fa23116270dec96f013a6a64511f37311d322443f5297bdc3d6db",
+  "simulation_duration_s": 8.0,
+  "command_forward_m_s": 0.3,
+  "displacement_world_m": [
+    0.911,
+    0.062,
+    0.0004
+  ],
+  "maximum_tilt_deg": 4.9,
+  "remained_upright": true,
+  "single_foot_support_transitions": 33,
+  "support_events": [
+    {
+      "time_s": 1.36,
+      "support": 1
+    },
+    {
+      "time_s": 1.52,
+      "support": 2
+    },
+    {
+      "time_s": 1.72,
+      "support": 1
+    },
+    {
+      "time_s": 1.92,
+      "support": 2
+    },
+    {
+      "time_s": 2.12,
+      "support": 1
+    },
+    {
+      "time_s": 2.34,
+      "support": 2
+    },
+    {
+      "time_s": 2.54,
+      "support": 1
+    },
+    {
+      "time_s": 2.74,
+      "support": 2
+    },
+    {
+      "time_s": 2.94,
+      "support": 1
+    },
+    {
+      "time_s": 3.16,
+      "support": 2
+    },
+    {
+      "time_s": 3.36,
+      "support": 1
+    },
+    {
+      "time_s": 3.58,
+      "support": 2
+    },
+    {
+      "time_s": 3.78,
+      "support": 1
+    },
+    {
+      "time_s": 3.98,
+      "support": 2
+    },
+    {
+      "time_s": 4.18,
+      "support": 1
+    },
+    {
+      "time_s": 4.4,
+      "support": 2
+    },
+    {
+      "time_s": 4.6,
+      "support": 1
+    },
+    {
+      "time_s": 4.8,
+      "support": 2
+    },
+    {
+      "time_s": 5.0,
+      "support": 1
+    },
+    {
+      "time_s": 5.22,
+      "support": 2
+    },
+    {
+      "time_s": 5.42,
+      "support": 1
+    },
+    {
+      "time_s": 5.64,
+      "support": 2
+    },
+    {
+      "time_s": 5.84,
+      "support": 1
+    },
+    {
+      "time_s": 6.04,
+      "support": 2
+    },
+    {
+      "time_s": 6.24,
+      "support": 1
+    },
+    {
+      "time_s": 6.46,
+      "support": 2
+    },
+    {
+      "time_s": 6.66,
+      "support": 1
+    },
+    {
+      "time_s": 6.86,
+      "support": 2
+    },
+    {
+      "time_s": 7.06,
+      "support": 1
+    },
+    {
+      "time_s": 7.28,
+      "support": 2
+    },
+    {
+      "time_s": 7.48,
+      "support": 1
+    },
+    {
+      "time_s": 7.7,
+      "support": 2
+    },
+    {
+      "time_s": 7.88,
+      "support": 1
+    }
+  ],
+  "limitations": [
+    "Simplified PD actuators from upstream scene, not BAM training actuator dynamics",
+    "Idealized direct IMU gravity and gyro; no deployment sensor noise or filtering",
+    "Physics simulation only; no physical robot or hardware validation",
+    "No external support or scripted body translation"
+  ],
+  "policy_load": "xgoduck_walk.onnx in=61 out=14 threads=1"
+}
